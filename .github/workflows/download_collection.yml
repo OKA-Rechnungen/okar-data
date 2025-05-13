@@ -25,7 +25,7 @@ jobs:
     - name: Perform Checkout
       uses: actions/checkout@v4
     - name: Install Python Packages
-      run: pip install -U -r requirements.txt
+      run: pip install -U -r pyscripts/requirements.txt
     - name: Delete old METS
       run: rm -rf data/mets/*
     - name: Delete old files
