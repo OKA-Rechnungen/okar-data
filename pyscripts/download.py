@@ -3,6 +3,7 @@ import os
 from pathlib import Path
 from transkribus_utils.transkribus_utils import ACDHTranskribusUtils
 import glob
+import sys
 
 user = os.environ.get("TR_USER")
 pw = os.environ.get("TR_PW")
@@ -14,6 +15,28 @@ transkribus_client = ACDHTranskribusUtils(
     user=user, password=pw, transkribus_base_url="https://transkribus.eu/TrpServer/rest"
 )
 
+
+if sys.argv[1]:
+    gt = True
+else:
+    gt = False
+
+
+def get_gt(col):
+    gt_docs = []
+    docs = transkribus_client.list_docs(col)
+    print("Total: ", len(docs))
+    for doc in docs:
+        docId = doc["docId"]
+        pages = transkribus_client.get_pages_metadata(docId, col)
+        if any(i["ctStatus"] == "GT" for i in pages):
+            gt_docs.append(docId)
+        else:
+            print("Failed: ", docId)
+    print("Partial: ", len(gt_docs))
+    return gt_docs
+
+
 with open("col_ids.txt", "r") as f:
     lines = f.readlines()
 print(lines)
@@ -21,5 +44,10 @@ print(lines)
 for y in lines:
     col_id = y.strip()
     print(f"processing collection: {col_id}")
-    mpr_docs = transkribus_client.collection_to_mets(col_id, file_path=METS_DIR)
+    if gt:
+        cols = get_gt(col_id)
+        print("Subset: ", len(cols))
+        mpr_docs = transkribus_client.collection_to_mets(col_id, file_path=METS_DIR, filter_by_doc_ids=cols)
+    else:
+        mpr_docs = transkribus_client.collection_to_mets(col_id, file_path=METS_DIR)
     print(f"{METS_DIR}/{col_id}*.xml")
