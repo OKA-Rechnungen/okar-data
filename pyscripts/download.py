@@ -2,7 +2,6 @@
 import os
 from pathlib import Path
 from transkribus_utils.transkribus_utils import ACDHTranskribusUtils
-import glob
 import sys
 
 user = os.environ.get("TR_USER")
@@ -16,7 +15,7 @@ transkribus_client = ACDHTranskribusUtils(
 )
 
 
-if sys.argv[1]:
+if len(sys.argv) > 1:
     gt = True
 else:
     gt = False
@@ -28,7 +27,8 @@ def get_gt(col):
     print("Total: ", len(docs))
     for doc in docs:
         docId = doc["docId"]
-        pages = transkribus_client.get_pages_metadata(docId, col)
+        pages = transkribus_client.get_doc_overview_md(docId, col_id)
+        pages = pages["trp_return"]["pageList"]["pages"]
         if any(i["ctStatus"] == "GT" for i in pages):
             gt_docs.append(docId)
         else:
