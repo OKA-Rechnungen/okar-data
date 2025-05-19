@@ -32,6 +32,8 @@ jobs:
       run: rm -f data/editions/* data/mets/* tei_headers/*
     - name: Download
       run: ./pyscripts/download.py
+    - name: Generate XML-TEI
+      run: ./pyscripts/transform.py
     - uses: stefanzweifel/git-auto-commit-action@v5
       with:
         commit_message: Export and Transformation done
