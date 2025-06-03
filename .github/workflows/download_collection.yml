@@ -36,6 +36,8 @@ jobs:
       run: ./pyscripts/transform.py
     - name: Rename files
       run: ./pyscripts/rename_files.py
+    - name: Fix XML
+      run: ./pyscripts/fix_xml.py
     - uses: stefanzweifel/git-auto-commit-action@v5
       with:
         commit_message: Export and Transformation done
