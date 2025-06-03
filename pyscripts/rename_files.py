@@ -25,7 +25,7 @@ def getname(root):
     regex = re.compile(r'\d{4}_(WSTLA-OKA.*)')
     docid = root.xpath('//tei:teiHeader//tei:title[@type="main"]',
                        namespaces={"tei": "http://www.tei-c.org/ns/1.0"})[0].text
-    name = re.sub(regex, r"\g<1>", docid)
+    name = re.sub(regex, r"\g<1>", docid).replace(" ", "")
     print(docid, '==>', name)
     return name
 
