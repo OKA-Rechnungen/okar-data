@@ -62,7 +62,6 @@ def populate_people(listperson, people):
     resps = []
     for j in people:
         entry = people[j]
-        print(entry)
         pid = entry["xmlid"]
         person = ET.SubElement(listperson, "person", attrib={f"{xml}id": pid, "role": j})
         persname = ET.SubElement(person, "persName", attrib={"type": "norm"})
@@ -81,7 +80,27 @@ def populate_people(listperson, people):
     return resps
             
             
-       
+def populate_others(doc, values):
+    doc.any_xpath(".//tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[@level='a' and @type='main']")[0].text = values["title"]
+    
+    # Find msDesc and add origDate and TOC
+    mscontents = doc.any_xpath(".//tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msContents")[0]
+    p_elem = ET.SubElement(mscontents, "p")
+    if not values["endDate"]:
+        ET.SubElement(p_elem, "origDate", attrib={"when": values["startDate"]})
+    else:
+         ET.SubElement(p_elem, "origDate", attrib={"from": values["startDate"], "to": values["endDate"]})
+    p_elem = ET.SubElement(mscontents, "p").text = values["toc"]
+    doc.any_xpath(".//tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:extent")[0].text = values["pages"]
+    doc.any_xpath(".//tei:msDesc/tei:physDesc/tei:accMat/tei:p")[0].text = values["desc2"]
+    notes = doc.any_xpath(".//tei:teiHeader/tei:fileDesc/tei:notesStmt/tei:note")[0]
+    if values["note"]:
+        notes.text = values["note"]
+    else:
+        doc.remove(notes)
+    doc.any_xpath(".//tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:idno[@type='shelfmark']")[0] = values = ["idno"]
+    
+    
 
 df = pd.read_json(source_table, orient="index").fillna("")
 for input_file in glob.glob(os.path.join(source_directory, "*.xml")):
@@ -101,6 +120,9 @@ for input_file in glob.glob(os.path.join(source_directory, "*.xml")):
     
     listperson = teifile.any_xpath(".//tei:standOff/tei:listPerson")[0]
     resp_list = populate_people(listperson, values["oberkaemmerer"])
+    
+    # Populate other metadata fields
+    populate_others(teifile, values)
     
     # Add respStmt elements to titleStmt after the last existing respStmt
     titleStmt = teifile.any_xpath(".//tei:fileDesc/tei:titleStmt")[0]
