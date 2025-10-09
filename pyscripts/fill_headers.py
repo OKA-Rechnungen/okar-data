@@ -7,6 +7,14 @@ from sys import argv
 from acdh_baserow_pyutils import BaseRowClient
 from acdh_tei_pyutils.tei import TeiReader, ET
 
+
+nsmap = {                                                                                                                
+    "tei": "http://www.tei-c.org/ns/1.0",                                                                                
+    "mets": "http://www.loc.gov/METS/",                                                                                  
+    "mods": "http://www.loc.gov/mods/v3",                                                                                
+    "dv": "http://dfg-viewer.de/",                                                                                       
+    "default": "http://www.tei-c.org/ns/1.0",                                                                            
+}        
 xml = "{http://www.w3.org/XML/1998/namespace}"
 BASEROW_DB_ID = os.environ.get("BASEROW_DB_ID")
 BASEROW_URL = os.environ.get("BASEROW_URL")
@@ -21,6 +29,7 @@ source_directory = "./data/editions3"
 source_table = os.path.join("tmp", "Metadata.json")
 schema_file = "tei_ms.xsd"
 output_directory = "./data/indices"
+
 
 
 def extract_from_table(table, ttl):
@@ -56,6 +65,18 @@ def extract_from_table(table, ttl):
     return {"idno": idno, "title": title, "altTitle": altTitle, "startDate": startDate,
             "endDate": endDate, "pages": pages, "desc": desc, "desc2": desc2, "toc": toc,
             "note": note, "oberkaemmerer": oberkaemmerer}
+
+
+def clean_formatting(element):
+    """Clean up formatting using lxml's built-in indentation"""
+    # Remove existing text/tail to clean up
+    for elem in element.iter():
+        if elem.text and elem.text.strip() == '':
+            elem.text = None
+        if elem.tail and elem.tail.strip() == '':
+            elem.tail = None
+    # Use lxml's indent function for proper formatting
+    ET.indent(element, space="  ")
     
     
 def populate_people(listperson, people):
@@ -81,24 +102,24 @@ def populate_people(listperson, people):
             
             
 def populate_others(doc, values):
-    doc.any_xpath(".//tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[@level='a' and @type='main']")[0].text = values["title"]
+    doc.xpath(".//tei:fileDesc/tei:titleStmt/tei:title[@level='a' and @type='main']", namespaces=nsmap)[0].text = values["title"]
     
     # Find msDesc and add origDate and TOC
-    mscontents = doc.any_xpath(".//tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msContents")[0]
+    mscontents = doc.xpath(".//tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msContents", namespaces=nsmap)[0]
     p_elem = ET.SubElement(mscontents, "p")
     if not values["endDate"]:
         ET.SubElement(p_elem, "origDate", attrib={"when": values["startDate"]})
     else:
-         ET.SubElement(p_elem, "origDate", attrib={"from": values["startDate"], "to": values["endDate"]})
+        ET.SubElement(p_elem, "origDate", attrib={"from": values["startDate"], "to": values["endDate"]})
     p_elem = ET.SubElement(mscontents, "p").text = values["toc"]
-    doc.any_xpath(".//tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:extent")[0].text = values["pages"]
-    doc.any_xpath(".//tei:msDesc/tei:physDesc/tei:accMat/tei:p")[0].text = values["desc2"]
-    notes = doc.any_xpath(".//tei:teiHeader/tei:fileDesc/tei:notesStmt/tei:note")[0]
+    doc.xpath(".//tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:extent", namespaces=nsmap)[0].text = values["pages"]
+    p_elem = doc.xpath(".//tei:msDesc/tei:physDesc/tei:accMat", namespaces=nsmap)[0]
+    if values["desc2"]:
+        ET.SubElement(p_elem, "p").text = values["desc2"]   
+    p_elem = doc.xpath(".//tei:fileDesc/tei:notesStmt", namespaces=nsmap)[0]
     if values["note"]:
-        notes.text = values["note"]
-    else:
-        doc.remove(notes)
-    doc.any_xpath(".//tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:idno[@type='shelfmark']")[0] = values = ["idno"]
+        ET.SubElement(p_elem, "note").text = values["note"]
+    doc.xpath(".//tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:idno[@type='shelfmark']", namespaces=nsmap)[0] = values["idno"]
     
     
 
@@ -106,6 +127,7 @@ df = pd.read_json(source_table, orient="index").fillna("")
 for input_file in glob.glob(os.path.join(source_directory, "*.xml")):
     print(f"Parsing {input_file}")
     teifile = TeiReader(input_file)
+    header = teifile.any_xpath(".//tei:teiHeader")[0]
     filename = teifile.any_xpath(".//tei:fileDesc/tei:titleStmt/tei:title[@type='desc' and @level='a']")[0].text
     
     # Find and replace the existing teiHeader with the template teiHeader
@@ -122,7 +144,7 @@ for input_file in glob.glob(os.path.join(source_directory, "*.xml")):
     resp_list = populate_people(listperson, values["oberkaemmerer"])
     
     # Populate other metadata fields
-    populate_others(teifile, values)
+    populate_others(header, values)
     
     # Add respStmt elements to titleStmt after the last existing respStmt
     titleStmt = teifile.any_xpath(".//tei:fileDesc/tei:titleStmt")[0]
@@ -141,6 +163,9 @@ for input_file in glob.glob(os.path.join(source_directory, "*.xml")):
         # If no respStmt exists, append each one to titleStmt
         for resp in resp_list:
             titleStmt.append(resp)
+    
+    # Clean up formatting for the entire document
+    clean_formatting(teifile.tree.getroot())
     
     # Save the modified file
     teifile.tree.write(input_file, encoding="utf-8", xml_declaration=True, pretty_print=True)
