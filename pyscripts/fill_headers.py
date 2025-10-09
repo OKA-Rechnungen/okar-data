@@ -1,0 +1,128 @@
+#!/usr/bin/env python
+# Executable file that calls library maketei
+import glob
+import os
+import pandas as pd
+from sys import argv
+from acdh_baserow_pyutils import BaseRowClient
+from acdh_tei_pyutils.tei import TeiReader, ET
+
+xml = "{http://www.w3.org/XML/1998/namespace}"
+BASEROW_DB_ID = os.environ.get("BASEROW_DB_ID")
+BASEROW_URL = os.environ.get("BASEROW_URL")
+BASEROW_TOKEN = os.environ.get("BASEROW_TOKEN")
+BASEROW_USER = os.environ.get("BASEROW_USER")
+BASEROW_PW = os.environ.get("BASEROW_PW")
+br_client = BaseRowClient(BASEROW_USER, BASEROW_PW, BASEROW_TOKEN, br_base_url=BASEROW_URL)
+jwt_token = br_client.get_jwt_token()
+os.makedirs("tmp", exist_ok=True)
+files = br_client.dump_tables_as_json(BASEROW_DB_ID, folder_name="tmp")
+source_directory = "./data/editions3"
+source_table = os.path.join("tmp", "Metadata.json")
+schema_file = "tei_ms.xsd"
+output_directory = "./data/indices"
+
+
+def extract_from_table(table, ttl):
+    # Check if the filename exists in the table
+    matching_rows = table.loc[table["Filename"] == ttl]
+    if matching_rows.empty:
+        print(f"Warning: Filename '{ttl}' not found in metadata table")
+        return None
+    
+    row = matching_rows.iloc[0]
+    idno = row["NonLinkedIdentifier"].strip()
+    title = row["Title"].strip()
+    altTitle = row["AlternativeTitle"].strip()
+    startDate = row["CoverageStartDate"].strip()
+    endDate = row["CoverageEndDate"].strip()
+    pages = row["Pages"].strip()
+    desc = row["Description"].strip()
+    desc2 = row["Description II"].strip()
+    toc = row["TableOfContents"].strip()
+    note = row["Note"].strip()
+    oberkaemmerer = {}
+    for i in ["1", "2", "3", "4", "5"]:
+        if row[f"Creator{i}/Title"]:
+            surname = " ".join((row[f"Creator{i}/LastName"].strip(), row[f"Creator{i}/LastName2"].strip())).strip()
+            oberkaemmerer[row[f"Creator{i}/PersonalName"]] = {"idno": row[f"Creator{i}/Identifier"],
+                                    "title": row[f"Creator{i}/Title"].strip(),
+                                    "forename": row[f"Creator{i}/FirstName"].strip(),
+                                    "surname": surname,
+                                    "role": row[f"Creator{i}/PersonalName"].strip(),
+                                    "note" :  row[f"Creator{i}/Note"].strip(),
+                                    "xmlid": surname.split()[0].strip().lower()
+            }
+    return {"idno": idno, "title": title, "altTitle": altTitle, "startDate": startDate,
+            "endDate": endDate, "pages": pages, "desc": desc, "desc2": desc2, "toc": toc,
+            "note": note, "oberkaemmerer": oberkaemmerer}
+    
+    
+def populate_people(listperson, people):
+    resps = []
+    for j in people:
+        entry = people[j]
+        print(entry)
+        pid = entry["xmlid"]
+        person = ET.SubElement(listperson, "person", attrib={f"{xml}id": pid, "role": j})
+        persname = ET.SubElement(person, "persName", attrib={"type": "norm"})
+        ET.SubElement(persname, "forename").text = entry["forename"]
+        ET.SubElement(persname, "surname").text = entry["surname"]
+        ET.SubElement(person, "persName", attrib={"type": "orig"}).text = entry["title"]
+        ET.SubElement(person, "occupation").text = j
+        if len(entry["idno"]) > 0:
+            ET.SubElement(person, "idno", attrib={"type": "URI", "subtype": "WienGeschichteWiki"}).text = entry["idno"]
+        if len(entry["note"]) > 0:
+            ET.SubElement(person, "note").text = entry["note"]
+        respstmt = ET.Element("respStmt")
+        ET.SubElement(respstmt, "resp").text = j
+        ET.SubElement(respstmt, "persName", attrib={"ref": f"#{pid}", "role": j}).text = entry["title"]
+        resps.append(respstmt)
+    return resps
+            
+            
+       
+
+df = pd.read_json(source_table, orient="index").fillna("")
+for input_file in glob.glob(os.path.join(source_directory, "*.xml")):
+    print(f"Parsing {input_file}")
+    teifile = TeiReader(input_file)
+    filename = teifile.any_xpath(".//tei:fileDesc/tei:titleStmt/tei:title[@type='desc' and @level='a']")[0].text
+    
+    # Find and replace the existing teiHeader with the template teiHeader
+    existing_header = teifile.any_xpath(".//tei:teiHeader")[0]
+    root = teifile.tree.getroot()
+    print(f"Processing filename: {filename}")
+    values = extract_from_table(df, filename)
+    
+    if values is None:
+        print(f"Skipping {input_file} - no matching metadata found")
+        continue
+    
+    listperson = teifile.any_xpath(".//tei:standOff/tei:listPerson")[0]
+    resp_list = populate_people(listperson, values["oberkaemmerer"])
+    
+    # Add respStmt elements to titleStmt after the last existing respStmt
+    titleStmt = teifile.any_xpath(".//tei:fileDesc/tei:titleStmt")[0]
+    existing_respStmts = titleStmt.xpath(".//tei:respStmt", namespaces={"tei": "http://www.tei-c.org/ns/1.0"})
+    
+    if existing_respStmts:
+        # Insert after the last respStmt
+        last_respStmt = existing_respStmts[-1]
+        parent = last_respStmt.getparent()
+        insert_index = list(parent).index(last_respStmt) + 1
+        
+        # Insert each respStmt element from the list
+        for i, resp in enumerate(resp_list):
+            parent.insert(insert_index + i, resp)
+    else:
+        # If no respStmt exists, append each one to titleStmt
+        for resp in resp_list:
+            titleStmt.append(resp)
+    
+    # Save the modified file
+    teifile.tree.write(input_file, encoding="utf-8", xml_declaration=True, pretty_print=True)
+    print(f"\t\tUpdated teiHeader in {input_file}")
+
+print(f"Completed processing files. All teiHeaders have been replaced with the template.")
+

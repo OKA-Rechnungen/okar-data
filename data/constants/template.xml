@@ -103,9 +103,7 @@
         <note>Einnahmen explizit ab 01.01.; Unterkämmerer: Hans Sturm (Hanns Stuerm) (fol. 34r)</note>
       </notesStmt>
       <sourceDesc>
-        <bibl>
-          <date/>
-        </bibl>
+        <bibl/>
         <msDesc>
           <msIdentifier>
             <institution>
@@ -196,22 +194,9 @@
     </profileDesc>
   </teiHeader>
   <standOff>
-     <listPerson>
-         <person role="Oberkämmerer">
-            <!-- TODO Check semanitcs of Ulrich Pfanzagl (Vlreich der Phanczagl) (im Amt verstorben) with MV -->
-            <persName type="norm">Ulrich Pfanzagl</persName>
-            <persName type="orig">Vlreich der Phanczagl</persName>
-            <note>im Amt verstorben</note>
-            <idno type="WienGeschichteWiki">38641</idno>
-            <idno type="URI">https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=367874</idno>
-            
-         </person>
-         <person role="Unterkämmerer">
-            <!-- Frage an MV: how to deal with "vakant" ? -->
-         </person>
-      </listPerson>
+     <listPerson />
       <spanGrp>
-         <span type="sum" from="#facs_100_region_147854038" to="#facs_100_region_147854039" xml:id="sec0000">
+         <!-- <span type="sum" from="#facs_100_region_147854038" to="#facs_100_region_147854039" xml:id="sec0000">
             <measure n="" type="currency">311399fl 1 ß 10 d</measure>
          </span>
          <span type="sum" subtype="incomingPayments" from="#facs_100_region_147854038" to="#facs_100_region_147854039" xml:id="sec0001">
@@ -219,7 +204,7 @@
          </span>
          <span type="sum" subtype="incomingPayments" xml:id="sec104">
             <measure type="currency">0</measure>
-         </span>
+         </span> -->
       </spanGrp>
   </standOff>
 </TEI>
