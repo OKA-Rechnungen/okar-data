@@ -39,7 +39,7 @@ jobs:
     - name: Fix XML
       run: ./pyscripts/fix_xml.py
     - name: Generate headers
-      run: ./pyscripts/generate_header.py
+      run: ./pyscripts/generate_headers.py
     - name: Populate headers
       run: ./pyscripts/fill_headers.py
     - uses: stefanzweifel/git-auto-commit-action@v5
