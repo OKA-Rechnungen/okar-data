@@ -25,7 +25,7 @@ br_client = BaseRowClient(BASEROW_USER, BASEROW_PW, BASEROW_TOKEN, br_base_url=B
 jwt_token = br_client.get_jwt_token()
 os.makedirs("tmp", exist_ok=True)
 files = br_client.dump_tables_as_json(BASEROW_DB_ID, folder_name="tmp")
-source_directory = "./data/editions3"
+source_directory = "./data/editions"
 source_table = os.path.join("tmp", "Metadata.json")
 schema_file = "tei_ms.xsd"
 output_directory = "./data/indices"
