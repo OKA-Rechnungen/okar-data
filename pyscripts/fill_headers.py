@@ -5,8 +5,9 @@ import os
 import pandas as pd
 from acdh_baserow_pyutils import BaseRowClient
 from acdh_tei_pyutils.tei import TeiReader, ET
+from datetime import date
 
-
+today = date.today().isoformat()
 nsmap = {
     "tei": "http://www.tei-c.org/ns/1.0",
     "mets": "http://www.loc.gov/METS/",
@@ -122,12 +123,18 @@ def populate_others(doc, values):
     doc.xpath(".//tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:idno[@type='shelfmark']",
               namespaces=nsmap)[0] = values["idno"]
 
+def hodie(doc):
+    dates = doc.xpath(".//tei:date[@when='2024-08-19']", namespaces=nsmap)
+    for date in dates:
+        date.set("when", today)
+        date.text = today
 
 df = pd.read_json(source_table, orient="index").fillna("")
 for input_file in glob.glob(os.path.join(source_directory, "*.xml")):
     print(f"Parsing {input_file}")
     teifile = TeiReader(input_file)
     header = teifile.any_xpath(".//tei:teiHeader")[0]
+    hodie(header)
     filename = teifile.any_xpath(".//tei:fileDesc/tei:titleStmt/tei:title[@type='desc' and @level='a']")[0].text
 
     # Find and replace the existing teiHeader with the template teiHeader
