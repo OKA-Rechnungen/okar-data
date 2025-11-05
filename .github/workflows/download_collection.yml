@@ -28,10 +28,8 @@ jobs:
       uses: actions/checkout@v4
     - name: Install Python Packages
       run: pip install -U -r pyscripts/requirements.txt
-    - name: Delete old METS
-      run: rm -rf data/mets/*
     - name: Delete old files
-      run: rm -f data/editions/* data/mets/* tei_headers/*
+      run: rm -rf data/editions/* data/mets/* tei_headers/*
     - name: Download
       run: ./pyscripts/download.py
     - name: Generate XML-TEI
