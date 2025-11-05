@@ -20,7 +20,7 @@ jobs:
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       BASEROW_USER: ${{ secrets.BASEROW_USER }}
       BASEROW_PW: ${{ secrets.BASEROW_PW }}
-      BASEROW_READ_TOKEN: ${{ secrets.BASEROW_READ_TOKEN }}
+      BASEROW_TOKEN: ${{ secrets.BASEROW_TOKEN }}
       BASEROW_URL: ${{ secrets.BASEROW_URL }}
       BASEROW_DB_ID: ${{ secrets.BASEROW_DB_ID }}
     steps:
