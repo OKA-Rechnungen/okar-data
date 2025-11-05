@@ -3,9 +3,12 @@
 import glob
 import os
 import re
+import requests
+from typing import cast
 import pandas as pd
 from acdh_baserow_pyutils import BaseRowClient
-from acdh_tei_pyutils.tei import TeiReader, ET
+from acdh_tei_pyutils.tei import TeiReader
+import lxml.etree as ET
 from datetime import date
 
 today = date.today().isoformat()
@@ -23,6 +26,59 @@ BASEROW_URL = os.environ.get("BASEROW_URL")
 BASEROW_TOKEN = os.environ.get("BASEROW_TOKEN")
 BASEROW_USER = os.environ.get("BASEROW_USER")
 BASEROW_PW = os.environ.get("BASEROW_PW")
+
+_REQUIRED_ENV = {
+    "BASEROW_DB_ID": BASEROW_DB_ID,
+    "BASEROW_URL": BASEROW_URL,
+    "BASEROW_TOKEN": BASEROW_TOKEN,
+    "BASEROW_USER": BASEROW_USER,
+    "BASEROW_PW": BASEROW_PW,
+}
+missing_env = [name for name, value in _REQUIRED_ENV.items() if not value]
+if missing_env:
+    missing = ", ".join(missing_env)
+    raise RuntimeError(f"Missing required environment variables: {missing}")
+
+BASEROW_DB_ID = cast(str, BASEROW_DB_ID)
+BASEROW_URL = cast(str, BASEROW_URL)
+BASEROW_TOKEN = cast(str, BASEROW_TOKEN)
+BASEROW_USER = cast(str, BASEROW_USER)
+BASEROW_PW = cast(str, BASEROW_PW)
+
+
+def _patch_baserow_yield_rows():
+    """Patch BaseRowClient.yield_rows to work with API responses missing 'next'."""
+    if getattr(BaseRowClient, "_okar_safe_rows", False):
+        return
+
+    def safe_yield_rows(self, br_table_id, filters=None):
+        filters = filters or {}
+        base_url = f"{self.br_base_url}database/rows/table/{br_table_id}/"
+        query_params = ["user_field_names=true"]
+        for key, value in filters.items():
+            query_params.append(f"{key}={value}")
+        url = f"{base_url}?{'&'.join(query_params)}"
+
+        while url:
+            response = requests.get(url, headers=self.headers, timeout=30)
+            response.raise_for_status()
+            result = response.json()
+            next_url = result.get("next")
+            if not next_url:
+                pagination = result.get("pagination") or {}
+                next_url = pagination.get("next") or pagination.get("next_url")
+            rows = result.get("results")
+            if rows is None:
+                rows = result.get("rows", [])
+            for row in rows:
+                yield row
+            url = next_url
+
+    BaseRowClient.yield_rows = safe_yield_rows
+    setattr(BaseRowClient, "_okar_safe_rows", True)
+
+
+_patch_baserow_yield_rows()
 br_client = BaseRowClient(BASEROW_USER, BASEROW_PW, BASEROW_TOKEN, br_base_url=BASEROW_URL)
 jwt_token = br_client.get_jwt_token()
 os.makedirs("tmp", exist_ok=True)

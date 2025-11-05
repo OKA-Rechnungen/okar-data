@@ -21,15 +21,14 @@ jobs:
       BASEROW_USER: ${{ secrets.BASEROW_USER }}
       BASEROW_PW: ${{ secrets.BASEROW_PW }}
       BASEROW_READ_TOKEN: ${{ secrets.BASEROW_READ_TOKEN }}
+      BASEROW_URL: ${{ secrets.BASEROW_URL }}
     steps:
     - name: Perform Checkout
       uses: actions/checkout@v4
     - name: Install Python Packages
       run: pip install -U -r pyscripts/requirements.txt
-    - name: Delete old METS
-      run: rm -rf data/mets/*
     - name: Delete old files
-      run: rm -f data/editions/* data/mets/* tei_headers/*
+      run: rm -rf data/editions/* data/mets/* tei_headers/*
     - name: Download
       run: ./pyscripts/download.py
     - name: Generate XML-TEI
