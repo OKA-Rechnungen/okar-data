@@ -14,6 +14,13 @@ transkribus_client = ACDHTranskribusUtils(
     user=user, password=pw, transkribus_base_url="https://transkribus.eu/TrpServer/rest"
 )
 
+doc_id_subset = os.environ.get("TRANSKRIBUS_DOC_IDS", "")
+TRANSKRIBUS_DOC_IDS = "6981834,10651984,7714156"
+if doc_id_subset:
+    TARGET_DOC_IDS = [item.strip() for item in doc_id_subset.split(",") if item.strip()]
+else:
+    TARGET_DOC_IDS = []
+
 
 if len(sys.argv) > 1:
     gt = True
@@ -27,8 +34,10 @@ def get_gt(col):
     print("Total: ", len(docs))
     for doc in docs:
         docId = doc["docId"]
-        pages = transkribus_client.get_doc_overview_md(docId, col_id)
-        pages = pages["trp_return"]["pageList"]["pages"]
+        overview = transkribus_client.get_doc_overview_md(docId, col_id)
+        if not overview or "trp_return" not in overview:
+            continue
+        pages = overview["trp_return"].get("pageList", {}).get("pages", [])
         if any(i["ctStatus"] == "GT" for i in pages):
             gt_docs.append(docId)
         else:
@@ -47,7 +56,17 @@ for y in lines:
     if gt:
         cols = get_gt(col_id)
         print("Subset: ", len(cols))
-        mpr_docs = transkribus_client.collection_to_mets(col_id, file_path=METS_DIR, filter_by_doc_ids=cols)
+        mpr_docs = transkribus_client.collection_to_mets(
+            col_id,
+            file_path=str(METS_DIR),
+            filter_by_doc_ids=cols,
+        )
     else:
-        mpr_docs = transkribus_client.collection_to_mets(col_id, file_path=METS_DIR)
+        mpr_docs = transkribus_client.collection_to_mets(
+            col_id,
+            file_path=str(METS_DIR),
+            filter_by_doc_ids=TARGET_DOC_IDS,
+        )
+    if TARGET_DOC_IDS:
+        print(f"Requested doc IDs: {', '.join(TARGET_DOC_IDS)}")
     print(f"{METS_DIR}/{col_id}*.xml")
