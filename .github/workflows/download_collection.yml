@@ -22,7 +22,7 @@ jobs:
       BASEROW_PW: ${{ secrets.BASEROW_PW }}
       BASEROW_READ_TOKEN: ${{ secrets.BASEROW_READ_TOKEN }}
       BASEROW_URL: ${{ secrets.BASEROW_URL }}
-      BASEROW_DB_ID: ${{ secrets.BASEROW_DB_DB_ID }}
+      BASEROW_DB_ID: ${{ secrets.BASEROW_DB_ID }}
     steps:
     - name: Perform Checkout
       uses: actions/checkout@v4
