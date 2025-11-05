@@ -38,6 +38,8 @@ jobs:
       run: ./pyscripts/rename_files.py
     - name: Fix XML
       run: ./pyscripts/fix_xml.py
+    - name: Ensure initial facsimile page
+      run: ./pyscripts/add_missing_initial_page.py
     - name: Generate headers
       run: ./pyscripts/generate_headers.py
     - name: Populate headers
