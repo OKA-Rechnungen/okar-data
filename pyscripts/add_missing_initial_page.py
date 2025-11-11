@@ -25,6 +25,7 @@ NSMAP = {"tei": "http://www.tei-c.org/ns/1.0"}
 TEI = "{http://www.tei-c.org/ns/1.0}"
 XML = "{http://www.w3.org/XML/1998/namespace}"
 
+FILENAME_PREFIX_RE = re.compile(r"^\d+_(WSTLA[-_].+)$")
 FACSIMILE_REF_RE = re.compile(r"#(facs_\d+)")
 
 FILE_PATTERN = os.path.join(TEI_DIR, "*.xml")
@@ -72,6 +73,23 @@ def collect_existing_graphic_urls(root) -> set[str]:  # type: ignore[name-define
     """Collect all graphic @url values to avoid duplicates."""
 
     return {node.get("url") for node in root.xpath(".//tei:graphic", namespaces=NSMAP) if node.get("url")}
+
+
+def normalise_graphic_filenames(root) -> bool:  # type: ignore[name-defined]
+    """Strip numeric prefixes that Transkribus sometimes prepends to image names."""
+
+    changed = False
+    for graphic in root.xpath(".//tei:graphic", namespaces=NSMAP):
+        url = graphic.get("url")
+        if not url or url.lower().startswith("http"):
+            continue
+        match = FILENAME_PREFIX_RE.match(url)
+        if match:
+            new_url = match.group(1)
+            if new_url != url:
+                graphic.set("url", new_url)
+                changed = True
+    return changed
 
 def extract_surface_id(value: Optional[str]) -> Optional[str]:
     """Return the base surface xml:id (e.g. ``facs_123``) from a facs attribute."""
@@ -412,7 +430,9 @@ def ensure_placeholder(path: str) -> bool:
         return False
     facsimile = facsimiles[0]
 
-    updated = remove_redundant_placeholder(root, facsimile)
+    updated = normalise_graphic_filenames(root)
+    if remove_redundant_placeholder(root, facsimile):
+        updated = True
     if normalise_surface_ids(root, facsimile):
         updated = True
     if synchronise_page_breaks(root, facsimile):
