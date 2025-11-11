@@ -1,10 +1,12 @@
 #!/usr/bin/env python
+import glob
 import os
 from pathlib import Path
-import glob
 import requests
 from saxonche import PySaxonProcessor
 from concurrent.futures import ThreadPoolExecutor
+
+from add_missing_initial_page import ensure_placeholder
 
 # Constants
 XSLT_URL = "https://csae8092.github.io/page2tei/page2tei-0.xsl"
@@ -69,6 +71,9 @@ def transform_file(file):
         # Write the output to a TEI file
         with open(tei_path, "w") as f:
             f.write(output)
+
+        if ensure_placeholder(tei_path):
+            print(f"Normalised leading page surfaces in {tei_path}")
 
     except Exception as e:
         print(f"Error processing {file}: {e}")

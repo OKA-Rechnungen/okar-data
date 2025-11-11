@@ -14,7 +14,7 @@ from __future__ import annotations
 import glob
 import os
 import re
-from typing import Optional, Tuple
+from typing import Dict, Optional, Tuple
 
 import lxml.etree as ET
 
@@ -24,6 +24,8 @@ TEI_DIR = os.environ.get("TEI_DIR", "./data/editions")
 NSMAP = {"tei": "http://www.tei-c.org/ns/1.0"}
 TEI = "{http://www.tei-c.org/ns/1.0}"
 XML = "{http://www.w3.org/XML/1998/namespace}"
+
+FACSIMILE_REF_RE = re.compile(r"#(facs_\d+)")
 
 FILE_PATTERN = os.path.join(TEI_DIR, "*.xml")
 NUMERIC_SUFFIX_RE = re.compile(r"(.*_)(\d+)(\.[^.]+)$")
@@ -70,6 +72,265 @@ def collect_existing_graphic_urls(root) -> set[str]:  # type: ignore[name-define
     """Collect all graphic @url values to avoid duplicates."""
 
     return {node.get("url") for node in root.xpath(".//tei:graphic", namespaces=NSMAP) if node.get("url")}
+
+def extract_surface_id(value: Optional[str]) -> Optional[str]:
+    """Return the base surface xml:id (e.g. ``facs_123``) from a facs attribute."""
+
+    if not value:
+        return None
+    match = FACSIMILE_REF_RE.search(value)
+    if not match:
+        return None
+    return match.group(1)
+
+
+def nearest_child_in_container(node: ET._Element, container: ET._Element) -> Optional[ET._Element]:  # type: ignore[name-defined]
+    """Return the highest ancestor of *node* that is a direct child of *container*."""
+
+    current = node
+    while current is not None and current.getparent() is not container:
+        current = current.getparent()
+    return current
+
+
+def compute_node_positions(container: ET._Element) -> Dict[ET._Element, int]:  # type: ignore[name-defined]
+    """Return document-order positions for descendants of *container*."""
+
+    return {element: index for index, element in enumerate(container.iter())}
+
+
+def collect_last_ab_blocks(container: ET._Element) -> Dict[str, ET._Element]:  # type: ignore[name-defined]
+    """Return the last ``<ab>`` encountered for each surface within *container*."""
+
+    mapping: Dict[str, ET._Element] = {}
+    for ab in container.xpath(".//tei:ab[@facs]", namespaces=NSMAP):
+        surface_id = extract_surface_id(ab.get("facs"))
+        if surface_id:
+            mapping[surface_id] = ab
+    return mapping
+
+
+def reorder_page_breaks(root) -> bool:  # type: ignore[name-defined]
+    """Ensure each ``<pb>`` follows the content that still references its surface."""
+
+    bodies = root.xpath(".//tei:body", namespaces=NSMAP)
+    if not bodies:
+        return False
+
+    changed = False
+    for body in bodies:
+        containers = [body] + body.xpath(".//tei:div", namespaces=NSMAP)
+        for container in containers:
+            if not isinstance(container.tag, str):
+                continue
+
+            pb_nodes = [child for child in container if child.tag == f"{TEI}pb"]
+            if len(pb_nodes) < 2:
+                continue
+
+            last_blocks = collect_last_ab_blocks(container)
+            if not last_blocks:
+                continue
+
+            positions = compute_node_positions(container)
+            for index, pb in enumerate(pb_nodes):
+                surface_id = extract_surface_id(pb.get("facs"))
+                if not surface_id:
+                    continue
+
+                block = last_blocks.get(surface_id)
+                if block is None:
+                    continue
+
+                anchor = nearest_child_in_container(block, container)
+                if anchor is None:
+                    continue
+
+                if anchor not in positions:
+                    positions = compute_node_positions(container)
+                last_pos = positions[anchor]
+                insertion_point = anchor
+
+                j = index + 1
+                while j < len(pb_nodes):
+                    candidate = pb_nodes[j]
+                    if candidate.getparent() is not container:
+                        j += 1
+                        continue
+
+                    if candidate not in positions:
+                        positions = compute_node_positions(container)
+                        last_pos = positions[anchor]
+
+                    candidate_pos = positions[candidate]
+                    if candidate_pos > last_pos:
+                        break
+
+                    container.remove(candidate)
+                    insert_index = container.index(insertion_point)
+                    container.insert(insert_index + 1, candidate)
+                    insertion_point = candidate
+                    positions = compute_node_positions(container)
+                    last_pos = positions[anchor]
+                    changed = True
+                    j += 1
+
+            if changed:
+                positions = compute_node_positions(container)
+
+    return changed
+
+
+def rename_descendants(surface, old_id: str, new_id: str, id_map: Dict[str, str]) -> None:  # type: ignore[name-defined]
+    """Rename descendant xml:id values that are prefixed with *old_id*."""
+
+    descendants = list(surface.xpath(".//*[@xml:id]", namespaces=NSMAP))
+    for node in descendants:
+        current_id = node.get(f"{XML}id")
+        if not current_id:
+            continue
+        if current_id == old_id:
+            node.set(f"{XML}id", new_id)
+            id_map[current_id] = new_id
+        elif current_id.startswith(f"{old_id}_"):
+            replacement = f"{new_id}{current_id[len(old_id):]}"
+            node.set(f"{XML}id", replacement)
+            id_map[current_id] = replacement
+
+
+def update_id_references(root, id_map: Dict[str, str]) -> bool:  # type: ignore[name-defined]
+    """Replace references to old xml:id values throughout the document."""
+
+    if not id_map:
+        return False
+
+    changed = False
+    replacements = [(old, new) for old, new in id_map.items() if old != new]
+    if not replacements:
+        return False
+
+    replacements.sort(key=lambda item: len(item[0]), reverse=True)
+
+    xml_id_key = f"{XML}id"
+    for element in root.iter():
+        for attr, value in list(element.attrib.items()):
+            if attr == xml_id_key:
+                continue
+            if not isinstance(value, str):
+                continue
+            new_value = value
+            for old, new in replacements:
+                if old in new_value:
+                    new_value = new_value.replace(old, new)
+            if new_value != value:
+                element.set(attr, new_value)
+                changed = True
+    return changed
+
+
+def normalise_surface_ids(root, facsimile) -> bool:  # type: ignore[name-defined]
+    """Ensure surfaces are ordered and labelled according to image numbering."""
+
+    surfaces = list(facsimile.findall(f"{TEI}surface"))
+    if not surfaces:
+        return False
+
+    placeholder = None
+    ordered_surfaces = []
+    numeric_bucket: list[Tuple[int, int, ET._Element]] = []  # type: ignore[name-defined]
+    fallback_bucket: list[Tuple[int, ET._Element]] = []
+
+    for index, surface in enumerate(surfaces):
+        sid = surface.get(f"{XML}id")
+        if sid == "facs_0":
+            placeholder = surface
+            continue
+        graphic = first_local_graphic(surface)
+        parsed = parse_numeric_suffix(graphic.get("url", "")) if graphic is not None else None
+        if parsed:
+            numeric_bucket.append((parsed[1], index, surface))
+        else:
+            fallback_bucket.append((index, surface))
+
+    numeric_bucket.sort()
+    fallback_bucket.sort()
+
+    if placeholder is not None:
+        ordered_surfaces.append(placeholder)
+    ordered_surfaces.extend(surface for _, _, surface in numeric_bucket)
+    ordered_surfaces.extend(surface for _, surface in fallback_bucket)
+
+    if ordered_surfaces == surfaces:
+        # Already in correct order but possibly mislabelled
+        pass
+    else:
+        for surface in list(facsimile):
+            facsimile.remove(surface)
+        for surface in ordered_surfaces:
+            facsimile.append(surface)
+
+    id_map: Dict[str, str] = {}
+    counter = 1
+    changed = False
+    for surface in ordered_surfaces:
+        sid = surface.get(f"{XML}id")
+        if sid == "facs_0":
+            continue
+        new_id = f"facs_{counter}"
+        counter += 1
+        if sid != new_id:
+            rename_descendants(surface, sid, new_id, id_map)
+            surface.set(f"{XML}id", new_id)
+            id_map[sid] = new_id
+            changed = True
+        else:
+            id_map.setdefault(sid, new_id)
+
+    changed = update_id_references(root, id_map) or changed
+    return changed
+
+
+def synchronise_page_breaks(root, facsimile) -> bool:  # type: ignore[name-defined]
+    """Align pb@facs attributes with the ordered surfaces."""
+
+    pb_nodes = root.xpath(".//tei:body//tei:pb", namespaces=NSMAP)
+    if not pb_nodes:
+        return False
+
+    surfaces = [surface for surface in facsimile.findall(f"{TEI}surface") if surface.get(f"{XML}id") != "facs_0"]
+    if not surfaces:
+        return False
+
+    limit = min(len(pb_nodes), len(surfaces))
+    changed = False
+    for index in range(limit):
+        pb = pb_nodes[index]
+        surface = surfaces[index]
+        facs_value = f"#{surface.get(f'{XML}id')}"
+        if pb.get("facs") != facs_value:
+            pb.set("facs", facs_value)
+            changed = True
+
+    if reorder_page_breaks(root):
+        changed = True
+    return changed
+
+
+def surface_numeric_details(facsimile, skip_placeholder: bool = True) -> list[Tuple[ET._Element, ET._Element, Tuple[str, int, int, str]]]:  # type: ignore[name-defined]
+    """Return surfaces with a parseable numeric suffix."""
+
+    details: list[Tuple[ET._Element, ET._Element, Tuple[str, int, int, str]]] = []  # type: ignore[name-defined]
+    for surface in facsimile.findall(f"{TEI}surface"):
+        if skip_placeholder and surface.get(f"{XML}id") == "facs_0":
+            continue
+        graphic = first_local_graphic(surface)
+        if graphic is None:
+            continue
+        parsed = parse_numeric_suffix(graphic.get("url", ""))
+        if not parsed:
+            continue
+        details.append((surface, graphic, parsed))
+    return details
 
 
 def next_unique_id(base: str, used: set[str]) -> str:
@@ -118,25 +379,17 @@ def remove_redundant_placeholder(root, facsimile) -> bool:  # type: ignore[name-
     if placeholder is None:
         return False
 
-    surfaces = facsimile.findall(f"{TEI}surface")
-    next_surface = None
-    for surface in surfaces:
-        if surface is placeholder:
-            continue
-        next_surface = surface
-        break
-    if next_surface is None:
+    numeric_surfaces = surface_numeric_details(facsimile, skip_placeholder=True)
+    if not numeric_surfaces:
         return False
 
-    graphic = first_local_graphic(next_surface)
-    if graphic is None:
-        return False
+    smallest_value = None
+    for _, _, parsed in numeric_surfaces:
+        value = parsed[1]
+        if smallest_value is None or value < smallest_value:
+            smallest_value = value
 
-    parsed = parse_numeric_suffix(graphic.get("url", ""))
-    if not parsed:
-        return False
-    _, value, _, _ = parsed
-    if value > 1:
+    if smallest_value is None or smallest_value > 1:
         return False
 
     for pb in root.xpath('.//tei:pb[@facs="#facs_0"]', namespaces=NSMAP):
@@ -160,6 +413,10 @@ def ensure_placeholder(path: str) -> bool:
     facsimile = facsimiles[0]
 
     updated = remove_redundant_placeholder(root, facsimile)
+    if normalise_surface_ids(root, facsimile):
+        updated = True
+    if synchronise_page_breaks(root, facsimile):
+        updated = True
 
     surfaces = facsimile.findall(f"{TEI}surface")
     if not surfaces:
@@ -167,6 +424,14 @@ def ensure_placeholder(path: str) -> bool:
             ET.indent(root, space="  ")
             tei.tree.write(path, encoding="utf-8", xml_declaration=True, pretty_print=True)
         return False
+
+    numeric_surfaces = surface_numeric_details(facsimile, skip_placeholder=True)
+
+    min_page_value: Optional[int] = None
+    for _, _, parsed in numeric_surfaces:
+        value = parsed[1]
+        if min_page_value is None or value < min_page_value:
+            min_page_value = value
 
     first_real_surface = None
     for surface in surfaces:
@@ -179,6 +444,12 @@ def ensure_placeholder(path: str) -> bool:
             ET.indent(root, space="  ")
             tei.tree.write(path, encoding="utf-8", xml_declaration=True, pretty_print=True)
         return False
+
+    if min_page_value is not None and min_page_value <= 1:
+        if updated:
+            ET.indent(root, space="  ")
+            tei.tree.write(path, encoding="utf-8", xml_declaration=True, pretty_print=True)
+        return updated
 
     local_graphic = first_local_graphic(first_real_surface)
     if local_graphic is None:
@@ -280,7 +551,7 @@ def main() -> None:
         try:
             if ensure_placeholder(path):
                 updated += 1
-                print(f"Inserted placeholder lead page in {path}")
+                print(f"Updated lead page handling in {path}")
         except Exception as exc:  # noqa: BLE001 broad but logged
             print(f"Failed to update {path}: {exc}")
     print(f"Added placeholders in {updated} file(s)")
