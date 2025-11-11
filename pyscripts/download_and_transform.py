@@ -5,6 +5,7 @@ from pathlib import Path
 from saxonche import PySaxonProcessor
 from transkribus_utils.transkribus_utils import ACDHTranskribusUtils
 from add_missing_initial_page import ensure_placeholder
+from transkribus_filters import filter_doc_ids_with_transcriptions
 user = os.environ.get("TR_USER")
 pw = os.environ.get("TR_PW")
 XSLT = "https://csae8092.github.io/page2tei/page2tei-0.xsl"
@@ -23,8 +24,18 @@ print(lines)
 
 for y in lines:
     col_id = y.strip()
+    if not col_id:
+        continue
     print(f"processing collection: {col_id}")
-    mpr_docs = transkribus_client.collection_to_mets(col_id, file_path="./mets")
+    eligible_doc_ids = filter_doc_ids_with_transcriptions(transkribus_client, col_id)
+    if not eligible_doc_ids:
+        print(f"No eligible documents found for collection {col_id}, skipping download")
+        continue
+    mpr_docs = transkribus_client.collection_to_mets(
+        col_id,
+        file_path=str(METS_DIR),
+        filter_by_doc_ids=eligible_doc_ids,
+    )
     print(f"{METS_DIR}/{col_id}*.xml")
     files = glob.glob(f"{METS_DIR}/{col_id}/*_mets.xml")
     for x in files:

@@ -2,6 +2,7 @@
 import os
 from pathlib import Path
 from transkribus_utils.transkribus_utils import ACDHTranskribusUtils
+from transkribus_filters import filter_doc_ids_with_transcriptions
 import sys
 
 user = os.environ.get("TR_USER")
@@ -34,7 +35,7 @@ def get_gt(col):
     print("Total: ", len(docs))
     for doc in docs:
         docId = doc["docId"]
-        overview = transkribus_client.get_doc_overview_md(docId, col_id)
+        overview = transkribus_client.get_doc_overview_md(docId, col)
         if not overview or "trp_return" not in overview:
             continue
         pages = overview["trp_return"].get("pageList", {}).get("pages", [])
@@ -53,20 +54,24 @@ print(lines)
 for y in lines:
     col_id = y.strip()
     print(f"processing collection: {col_id}")
+    eligible_doc_ids = filter_doc_ids_with_transcriptions(transkribus_client, col_id)
+    if TARGET_DOC_IDS:
+        eligible_doc_ids = [doc_id for doc_id in eligible_doc_ids if doc_id in TARGET_DOC_IDS]
+
     if gt:
         cols = get_gt(col_id)
         print("Subset: ", len(cols))
-        mpr_docs = transkribus_client.collection_to_mets(
-            col_id,
-            file_path=str(METS_DIR),
-            filter_by_doc_ids=cols,
-        )
+        eligible_doc_ids = [doc_id for doc_id in eligible_doc_ids if doc_id in {str(x) for x in cols}]
     else:
-        mpr_docs = transkribus_client.collection_to_mets(
-            col_id,
-            file_path=str(METS_DIR),
-            filter_by_doc_ids=TARGET_DOC_IDS,
-        )
-    if TARGET_DOC_IDS:
-        print(f"Requested doc IDs: {', '.join(TARGET_DOC_IDS)}")
+        if TARGET_DOC_IDS:
+            print(f"Requested doc IDs: {', '.join(TARGET_DOC_IDS)}")
+    if not eligible_doc_ids:
+        print(f"No eligible documents found for collection {col_id}, skipping download")
+        continue
+
+    mpr_docs = transkribus_client.collection_to_mets(
+        col_id,
+        file_path=str(METS_DIR),
+        filter_by_doc_ids=eligible_doc_ids,
+    )
     print(f"{METS_DIR}/{col_id}*.xml")
