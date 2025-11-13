@@ -32,8 +32,8 @@ jobs:
       run: rm -rf data/editions/* data/mets/* tei_headers/*
     - name: Download
       run: ./pyscripts/01_download.py
-    - name: Apply fixes to Transkribus files
-      run: ./pyscripts/02_fix_tkb.py
+    #- name: Apply fixes to Transkribus files
+    #  run: ./pyscripts/02_fix_tkb.py
     - name: Generate XML-TEI
       run: ./pyscripts/03_transform.py
     - name: Rename files
