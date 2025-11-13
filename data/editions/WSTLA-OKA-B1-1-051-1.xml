@@ -1,0 +1,1611 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="WSTLA-OKA-B1-1-051-1.xml" xml:base="/" prev="WSTLA-OKA-B1-1-134-1.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="a" type="main" xml:lang="de"></title>
+        <title level="j" type="desc">Oberkmammeramt Rechnungsbücher</title>
+        <title level="a" type="desc">WSTLA-OKA-B1-1-051-1</title>
+        <respStmt>
+          <resp>Data generation</resp>
+          <persName ref="https://orcid.org/0000-0002-0484-832X" role="Editor">
+            <forename>Robert</forename>
+            <surname>Klugseder</surname>
+            <idno type="URL" subtype="GND">http://d-nb.info/gnd/134072170</idno>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>XML modelling</resp>
+          <persName role="MetadataCreator" ref="https://orcid.org/0000-0002-8815-6741">
+            <forename>Fernando</forename>
+            <surname>Sanz-Lázaro</surname>
+            <idno type="URL" subtype="GND">http://d-nb.info/gnd/1297553608</idno>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Data Generation</resp>
+          <persName role="Contributor" ref="https://orcid.org/0000-0003-2436-0361">
+            <forename>Daniel</forename>
+            <surname>Schopper</surname>
+            <idno type="URL" subtype="ORCID">https://orcid.org/0000-0003-2436-0361</idno>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Transkribus manipulation</resp>
+          <persName role="Transcriptor">
+            <forename>Johanna</forename>
+            <surname>Unterholzner</surname>
+            <idno type="URL" subtype="ORCID">https://orcid.org/0009-0001-2391-9939</idno>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp xml:lang="en">Digitisation (photography) of the archival materials</resp>
+          <orgName ref="http://d-nb.info/gnd/2060831-7" role="DigitisingAgent">
+            <orgName>Wiener Stadt- und Landesarchiv</orgName>
+            <idno type="URI" subtype="GND">http://d-nb.info/gnd/2060831-7</idno>
+          </orgName>
+        </respStmt>
+        <respStmt>
+          <resp>(Ober)kämmerer</resp>
+          <persName ref="#engelhartstetter-blasi-blasi-englhartsteter" role="(Ober)kämmerer">Blasi Englhartsteter</persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <objectType xml:lang="de">Electronische Edition</objectType>
+          <objectType xml:lang="en">Electronic edition</objectType>
+        </edition>
+        <funder>
+          <orgName xml:lang="de">Bundesministerium für Kunst, Kultur, Öffentlicher Dienst und Sport</orgName>
+          <orgName xml:lang="en">Austrian Ministery for Art, Culture, Public Service, and Sport</orgName>
+          <idno type="URI" subtype="GND">http://d-nb.info/gnd/1216831270</idno>
+        </funder>
+        <funder>
+          <orgName xml:lang="de">Europäische Union</orgName>
+          <orgName xml:lang="en">European Union</orgName>
+          <idno type="URI" subtype="GND">https://d-nb.info/gnd/5098525-5</idno>
+        </funder>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName>Austrian Centre for Digital Humanities</orgName>
+          <idno type="URI" subtype="GND">http://d-nb.info/gnd/1226158307</idno>
+        </publisher>
+        <authority>
+          <orgName xml:lang="de">Österreichische Akademie der Wissenschaften</orgName>
+          <orgName xml:lang="en">Austrian Academy of Sciences</orgName>
+          <idno type="URI" subtype="GND">http://d-nb.info/gnd/1001454-8</idno>
+        </authority>
+        <address>
+          <addrLine xml:lang="de">Österreichische Akademie der Wissenschaften</addrLine>
+          <addrLine xml:lang="en">Austrian Academy of Sciences</addrLine>
+          <addrLine>Austrian Centre for Digital Humanities</addrLine>
+          <addrLine>Bäckerstraße 13</addrLine>
+          <addrLine>1100 Vienna</addrLine>
+          <addrLine xml:lang="en">Austria</addrLine>
+          <addrLine xml:lang="de">Österreich</addrLine>
+          <addrLine>
+            <ref target="https://www.oeaw.ac.at/acdh">https://www.oeaw.ac.at/acdh</ref>
+          </addrLine>
+          <addrLine>
+            <email>acdh-office@oeaw.ac.at</email>
+          </addrLine>
+        </address>
+        <pubPlace>
+          <placeName xml:lang="de">Wien</placeName>
+          <placeName xml:lang="en">Vienna</placeName>
+          <idno type="URI" subtype="GND">http://d-nb.info/gnd/4066009-6</idno>
+          <idno type="URI" subtype="Wikidata">https://www.wikidata.org/entity/Q1741</idno>
+        </pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed">CC-BY-SA</licence>
+        </availability>
+        <date when="2025-11-13">2025-11-13</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title>OKAR_Wien</title>
+      </seriesStmt>
+      <notesStmt>
+        <!-- check w/ MV: is "Anmerkungen" actually needed in the TEI export or only internal notes ? -->
+        <note>unvollständig, nur bis 29v überliefert - Rest fehlt; Keine Angaben zum UKA</note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl>
+          <title type="main">1494_WSTLA-OKA-B1-1-051-1</title>
+          <date>1494</date>
+          <idno type="Transkribus">10582920</idno>
+        </bibl>
+        <msDesc>
+          <msIdentifier>
+            <institution>
+              <country>Austria</country>
+              <settlement>Vienna</settlement>
+              <orgName xml:lang="de">Wiener Stadt- und Landesarchiv</orgName>
+              <orgName xml:lang="en">Municipal and Provincial Archives of Vienna</orgName>
+              <idno type="URI" subtype="GND">http://d-nb.info/gnd/2060831-7</idno>
+            </institution>
+            <repository>
+              <orgName xml:lang="de">Wiener Stadt- und Landesarchiv</orgName>
+              <orgName xml:lang="en">Municipal and Provincial Archives of Vienna</orgName>
+              <idno type="URI" subtype="GND">http://d-nb.info/gnd/2060831-7</idno>
+              <idno type="URI" subtype="Wikidata">https://www.wikidata.org/wiki/Q1423528</idno>
+            </repository>
+            <collection>Oberkammeramtsrechnungen</collection>
+            <idno type="shelfmark">1.1.1.B1/1.51</idno>
+          </msIdentifier>
+          <msContents>
+            <summary/>
+            <p>
+              <origDate when="1494-01-01"/>
+            </p>
+            <p>Einnahmen: fol. 1r-10v; Ausgaben: fol. 11r-29v (Abbruch)</p>
+          </msContents>
+          <physDesc>
+            <objectDesc form="codex">
+              <supportDesc>
+                <support/>
+                <extent>30</extent>
+              </supportDesc>
+            </objectDesc>
+            <bindingDesc>
+              <binding>
+                <p>Gebrauchseinband Pergament auf Karton vernäht</p>
+              </binding>
+            </bindingDesc>
+            <accMat/>
+          </physDesc>
+          <!-- <msContents>
+                  <p><origDate from="1765-11-01" to="1766-10-31"></origDate></p>
+                  <p>Einnahmen: fol. 1r-28r; Ausgaben: fol.30r-80r; Gegenrechnung Einnahmen – Ausgaben: fol. 80r; Beschluss: fol. 80v; Liste der Verordneten: fol. 80v</p>
+               </msContents> -->
+        </msDesc>
+        <listBibl type="secondary">
+          <bibl xml:id="schematismus">
+            <title>Staatsschematismus</title>
+          </bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p xml:lang="de">Maschinell erfasster Rohtext</p>
+        <p xml:lang="en">Machine-collected raw text</p>
+      </editorialDecl>
+      <appInfo>
+        <application ident="transkribus" version="1.26.0">
+          <label>Transkribus</label>
+          <desc xml:lang="de">Sammlung 258178</desc>
+          <desc xml:lang="en">collection 258178</desc>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="de" xml:lang="de">Frühneuhochdeutsch</language>
+        <language ident="de" xml:lang="en">Early New High German</language>
+      </langUsage>
+      <textDesc n="accountbook">
+        <channel mode="ws">
+          <objectType xml:lang="de">Handschrift</objectType>
+          <objectType>manuscript</objectType>
+        </channel>
+        <constitution type="composite"/>
+        <derivation/>
+        <domain type="administrative"/>
+        <factuality type="fact"/>
+        <interaction type="none"/>
+        <preparedness type="official"/>
+        <purpose type="recordkeeping"/>
+      </textDesc>
+      <settingDesc>
+        <setting>
+          <name xml:lang="de">Wien</name>
+          <name xml:lang="en">Vienna</name>
+          <time/>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+    <listPerson>
+      <person xml:id="engelhartstetter-blasi-blasi-englhartsteter" role="(Ober)kämmerer">
+        <persName type="norm">
+          <forename>Blasi</forename>
+          <surname>Engelhartstetter</surname>
+        </persName>
+        <persName type="orig">Blasi Englhartsteter</persName>
+        <occupation>(Ober)kämmerer</occupation>
+        <idno type="URI" subtype="WienGeschichteWiki">https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=17594</idno>
+      </person>
+    </listPerson>
+    <spanGrp>
+      <!-- <span type="sum" from="#facs_100_region_147854038" to="#facs_100_region_147854039" xml:id="sec0000">
+            <measure n="" type="currency">311399fl 1 ß 10 d</measure>
+         </span>
+         <span type="sum" subtype="incomingPayments" from="#facs_100_region_147854038" to="#facs_100_region_147854039" xml:id="sec0001">
+            <measure type="currency" quantity="1192">489 fl 4 ß</measure>
+         </span>
+         <span type="sum" subtype="incomingPayments" xml:id="sec104">
+            <measure type="currency">0</measure>
+         </span> -->
+    </spanGrp>
+  </standOff>
+  <facsimile>
+    <surface ulx="0" uly="0" lrx="2970" lry="4314" xml:id="facs_1">
+      <graphic url="WSTLA-OKA-B1-1-051-1_00001.tif" width="2970px" height="4314px"/>
+      <graphic url="https://files.transkribus.eu/Get?id=KJCMCXIFGYDSTHHHCLJIRWEV&amp;fileType=view" width="2970px" height="4314px"/>
+      <zone points="0,0 1485,0 2970,0 2970,4314 1485,4314 0,4314" rendition="TextRegion" xml:id="facs_1_TextRegion_1757589601178_491"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="5667" lry="4255" xml:id="facs_2">
+      <graphic url="WSTLA-OKA-B1-1-051-1_00002.tif" width="5667px" height="4255px"/>
+      <graphic url="https://files.transkribus.eu/Get?id=QHOUSKRTDRJIJWQUTTXYCKYD&amp;fileType=view" width="5667px" height="4255px"/>
+      <zone points="0,0 2833,0 2833,4255 0,4255" rendition="TextRegion" xml:id="facs_2_region_156674255"/>
+      <zone points="2834,0 5667,0 5667,4255 2834,4255" rendition="TextRegion" xml:id="facs_2_region_256674255"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="5674" lry="4180" xml:id="facs_3">
+      <graphic url="WSTLA-OKA-B1-1-051-1_00003.tif" width="5674px" height="4180px"/>
+      <graphic url="https://files.transkribus.eu/Get?id=VBGBLVYPMJOWZZANKOTOXFCI&amp;fileType=view" width="5674px" height="4180px"/>
+      <zone points="0,0 2837,0 2837,4180 0,4180" rendition="TextRegion" xml:id="facs_3_region_156744180"/>
+      <zone points="2837,0 5674,0 5674,4180 2837,4180" rendition="TextRegion" xml:id="facs_3_region_256744180"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="5642" lry="4229" xml:id="facs_4">
+      <graphic url="WSTLA-OKA-B1-1-051-1_00004.tif" width="5642px" height="4229px"/>
+      <graphic url="https://files.transkribus.eu/Get?id=YXCUWJXFDNCKOPIULBTOLEZV&amp;fileType=view" width="5642px" height="4229px"/>
+      <zone points="0,0 2821,0 2821,4229 0,4229" rendition="TextRegion" xml:id="facs_4_region_156424229"/>
+      <zone points="2821,0 5642,0 5642,4229 2821,4229" rendition="TextRegion" xml:id="facs_4_region_256424229"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="5649" lry="4108" xml:id="facs_5">
+      <graphic url="WSTLA-OKA-B1-1-051-1_00005.tif" width="5649px" height="4108px"/>
+      <graphic url="https://files.transkribus.eu/Get?id=CKCPNVSHTNOINBLKDVEHMPUW&amp;fileType=view" width="5649px" height="4108px"/>
+      <zone points="0,0 2824,0 2824,4108 0,4108" rendition="TextRegion" xml:id="facs_5_region_156494108"/>
+      <zone points="2825,0 5649,0 5649,4108 2825,4108" rendition="TextRegion" xml:id="facs_5_region_256494108"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="5366" lry="4098" xml:id="facs_6">
+      <graphic url="WSTLA-OKA-B1-1-051-1_00006.tif" width="5366px" height="4098px"/>
+      <graphic url="https://files.transkribus.eu/Get?id=YDAUHJXCYRBFYQLHZRIVKOSL&amp;fileType=view" width="5366px" height="4098px"/>
+      <zone points="0,0 2683,0 2683,4098 0,4098" rendition="TextRegion" xml:id="facs_6_region_153664098"/>
+      <zone points="2683,0 5366,0 5366,4098 2683,4098" rendition="TextRegion" xml:id="facs_6_region_253664098"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="5385" lry="4120" xml:id="facs_7">
+      <graphic url="WSTLA-OKA-B1-1-051-1_00007.tif" width="5385px" height="4120px"/>
+      <graphic url="https://files.transkribus.eu/Get?id=NFXQVBFYMZRAHETUUUPOIIQE&amp;fileType=view" width="5385px" height="4120px"/>
+      <zone points="0,0 2692,0 2692,4120 0,4120" rendition="TextRegion" xml:id="facs_7_region_153854120"/>
+      <zone points="2693,0 5385,0 5385,4120 2693,4120" rendition="TextRegion" xml:id="facs_7_region_253854120"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="5471" lry="4153" xml:id="facs_8">
+      <graphic url="WSTLA-OKA-B1-1-051-1_00008.tif" width="5471px" height="4153px"/>
+      <graphic url="https://files.transkribus.eu/Get?id=LUIRSIEFMPFKSHOXJYURBLFD&amp;fileType=view" width="5471px" height="4153px"/>
+      <zone points="0,0 2735,0 2735,4153 0,4153" rendition="TextRegion" xml:id="facs_8_region_154714153"/>
+      <zone points="2736,0 5471,0 5471,4153 2736,4153" rendition="TextRegion" xml:id="facs_8_region_254714153"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="5474" lry="4166" xml:id="facs_9">
+      <graphic url="WSTLA-OKA-B1-1-051-1_00009.tif" width="5474px" height="4166px"/>
+      <graphic url="https://files.transkribus.eu/Get?id=GEXJUTUHYTBHIKSZUWXCKSAR&amp;fileType=view" width="5474px" height="4166px"/>
+      <zone points="0,0 2737,0 2737,4166 0,4166" rendition="TextRegion" xml:id="facs_9_region_154744166"/>
+      <zone points="2737,0 5474,0 5474,4166 2737,4166" rendition="TextRegion" xml:id="facs_9_region_254744166"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="5462" lry="4177" xml:id="facs_10">
+      <graphic url="WSTLA-OKA-B1-1-051-1_00010.tif" width="5462px" height="4177px"/>
+      <graphic url="https://files.transkribus.eu/Get?id=TKFWGVRFRNMAAXQHRSUKYVKD&amp;fileType=view" width="5462px" height="4177px"/>
+      <zone points="0,0 2731,0 2731,4177 0,4177" rendition="TextRegion" xml:id="facs_10_region_154624177"/>
+      <zone points="2731,0 5462,0 5462,4177 2731,4177" rendition="TextRegion" xml:id="facs_10_region_254624177"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="5469" lry="4161" xml:id="facs_11">
+      <graphic url="WSTLA-OKA-B1-1-051-1_00011.tif" width="5469px" height="4161px"/>
+      <graphic url="https://files.transkribus.eu/Get?id=DITTSYCXKLVZBHBCHKWMYLWZ&amp;fileType=view" width="5469px" height="4161px"/>
+      <zone points="0,0 2734,0 2734,4161 0,4161" rendition="TextRegion" xml:id="facs_11_region_154694161"/>
+      <zone points="2735,0 5469,0 5469,4161 2735,4161" rendition="TextRegion" xml:id="facs_11_region_254694161"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="5479" lry="4142" xml:id="facs_12">
+      <graphic url="WSTLA-OKA-B1-1-051-1_12.tif" width="5479px" height="4142px"/>
+      <graphic url="https://files.transkribus.eu/Get?id=QWRXCFVSLIKASAIDWECMLMXR&amp;fileType=view" width="5479px" height="4142px"/>
+      <zone points="0,0 2739,0 2739,4142 0,4142" rendition="TextRegion" xml:id="facs_12_region_154794142">
+        <zone points="690,461 691,523 698,556 730,575 761,581 1140,581 1776,566 2014,551 2075,540 2081,528 2079,488 2058,480 1912,476 1612,456 1453,466 1405,461 1312,440 1258,439 1145,450 985,427 856,423 710,435 694,443" rendition="Line" xml:id="facs_12_tl_1758705789"/>
+        <zone points="2031,586 2029,569 2019,564 1682,564 1231,571 940,570 863,576 851,588 850,610 856,615 851,622 858,631 907,638 1187,638 1423,632 1679,631 2011,619 2029,607" rendition="Line" xml:id="facs_12_tl_1758705818"/>
+        <zone points="2033,635 2024,619 2001,627 1601,627 879,638 859,645 857,684 863,696 874,700 976,702 1174,699 1695,679 2001,679 1985,676 1964,678 2024,668 2035,652" rendition="Line" xml:id="facs_12_tl_1758705821"/>
+        <zone points="2029,692 2025,682 2015,679 1881,678 1450,685 1176,698 960,701 902,709 893,718 895,734 887,737 899,749 907,752 995,758 1967,749 2022,731 2028,717" rendition="Line" xml:id="facs_12_tl_1758705819"/>
+        <zone points="1527,766 1524,756 1519,753 1503,749 1487,748 1079,754 1011,757 910,757 890,759 877,767 877,774 866,793 867,813 875,820 920,827 1018,829 1057,836 1495,833 1517,828 1526,819" rendition="Line" xml:id="facs_12_tl_1758705791"/>
+        <zone points="2118,837 2111,832 2068,826 1546,835 853,830 835,833 825,842 822,911 827,926 850,928 1480,927 2098,912 2119,903" rendition="Line" xml:id="facs_12_tl_1758705799"/>
+        <zone points="2096,931 2090,917 2074,914 1045,927 883,936 867,943 865,961 867,976 877,982 922,989 1238,990 1843,979 2077,980 2094,972" rendition="Line" xml:id="facs_12_tl_1758705807"/>
+        <zone points="2066,1004 2062,980 2047,973 912,994 884,999 879,1009 879,1035 885,1046 919,1050 2047,1049 2061,1041" rendition="Line" xml:id="facs_12_tl_1758705796"/>
+        <zone points="2588,1043 2582,1027 2562,1021 2353,1020 1986,1037 955,1059 877,1068 868,1080 870,1114 877,1119 925,1124 1761,1124 2003,1116 2558,1110 2584,1100" rendition="Line" xml:id="facs_12_tl_1758705803"/>
+        <zone points="789,1164 789,1205 793,1220 790,1245 795,1253 1374,1251 1891,1240 1964,1231 1976,1224 1979,1206 1978,1182 1970,1171 1920,1158 1732,1161 1491,1155 1144,1159 1044,1152 837,1150 798,1154" rendition="Line" xml:id="facs_12_tl_1758705809"/>
+        <zone points="2583,1282 2582,1218 2559,1208 2039,1216 1902,1231 1549,1242 836,1243 881,1260 881,1269 866,1279 863,1296 877,1313 918,1324 993,1327 1980,1328 2450,1322 2558,1316 2579,1302" rendition="Line" xml:id="facs_12_tl_1758705830"/>
+        <zone points="1962,1356 1958,1348 1947,1342 1918,1339 1579,1335 1277,1341 913,1339 873,1344 859,1350 857,1406 862,1422 867,1425 915,1427 1426,1426 1839,1413 1957,1405 1962,1400" rendition="Line" xml:id="facs_12_tl_1758705806"/>
+        <zone points="1989,1423 1986,1416 1976,1413 1321,1423 902,1427 890,1433 888,1467 891,1476 902,1480 943,1484 1029,1485 1450,1484 1826,1475 1985,1465 1989,1458" rendition="Line" xml:id="facs_12_tl_1758705797"/>
+        <zone points="1981,1487 1977,1480 1966,1477 966,1487 924,1491 896,1498 891,1505 890,1531 894,1543 921,1549 1486,1549 1721,1543 1967,1528 1980,1522" rendition="Line" xml:id="facs_12_tl_1758705794"/>
+        <zone points="1979,1547 1946,1539 1792,1539 980,1553 905,1560 894,1576 896,1601 909,1607 1016,1614 1511,1621 1908,1616 1944,1612 1980,1591" rendition="Line" xml:id="facs_12_tl_1758705804"/>
+        <zone points="896,1611 1561,1611 1561,1698 896,1698" rendition="Line" xml:id="facs_12_tl_1758705823"/>
+        <zone points="874,1717 1959,1717 1959,1813 874,1813" rendition="Line" xml:id="facs_12_tl_1758705812"/>
+        <zone points="887,1811 1992,1811 1992,1875 887,1875" rendition="Line" xml:id="facs_12_tl_1758705822"/>
+        <zone points="1979,1884 1974,1876 1967,1873 1928,1869 960,1874 917,1877 901,1885 895,1903 896,1942 900,1948 951,1963 1357,1968 1800,1957 1921,1945 1972,1927 1977,1920" rendition="Line" xml:id="facs_12_tl_1758705814"/>
+        <zone points="809,2075 817,2084 813,2091 819,2098 866,2110 1524,2118 1630,2126 1833,2125 1955,2116 1998,2104 2005,2089 2004,2042 1999,2035 1986,2029 1942,2022 1746,2015 1583,2019 1225,2013 1051,2018 999,2013 911,1996 867,1994 852,1996 820,2009 815,2018" rendition="Line" xml:id="facs_12_tl_1758705793"/>
+        <zone points="900,2100 1603,2100 1603,2194 900,2194" rendition="Line" xml:id="facs_12_tl_1758705800"/>
+        <zone points="2089,2267 2082,2257 2055,2247 2033,2231 1955,2218 1784,2219 1731,2225 1655,2245 1518,2256 1136,2255 880,2234 815,2239 803,2244 799,2252 807,2342 821,2350 862,2358 957,2352 2022,2337 2082,2331 2090,2324" rendition="Line" xml:id="facs_12_tl_1758705788"/>
+        <zone points="862,2338 2069,2338 2069,2406 862,2406" rendition="Line" xml:id="facs_12_tl_1758705829"/>
+        <zone points="876,2398 2029,2398 2029,2465 876,2465" rendition="Line" xml:id="facs_12_tl_1758705805"/>
+        <zone points="2053,2507 1455,2540 973,2536 908,2524 894,2507 891,2493 900,2477 912,2472 1021,2465 2054,2458" rendition="Line" xml:id="facs_12_l_1"/>
+        <zone points="899,2521 1898,2535 2222,2457 2589,2471 2614,2482 2617,2534 2607,2554 2585,2564 2553,2568 1459,2616 899,2616" rendition="Line" xml:id="facs_12_l_2"/>
+        <zone points="1019,2841 1018,2897 1027,2908 1054,2912 1295,2925 1436,2924 1518,2920 1578,2920 1599,2914 1606,2906 1609,2891 1608,2814 1606,2805 1598,2797 1578,2792 1478,2798 1400,2797 1358,2793 1288,2780 1261,2771 1248,2762 1236,2749 1227,2733 1226,2725 1218,2716 1200,2705 1175,2700 1150,2704 1135,2709 1105,2732 1094,2746 1063,2777 1044,2792 1026,2815" rendition="Line" xml:id="facs_12_tl_1758705816"/>
+        <zone points="2029,3083 2021,3069 2002,3060 1981,3038 1922,3004 1902,2987 1858,2976 1802,2975 1727,2981 1678,2992 1655,3008 1635,3015 1621,3039 1608,3046 1607,3054 1582,3070 1528,3079 1396,3074 1323,3084 1280,3085 1239,3080 1200,3070 1116,3037 1079,3032 958,3032 943,3038 936,3047 923,3075 912,3085 910,3108 919,3115 920,3122 912,3130 915,3144 936,3164 958,3172 1089,3175 1301,3171 1709,3172 1932,3184 1973,3180 2022,3169 2031,3154" rendition="Line" xml:id="facs_12_tl_1758705808"/>
+        <zone points="952,3160 1872,3160 1872,3254 952,3254" rendition="Line" xml:id="facs_12_tl_1758705810"/>
+      </zone>
+      <zone points="2740,0 5479,0 5479,4142 2740,4142" rendition="TextRegion" xml:id="facs_12_region_254794142">
+        <zone points="3462,540 3466,580 3472,592 3494,611 3503,635 3523,645 3560,652 3760,657 3921,672 4147,679 4592,673 4640,667 4648,661 4651,652 4651,567 4648,559 4634,550 4596,544 4438,534 4240,535 3537,516 3479,517 3465,527" rendition="Line" xml:id="facs_12_tl_1758705792"/>
+        <zone points="3534,643 3805,643 3805,710 3534,710" rendition="Line" xml:id="facs_12_tl_1758705838"/>
+        <zone points="3440,765 3442,818 3482,839 3512,844 3877,844 4613,832 4693,825 4705,819 4708,808 4704,757 4693,748 4644,735 4370,739 4242,745 4045,745 3823,755 3680,755 3500,735 3458,741 3445,749" rendition="Line" xml:id="facs_12_tl_1758705801"/>
+        <zone points="3466,834 4709,830 4705,889 3462,893" rendition="Line" xml:id="facs_12_tl_1758705828"/>
+        <zone points="3497,942 5173,942 5182,896 5173,869 4904,861 4648,896 3500,896" rendition="Line" xml:id="facs_12_line_1758711189513_3603"/>
+        <zone points="3425,1140 3426,1155 3433,1169 3452,1181 3464,1197 3471,1239 3483,1247 3530,1257 3905,1268 4452,1275 4712,1273 4717,1265 4715,1163 4700,1155 4647,1146 4183,1141 3790,1149 3716,1141 3628,1125 3526,1120 3444,1122 3431,1128" rendition="Line" xml:id="facs_12_tl_1758705790"/>
+        <zone points="3486,1320 3490,1333 3502,1340 3720,1345 3871,1341 4022,1345 4392,1344 4447,1341 4491,1334 4523,1321 4527,1314 4527,1299 4522,1286 4502,1273 4415,1263 4045,1258 3852,1259 3733,1254 3538,1252 3507,1254 3495,1259 3498,1282 3488,1300" rendition="Line" xml:id="facs_12_tl_1758705825"/>
+        <zone points="3422,1376 3426,1425 3450,1439 3485,1447 3733,1452 4362,1450 4643,1440 4658,1435 4663,1426 4663,1386 4658,1368 4641,1359 4599,1356 4270,1361 4008,1355 3922,1349 3490,1348 3442,1354 3425,1364" rendition="Line" xml:id="facs_12_tl_1758705817"/>
+        <zone points="4642,1449 4635,1437 4610,1434 4061,1436 3781,1441 3485,1437 3468,1446 3466,1472 3471,1480 3484,1484 3643,1493 4065,1493 4326,1487 4590,1491 4635,1486 4642,1476" rendition="Line" xml:id="facs_12_tl_1758705835"/>
+        <zone points="3464,1481 4693,1481 4693,1552 3464,1552" rendition="Line" xml:id="facs_12_tl_1758705833"/>
+        <zone points="3468,1561 3478,1555 3506,1548 4568,1542 5296,1506 5323,1518 5326,1554 5322,1587 5307,1596 4328,1629 4080,1633 3898,1634 3582,1626 3474,1608 3464,1602 3461,1592 3462,1575" rendition="Line" xml:id="facs_12_line_1758711216590_3622"/>
+        <zone points="3396,1641 3398,1683 3404,1697 3415,1706 3410,1711 3428,1721 3440,1736 3452,1740 4409,1737 4638,1732 4684,1727 4692,1718 4690,1661 4671,1652 4636,1648 4249,1650 4080,1657 3972,1667 3898,1667 3638,1655 3554,1646 3469,1631 3414,1630 3401,1634" rendition="Line" xml:id="facs_12_tl_1758705811"/>
+        <zone points="3446,1730 4643,1730 4643,1793 3446,1793" rendition="Line" xml:id="facs_12_tl_1758705832"/>
+        <zone points="4645,1801 4639,1790 4619,1786 3964,1791 3496,1788 3471,1790 3459,1795 3457,1828 3459,1837 3471,1843 3541,1849 3766,1849 3903,1854 4382,1852 4625,1843 4643,1835" rendition="Line" xml:id="facs_12_tl_1758705802"/>
+        <zone points="4680,1859 4676,1848 4660,1843 4078,1849 3960,1854 3747,1848 3510,1850 3466,1855 3459,1867 3459,1887 3468,1896 3513,1901 3742,1906 4660,1905 4677,1900" rendition="Line" xml:id="facs_12_tl_1758705826"/>
+        <zone points="3470,1901 4642,1901 4642,1965 3470,1965" rendition="Line" xml:id="facs_12_tl_1758705820"/>
+        <zone points="3476,1979 3492,1968 3539,1965 4521,1966 4660,1975 4660,2039 4537,2039 4257,2031 3745,2029 3491,2019 3476,2013 3473,1995" rendition="Line" xml:id="facs_12_line_1758711225404_3632"/>
+        <zone points="3481,2022 4598,2027 4932,1992 5014,1996 5261,2012 5274,2082 5176,2079 5087,2081 4229,2106 3481,2106" rendition="Line" xml:id="facs_12_line_1758711234128_3646"/>
+        <zone points="3605,2264 3605,2311 3615,2319 3633,2325 4130,2331 4444,2331 4478,2328 4485,2323 4489,2315 4503,2306 4508,2293 4509,2246 4503,2234 4460,2227 4296,2233 4217,2226 4081,2228 4031,2225 3926,2208 3878,2187 3838,2176 3662,2173 3621,2182 3614,2207 3612,2246" rendition="Line" xml:id="facs_12_tl_1758705798"/>
+        <zone points="4664,2533 4664,2354 4659,2346 4577,2345 4414,2373 4327,2382 4182,2380 4091,2357 4050,2352 4006,2353 3851,2393 3766,2399 3557,2391 3441,2395 3412,2406 3401,2417 3399,2426 3422,2514 3454,2533 3505,2543 3671,2550 4598,2559 4644,2556 4658,2547" rendition="Line" xml:id="facs_12_tl_1758705815"/>
+        <zone points="3381,2575 3385,2641 3394,2661 3447,2678 3527,2685 4587,2687 4920,2679 5030,2671 5257,2674 5276,2642 5250,2605 4962,2590 4276,2582 3971,2561 3704,2565 3468,2545 3395,2550 3386,2556" rendition="Line" xml:id="facs_12_tl_1758705824"/>
+        <zone points="5273,2951 5264,2889 5258,2867 4728,2838 4631,2791 4613,2787 4536,2783 4304,2793 3878,2798 3473,2793 3429,2795 3388,2805 3370,2820 3368,2831 3390,2871 3400,2913 3411,2936 3484,2974 3572,2967 4085,2979 4714,2981 4765,2977 5265,2963" rendition="Line" xml:id="facs_12_tl_1758705795"/>
+      </zone>
+    </surface>
+    <surface ulx="0" uly="0" lrx="5471" lry="4154" xml:id="facs_13">
+      <graphic url="WSTLA-OKA-B1-1-051-1_13.tif" width="5471px" height="4154px"/>
+      <graphic url="https://files.transkribus.eu/Get?id=ZIHHLMNBVJVCSCHGLUXRCHKN&amp;fileType=view" width="5471px" height="4154px"/>
+      <zone points="0,0 2735,0 2735,4154 0,4154" rendition="TextRegion" xml:id="facs_13_region_154714154">
+        <zone points="2155,643 2154,573 2145,559 2082,537 2028,525 1983,521 1877,520 1678,504 1561,503 1470,509 1335,527 1238,530 1048,516 826,510 773,528 764,540 761,564 764,605 795,627 804,641 827,650 875,655 2150,658" rendition="Line" xml:id="facs_13_tl_1758705870"/>
+        <zone points="799,651 2041,651 2041,737 799,737" rendition="Line" xml:id="facs_13_tl_1758705884"/>
+        <zone points="791,726 1518,726 2483,750 2490,779 2495,804 1518,822 791,822" rendition="Line" xml:id="facs_13_tl_1758705918"/>
+        <zone points="2499,830 2489,806 2383,804 2160,810 1455,807 820,824 771,832 765,862 772,873 767,879 780,887 862,894 1500,906 1957,904 2174,894 2118,891 2248,882 2314,882 2357,891 2350,894 2379,895 2433,886 2445,879 2490,871 2501,856" rendition="Line" xml:id="facs_13_tl_1758705928"/>
+        <zone points="803,897 804,940 811,945 837,947 960,947 1041,949 1225,948 1247,945 2481,929 2489,915 2483,889 2476,887 1275,900 1260,898 1255,895 1195,889 1061,885 845,885 809,887 805,890" rendition="Line" xml:id="facs_13_tl_1758705955"/>
+        <zone points="2505,937 2016,951 1490,939 1463,935 1206,932 1162,936 1136,929 1060,932 1039,937 1002,940 805,946 799,959 799,994 804,1003 831,1010 855,1012 1058,1011 1174,1014 1433,1002 2025,1006 2504,990" rendition="Line" xml:id="facs_13_tl_1758705891"/>
+        <zone points="820,1005 2030,988 2495,988 2495,1075 2030,1075 820,1066" rendition="Line" xml:id="facs_13_line_1758711318923_3663"/>
+        <zone points="818,1066 1347,1066 2498,1078 2501,1105 2489,1131 1347,1130 818,1130" rendition="Line" xml:id="facs_13_tl_1758705882"/>
+        <zone points="802,1127 1543,1127 2500,1133 2498,1167 2495,1186 1543,1194 802,1194" rendition="Line" xml:id="facs_13_tl_1758705902"/>
+        <zone points="818,1192 1458,1192 2503,1194 2504,1219 2497,1248 1458,1258 818,1258" rendition="Line" xml:id="facs_13_tl_1758705903"/>
+        <zone points="809,1257 1590,1257 2500,1260 2498,1289 2489,1317 1590,1331 809,1331" rendition="Line" xml:id="facs_13_tl_1758705875"/>
+        <zone points="822,1321 1300,1321 2491,1320 2503,1364 2502,1387 1300,1380 822,1380" rendition="Line" xml:id="facs_13_tl_1758705896"/>
+        <zone points="816,1381 1417,1381 2500,1406 2500,1463 2006,1463 816,1447" rendition="Line" xml:id="facs_13_line_1758711347316_3672"/>
+        <zone points="840,1449 1291,1449 2479,1466 2489,1487 2514,1510 2491,1526 1291,1504 840,1504" rendition="Line" xml:id="facs_13_tl_1758705932"/>
+        <zone points="829,1505 1511,1505 2492,1531 2492,1552 2486,1575 1511,1571 829,1571" rendition="Line" xml:id="facs_13_tl_1758705923"/>
+        <zone points="845,1575 870,1573 2014,1564 2379,1564 2379,1640 1689,1658 1218,1657 851,1637 831,1633 828,1623 828,1597 831,1583" rendition="Line" xml:id="facs_13_line_1758711361020_3678"/>
+        <zone points="832,1640 2018,1639 2374,1639 2374,1714 2018,1714 832,1700" rendition="Line" xml:id="facs_13_line_1758711364908_3682"/>
+        <zone points="819,1697 1277,1697 2522,1714 2530,1745 2520,1773 2052,1787 1277,1769 819,1769" rendition="Line" xml:id="facs_13_tl_1758705864"/>
+        <zone points="808,1768 2492,1766 2504,1767 2507,1770 2509,1775 2510,1831 2507,1845 2495,1846 2313,1846 808,1834" rendition="Line" xml:id="facs_13_line_1758711377581_3687"/>
+        <zone points="809,1835 1449,1835 2512,1848 2512,1864 2530,1883 2519,1903 1449,1901 809,1901" rendition="Line" xml:id="facs_13_tl_1758705925"/>
+        <zone points="804,1896 1416,1896 2524,1911 2530,1939 2528,1958 1416,1967 804,1967" rendition="Line" xml:id="facs_13_tl_1758705934"/>
+        <zone points="817,1965 1269,1965 2524,1971 2524,1996 2524,2023 1269,2029 817,2029" rendition="Line" xml:id="facs_13_tl_1758705892"/>
+        <zone points="821,2026 2035,2021 2432,2021 2432,2101 2035,2101 821,2084" rendition="Line" xml:id="facs_13_line_1758711394661_3695"/>
+        <zone points="795,2089 1508,2089 2538,2092 2548,2129 2548,2150 1508,2162 795,2162" rendition="Line" xml:id="facs_13_tl_1758705877"/>
+        <zone points="818,2156 1255,2156 2544,2165 2544,2217 1255,2221 818,2221" rendition="Line" xml:id="facs_13_line_1758711405157_3700"/>
+        <zone points="811,2223 1236,2223 2530,2237 2533,2271 2534,2288 1236,2287 811,2287" rendition="Line" xml:id="facs_13_tl_1758705917"/>
+        <zone points="805,2290 817,2287 1215,2286 1869,2288 2540,2295 2540,2360 2006,2360 822,2352 801,2345 800,2298" rendition="Line" xml:id="facs_13_line_1758711417205_3706"/>
+        <zone points="792,2350 1291,2350 2538,2381 2548,2403 2537,2435 1291,2413 792,2413" rendition="Line" xml:id="facs_13_tl_1758705905"/>
+        <zone points="791,2412 1274,2412 2524,2445 2542,2472 2535,2502 1274,2478 791,2478" rendition="Line" xml:id="facs_13_tl_1758705873"/>
+        <zone points="794,2474 1316,2474 2505,2499 2524,2507 2539,2551 1316,2542 794,2542" rendition="Line" xml:id="facs_13_tl_1758705895"/>
+        <zone points="792,2544 1282,2544 2530,2554 2532,2586 2538,2605 1282,2613 792,2613" rendition="Line" xml:id="facs_13_tl_1758705919"/>
+        <zone points="2536,2686 2541,2654 2523,2626 1353,2610 1351,2601 1347,2596 1314,2596 1303,2602 1282,2605 1156,2605 1014,2613 810,2616 795,2619 783,2624 779,2628 776,2642 777,2670 782,2674 864,2675 1349,2674 1352,2673 1353,2670" rendition="Line" xml:id="facs_13_tl_1758705900"/>
+        <zone points="781,2679 1274,2679 2533,2690 2539,2714 2539,2737 1274,2748 781,2748" rendition="Line" xml:id="facs_13_tl_1758705861"/>
+        <zone points="804,2747 1392,2747 2533,2750 2533,2814 2002,2814 804,2813" rendition="Line" xml:id="facs_13_line_1758711468701_3725"/>
+        <zone points="807,2812 1582,2812 2521,2823 2524,2853 2532,2873 1582,2878 807,2878" rendition="Line" xml:id="facs_13_tl_1758705887"/>
+        <zone points="790,2875 1667,2875 2530,2889 2539,2911 2536,2940 1667,2945 790,2945" rendition="Line" xml:id="facs_13_tl_1758705915"/>
+        <zone points="786,2941 1375,2941 2524,2943 2532,2962 2524,3000 1375,3001 786,3001" rendition="Line" xml:id="facs_13_tl_1758705890"/>
+        <zone points="783,2991 1585,2991 2520,3009 2520,3085 1585,3095 783,3095" rendition="Line" xml:id="facs_13_line_1758711472999_3729"/>
+        <zone points="868,3455 881,3466 907,3474 965,3479 1270,3487 1370,3487 1458,3481 1794,3484 1825,3476 1839,3465 1841,3398 1838,3388 1832,3383 1792,3373 1598,3368 1369,3370 1300,3362 1258,3347 1224,3329 1201,3296 1183,3283 1169,3256 1136,3230 1123,3225 1085,3223 1061,3227 1037,3236 1028,3263 1006,3285 997,3304 950,3346 898,3386 869,3435" rendition="Line" xml:id="facs_13_tl_1758705909"/>
+      </zone>
+      <zone points="2736,0 5471,0 5471,4154 2736,4154" rendition="TextRegion" xml:id="facs_13_region_254714154">
+        <zone points="3282,505 3285,576 3295,601 3290,607 3292,621 3304,633 3370,643 4042,641 4407,646 4484,653 4837,652 5024,644 5092,634 5107,601 5092,581 5034,572 4758,573 4515,584 4105,585 3575,542 3494,523 3456,504 3382,487 3307,485 3288,492" rendition="Line" xml:id="facs_13_tl_1758705951"/>
+        <zone points="3358,655 3359,690 3366,698 3481,705 4210,693 4534,695 5080,695 5097,687 5081,657 5077,641 4703,648 4530,644 4384,647 4209,639 3398,642 3368,645" rendition="Line" xml:id="facs_13_tl_1758705933"/>
+        <zone points="3366,722 3372,736 3390,745 3378,748 3428,760 3485,763 4148,751 4822,752 5091,754 5088,743 5079,706 5065,705 4854,702 4556,706 4237,708 3739,702 3426,708 3382,712" rendition="Line" xml:id="facs_13_tl_1758705949"/>
+        <zone points="3388,785 3390,806 3395,814 3445,823 3923,829 4116,825 4316,832 4547,832 4621,824 5070,820 5080,811 5109,775 5097,758 4607,772 4557,770 4326,772 3926,766 3653,770 3452,768 3399,771 3390,776" rendition="Line" xml:id="facs_13_tl_1758705929"/>
+        <zone points="5102,845 5101,834 4587,824 4553,822 4386,828 3932,831 3872,827 3468,829 3426,832 3413,837 3408,843 3409,873 3416,884 3452,890 3867,887 3982,878 4019,883 4408,884 4451,889 4544,890 4584,887 5088,886 5099,873" rendition="Line" xml:id="facs_13_tl_1758705947"/>
+        <zone points="3408,895 3950,895 5099,907 5097,955 5086,953 3950,955 3408,955" rendition="Line" xml:id="facs_13_tl_1758705897"/>
+        <zone points="3403,955 4593,950 4995,950 4995,1037 4593,1037 3403,1024" rendition="Line" xml:id="facs_13_line_1758711534907_3760"/>
+        <zone points="3399,1021 4042,1021 5088,1028 5094,1042 5099,1077 4042,1090 3399,1090" rendition="Line" xml:id="facs_13_tl_1758705869"/>
+        <zone points="3404,1083 3992,1083 5107,1080 5107,1093 5105,1127 3992,1153 3404,1153" rendition="Line" xml:id="facs_13_tl_1758705894"/>
+        <zone points="4990,1170 4978,1137 4922,1131 3860,1146 3404,1159 3380,1168 3377,1198 3382,1211 3404,1216 3955,1230 4878,1229 4939,1211 4969,1208 4987,1194" rendition="Line" xml:id="facs_13_tl_1758705938"/>
+        <zone points="3403,1228 3403,1272 3408,1278 3486,1284 3527,1291 3586,1292 3627,1289 3760,1288 3777,1285 3899,1284 3908,1281 5102,1281 5097,1222 5091,1212 3893,1220 3542,1217 3412,1219 3407,1221" rendition="Line" xml:id="facs_13_tl_1758705904"/>
+        <zone points="3398,1280 3926,1280 5119,1291 5119,1361 4570,1361 3398,1350" rendition="Line" xml:id="facs_13_line_1758711560785_3769"/>
+        <zone points="3401,1348 3954,1348 5099,1359 5109,1423 3954,1421 3401,1421" rendition="Line" xml:id="facs_13_tl_1758705926"/>
+        <zone points="3375,1415 3855,1415 5114,1428 5111,1456 5111,1485 3855,1478 3375,1478" rendition="Line" xml:id="facs_13_tl_1758705916"/>
+        <zone points="3397,1478 4592,1470 4982,1470 4982,1558 4592,1558 3397,1546" rendition="Line" xml:id="facs_13_line_1758711582199_3775"/>
+        <zone points="3395,1561 3408,1555 3438,1551 4196,1542 5116,1559 5106,1617 4583,1631 3538,1615 3405,1607 3396,1604 3393,1600" rendition="Line" xml:id="facs_13_line_1758711595225_3779"/>
+        <zone points="3395,1619 3396,1666 3406,1671 3429,1674 3658,1674 3717,1678 4072,1678 4162,1673 4174,1681 5257,1668 5271,1640 5268,1622 4158,1627 4139,1624 4091,1624 4082,1620 4006,1619 3938,1614 3618,1615 3472,1611 3407,1611 3398,1614" rendition="Line" xml:id="facs_13_tl_1758705940"/>
+        <zone points="3404,1675 4101,1675 4982,1688 4982,1771 4609,1772 3404,1752" rendition="Line" xml:id="facs_13_line_1758711618017_3786"/>
+        <zone points="3406,1740 4126,1740 4995,1760 5113,1745 5129,1801 4659,1821 4126,1809 3406,1809" rendition="Line" xml:id="facs_13_tl_1758705911"/>
+        <zone points="3408,1806 4019,1806 5103,1818 5124,1847 5121,1877 4867,1894 4019,1876 3408,1876" rendition="Line" xml:id="facs_13_tl_1758705860"/>
+        <zone points="3398,1876 4116,1876 5120,1898 5117,1933 5113,1944 4116,1946 3398,1946" rendition="Line" xml:id="facs_13_tl_1758705920"/>
+        <zone points="3402,1944 4235,1944 4905,1962 5119,1970 5125,2018 4865,2031 4235,2016 3402,2016" rendition="Line" xml:id="facs_13_tl_1758705910"/>
+        <zone points="3388,2018 3388,2072 3399,2078 3560,2079 3842,2089 3967,2090 4114,2089 4124,2086 5106,2097 5137,2092 5154,2058 5130,2041 5104,2033 4127,2028 4116,2020 3794,2018 3458,2012 3400,2013" rendition="Line" xml:id="facs_13_tl_1758705886"/>
+        <zone points="3371,2128 3374,2140 3398,2145 3506,2144 3573,2149 3691,2151 3809,2162 4088,2161 5131,2165 5132,2110 4084,2089 4074,2087 3636,2081 3435,2082 3407,2084 3396,2087 3387,2098 3378,2119" rendition="Line" xml:id="facs_13_tl_1758705880"/>
+        <zone points="3398,2141 3826,2141 5131,2176 5137,2202 5139,2225 3826,2213 3398,2213" rendition="Line" xml:id="facs_13_tl_1758705883"/>
+        <zone points="3406,2211 3815,2211 5125,2235 5137,2262 5135,2286 5124,2296 3815,2279 3406,2279" rendition="Line" xml:id="facs_13_tl_1758705912"/>
+        <zone points="3402,2275 3804,2275 5139,2305 5143,2329 5133,2361 3804,2348 3402,2348" rendition="Line" xml:id="facs_13_tl_1758705921"/>
+        <zone points="5129,2417 5133,2382 5122,2373 5113,2366 4101,2354 4095,2341 4075,2334 4012,2334 3948,2339 3813,2338 3591,2349 3408,2352 3386,2359 3378,2365 3376,2371 3376,2395 3380,2402 3398,2407 3475,2412 4091,2413 4101,2412 4103,2409" rendition="Line" xml:id="facs_13_tl_1758705913"/>
+        <zone points="3384,2413 4176,2413 5139,2425 5143,2465 5144,2492 4652,2486 4176,2486 3384,2486" rendition="Line" xml:id="facs_13_tl_1758705893"/>
+        <zone points="3373,2482 4063,2482 5140,2503 5139,2544 5104,2558 4646,2557 4063,2555 3373,2555" rendition="Line" xml:id="facs_13_tl_1758705871"/>
+        <zone points="3378,2555 3997,2555 5105,2562 5130,2582 5129,2613 5059,2629 3997,2626 3378,2626" rendition="Line" xml:id="facs_13_tl_1758705867"/>
+        <zone points="3400,2623 4003,2623 5129,2637 5134,2673 5127,2697 4003,2696 3400,2696" rendition="Line" xml:id="facs_13_tl_1758705866"/>
+        <zone points="3388,2693 4017,2693 5133,2713 5131,2771 4017,2758 3388,2758" rendition="Line" xml:id="facs_13_tl_1758705872"/>
+        <zone points="5138,2834 5136,2811 5135,2788 5118,2777 4171,2765 4167,2760 4147,2755 3884,2756 3540,2763 3448,2762 3406,2765 3387,2770 3381,2787 3381,2802 3386,2813 3417,2821 3519,2824 3597,2831 4158,2831 4168,2828 4173,2820" rendition="Line" xml:id="facs_13_tl_1758705863"/>
+        <zone points="3381,2826 4094,2826 5139,2845 5133,2906 4094,2902 3381,2902" rendition="Line" xml:id="facs_13_tl_1758705858"/>
+        <zone points="3385,2901 4053,2901 5138,2916 5141,2929 5143,2978 4053,2969 3385,2969" rendition="Line" xml:id="facs_13_tl_1758705874"/>
+        <zone points="3389,2967 4017,2967 5128,2982 5141,3006 5135,3040 4017,3040 3389,3040" rendition="Line" xml:id="facs_13_tl_1758705859"/>
+        <zone points="3400,3029 3932,3029 5135,3049 5139,3094 5129,3128 3932,3120 3400,3120" rendition="Line" xml:id="facs_13_tl_1758705862"/>
+        <zone points="3311,3467 3330,3495 3348,3506 3433,3507 3689,3478 3771,3476 3910,3487 4026,3486 4108,3494 4169,3504 4194,3515 4222,3534 4261,3534 4304,3517 4347,3482 4353,3460 4354,3405 4351,3389 4345,3383 4299,3370 3990,3372 3905,3364 3867,3352 3833,3334 3810,3316 3764,3298 3736,3270 3722,3262 3703,3239 3678,3231 3649,3228 3600,3244 3589,3264 3569,3277 3547,3305 3528,3314 3512,3332 3459,3363 3435,3383 3341,3426 3314,3458" rendition="Line" xml:id="facs_13_tl_1758705907"/>
+      </zone>
+    </surface>
+    <surface ulx="0" uly="0" lrx="5482" lry="4175" xml:id="facs_14">
+      <graphic url="WSTLA-OKA-B1-1-051-1_14.tif" width="5482px" height="4175px"/>
+      <graphic url="https://files.transkribus.eu/Get?id=GPWRFLYXFALKAGLILODWTYUR&amp;fileType=view" width="5482px" height="4175px"/>
+      <zone points="0,0 2741,0 2741,4175 0,4175" rendition="TextRegion" xml:id="facs_14_region_154824175">
+        <zone points="2231,528 2225,507 2208,499 1228,514 889,511 841,519 833,531 831,547 834,586 844,604 905,612 1280,619 2157,618 2207,608 2226,593 2231,575" rendition="Line" xml:id="facs_14_tl_1758705874"/>
+        <zone points="859,607 1343,607 2551,594 2560,613 2561,641 1343,667 859,667" rendition="Line" xml:id="facs_14_tl_1758705853"/>
+        <zone points="844,667 1387,667 2547,657 2553,668 2559,697 1387,726 844,726" rendition="Line" xml:id="facs_14_tl_1758705864"/>
+        <zone points="2566,764 2563,745 2557,720 1442,726 1439,722 1434,720 1402,720 1374,722 1219,723 1084,729 907,733 867,742 862,748 860,754 860,777 863,785 870,790 888,793 927,795 1088,796 1210,794 1275,797 1434,797 1439,796 1442,792" rendition="Line" xml:id="facs_14_tl_1758705832"/>
+        <zone points="884,796 897,793 1025,795 1063,793 1218,791 1252,794 1264,798 1273,799 1277,803 2576,780 2576,830 1270,857 1261,859 1079,860 1052,858 917,856 890,852 882,846 882,834 880,827 880,803" rendition="Line" xml:id="facs_14_line_1758782682797_83"/>
+        <zone points="2560,876 2558,845 1415,853 1400,849 1192,855 1153,858 1143,862 1060,857 905,857 889,860 878,866 876,882 876,910 881,921 887,924 903,927 1113,927 1195,922 1279,922 1312,925 1367,925 1408,920 1424,915 2560,904" rendition="Line" xml:id="facs_14_tl_1758705837"/>
+        <zone points="880,919 1516,919 2563,916 2582,933 2570,965 1516,988 880,988" rendition="Line" xml:id="facs_14_tl_1758705840"/>
+        <zone points="868,985 1597,985 2557,987 2563,1031 1597,1057 868,1057" rendition="Line" xml:id="facs_14_tl_1758705904"/>
+        <zone points="2559,1088 2559,1052 1678,1067 1676,1059 1668,1053 1642,1051 1317,1053 910,1060 897,1068 897,1112 899,1115 910,1119 1036,1125 1276,1123 1552,1129 1629,1127 1661,1124 1674,1120 1678,1102" rendition="Line" xml:id="facs_14_tl_1758705854"/>
+        <zone points="891,1118 1534,1118 2561,1117 2568,1159 1534,1190 891,1190" rendition="Line" xml:id="facs_14_tl_1758705880"/>
+        <zone points="884,1185 1241,1185 2565,1190 2565,1236 1241,1252 884,1252" rendition="Line" xml:id="facs_14_tl_1758705816"/>
+        <zone points="882,1249 2512,1237 2545,1238 2549,1241 2552,1249 2552,1318 2550,1328 2546,1332 2467,1332 2073,1331 882,1324" rendition="Line" xml:id="facs_14_line_1758782530507_15"/>
+        <zone points="894,1318 1440,1318 2568,1330 2574,1376 1440,1389 894,1389" rendition="Line" xml:id="facs_14_tl_1758705819"/>
+        <zone points="886,1388 2478,1374 2536,1375 2560,1385 2564,1430 2564,1447 2562,1454 2538,1456 2532,1457 2078,1457 886,1455" rendition="Line" xml:id="facs_14_line_1758782533864_19"/>
+        <zone points="865,1452 1599,1452 2566,1462 2570,1516 1599,1526 865,1526" rendition="Line" xml:id="facs_14_tl_1758705838"/>
+        <zone points="865,1521 1592,1521 2563,1530 2570,1584 1592,1594 865,1594" rendition="Line" xml:id="facs_14_tl_1758705863"/>
+        <zone points="890,1595 1513,1595 2570,1590 2580,1648 1513,1665 890,1665" rendition="Line" xml:id="facs_14_tl_1758705860"/>
+        <zone points="884,1660 1471,1660 2575,1658 2588,1718 1471,1730 884,1730" rendition="Line" xml:id="facs_14_tl_1758705858"/>
+        <zone points="865,1726 1661,1726 2577,1731 2585,1750 2585,1788 1661,1795 865,1795" rendition="Line" xml:id="facs_14_tl_1758705882"/>
+        <zone points="848,1791 1868,1791 2580,1800 2583,1816 2585,1851 1868,1868 848,1868" rendition="Line" xml:id="facs_14_tl_1758705889"/>
+        <zone points="881,1869 2583,1869 2583,1926 881,1926" rendition="Line" xml:id="facs_14_line_1758782706786_106"/>
+        <zone points="2579,1942 1824,1937 1805,1930 1679,1933 915,1934 898,1937 890,1944 889,1993 895,1999 912,2002 1281,2018 1788,2018 1810,2015 1819,2008 2578,1999 2577,1984 2579,1962" rendition="Line" xml:id="facs_14_tl_1758705855"/>
+        <zone points="894,2005 1246,2005 2573,2013 2575,2028 2572,2062 1246,2070 894,2070" rendition="Line" xml:id="facs_14_tl_1758705883"/>
+        <zone points="868,2068 1462,2068 2578,2083 2575,2135 1462,2140 868,2140" rendition="Line" xml:id="facs_14_tl_1758705859"/>
+        <zone points="871,2141 1460,2141 2585,2150 2592,2207 1460,2212 871,2212" rendition="Line" xml:id="facs_14_tl_1758705827"/>
+        <zone points="875,2209 1467,2209 2570,2220 2573,2248 2577,2285 1467,2280 875,2280" rendition="Line" xml:id="facs_14_tl_1758705833"/>
+        <zone points="876,2278 1476,2278 2560,2293 2567,2327 2567,2357 1476,2353 876,2353" rendition="Line" xml:id="facs_14_tl_1758705815"/>
+        <zone points="881,2351 1411,2351 2562,2360 2565,2411 1411,2424 881,2424" rendition="Line" xml:id="facs_14_tl_1758705812"/>
+        <zone points="872,2419 1365,2419 2567,2427 2571,2461 2571,2488 1365,2473 872,2473" rendition="Line" xml:id="facs_14_tl_1758705892"/>
+        <zone points="2577,2523 2571,2500 1447,2479 1444,2468 1437,2465 1371,2465 1298,2469 1138,2470 990,2477 912,2478 872,2481 864,2486 862,2492 862,2535 863,2537 869,2538 1435,2538 2576,2560 2582,2553" rendition="Line" xml:id="facs_14_tl_1758705846"/>
+        <zone points="859,2541 1553,2541 2577,2567 2577,2594 2574,2630 1553,2610 859,2610" rendition="Line" xml:id="facs_14_tl_1758705826"/>
+        <zone points="861,2610 1599,2610 2579,2632 2583,2664 2577,2691 1599,2678 861,2678" rendition="Line" xml:id="facs_14_tl_1758705870"/>
+        <zone points="868,2672 1411,2672 2581,2707 2583,2731 2583,2770 1411,2737 868,2737" rendition="Line" xml:id="facs_14_tl_1758705817"/>
+        <zone points="870,2735 1395,2735 2564,2758 2565,2770 2572,2806 1395,2798 870,2798" rendition="Line" xml:id="facs_14_tl_1758705878"/>
+        <zone points="2575,2883 2575,2843 2569,2823 1547,2789 1523,2786 1497,2791 1324,2791 1147,2797 1042,2803 899,2801 866,2805 861,2808 857,2815 857,2825 865,2848 888,2859 927,2863 1546,2863 1554,2859" rendition="Line" xml:id="facs_14_tl_1758705830"/>
+        <zone points="858,2862 1478,2862 2565,2883 2571,2903 2571,2937 1478,2930 858,2930" rendition="Line" xml:id="facs_14_tl_1758705824"/>
+        <zone points="866,2927 1453,2927 2572,2949 2571,2967 2571,2994 1453,2994 866,2994" rendition="Line" xml:id="facs_14_tl_1758705836"/>
+        <zone points="868,2993 1393,2993 2576,3008 2576,3030 2577,3057 1393,3058 868,3058" rendition="Line" xml:id="facs_14_tl_1758705822"/>
+        <zone points="840,3057 1581,3057 2574,3076 2562,3125 1581,3134 840,3134" rendition="Line" xml:id="facs_14_tl_1758705842"/>
+        <zone points="1621,3185 2581,3183 2576,3127 1620,3131 1616,3122 1610,3118 1281,3130 893,3126 868,3133 861,3138 859,3144 859,3162 863,3176 873,3183 896,3191 1611,3192 1619,3191" rendition="Line" xml:id="facs_14_tl_1758705856"/>
+        <zone points="854,3192 1541,3192 2569,3197 2574,3255 1541,3258 854,3258" rendition="Line" xml:id="facs_14_tl_1758705893"/>
+        <zone points="862,3249 1494,3249 2583,3260 2593,3324 1494,3336 862,3336" rendition="Line" xml:id="facs_14_tl_1758705828"/>
+        <zone points="961,3577 962,3594 972,3607 1036,3615 1335,3617 1482,3612 1718,3610 1793,3603 1812,3598 1818,3592 1822,3581 1822,3509 1817,3496 1809,3492 1791,3490 1693,3495 1609,3495 1516,3490 1408,3500 1371,3500 1322,3495 1271,3479 1241,3456 1227,3427 1198,3411 1161,3403 1126,3403 1085,3418 1071,3437 1056,3445 1044,3465 1030,3474 1005,3503 990,3513 971,3532" rendition="Line" xml:id="facs_14_tl_1758705861"/>
+      </zone>
+      <zone points="2741,0 5482,0 5482,4175 2741,4175" rendition="TextRegion" xml:id="facs_14_region_254824175">
+        <zone points="3458,614 3468,629 3524,633 4055,632 4239,621 4689,622 5123,602 5142,590 5138,563 5133,545 4950,558 4106,561 3902,556 3581,557 3508,561 3480,567 3459,592" rendition="Line" xml:id="facs_14_tl_1758705901"/>
+        <zone points="5137,619 5127,606 4706,632 3438,637 3422,644 3420,683 3425,691 3439,695 3569,699 3964,694 4170,686 4523,684 4576,688 5126,655 5146,639" rendition="Line" xml:id="facs_14_tl_1758705902"/>
+        <zone points="3420,696 3988,696 5137,662 5141,707 3988,759 3420,759" rendition="Line" xml:id="facs_14_tl_1758705881"/>
+        <zone points="5056,783 5146,771 5137,717 4004,766 4003,762 3998,758 3975,756 3800,759 3682,764 3551,765 3534,767 3450,766 3420,769 3416,772 3414,777 3414,809 3416,816 3421,820 3435,823 3620,824 3787,820 3925,822 3984,821 3998,819 4004,813" rendition="Line" xml:id="facs_14_tl_1758705873"/>
+        <zone points="3398,822 4070,822 5137,785 5139,799 5139,841 4070,891 3398,891" rendition="Line" xml:id="facs_14_tl_1758705847"/>
+        <zone points="3391,890 4186,890 5145,846 5150,859 5148,908 4186,968 3391,968" rendition="Line" xml:id="facs_14_tl_1758705831"/>
+        <zone points="3412,962 4020,962 5150,917 5155,944 5154,969 5136,991 4020,1030 3412,1030" rendition="Line" xml:id="facs_14_tl_1758705872"/>
+        <zone points="3427,1026 3896,1026 5154,991 5139,1041 5121,1052 3896,1091 3427,1091" rendition="Line" xml:id="facs_14_tl_1758705818"/>
+        <zone points="3423,1090 3959,1090 4742,1079 5148,1050 5164,1108 4721,1146 3959,1150 3423,1150" rendition="Line" xml:id="facs_14_tl_1758705869"/>
+        <zone points="3412,1148 4102,1164 4739,1146 5124,1108 5124,1208 4053,1221 3412,1221" rendition="Line" xml:id="facs_14_line_1758782546526_23"/>
+        <zone points="3426,1220 3925,1220 5157,1196 5163,1251 3925,1284 3426,1284" rendition="Line" xml:id="facs_14_tl_1758705879"/>
+        <zone points="5157,1317 5164,1269 5159,1258 3948,1288 3946,1281 3943,1278 3936,1276 3889,1276 3819,1280 3668,1284 3605,1283 3448,1287 3423,1292 3411,1300 3407,1314 3407,1343 3411,1347 3943,1347 3946,1346 3948,1339" rendition="Line" xml:id="facs_14_tl_1758705877"/>
+        <zone points="3414,1352 3926,1352 5157,1312 5173,1371 4703,1399 3926,1415 3414,1415" rendition="Line" xml:id="facs_14_tl_1758705871"/>
+        <zone points="4742,1467 5173,1440 5159,1379 4172,1418 4168,1414 4161,1411 3770,1413 3597,1421 3427,1423 3402,1427 3390,1432 3387,1442 3387,1465 3389,1468 3388,1478 3395,1483 3444,1488 3731,1499 4159,1500 4169,1499 4173,1492" rendition="Line" xml:id="facs_14_tl_1758705844"/>
+        <zone points="3396,1486 3867,1486 5168,1445 5188,1498 5179,1519 3867,1553 3396,1553" rendition="Line" xml:id="facs_14_tl_1758705894"/>
+        <zone points="5157,1583 5175,1561 5168,1530 4011,1544 4008,1539 3943,1538 3631,1547 3607,1551 3572,1553 3439,1554 3419,1558 3406,1567 3403,1578 3402,1604 3406,1612 3418,1614 4005,1614 4010,1612 4012,1603" rendition="Line" xml:id="facs_14_tl_1758705865"/>
+        <zone points="3408,1618 3914,1618 5168,1584 5175,1642 5168,1653 3914,1683 3408,1683" rendition="Line" xml:id="facs_14_tl_1758705868"/>
+        <zone points="3413,1680 4041,1680 5170,1658 5170,1675 5163,1709 5130,1727 4041,1757 3413,1757" rendition="Line" xml:id="facs_14_tl_1758705814"/>
+        <zone points="3415,1750 3944,1750 5179,1729 5179,1777 5173,1792 3944,1819 3415,1819" rendition="Line" xml:id="facs_14_tl_1758705821"/>
+        <zone points="4024,1869 5162,1863 5188,1840 5174,1803 4023,1830 4021,1821 4015,1816 4002,1814 3862,1816 3709,1823 3440,1821 3423,1824 3413,1830 3415,1832 3414,1835 3421,1861 3419,1864 3421,1877 3417,1880 3422,1883 4004,1883 4013,1882 4021,1878" rendition="Line" xml:id="facs_14_tl_1758705834"/>
+        <zone points="3423,1884 3994,1884 5179,1873 5186,1922 5183,1942 3994,1959 3423,1959" rendition="Line" xml:id="facs_14_tl_1758705829"/>
+        <zone points="3415,1956 3935,1956 5185,1946 5183,1992 4788,2010 3935,2021 3415,2021" rendition="Line" xml:id="facs_14_tl_1758705839"/>
+        <zone points="3423,2022 3870,2022 5188,2009 5188,2046 5185,2066 3870,2092 3423,2092" rendition="Line" xml:id="facs_14_tl_1758705891"/>
+        <zone points="3416,2079 4107,2079 5188,2085 5200,2115 5197,2144 4107,2152 3416,2152" rendition="Line" xml:id="facs_14_tl_1758705884"/>
+        <zone points="3410,2146 3957,2146 5193,2151 5192,2200 3957,2215 3410,2215" rendition="Line" xml:id="facs_14_tl_1758705866"/>
+        <zone points="3419,2208 3958,2208 5195,2217 5198,2256 5188,2276 3958,2270 3419,2270" rendition="Line" xml:id="facs_14_tl_1758705851"/>
+        <zone points="3434,2270 3898,2270 5188,2278 5202,2325 5195,2344 3898,2335 3434,2335" rendition="Line" xml:id="facs_14_tl_1758705862"/>
+        <zone points="3427,2332 3965,2332 5200,2344 5214,2398 3965,2413 3427,2413" rendition="Line" xml:id="facs_14_tl_1758705825"/>
+        <zone points="3428,2396 3863,2396 5185,2407 5203,2451 5183,2466 3863,2463 3428,2463" rendition="Line" xml:id="facs_14_tl_1758705885"/>
+        <zone points="3428,2469 3440,2465 3477,2460 3862,2448 5069,2456 5069,2540 4696,2540 3443,2517 3434,2516 3428,2477" rendition="Line" xml:id="facs_14_line_1758782556690_27"/>
+        <zone points="3443,2526 3864,2526 5193,2537 5200,2586 4964,2595 3864,2584 3443,2584" rendition="Line" xml:id="facs_14_tl_1758705876"/>
+        <zone points="3438,2584 3966,2584 5180,2593 5197,2634 5192,2653 3966,2645 3438,2645" rendition="Line" xml:id="facs_14_tl_1758705848"/>
+        <zone points="3429,2646 4005,2646 5197,2654 5227,2693 5202,2710 4005,2708 3429,2708" rendition="Line" xml:id="facs_14_tl_1758705867"/>
+        <zone points="3429,2711 3967,2711 5185,2714 5215,2747 5203,2766 3967,2775 3429,2775" rendition="Line" xml:id="facs_14_tl_1758705823"/>
+        <zone points="5201,2773 4032,2776 4026,2769 4002,2766 3978,2768 3883,2769 3729,2777 3554,2778 3441,2782 3421,2785 3414,2789 3411,2796 3410,2825 3411,2836 3413,2838 4011,2837 4025,2835 5196,2833 5201,2806" rendition="Line" xml:id="facs_14_tl_1758705849"/>
+        <zone points="3410,2837 4098,2837 5201,2833 5211,2875 5199,2900 4098,2917 3410,2917" rendition="Line" xml:id="facs_14_tl_1758705820"/>
+        <zone points="3436,2911 3910,2911 5203,2907 5208,2940 5198,2969 3910,2974 3436,2974" rendition="Line" xml:id="facs_14_tl_1758705857"/>
+        <zone points="5192,3036 5217,3012 5220,2973 4327,2971 4323,2959 4300,2955 4081,2956 3886,2963 3684,2976 3456,2980 3436,2982 3425,2988 3427,3017 3424,3021 3426,3030 3436,3036 3498,3041 4319,3044 4324,3042 4327,3032" rendition="Line" xml:id="facs_14_tl_1758705888"/>
+        <zone points="3413,3038 3870,3038 5216,3044 5212,3084 5170,3105 4750,3113 3870,3104 3413,3104" rendition="Line" xml:id="facs_14_tl_1758705845"/>
+        <zone points="3427,3103 4737,3107 4920,3109 4942,3110 5028,3099 5039,3105 5040,3108 5044,3143 5044,3156 5041,3164 5039,3166 5033,3167 4706,3167 3427,3164" rendition="Line" xml:id="facs_14_line_1758782566024_35"/>
+        <zone points="3438,3162 3995,3162 5125,3173 5125,3250 4711,3250 3438,3227" rendition="Line" xml:id="facs_14_line_1758782562536_31"/>
+        <zone points="3433,3227 3907,3227 4964,3237 5203,3220 5212,3264 4964,3291 4763,3286 4564,3270 3907,3286 3433,3286" rendition="Line" xml:id="facs_14_tl_1758705890"/>
+        <zone points="4763,3297 4757,3290 4723,3280 4028,3259 3920,3266 3877,3273 3624,3279 3435,3292 3416,3301 3415,3337 3428,3345 4724,3333 4761,3330 4779,3324 4773,3319" rendition="Line" xml:id="facs_14_tl_1758705895"/>
+        <zone points="5211,3311 4817,3334 4800,3328 3554,3345 3443,3353 3425,3366 3424,3403 3429,3417 3450,3419 4751,3417 5195,3376 5214,3363 5211,3346" rendition="Line" xml:id="facs_14_tl_1758705886"/>
+        <zone points="4335,3568 4330,3552 4312,3528 4295,3514 4269,3505 4244,3500 4190,3498 4133,3509 4108,3519 4007,3547 3955,3553 3891,3553 3841,3546 3812,3537 3760,3511 3734,3501 3710,3499 3679,3501 3667,3507 3645,3526 3632,3545 3619,3557 3614,3569 3613,3581 3599,3606 3601,3612 3596,3619 3592,3641 3597,3652 3620,3656 3655,3657 3918,3656 4183,3649 4302,3651 4327,3644 4335,3634" rendition="Line" xml:id="facs_14_tl_1758705887"/>
+      </zone>
+    </surface>
+    <surface ulx="0" uly="0" lrx="5497" lry="4167" xml:id="facs_15">
+      <graphic url="WSTLA-OKA-B1-1-051-1_15.tif" width="5497px" height="4167px"/>
+      <graphic url="https://files.transkribus.eu/Get?id=KQYVLZFALUNDBQRGLJDSCWEP&amp;fileType=view" width="5497px" height="4167px"/>
+      <zone points="0,0 2748,0 2748,4167 0,4167" rendition="TextRegion" xml:id="facs_15_region_154974167">
+        <zone points="984,482 984,534 989,562 1005,574 1037,582 1481,578 2017,579 2054,571 2066,561 2071,547 2071,495 2068,483 2055,475 2022,470 1674,464 1467,465 1359,481 1273,483 1235,481 1143,466 1080,444 1031,438 996,446 988,459" rendition="Line" xml:id="facs_15_tl_1758705878"/>
+        <zone points="1038,574 1392,574 1392,654 1038,654" rendition="Line" xml:id="facs_15_tl_1758705856"/>
+        <zone points="759,650 780,637 821,636 2172,607 2207,608 2492,645 2515,648 2521,652 2525,661 2525,731 2523,736 2513,738 1083,743 780,742 761,738 752,730 751,713 751,678 753,663" rendition="Line" xml:id="facs_15_line_1758782963249_214"/>
+        <zone points="776,734 1308,734 2545,735 2549,785 2087,801 1308,796 776,796" rendition="Line" xml:id="facs_15_tl_1758705873"/>
+        <zone points="785,794 1286,794 2548,794 2556,835 2550,853 1286,855 785,855" rendition="Line" xml:id="facs_15_tl_1758705880"/>
+        <zone points="786,862 813,857 996,851 1138,847 1319,843 2497,847 2518,850 2528,854 2551,860 2552,885 2547,898 2525,905 2494,900 1170,918 784,918 779,917 778,876 780,868" rendition="Line" xml:id="facs_15_line_1758782966911_218"/>
+        <zone points="784,933 822,928 990,920 1449,909 2066,903 2552,902 2552,963 1486,986 843,985 788,982 779,976 777,969 777,944" rendition="Line" xml:id="facs_15_line_1758782971999_222"/>
+        <zone points="782,992 790,986 817,984 1026,978 2064,967 2545,968 2545,1036 838,1042 787,1041 781,1036 780,1033 780,1000" rendition="Line" xml:id="facs_15_line_1758782978019_226"/>
+        <zone points="779,1035 1490,1035 2552,1038 2560,1082 1490,1104 779,1104" rendition="Line" xml:id="facs_15_tl_1758705872"/>
+        <zone points="788,1103 1441,1103 2562,1094 2579,1146 1441,1173 788,1173" rendition="Line" xml:id="facs_15_tl_1758705858"/>
+        <zone points="786,1168 1339,1168 2555,1155 2573,1212 1339,1234 786,1234" rendition="Line" xml:id="facs_15_tl_1758705852"/>
+        <zone points="2565,1295 2581,1268 2570,1220 1321,1240 1316,1235 1297,1233 1197,1235 1050,1235 975,1240 815,1240 798,1243 792,1249 792,1294 794,1299 798,1302 817,1305 907,1305 1001,1296 1202,1298 1219,1300 1297,1299 1314,1295 1320,1289" rendition="Line" xml:id="facs_15_tl_1758705857"/>
+        <zone points="786,1297 1289,1297 2562,1298 2563,1328 2547,1357 1289,1359 786,1359" rendition="Line" xml:id="facs_15_tl_1758705875"/>
+        <zone points="2552,1391 2559,1373 2559,1359 1356,1355 1346,1349 1335,1348 1207,1349 1104,1355 871,1358 856,1360 826,1360 790,1364 785,1367 782,1375 781,1403 785,1418 811,1420 1309,1419 1332,1418 1355,1413 2552,1411" rendition="Line" xml:id="facs_15_tl_1758705865"/>
+        <zone points="799,1413 1470,1413 2552,1417 2560,1441 2566,1482 1470,1510 799,1510" rendition="Line" xml:id="facs_15_tl_1758705854"/>
+        <zone points="1101,1883 1095,1924 1096,1968 1098,1978 1107,1994 1116,2004 1135,2011 1174,2012 1272,2009 1337,2005 1376,1999 1456,2002 1493,2010 1513,2012 1543,2011 1574,2006 1614,2005 1633,1998 1638,1994 1640,1986 1640,1916 1638,1909 1632,1905 1602,1903 1568,1906 1533,1913 1494,1915 1454,1912 1395,1899 1318,1895 1294,1888 1273,1878 1261,1869 1251,1859 1246,1848 1245,1837 1239,1825 1222,1810 1202,1804 1180,1803 1137,1816 1118,1839 1114,1855" rendition="Line" xml:id="facs_15_tl_1758705881"/>
+        <zone points="700,2555 702,2568 725,2607 729,2624 722,2632 732,2649 754,2662 798,2668 1805,2666 1961,2661 1998,2656 2013,2645 2013,2602 2009,2595 1995,2589 1757,2566 1665,2564 1426,2573 1221,2569 1084,2553 1001,2528 934,2516 751,2518 710,2532" rendition="Line" xml:id="facs_15_tl_1758705855"/>
+        <zone points="780,2647 1553,2647 1553,2744 780,2744" rendition="Line" xml:id="facs_15_tl_1758705868"/>
+      </zone>
+      <zone points="2749,0 5497,0 5497,4167 2749,4167" rendition="TextRegion" xml:id="facs_15_region_254974167">
+        <zone points="4644,504 4636,483 4624,476 4581,465 4533,465 4489,456 4470,430 4463,354 4458,338 4447,326 4414,320 4316,322 4305,325 4291,351 4267,367 4249,392 4236,402 4185,411 4100,414 4053,430 4037,439 4029,456 4002,475 3977,503 3922,521 3876,527 3778,529 3697,526 3535,507 3478,512 3424,560 3419,580 3419,637 3424,650 3432,656 3477,666 3874,670 4070,681 4358,679 4576,658 4634,637 4642,623" rendition="Line" xml:id="facs_15_tl_1758705869"/>
+        <zone points="3395,717 3398,787 3410,796 3443,800 3853,800 4478,792 4635,781 4651,777 4657,771 4657,735 4652,726 4595,715 3900,709 3743,693 3594,690 3454,678 3405,685 3398,693" rendition="Line" xml:id="facs_15_tl_1758705862"/>
+        <zone points="4683,796 4665,788 4227,789 3541,799 3471,804 3443,814 3439,828 3440,837 3450,845 3518,853 4443,851 4674,842 4683,837" rendition="Line" xml:id="facs_15_tl_1758705874"/>
+        <zone points="4687,876 4683,865 4672,859 4628,852 4579,850 3821,852 3496,857 3451,865 3442,875 3441,901 3448,915 3466,920 4333,912 4670,898 4683,892" rendition="Line" xml:id="facs_15_tl_1758705866"/>
+        <zone points="4693,907 4685,902 4627,900 4217,913 3483,924 3463,929 3455,936 3453,967 3458,977 3471,980 3665,984 4049,981 4473,967 4686,954 4695,945" rendition="Line" xml:id="facs_15_tl_1758705861"/>
+        <zone points="4686,1002 4703,999 4707,981 4705,973 4661,968 4274,973 3491,993 3470,999 3468,1034 3473,1042 3490,1047 3778,1053 4220,1048 4373,1050 4432,1044 4656,1019 4672,1008" rendition="Line" xml:id="facs_15_tl_1758705883"/>
+        <zone points="3455,1068 3460,1057 3474,1052 3635,1060 4428,1049 4808,996 5136,1002 5159,1010 5165,1024 5165,1062 5158,1075 5137,1084 5084,1091 4268,1116 3972,1120 3513,1119 3473,1114 3462,1110 3456,1102" rendition="Line" xml:id="facs_15_line_1758783037394_256"/>
+        <zone points="4648,1112 4633,1103 4490,1103 4055,1114 3868,1124 3719,1123 3634,1130 3500,1131 3448,1145 3446,1159 3454,1165 3444,1174 3460,1187 3505,1195 3636,1196 3840,1195 4459,1178 4641,1167 4649,1160" rendition="Line" xml:id="facs_15_tl_1758705876"/>
+        <zone points="4661,1183 4656,1175 4641,1171 4284,1179 3514,1189 3473,1193 3442,1203 3432,1216 3431,1246 3435,1253 3447,1259 3522,1270 4369,1270 4486,1262 4646,1235 4661,1224" rendition="Line" xml:id="facs_15_tl_1758705860"/>
+        <zone points="4664,2148 4664,2099 4655,2086 4559,2062 4488,2056 4235,2065 4006,2088 3764,2098 3617,2092 3486,2060 3432,2060 3393,2068 3378,2106 3378,2121 3386,2141 3381,2150 3384,2158 3414,2185 3449,2190 3915,2189 4360,2175 4601,2163 4653,2157" rendition="Line" xml:id="facs_15_tl_1758705851"/>
+        <zone points="4646,2183 4642,2176 4628,2172 4479,2172 3879,2185 3512,2186 3464,2191 3460,2197 3459,2212 3460,2232 3466,2241 3511,2247 4088,2231 4457,2227 4554,2223 4642,2211 4646,2205" rendition="Line" xml:id="facs_15_tl_1758705864"/>
+        <zone points="4639,2253 4636,2240 4632,2237 4580,2227 4092,2231 3852,2239 3560,2243 3505,2247 3476,2253 3464,2264 3462,2282 3467,2289 3517,2295 4108,2289 4272,2281 4444,2283 4620,2269 4635,2264" rendition="Line" xml:id="facs_15_tl_1758705877"/>
+        <zone points="4691,2299 4668,2285 4654,2279 4256,2282 3982,2293 3560,2297 3481,2305 3471,2314 3470,2340 3475,2350 3491,2352 4478,2348 4613,2341 4664,2333 4671,2327" rendition="Line" xml:id="facs_15_tl_1758705871"/>
+        <zone points="3470,2349 4626,2349 4626,2440 3470,2440" rendition="Line" xml:id="facs_15_tl_1758705859"/>
+      </zone>
+    </surface>
+    <surface ulx="0" uly="0" lrx="5456" lry="4142" xml:id="facs_16">
+      <graphic url="WSTLA-OKA-B1-1-051-1_16.tif" width="5456px" height="4142px"/>
+      <graphic url="https://files.transkribus.eu/Get?id=SSRUUDUOKGCAFUTNPMFJBUVT&amp;fileType=view" width="5456px" height="4142px"/>
+      <zone points="0,0 2728,0 2728,4142 0,4142" rendition="TextRegion" xml:id="facs_16_region_154564142">
+        <zone points="813,545 819,572 827,578 832,592 845,607 866,614 930,618 1229,619 1375,615 1704,618 2051,604 2068,598 2073,584 2071,539 2059,529 2006,519 1916,514 1638,514 1237,495 856,488 822,494" rendition="Line" xml:id="facs_16_tl_1758705832"/>
+        <zone points="834,610 2109,610 2109,688 834,688" rendition="Line" xml:id="facs_16_tl_1758705858"/>
+        <zone points="931,1521 932,1583 936,1589 950,1591 1957,1591 1997,1589 2006,1577 2005,1540 2000,1529 1988,1522 1955,1517 1912,1520 1678,1513 1572,1522 1440,1523 1336,1513 1225,1491 1024,1486 980,1482 944,1490 935,1502" rendition="Line" xml:id="facs_16_tl_1758705852"/>
+        <zone points="2104,1600 2101,1583 2085,1576 1630,1587 957,1585 934,1590 916,1600 920,1605 899,1627 898,1654 903,1665 915,1673 949,1678 2070,1678 2088,1676 2101,1663" rendition="Line" xml:id="facs_16_tl_1758705841"/>
+        <zone points="906,2152 905,2172 914,2213 911,2276 926,2289 973,2306 1515,2312 2081,2311 2231,2305 2247,2297 2253,2285 2251,2195 2230,2184 1846,2154 1550,2152 1274,2130 1106,2123 945,2124 916,2131" rendition="Line" xml:id="facs_16_tl_1758705828"/>
+        <zone points="859,2725 859,2788 866,2800 883,2805 960,2812 1945,2816 2013,2814 2026,2808 2031,2798 2030,2756 2024,2748 1971,2739 1897,2739 1807,2746 1750,2745 1592,2730 1471,2725 1270,2705 876,2701 863,2707" rendition="Line" xml:id="facs_16_tl_1758705855"/>
+        <zone points="855,2802 2407,2802 2407,2913 855,2913" rendition="Line" xml:id="facs_16_tl_1758705834"/>
+      </zone>
+      <zone points="2728,0 5456,0 5456,4142 2728,4142" rendition="TextRegion" xml:id="facs_16_region_254564142">
+        <zone points="3329,591 3335,643 3345,657 3384,675 3435,679 4056,673 4491,659 4634,645 4641,637 4642,620 4641,556 4636,543 4620,532 4519,530 4440,537 4356,537 4199,521 3969,507 3906,509 3866,515 3820,530 3735,537 3447,527 3396,531 3374,539 3340,560" rendition="Line" xml:id="facs_16_tl_1758705833"/>
+        <zone points="4653,674 4647,669 4590,665 3692,669 3475,675 3389,687 3375,702 3373,733 3378,761 3387,768 3456,775 3960,772 4586,753 4650,744 4655,732" rendition="Line" xml:id="facs_16_tl_1758705831"/>
+        <zone points="4615,778 4612,770 4605,767 4556,765 3938,768 3505,778 3411,791 3401,800 3400,822 3413,834 3444,839 4433,837 4561,829 4596,823 4614,811" rendition="Line" xml:id="facs_16_tl_1758705843"/>
+        <zone points="3436,827 4322,827 4322,925 3436,925" rendition="Line" xml:id="facs_16_tl_1758705836"/>
+        <zone points="4127,980 4125,973 4118,965 4095,953 4051,948 4004,951 3977,959 3946,963 3885,963 3840,954 3799,956 3774,960 3698,961 3636,951 3551,950 3521,953 3504,958 3492,968 3488,975 3482,1069 3488,1083 3512,1104 3578,1128 3623,1135 3791,1146 3935,1142 3996,1142 4057,1147 4086,1146 4103,1140 4106,1137 4109,1125 4113,1080 4118,1071 4125,1047" rendition="Line" xml:id="facs_16_tl_1758705848"/>
+        <zone points="4638,1200 4632,1169 4595,1141 4570,1130 4521,1132 4291,1166 4031,1179 3753,1177 3374,1149 3325,1153 3308,1159 3304,1169 3304,1241 3307,1256 3320,1265 3362,1269 3750,1268 3996,1258 4485,1247 4618,1231 4636,1216" rendition="Line" xml:id="facs_16_tl_1758705838"/>
+        <zone points="4665,1236 4653,1219 4617,1236 4397,1245 3803,1262 3467,1266 3417,1273 3403,1283 3403,1297 3417,1305 3461,1315 3777,1315 4447,1296 4640,1283 4679,1269" rendition="Line" xml:id="facs_16_tl_1758705861"/>
+        <zone points="4632,1309 4627,1299 4617,1296 3477,1321 3425,1328 3418,1333 3416,1351 3419,1369 3480,1371 3949,1370 4363,1360 4615,1346 4631,1339" rendition="Line" xml:id="facs_16_tl_1758705839"/>
+        <zone points="4646,1364 4639,1336 4602,1353 3980,1370 3485,1386 3421,1395 3413,1400 3410,1419 3418,1430 3446,1434 3698,1434 4126,1420 4617,1408 4637,1403 4640,1400" rendition="Line" xml:id="facs_16_tl_1758705849"/>
+        <zone points="4644,1449 4640,1441 4643,1433 4634,1424 4598,1419 4043,1425 3475,1446 3413,1456 3411,1481 3415,1487 3426,1491 3475,1494 4359,1489 4629,1493 4638,1484" rendition="Line" xml:id="facs_16_tl_1758705860"/>
+        <zone points="3395,1520 3400,1511 3412,1506 3486,1498 4511,1489 4614,1460 4890,1437 5086,1432 5092,1485 4618,1519 4511,1542 4290,1542 4163,1553 4078,1556 3447,1562 3413,1560 3400,1555 3395,1546" rendition="Line" xml:id="facs_16_line_1758783071931_293"/>
+        <zone points="4657,1544 4621,1533 4559,1532 4527,1537 4298,1538 3994,1553 3496,1560 3449,1563 3402,1573 3395,1580 3393,1602 3398,1611 3418,1617 3737,1617 4611,1591 4629,1586 4655,1578" rendition="Line" xml:id="facs_16_tl_1758705856"/>
+        <zone points="4597,1605 4578,1600 3881,1615 3536,1618 3423,1625 3410,1636 3409,1655 3414,1665 3424,1669 3474,1674 3891,1673 4567,1650 4594,1645 4598,1640" rendition="Line" xml:id="facs_16_tl_1758705846"/>
+        <zone points="4607,1667 4604,1662 4590,1658 4372,1658 3533,1680 3433,1690 3424,1700 3423,1727 3429,1737 3449,1741 3641,1746 4085,1745 4337,1733 4598,1708 4607,1701" rendition="Line" xml:id="facs_16_tl_1758705857"/>
+        <zone points="3459,1742 3624,1742 3624,1800 3459,1800" rendition="Line" xml:id="facs_16_tl_1758705844"/>
+        <zone points="3340,1901 3341,1915 3346,1922 3467,1923 3778,1918 4428,1897 4614,1882 4623,1873 4624,1847 4623,1838 4617,1832 4563,1826 4066,1826 3711,1832 3586,1826 3465,1813 3402,1812 3362,1816 3345,1823 3341,1835" rendition="Line" xml:id="facs_16_tl_1758705829"/>
+        <zone points="4670,1926 4658,1914 4649,1912 4638,1903 4613,1899 4260,1902 3652,1915 3527,1914 3439,1920 3424,1931 3426,1951 3421,1956 3430,1966 3470,1974 4019,1966 4574,1946 4659,1938 4670,1931" rendition="Line" xml:id="facs_16_tl_1758705859"/>
+        <zone points="4687,1960 4676,1933 4664,1930 4496,1955 3473,1978 3443,1988 3435,1998 3435,2017 3444,2026 3492,2033 3996,2032 4142,2022 4468,2010 4644,1999 4686,1990" rendition="Line" xml:id="facs_16_tl_1758705835"/>
+        <zone points="4654,2020 4636,2013 4153,2022 3772,2037 3502,2041 3447,2047 3439,2057 3439,2083 3447,2089 4032,2089 4374,2077 4640,2059 4654,2051" rendition="Line" xml:id="facs_16_tl_1758705853"/>
+        <zone points="5105,2090 5103,2066 5083,2055 4898,2053 4086,2088 3493,2101 3417,2110 3411,2117 3410,2152 3423,2164 3553,2165 4500,2141 4956,2137 5076,2130 5102,2114" rendition="Line" xml:id="facs_16_tl_1758705850"/>
+        <zone points="4615,2159 4610,2152 4595,2148 3859,2160 3544,2171 3472,2176 3432,2183 3426,2190 3425,2211 3428,2225 3436,2227 3925,2227 4427,2212 4602,2200 4615,2191" rendition="Line" xml:id="facs_16_tl_1758705842"/>
+        <zone points="4605,2229 4603,2217 4594,2213 4529,2212 3465,2236 3454,2243 3453,2281 3457,2287 3476,2291 3604,2297 4513,2296 4561,2287 4599,2271 4604,2260" rendition="Line" xml:id="facs_16_tl_1758705840"/>
+        <zone points="3464,2292 3734,2292 3734,2358 3464,2358" rendition="Line" xml:id="facs_16_tl_1758705854"/>
+        <zone points="3393,2402 3407,2390 3472,2382 3705,2372 4348,2366 4629,2371 4629,2472 4288,2467 3543,2468 3420,2465 3402,2460 3394,2451 3404,2439 3395,2434" rendition="Line" xml:id="facs_16_line_1758783122664_323"/>
+        <zone points="3406,2451 4404,2455 5075,2380 5127,2393 5133,2422 5132,2452 5127,2461 5080,2469 4253,2546 3406,2546" rendition="Line" xml:id="facs_16_line_1758783125977_327"/>
+        <zone points="3391,2558 4722,2558 4705,2627 4647,2652 3391,2692" rendition="Line" xml:id="facs_16_tl_1758705845"/>
+        <zone points="3464,2674 4589,2656 5159,2598 5159,2696 3897,2763 3464,2763" rendition="Line" xml:id="facs_16_line_1758783132450_331"/>
+        <zone points="3455,3241 3456,3248 3466,3253 3588,3254 3715,3244 3910,3240 4023,3224 4245,3216 4260,3212 4270,3196 4270,3112 4258,3102 4232,3098 4144,3103 4063,3096 3961,3100 3924,3097 3890,3090 3874,3081 3838,3038 3830,3013 3824,2976 3807,2953 3800,2926 3758,2913 3727,2921 3718,2927 3710,2945 3691,2962 3681,2984 3662,3000 3652,3017 3639,3031 3622,3065 3585,3101 3528,3140 3510,3149 3486,3168 3459,3208" rendition="Line" xml:id="facs_16_tl_1758705830"/>
+      </zone>
+    </surface>
+    <surface ulx="0" uly="0" lrx="5333" lry="4085" xml:id="facs_17">
+      <graphic url="WSTLA-OKA-B1-1-051-1_17.tif" width="5333px" height="4085px"/>
+      <graphic url="https://files.transkribus.eu/Get?id=SJJZGUWTDICEHRBPFJJJBEKE&amp;fileType=view" width="5333px" height="4085px"/>
+      <zone points="0,0 2666,0 2666,4085 0,4085" rendition="TextRegion" xml:id="facs_17_region_153334085">
+        <zone points="890,581 906,592 939,598 1729,596 2012,587 2076,582 2089,575 2089,505 2086,497 2076,490 2027,477 1860,488 1518,480 1278,485 1196,478 1046,450 950,451 925,464 894,526 896,553" rendition="Line" xml:id="facs_17_tl_1758705844"/>
+        <zone points="887,588 2120,588 2120,651 887,651" rendition="Line" xml:id="facs_17_tl_1758705855"/>
+        <zone points="879,648 2150,648 2150,715 879,715" rendition="Line" xml:id="facs_17_tl_1758705843"/>
+        <zone points="885,711 2106,711 2106,775 885,775" rendition="Line" xml:id="facs_17_tl_1758705859"/>
+        <zone points="889,769 2090,769 2090,834 889,834" rendition="Line" xml:id="facs_17_tl_1758705854"/>
+        <zone points="889,830 2049,830 2049,896 889,896" rendition="Line" xml:id="facs_17_tl_1758705851"/>
+        <zone points="2024,907 2018,894 2006,890 1286,896 906,894 892,901 888,935 894,949 946,955 1416,966 2009,966 2023,956" rendition="Line" xml:id="facs_17_tl_1758705848"/>
+        <zone points="887,955 1644,955 1644,1052 887,1052" rendition="Line" xml:id="facs_17_tl_1758705837"/>
+        <zone points="837,1106 840,1148 845,1153 909,1161 1272,1164 1729,1179 2097,1178 2102,1162 2101,1133 2089,1101 2071,1088 2039,1081 1318,1077 1131,1066 986,1068 895,1062 860,1064 847,1071" rendition="Line" xml:id="facs_17_tl_1758705876"/>
+        <zone points="871,1159 1567,1159 2556,1147 2551,1183 2553,1211 1567,1238 871,1238" rendition="Line" xml:id="facs_17_tl_1758705882"/>
+        <zone points="826,1255 2550,1255 2550,1363 826,1363" rendition="Line" xml:id="facs_17_tl_1758705873"/>
+        <zone points="801,1379 804,1447 825,1457 864,1461 1426,1472 2105,1472 2142,1465 2155,1451 2155,1442 2149,1438 2133,1400 2122,1389 2098,1381 1843,1385 1343,1380 1074,1364 876,1361 813,1365 804,1371" rendition="Line" xml:id="facs_17_tl_1758705872"/>
+        <zone points="844,1461 872,1456 2058,1462 2560,1434 2560,1532 1812,1536 932,1535 875,1527 846,1514 841,1503 839,1474" rendition="Line" xml:id="facs_17_line_1758783157353_351"/>
+        <zone points="841,1545 859,1541 2022,1545 2051,1549 2051,1631 1785,1632 1231,1642 1106,1642 917,1632 858,1638 837,1626 834,1559" rendition="Line" xml:id="facs_17_line_1758783166403_356"/>
+        <zone points="862,1624 1052,1624 2036,1626 2239,1605 2539,1603 2550,1633 2553,1665 1052,1678 862,1678" rendition="Line" xml:id="facs_17_tl_1758705889"/>
+        <zone points="818,1701 2541,1703 2541,1828 818,1826" rendition="Line" xml:id="facs_17_tl_1758705874"/>
+        <zone points="817,1838 2567,1838 2567,1965 817,1965" rendition="Line" xml:id="facs_17_tl_1758705840"/>
+        <zone points="810,1967 853,1963 1538,1968 1970,1979 2068,1992 2063,2071 1609,2079 1252,2061 1224,2062 1191,2057 1164,2054 954,2040 814,2040 800,2027 798,1980" rendition="Line" xml:id="facs_17_line_1758783196052_368"/>
+        <zone points="864,2052 2046,2071 2552,2025 2576,2040 2577,2104 2564,2122 2516,2125 864,2121" rendition="Line" xml:id="facs_17_line_1758783200993_373"/>
+        <zone points="808,2157 813,2226 830,2234 870,2240 2006,2245 2046,2243 2060,2237 2065,2226 2063,2173 2055,2164 2035,2160 1145,2141 859,2143 817,2147" rendition="Line" xml:id="facs_17_tl_1758705862"/>
+        <zone points="2585,2255 2550,2244 2528,2231 2407,2227 2097,2226 1540,2235 1011,2234 872,2243 840,2263 829,2283 839,2291 873,2299 999,2308 1618,2316 2525,2317 2584,2310" rendition="Line" xml:id="facs_17_tl_1758705863"/>
+        <zone points="775,2317 2573,2317 2573,2460 775,2460" rendition="Line" xml:id="facs_17_tl_1758705835"/>
+        <zone points="1176,2543 1175,2661 1178,2671 1188,2677 1335,2679 1566,2675 1701,2678 1734,2675 1796,2675 1849,2679 1902,2679 1908,2677 1913,2668 1913,2564 1910,2557 1900,2551 1869,2548 1756,2561 1688,2561 1605,2554 1556,2547 1458,2528 1376,2525 1209,2527 1187,2531 1179,2536" rendition="Line" xml:id="facs_17_tl_1758705850"/>
+        <zone points="861,2858 861,2913 874,2926 885,2929 922,2937 970,2934 1473,2935 1868,2939 1929,2938 1948,2921 1949,2878 1943,2870 1892,2857 1821,2851 1639,2858 1392,2848 909,2837 871,2841 864,2847" rendition="Line" xml:id="facs_17_tl_1758705870"/>
+        <zone points="880,2933 881,2976 886,2996 895,3004 952,3010 1384,3015 1844,3014 1848,3011 1857,2968 1856,2947 1846,2940 1753,2935 1482,2927 1275,2926 1208,2921 1054,2923 981,2919 892,2919 882,2927" rendition="Line" xml:id="facs_17_tl_1758705884"/>
+      </zone>
+      <zone points="2667,0 5333,0 5333,4085 2667,4085" rendition="TextRegion" xml:id="facs_17_region_253334085">
+        <zone points="3178,460 3178,513 3188,536 3188,549 3218,579 3244,585 3691,582 4530,587 4590,580 4597,568 4597,494 4585,480 4376,461 4182,428 3972,432 3232,426 3189,433 3182,441" rendition="Line" xml:id="facs_17_tl_1758705838"/>
+        <zone points="3287,571 4300,571 4300,665 3287,665" rendition="Line" xml:id="facs_17_tl_1758705845"/>
+        <zone points="3198,794 3199,820 3207,829 3247,839 4289,834 4340,823 4357,813 4360,802 4360,724 4357,706 4350,699 4314,680 4265,674 4005,677 3810,668 3672,672 3423,700 3245,705 3226,712 3211,724 3203,743" rendition="Line" xml:id="facs_17_tl_1758705834"/>
+        <zone points="3249,870 3288,862 3776,858 4314,866 4445,875 4438,940 4208,940 3794,960 3356,959 3255,948 3260,943 3244,926 3242,899" rendition="Line" xml:id="facs_17_line_1758783234887_396"/>
+        <zone points="3305,950 4430,939 4917,902 4941,916 4944,956 4940,973 4924,981 3973,1001 3305,1001" rendition="Line" xml:id="facs_17_line_1758783248288_400"/>
+        <zone points="3285,1038 3292,1020 3328,1014 4001,1009 4525,1016 4535,1017 4531,1093 4229,1098 3968,1086 3445,1100 3318,1095 3293,1088 3301,1080 3290,1075 3286,1067" rendition="Line" xml:id="facs_17_line_1758783255868_405"/>
+        <zone points="4439,1099 4895,1042 4938,1062 4943,1090 4944,1111 4920,1125 4079,1184 3307,1184 3305,1134 3304,1107" rendition="Line" xml:id="facs_17_line_1758783274875_413"/>
+        <zone points="3221,1259 3221,1292 3228,1332 3270,1353 3298,1358 3543,1365 3675,1375 4470,1375 4546,1368 4565,1353 4569,1339 4566,1253 4545,1241 4497,1235 4210,1228 3656,1234 3572,1231 3430,1217 3284,1211 3237,1218 3226,1234" rendition="Line" xml:id="facs_17_tl_1758705860"/>
+        <zone points="3313,1340 3591,1340 3591,1413 3313,1413" rendition="Line" xml:id="facs_17_tl_1758705857"/>
+        <zone points="3290,1450 3299,1445 3356,1441 3683,1451 4093,1453 4273,1440 4382,1441 4481,1452 4483,1452 4478,1544 4241,1543 3937,1545 3324,1544 3295,1539 3286,1516 3285,1463" rendition="Line" xml:id="facs_17_line_1758783295183_422"/>
+        <zone points="3300,1538 4427,1545 4520,1513 4628,1487 4956,1512 4958,1575 4635,1575 4615,1577 3980,1616 3300,1616" rendition="Line" xml:id="facs_17_line_1758783304463_426"/>
+        <zone points="4551,1642 4547,1624 4540,1615 4498,1608 3848,1609 3519,1616 3311,1615 3260,1624 3256,1629 3253,1669 3262,1690 3261,1700 3317,1710 3770,1710 3838,1717 4510,1700 4545,1698" rendition="Line" xml:id="facs_17_tl_1758705868"/>
+        <zone points="3299,1694 3779,1694 4498,1699 4524,1686 4739,1675 4980,1677 4989,1701 4998,1740 3779,1779 3299,1779" rendition="Line" xml:id="facs_17_tl_1758705849"/>
+        <zone points="4611,1957 4610,1871 4597,1856 4541,1841 4395,1827 4228,1826 3956,1833 3673,1845 3438,1861 3287,1846 3274,1856 3269,1867 3271,1910 3278,1943 3284,1955 3309,1976 3325,1983 3375,1991 3507,2003 3836,2011 4500,2005 4542,2001 4591,1987 4608,1975" rendition="Line" xml:id="facs_17_tl_1758705836"/>
+        <zone points="3222,2134 3225,2149 3233,2155 3282,2160 4402,2147 4548,2132 4555,2125 4556,2094 4553,2083 4546,2078 4490,2070 4159,2075 3965,2071 3859,2060 3722,2037 3477,2037 3344,2021 3286,2020 3240,2029 3230,2039" rendition="Line" xml:id="facs_17_tl_1758705841"/>
+        <zone points="4570,2155 4567,2149 4550,2144 3314,2148 3296,2155 3294,2182 3296,2195 3306,2200 3377,2207 3913,2207 4512,2197 4563,2190 4570,2178" rendition="Line" xml:id="facs_17_tl_1758705878"/>
+        <zone points="4522,2211 4509,2201 4480,2199 3545,2209 3355,2206 3300,2211 3292,2223 3292,2249 3296,2257 3305,2261 4003,2261 4334,2255 4508,2245 4521,2235" rendition="Line" xml:id="facs_17_tl_1758705875"/>
+        <zone points="4529,2269 4526,2261 4517,2256 4475,2253 3433,2267 3317,2272 3301,2282 3299,2294 3301,2305 3315,2310 3453,2319 3747,2319 4339,2309 4522,2299 4529,2289" rendition="Line" xml:id="facs_17_tl_1758705867"/>
+        <zone points="4560,2319 4556,2309 4539,2305 3536,2324 3314,2320 3300,2325 3294,2335 3294,2360 3300,2369 3335,2373 3895,2374 4174,2369 4547,2349 4559,2343" rendition="Line" xml:id="facs_17_tl_1758705871"/>
+        <zone points="4561,2375 4555,2369 4541,2366 4380,2366 3394,2380 3296,2390 3289,2396 3289,2416 3300,2426 3342,2431 4048,2431 4241,2427 4548,2409 4561,2403" rendition="Line" xml:id="facs_17_tl_1758705883"/>
+        <zone points="4542,2431 4535,2428 4489,2426 3817,2435 3347,2435 3294,2441 3287,2448 3286,2466 3287,2477 3294,2483 3336,2488 4172,2487 4530,2472 4543,2466" rendition="Line" xml:id="facs_17_tl_1758705866"/>
+        <zone points="4534,2495 4528,2488 4513,2485 3873,2493 3326,2493 3289,2498 3286,2537 3291,2542 3304,2544 4291,2543 4519,2528 4533,2522" rendition="Line" xml:id="facs_17_tl_1758705864"/>
+        <zone points="4529,2557 4517,2546 4484,2544 3879,2554 3351,2555 3294,2562 3290,2567 3290,2597 3295,2602 3316,2605 3478,2609 3897,2610 4241,2606 4424,2595 4515,2585 4526,2581" rendition="Line" xml:id="facs_17_tl_1758705847"/>
+        <zone points="4532,2626 4528,2608 4498,2604 3738,2612 3345,2612 3286,2621 3283,2625 3283,2660 3300,2668 3340,2670 4022,2670 4371,2663 4519,2654 4531,2647" rendition="Line" xml:id="facs_17_tl_1758705846"/>
+        <zone points="4543,2677 4538,2669 4526,2666 3375,2672 3290,2682 3281,2692 3281,2719 3292,2728 3758,2728 4406,2718 4532,2710 4542,2704" rendition="Line" xml:id="facs_17_tl_1758705853"/>
+        <zone points="4535,2739 4531,2729 4517,2724 4439,2720 3396,2734 3295,2743 3286,2752 3286,2778 3289,2784 3304,2789 3373,2794 3620,2794 4020,2784 4514,2779 4533,2771" rendition="Line" xml:id="facs_17_tl_1758705842"/>
+        <zone points="3294,2780 4578,2779 4577,2853 3293,2854" rendition="Line" xml:id="facs_17_tl_1758705869"/>
+        <zone points="3312,2858 4657,2822 4857,2823 4970,2830 4984,2849 4985,2885 4980,2895 4957,2905 3707,2937 3312,2937" rendition="Line" xml:id="facs_17_line_1758783347525_453"/>
+        <zone points="3251,3117 3262,3156 3283,3172 3275,3184 3279,3200 3290,3210 3312,3215 4140,3198 4415,3205 4500,3199 4511,3195 4519,3186 4520,3143 4513,3120 4500,3113 4459,3105 3618,3115 3407,3107 3324,3090 3268,3089 3254,3099" rendition="Line" xml:id="facs_17_tl_1758705861"/>
+        <zone points="4583,3229 4575,3202 4563,3188 4458,3191 4168,3190 3324,3204 3309,3212 3305,3267 3313,3281 3344,3285 4257,3284 4424,3270 4473,3258 4522,3255 4578,3252" rendition="Line" xml:id="facs_17_tl_1758705865"/>
+      </zone>
+    </surface>
+    <surface ulx="0" uly="0" lrx="5519" lry="4157" xml:id="facs_18">
+      <graphic url="WSTLA-OKA-B1-1-051-1_18.tif" width="5519px" height="4157px"/>
+      <graphic url="https://files.transkribus.eu/Get?id=XMBJXQHTSRAEMJWDBDZSTCFM&amp;fileType=view" width="5519px" height="4157px"/>
+      <zone points="0,0 2759,0 2759,4157 0,4157" rendition="TextRegion" xml:id="facs_18_region_155194157">
+        <zone points="1058,603 1065,617 1091,629 1112,633 1875,632 2203,624 2216,621 2223,615 2225,551 2223,538 2205,530 2070,527 1936,517 1829,505 1711,480 1666,476 1608,476 1409,490 1196,489 1140,495 1097,509 1063,555 1064,585" rendition="Line" xml:id="facs_18_tl_1758705803"/>
+        <zone points="2204,639 2191,634 2179,629 1965,625 1184,632 1110,637 1100,643 1099,675 1105,683 1152,690 1833,684 1977,678 2175,676 2197,673" rendition="Line" xml:id="facs_18_tl_1758705805"/>
+        <zone points="2183,694 2176,681 2166,678 1178,690 1121,693 1109,697 1102,708 1102,729 1106,737 1114,740 1147,743 2001,732 2122,723 2172,723 2182,713" rendition="Line" xml:id="facs_18_tl_1758705836"/>
+        <zone points="2223,736 2221,730 2212,725 1605,733 1150,748 1105,756 1099,764 1098,784 1104,791 1114,795 1171,800 2203,791 2214,788 2222,781" rendition="Line" xml:id="facs_18_tl_1758705835"/>
+        <zone points="1093,786 1987,786 1987,881 1093,881" rendition="Line" xml:id="facs_18_tl_1758705809"/>
+        <zone points="751,965 753,1005 761,1023 777,1033 796,1055 811,1061 1254,1062 1510,1046 1990,1031 2032,1027 2045,1022 2051,999 2050,978 2044,967 1989,953 1504,959 1351,954 1203,939 1096,951 1019,953 958,945 905,927 833,917 808,917 769,926 756,945" rendition="Line" xml:id="facs_18_tl_1758705811"/>
+        <zone points="813,1052 1137,1047 1196,1040 2038,1025 2034,1087 2025,1087 1608,1115 1384,1101 894,1099 858,1086 828,1078 817,1070" rendition="Line" xml:id="facs_18_line_1758783368471_469"/>
+        <zone points="839,1106 1936,1097 2132,1039 2471,1027 2495,1039 2498,1090 2494,1117 2480,1126 1533,1171 838,1171" rendition="Line" xml:id="facs_18_line_1758783372711_473"/>
+        <zone points="798,1188 2054,1182 2056,1273 800,1294" rendition="Line" xml:id="facs_18_tl_1758705819"/>
+        <zone points="850,1349 1028,1349 2522,1310 2539,1296 2525,1264 2497,1250 2310,1251 2062,1262 1971,1275 1028,1295 850,1295" rendition="Line" xml:id="facs_18_line_1758783393629_477"/>
+        <zone points="988,1854 987,1897 990,1956 995,1965 1004,1969 1196,1969 1255,1962 1307,1962 1389,1968 1475,1963 1544,1963 1567,1958 1572,1953 1574,1947 1574,1885 1572,1876 1565,1869 1546,1865 1500,1862 1437,1862 1396,1864 1341,1872 1305,1872 1268,1868 1196,1851 1124,1846 1065,1837 1032,1836 995,1838" rendition="Line" xml:id="facs_18_tl_1758705807"/>
+      </zone>
+      <zone points="2760,0 5519,0 5519,4157 2760,4157" rendition="TextRegion" xml:id="facs_18_region_255194157">
+        <zone points="4641,568 4635,550 4571,516 4535,478 4513,463 4492,458 4445,470 4415,488 4393,494 4320,527 4276,537 4232,541 4056,529 3968,514 3913,500 3845,491 3664,488 3579,480 3496,487 3469,494 3456,501 3441,508 3424,522 3371,544 3368,566 3365,647 3387,656 3519,649 4082,660 4222,667 4623,667 4639,664" rendition="Line" xml:id="facs_18_tl_1758705812"/>
+        <zone points="3487,718 3490,724 3502,729 3529,731 4494,731 4520,725 4525,715 4521,685 4508,677 4487,672 4069,654 3795,647 3532,645 3496,652 3489,664" rendition="Line" xml:id="facs_18_tl_1758705804"/>
+        <zone points="3454,796 3454,845 3458,856 3471,863 3516,874 4207,872 4596,875 4636,870 4644,866 4648,855 4644,826 4633,820 4587,809 4418,803 4231,804 4066,800 3944,791 3778,772 3527,765 3463,770 3457,778" rendition="Line" xml:id="facs_18_tl_1758705832"/>
+        <zone points="3463,896 3478,881 3536,874 4650,867 4647,922 4260,929 3819,927 3622,925 3556,922 3538,922 3505,922 3471,911" rendition="Line" xml:id="facs_18_line_1758783423001_487"/>
+        <zone points="3502,934 4616,922 4728,875 5160,878 5179,885 5187,898 5187,946 5178,959 5158,963 3923,976 3502,976" rendition="Line" xml:id="facs_18_line_1758783443065_496"/>
+        <zone points="3454,976 4705,976 4705,1057 3454,1057" rendition="Line" xml:id="facs_18_tl_1758705820"/>
+        <zone points="3481,1046 4721,1043 4721,1103 3481,1106" rendition="Line" xml:id="facs_18_tl_1758705829"/>
+        <zone points="3480,1100 4681,1100 4681,1162 3480,1162" rendition="Line" xml:id="facs_18_tl_1758705838"/>
+        <zone points="3479,1177 3500,1167 3541,1162 3849,1158 4666,1162 4663,1217 4600,1217 4032,1229 3777,1228 3537,1214 3485,1200 3479,1192" rendition="Line" xml:id="facs_18_line_1758783460092_506"/>
+        <zone points="3496,1216 4595,1211 5033,1165 5184,1174 5198,1187 5200,1226 5196,1241 5184,1247 4079,1287 3496,1287" rendition="Line" xml:id="facs_18_line_1758783464613_510"/>
+        <zone points="3471,1339 3472,1367 3480,1377 3537,1389 3620,1393 4683,1386 4719,1382 4727,1373 4724,1326 4705,1320 3699,1313 3537,1304 3484,1309 3477,1316" rendition="Line" xml:id="facs_18_tl_1758705831"/>
+        <zone points="3501,1404 3506,1411 3502,1424 3518,1433 3645,1444 3881,1448 3991,1461 4145,1469 4691,1449 4747,1437 4768,1420 4771,1411 4760,1389 4738,1387 3518,1390 3505,1396" rendition="Line" xml:id="facs_18_tl_1758705841"/>
+        <zone points="3479,1431 4675,1448 4760,1429 4981,1429 5179,1434 5179,1506 3479,1503" rendition="Line" xml:id="facs_18_tl_1758705834"/>
+        <zone points="3442,1552 3442,1610 3446,1621 3464,1629 3501,1632 4054,1634 4613,1630 4667,1622 4671,1615 4671,1582 4666,1573 4612,1559 4270,1550 4057,1540 3669,1543 3489,1538 3456,1541 3446,1545" rendition="Line" xml:id="facs_18_tl_1758705822"/>
+        <zone points="3467,1624 4653,1624 4653,1687 3467,1687" rendition="Line" xml:id="facs_18_tl_1758705837"/>
+        <zone points="5337,1691 5333,1675 5315,1666 4106,1681 3515,1675 3490,1686 3487,1727 3497,1744 3521,1751 3663,1758 5311,1762 5326,1758 5332,1742" rendition="Line" xml:id="facs_18_tl_1758705821"/>
+        <zone points="3435,1791 3436,1820 3441,1832 3455,1847 3473,1854 3502,1859 3793,1873 4312,1875 4653,1869 4670,1864 4674,1856 4672,1806 4657,1798 4615,1793 3921,1789 3640,1784 3502,1777 3451,1778 3440,1782" rendition="Line" xml:id="facs_18_tl_1758705815"/>
+        <zone points="3464,1875 3465,1912 3471,1919 3525,1931 3562,1932 4535,1931 4665,1925 4677,1918 4680,1905 4678,1888 4668,1880 4630,1872 4580,1870 3811,1869 3493,1861 3470,1864" rendition="Line" xml:id="facs_18_tl_1758705818"/>
+        <zone points="4729,1940 4725,1932 4712,1928 3527,1931 3477,1940 3472,1965 3479,1976 3520,1982 3752,1994 4669,1991 4725,1981 4729,1968" rendition="Line" xml:id="facs_18_tl_1758705817"/>
+        <zone points="3474,2001 3475,2035 3488,2042 3700,2056 4644,2051 4686,2047 4703,2038 4703,2003 4686,1994 4448,1990 3710,1991 3522,1987 3486,1989 3477,1993" rendition="Line" xml:id="facs_18_tl_1758705814"/>
+        <zone points="3467,2069 3500,2055 3556,2051 4467,2051 4663,2053 4649,2108 4594,2108 4095,2133 3946,2122 3731,2119 3542,2107 3473,2089 3477,2076" rendition="Line" xml:id="facs_18_line_1758783497473_530"/>
+        <zone points="3448,2108 4620,2106 5043,2059 5189,2068 5206,2080 5212,2113 5206,2133 5191,2141 3980,2196 3448,2196" rendition="Line" xml:id="facs_18_line_1758783500323_534"/>
+        <zone points="3398,2214 3399,2268 3406,2286 3467,2302 3668,2309 4013,2313 4639,2304 4693,2286 4691,2273 4703,2244 4701,2233 4692,2228 4647,2222 4413,2224 3941,2219 3749,2211 3638,2214 3469,2196 3411,2199 3401,2204" rendition="Line" xml:id="facs_18_tl_1758705813"/>
+        <zone points="3464,2317 3465,2332 3475,2340 3527,2348 3920,2353 4499,2354 4671,2353 4684,2344 4683,2322 4672,2313 4569,2305 4161,2306 3495,2299 3468,2304" rendition="Line" xml:id="facs_18_tl_1758705840"/>
+        <zone points="3475,2350 4728,2350 4728,2408 3475,2408" rendition="Line" xml:id="facs_18_tl_1758705839"/>
+        <zone points="3465,2402 4755,2402 4755,2467 3465,2467" rendition="Line" xml:id="facs_18_tl_1758705816"/>
+        <zone points="3457,2462 4766,2462 4766,2531 3457,2531" rendition="Line" xml:id="facs_18_tl_1758705833"/>
+        <zone points="5208,2546 5204,2525 5182,2514 4998,2506 4615,2516 3538,2523 3483,2528 3469,2536 3456,2552 3455,2586 3462,2598 3480,2603 3608,2606 4363,2605 4541,2598 5178,2591 5200,2582 5207,2573" rendition="Line" xml:id="facs_18_tl_1758705810"/>
+        <zone points="3439,2669 3441,2713 3457,2722 3489,2725 4560,2721 4680,2715 4698,2706 4699,2668 4695,2661 4641,2654 4447,2654 4209,2647 3677,2644 3549,2634 3495,2634 3460,2641 3444,2652" rendition="Line" xml:id="facs_18_tl_1758705828"/>
+        <zone points="3458,2718 4755,2718 4755,2782 3458,2782" rendition="Line" xml:id="facs_18_tl_1758705826"/>
+        <zone points="3468,2825 3485,2833 3525,2836 4577,2838 4725,2833 4742,2828 4750,2813 4744,2789 4739,2784 4698,2778 3501,2776 3471,2781 3467,2786" rendition="Line" xml:id="facs_18_tl_1758705843"/>
+        <zone points="5234,2846 5230,2813 5207,2801 4899,2804 4674,2829 4337,2826 3563,2835 3481,2843 3471,2858 3471,2869 3481,2892 3536,2900 4953,2898 5203,2891 5230,2876" rendition="Line" xml:id="facs_18_tl_1758705827"/>
+        <zone points="3541,3361 3621,3138 3646,3098 3673,3074 3706,3059 3759,3061 3780,3071 3806,3117 3821,3133 3837,3174 3856,3204 3898,3238 3961,3270 4045,3286 4168,3295 4685,3304 4723,3310 4736,3323 4737,3400 4725,3419 4672,3437 4572,3447 3546,3400" rendition="Line" xml:id="facs_18_line_1758783523219_550"/>
+      </zone>
+    </surface>
+    <surface ulx="0" uly="0" lrx="5542" lry="4172" xml:id="facs_19">
+      <graphic url="WSTLA-OKA-B1-1-051-1_19.tif" width="5542px" height="4172px"/>
+      <graphic url="https://files.transkribus.eu/Get?id=IDHTDIVDRYVCKPZJZWMBMUJH&amp;fileType=view" width="5542px" height="4172px"/>
+      <zone points="0,0 2771,0 2771,4172 0,4172" rendition="TextRegion" xml:id="facs_19_region_155424172">
+        <zone points="2027,627 2027,570 2016,550 1968,529 1865,497 1827,474 1778,475 1707,515 1606,541 1299,560 1221,559 981,539 931,527 893,508 842,494 808,503 798,524 790,558 797,586 811,598 824,645 847,656 1156,656 1838,646 2009,638 2022,634" rendition="Line" xml:id="facs_19_tl_1758705804"/>
+        <zone points="832,642 2045,642 2045,706 832,706" rendition="Line" xml:id="facs_19_tl_1758705815"/>
+        <zone points="839,703 2049,703 2049,763 839,763" rendition="Line" xml:id="facs_19_tl_1758705806"/>
+        <zone points="2080,780 2071,767 2029,761 1560,760 878,765 829,773 821,781 819,809 829,819 875,823 1885,815 2065,808 2079,797" rendition="Line" xml:id="facs_19_tl_1758705826"/>
+        <zone points="2066,828 2061,822 2029,817 1316,821 875,818 832,840 828,846 830,872 843,879 926,888 1548,887 2045,870 2067,861" rendition="Line" xml:id="facs_19_tl_1758705807"/>
+        <zone points="2060,892 2041,883 1874,881 878,888 839,891 825,896 820,908 820,937 828,947 848,950 1519,948 2042,934 2053,931 2060,923" rendition="Line" xml:id="facs_19_tl_1758705801"/>
+        <zone points="2075,958 2068,943 2031,938 1001,949 878,955 859,959 836,972 843,986 839,989 846,996 844,1004 855,1007 1943,1006 2066,1000 2074,990" rendition="Line" xml:id="facs_19_tl_1758705821"/>
+        <zone points="2562,1009 2558,979 2504,961 2318,958 2093,985 1896,997 902,1013 839,1030 828,1038 824,1049 839,1077 862,1087 900,1093 2033,1094 2195,1088 2319,1075 2540,1064 2565,1046" rendition="Line" xml:id="facs_19_tl_1758705797"/>
+        <zone points="2049,2168 2044,2156 2029,2151 1892,2159 1477,2169 1166,2158 877,2156 847,2160 829,2169 823,2192 823,2227 829,2237 842,2242 911,2248 1990,2240 2030,2237 2047,2228" rendition="Line" xml:id="facs_19_tl_1758705798"/>
+        <zone points="2391,2231 2386,2217 2368,2211 2255,2211 1615,2236 899,2243 856,2247 842,2265 839,2290 843,2313 862,2324 908,2332 980,2336 2143,2338 2312,2328 2351,2318 2378,2300 2386,2289" rendition="Line" xml:id="facs_19_tl_1758705800"/>
+      </zone>
+      <zone points="2771,0 5542,0 5542,4172 2771,4172" rendition="TextRegion" xml:id="facs_19_region_255424172">
+        <zone points="3375,518 3377,535 3390,560 3393,583 3412,615 3450,628 3503,634 3715,642 4147,648 4859,646 4864,631 4864,565 4860,555 4850,549 4621,513 4572,494 4512,482 4450,482 4197,506 3977,509 3854,506 3541,482 3426,481 3387,494" rendition="Line" xml:id="facs_19_tl_1758705796"/>
+        <zone points="3462,652 3465,662 3462,688 3473,704 3566,713 4038,726 4538,728 4569,723 4578,718 4585,708 4585,668 4576,652 4562,649 4566,645 4228,638 3496,637 3473,639 3467,642" rendition="Line" xml:id="facs_19_tl_1758705808"/>
+        <zone points="3400,789 3408,804 3450,824 3551,832 4946,833 4972,829 5180,830 5187,813 5184,791 5179,775 4990,737 4043,736 3649,722 3468,721 3406,732 3402,741 3407,767" rendition="Line" xml:id="facs_19_tl_1758705812"/>
+        <zone points="3440,846 3449,840 3483,837 4865,840 5184,842 5184,922 4740,948 3918,948 3486,927 3445,919 3438,908" rendition="Line" xml:id="facs_19_line_1758783563195_582"/>
+        <zone points="3438,928 3868,928 5172,947 5177,979 5177,1008 3868,1007 3438,1007" rendition="Line" xml:id="facs_19_tl_1758705822"/>
+        <zone points="5172,1063 5166,1042 5112,1022 4677,1002 3845,1000 3476,1010 3434,1025 3426,1041 3424,1076 3427,1092 3445,1103 3645,1118 3923,1126 4884,1125 5161,1110 5181,1096" rendition="Line" xml:id="facs_19_tl_1758705802"/>
+        <zone points="3448,1104 3952,1104 5176,1120 5181,1150 5179,1187 3952,1193 3448,1193" rendition="Line" xml:id="facs_19_tl_1758705819"/>
+        <zone points="3463,1203 4669,1203 4669,1296 3463,1296" rendition="Line" xml:id="facs_19_tl_1758705817"/>
+        <zone points="3469,1326 3490,1278 3588,1293 4444,1287 4679,1288 4680,1352 3710,1349 3669,1345 3599,1345 3571,1338 3532,1341" rendition="Line" xml:id="facs_19_line_1758783582986_591"/>
+        <zone points="3464,1346 4647,1342 4755,1323 5177,1302 5195,1320 5196,1367 5191,1378 5177,1381 3661,1408 3464,1408" rendition="Line" xml:id="facs_19_line_1758783602997_598"/>
+        <zone points="3447,1434 3448,1472 3458,1489 3468,1495 3504,1498 4149,1515 4278,1523 4616,1504 4664,1495 4667,1488 4665,1465 4664,1456 4628,1442 4604,1440 4121,1427 3969,1418 3518,1414 3465,1417 3454,1421" rendition="Line" xml:id="facs_19_tl_1758705823"/>
+        <zone points="3471,1512 3479,1500 3486,1498 4435,1508 4632,1507 5055,1468 5148,1474 5158,1491 5158,1552 5139,1570 4426,1573 3582,1572 3510,1565 3476,1558 3471,1551" rendition="Line" xml:id="facs_19_line_1758783628008_612"/>
+        <zone points="3427,1653 3433,1664 3429,1670 3438,1683 3483,1695 4118,1695 4578,1689 4708,1683 4742,1676 4750,1668 4748,1628 4740,1612 4686,1602 4462,1605 3718,1601 3479,1592 3440,1599 3433,1604 3436,1627" rendition="Line" xml:id="facs_19_tl_1758705803"/>
+        <zone points="3451,1686 4748,1686 4748,1747 3451,1747" rendition="Line" xml:id="facs_19_tl_1758705824"/>
+        <zone points="3457,1764 3459,1788 3472,1793 3642,1804 4675,1803 4726,1799 4734,1796 4739,1788 4739,1761 4735,1752 4719,1745 4678,1741 4640,1744 3785,1744 3525,1737 3467,1741 3459,1748" rendition="Line" xml:id="facs_19_tl_1758705814"/>
+        <zone points="3458,1813 3467,1805 3482,1802 3734,1807 4075,1807 4734,1794 4734,1850 3642,1865 3515,1858 3470,1852 3462,1849 3458,1842 3460,1819" rendition="Line" xml:id="facs_19_line_1758783645166_628"/>
+        <zone points="3434,1858 4424,1875 4981,1826 5082,1830 5164,1845 5175,1860 5175,1920 5167,1938 5151,1940 4199,1955 3434,1955" rendition="Line" xml:id="facs_19_line_1758783651765_636"/>
+        <zone points="3393,1988 3394,2035 3400,2042 3490,2057 3570,2062 4578,2062 4748,2052 4762,2047 4770,2038 4769,2017 4763,2008 4705,1987 4545,1978 4153,1973 3936,1984 3654,1984 3471,1968 3415,1968 3398,1974" rendition="Line" xml:id="facs_19_tl_1758705810"/>
+        <zone points="3408,2074 3410,2104 3425,2111 3480,2117 3655,2121 4637,2120 4770,2114 4789,2108 4793,2097 4791,2067 4785,2060 4772,2055 4732,2053 4509,2059 3681,2059 3463,2050 3419,2053 3411,2059" rendition="Line" xml:id="facs_19_tl_1758705816"/>
+        <zone points="4801,2168 4813,2150 4813,2143 4812,2136 4800,2129 4773,2122 4311,2116 3512,2117 3462,2121 3443,2132 3446,2156 3453,2165 3541,2178 4114,2203 4436,2206 4603,2191 4623,2195 4716,2195 4738,2191 4787,2182 4796,2179" rendition="Line" xml:id="facs_19_tl_1758705818"/>
+        <zone points="3464,2177 3470,2172 3487,2170 4720,2181 5179,2161 5206,2175 5210,2215 5202,2237 5184,2245 3705,2255 3548,2255 3509,2248 3479,2233 3472,2225 3468,2216" rendition="Line" xml:id="facs_19_line_1758783677541_650"/>
+        <zone points="3656,2756 3649,2845 3650,2884 3663,2900 3697,2909 3837,2912 4566,2912 4600,2909 4609,2897 4609,2825 4602,2814 4590,2809 4369,2798 4274,2799 4191,2806 4085,2805 4007,2797 3959,2783 3930,2770 3891,2733 3881,2710 3883,2698 3879,2685 3883,2675 3883,2649 3879,2627 3874,2616 3862,2605 3840,2599 3734,2605 3695,2616 3678,2650 3671,2707" rendition="Line" xml:id="facs_19_tl_1758705805"/>
+      </zone>
+    </surface>
+    <surface ulx="0" uly="0" lrx="5546" lry="4189" xml:id="facs_20">
+      <graphic url="WSTLA-OKA-B1-1-051-1_20.tif" width="5546px" height="4189px"/>
+      <graphic url="https://files.transkribus.eu/Get?id=DJAZUZIXYZOTCEYHLMAVBMOL&amp;fileType=view" width="5546px" height="4189px"/>
+      <zone points="0,0 2773,0 2773,4189 0,4189" rendition="TextRegion" xml:id="facs_20_region_155464189">
+        <zone points="2166,549 2161,537 2146,528 2105,519 1799,496 1725,487 1651,486 1495,500 1388,526 1335,534 1126,513 1073,512 1034,516 1019,526 986,562 982,594 988,601 992,613 990,620 998,640 1029,653 1073,657 2085,661 2121,659 2146,654 2162,646 2166,631" rendition="Line" xml:id="facs_20_tl_1758705779"/>
+        <zone points="1028,648 1535,648 1535,745 1028,745" rendition="Line" xml:id="facs_20_tl_1758705775"/>
+        <zone points="772,785 776,806 790,824 800,829 797,842 805,857 824,864 868,868 1103,868 2011,853 2080,848 2091,843 2094,826 2090,792 2071,785 2031,781 1833,779 1623,768 1138,774 972,755 854,750 827,752 786,766 776,773" rendition="Line" xml:id="facs_20_tl_1758705782"/>
+        <zone points="2117,866 2110,856 2097,853 935,863 891,869 875,881 873,890 883,899 880,903 928,918 1873,916 2101,919 2116,909" rendition="Line" xml:id="facs_20_tl_1758705822"/>
+        <zone points="871,909 1970,909 2358,878 2583,880 2597,904 2620,947 1970,993 871,993" rendition="Line" xml:id="facs_20_tl_1758705802"/>
+        <zone points="2121,1020 2116,988 2101,982 2037,982 1804,997 1509,1005 886,991 835,1001 828,1055 831,1076 846,1079 1459,1079 1847,1072 1998,1065 2102,1055 2119,1048" rendition="Line" xml:id="facs_20_tl_1758705780"/>
+        <zone points="2120,1089 2118,1075 2103,1069 1023,1079 874,1085 863,1094 861,1117 872,1129 908,1134 1300,1134 1688,1123 1902,1121 2103,1114 2118,1108" rendition="Line" xml:id="facs_20_tl_1758705804"/>
+        <zone points="2132,1145 2129,1134 2119,1126 2082,1122 1750,1123 975,1135 883,1141 867,1152 866,1167 874,1189 896,1193 1329,1192 1672,1180 2125,1170 2130,1164" rendition="Line" xml:id="facs_20_tl_1758705806"/>
+        <zone points="2152,1185 2149,1179 2127,1175 979,1191 892,1196 884,1206 883,1231 894,1243 921,1247 1123,1248 1310,1247 2132,1227 2151,1219" rendition="Line" xml:id="facs_20_tl_1758705817"/>
+        <zone points="910,1254 918,1251 1036,1244 1427,1237 2102,1234 2130,1238 2130,1302 2090,1307 1450,1307 1007,1300 907,1290 903,1265" rendition="Line" xml:id="facs_20_line_1758783704599_670"/>
+        <zone points="880,1305 2088,1289 2248,1265 2573,1260 2594,1268 2599,1275 2601,1316 2598,1348 2590,1357 1447,1370 878,1370" rendition="Line" xml:id="facs_20_line_1758783718999_691"/>
+        <zone points="2164,1417 2157,1407 2143,1401 2084,1395 1622,1399 1396,1395 1240,1399 944,1397 850,1409 836,1427 834,1468 837,1480 843,1485 881,1491 1191,1491 1700,1478 2143,1475 2162,1467" rendition="Line" xml:id="facs_20_tl_1758705789"/>
+        <zone points="892,1493 1377,1493 1619,1476 2143,1470 2131,1494 2132,1519 1818,1529 1377,1550 892,1550" rendition="Line" xml:id="facs_20_tl_1758705840"/>
+        <zone points="894,1542 2006,1535 2568,1482 2597,1491 2601,1553 2580,1567 2569,1574 1353,1620 894,1620" rendition="Line" xml:id="facs_20_line_1758783743479_705"/>
+        <zone points="2090,1651 2085,1638 2076,1631 2032,1627 1670,1635 1342,1631 1041,1635 882,1631 845,1634 827,1641 822,1651 822,1682 826,1692 824,1714 829,1720 871,1727 1203,1727 1412,1718 2066,1705 2082,1701 2088,1695" rendition="Line" xml:id="facs_20_tl_1758705792"/>
+        <zone points="2082,1720 2078,1713 2069,1710 991,1721 878,1728 863,1737 860,1751 877,1773 897,1775 1537,1773 1760,1764 1968,1762 2062,1756 2080,1746" rendition="Line" xml:id="facs_20_tl_1758705825"/>
+        <zone points="886,1775 2082,1763 2082,1814 886,1826" rendition="Line" xml:id="facs_20_line_1758783763729_721"/>
+        <zone points="886,1840 898,1836 961,1830 1998,1832 2584,1774 2611,1788 2614,1837 2604,1865 2541,1874 1337,1907 885,1907 880,1905 879,1898 880,1851" rendition="Line" xml:id="facs_20_line_1758783757857_718"/>
+        <zone points="805,1939 816,1935 1548,1927 2007,1936 2077,1938 2070,2025 1797,2026 1412,2028 1238,2033 887,2034 832,2025 815,2016 805,1997 800,1949" rendition="Line" xml:id="facs_20_line_1758783783137_735"/>
+        <zone points="897,2022 2044,2013 2577,1957 2597,1964 2606,1976 2607,2047 2599,2060 1303,2095 897,2095" rendition="Line" xml:id="facs_20_line_1758783792257_739"/>
+        <zone points="842,2129 900,2120 1286,2110 1706,2110 2088,2129 2086,2219 1676,2220 1204,2245 1042,2234 908,2232 837,2213 830,2187 834,2139" rendition="Line" xml:id="facs_20_line_1758783800314_746"/>
+        <zone points="899,2220 2058,2214 2580,2146 2606,2157 2609,2230 2601,2253 1089,2270 899,2270" rendition="Line" xml:id="facs_20_line_1758783808769_754"/>
+        <zone points="828,2294 2606,2294 2606,2402 828,2402" rendition="Line" xml:id="facs_20_tl_1758705827"/>
+        <zone points="2610,2442 2604,2424 2568,2417 1882,2418 1704,2425 939,2424 882,2427 858,2435 851,2449 854,2503 870,2515 1021,2524 1679,2524 1881,2514 2578,2512 2608,2499" rendition="Line" xml:id="facs_20_tl_1758705833"/>
+        <zone points="819,2541 2615,2541 2615,2663 819,2663" rendition="Line" xml:id="facs_20_tl_1758705797"/>
+        <zone points="827,2665 2076,2665 2076,2771 827,2771" rendition="Line" xml:id="facs_20_tl_1758705788"/>
+        <zone points="879,2758 2084,2758 2084,2828 879,2828" rendition="Line" xml:id="facs_20_tl_1758705830"/>
+        <zone points="898,2819 2071,2817 2611,2768 2632,2776 2640,2788 2642,2839 2639,2860 2626,2865 1757,2920 898,2920" rendition="Line" xml:id="facs_20_line_1758783827224_772"/>
+        <zone points="799,3284 802,3330 811,3341 838,3344 1839,3345 1879,3342 1889,3335 1895,3320 1894,3239 1886,3230 1876,3225 1841,3220 1604,3211 1325,3219 1207,3206 1158,3183 1121,3158 1092,3127 1071,3113 1061,3091 1035,3069 1021,3044 966,3032 916,3042 876,3077 864,3120 837,3151" rendition="Line" xml:id="facs_20_tl_1758705821"/>
+      </zone>
+      <zone points="2773,0 5546,0 5546,4189 2773,4189" rendition="TextRegion" xml:id="facs_20_region_255464189">
+        <zone points="3400,621 3407,637 3414,642 3443,646 4606,642 4651,639 4664,630 4662,576 4648,565 4625,561 4105,549 3815,550 3508,528 3456,529 3416,541 3404,557" rendition="Line" xml:id="facs_20_tl_1758705776"/>
+        <zone points="3461,672 3471,649 3523,644 4408,642 4674,639 4672,691 3621,704 3551,707 3486,713 3464,694" rendition="Line" xml:id="facs_20_line_1758783852034_780"/>
+        <zone points="3457,697 4598,697 5056,653 5211,661 5228,677 5229,722 5221,738 5200,744 3660,756 3457,756" rendition="Line" xml:id="facs_20_line_1758783855751_784"/>
+        <zone points="3433,801 3438,791 3456,785 3538,785 3856,797 4309,802 4645,816 4690,821 4688,886 4427,886 4042,892 3500,880 3454,874 3436,865" rendition="Line" xml:id="facs_20_line_1758783870913_791"/>
+        <zone points="3497,878 4138,878 5241,862 5253,881 5250,917 4138,949 3497,949" rendition="Line" xml:id="facs_20_tl_1758705839"/>
+        <zone points="3485,982 3489,1014 3509,1024 3554,1029 3801,1035 3885,1042 4119,1046 4594,1043 4629,1039 4641,1032 4644,1021 4643,965 4637,957 4623,952 4195,935 3988,935 3761,940 3717,944 3506,946 3491,954" rendition="Line" xml:id="facs_20_tl_1758705796"/>
+        <zone points="3484,1012 3823,1012 3823,1086 3484,1086" rendition="Line" xml:id="facs_20_tl_1758705812"/>
+        <zone points="3450,1124 3450,1168 3461,1180 3674,1215 4410,1226 5237,1227 5257,1219 5267,1208 5270,1152 5263,1139 5242,1131 5184,1127 4302,1121 3950,1108 3547,1102 3469,1105 3456,1110" rendition="Line" xml:id="facs_20_tl_1758705818"/>
+        <zone points="3442,1230 3444,1308 3460,1315 3528,1323 3821,1332 4305,1337 4702,1337 4715,1334 4720,1323 4717,1269 4698,1260 4658,1255 4107,1242 3693,1239 3513,1216 3460,1216 3447,1220" rendition="Line" xml:id="facs_20_tl_1758705794"/>
+        <zone points="3485,1335 3486,1369 3492,1375 3506,1378 4027,1388 4627,1390 4707,1385 4714,1382 4718,1374 4717,1352 4710,1345 4697,1341 3602,1325 3506,1325 3491,1328" rendition="Line" xml:id="facs_20_tl_1758705787"/>
+        <zone points="3478,1429 4744,1449 4744,1396 3478,1376" rendition="Line" xml:id="facs_20_line_1758783887457_804"/>
+        <zone points="3456,1468 3459,1488 3476,1498 3519,1504 4732,1505 4737,1492 4736,1465 4725,1456 4639,1451 3560,1441 3471,1447 3459,1453" rendition="Line" xml:id="facs_20_tl_1758705813"/>
+        <zone points="3467,1510 3477,1506 3536,1503 4661,1507 4725,1513 4745,1520 4750,1525 4750,1577 3714,1566 3594,1558 3505,1547 3465,1551 3463,1523" rendition="Line" xml:id="facs_20_line_1758783899890_811"/>
+        <zone points="3481,1616 3640,1616 5206,1623 5211,1601 5198,1573 5191,1556 4929,1556 4751,1573 3640,1559 3481,1559" rendition="Line" xml:id="facs_20_line_1758783904809_817"/>
+        <zone points="4732,1691 4730,1666 4723,1660 4647,1641 4568,1633 4273,1634 4010,1647 3640,1649 3443,1640 3404,1642 3385,1650 3383,1713 3387,1729 3398,1736 3451,1741 3658,1736 4149,1739 4706,1733 4728,1727" rendition="Line" xml:id="facs_20_tl_1758705800"/>
+        <zone points="3425,1730 4757,1730 4757,1795 3425,1795" rendition="Line" xml:id="facs_20_tl_1758705815"/>
+        <zone points="3476,1791 4748,1791 4748,1852 3476,1852" rendition="Line" xml:id="facs_20_tl_1758705814"/>
+        <zone points="3468,1852 4761,1852 4761,1913 3468,1913" rendition="Line" xml:id="facs_20_tl_1758705823"/>
+        <zone points="5237,1907 5232,1896 5206,1890 5000,1888 4440,1911 3526,1915 3439,1926 3433,1936 3433,1967 3437,1978 3450,1985 3535,1989 5211,1988 5223,1984 5235,1965" rendition="Line" xml:id="facs_20_tl_1758705777"/>
+        <zone points="3385,2020 3388,2094 3406,2103 3456,2110 4774,2112 4792,2109 4798,2099 4795,2045 4778,2035 4730,2028 4326,2022 4078,2013 3609,2009 3474,2003 3393,2009" rendition="Line" xml:id="facs_20_tl_1758705790"/>
+        <zone points="3476,2105 4739,2109 4739,2171 3476,2167" rendition="Line" xml:id="facs_20_tl_1758705838"/>
+        <zone points="3473,2160 4697,2166 4945,2140 5229,2131 5252,2142 5256,2183 5252,2199 5214,2219 5162,2224 4125,2252 3473,2252" rendition="Line" xml:id="facs_20_line_1758783927289_837"/>
+        <zone points="3380,2344 3386,2356 3402,2364 3429,2367 4739,2366 4743,2359 4742,2314 4737,2308 4721,2303 4291,2286 4039,2271 3449,2268 3424,2272 3394,2288 3384,2302" rendition="Line" xml:id="facs_20_tl_1758705798"/>
+        <zone points="3425,2400 3433,2407 3474,2413 3718,2423 4667,2425 4711,2420 4720,2405 4717,2376 4699,2367 4566,2364 3471,2357 3434,2362 3426,2371" rendition="Line" xml:id="facs_20_tl_1758705832"/>
+        <zone points="3440,2434 3456,2420 3496,2416 4664,2420 4708,2424 4735,2434 4724,2476 4639,2477 4414,2501 4027,2501 3499,2488 3451,2471 3447,2461 3454,2457 3460,2443" rendition="Line" xml:id="facs_20_line_1758783939689_849"/>
+        <zone points="3485,2474 3814,2474 4689,2467 5005,2455 5217,2463 5228,2478 5219,2511 4823,2534 3814,2550 3485,2550" rendition="Line" xml:id="facs_20_tl_1758705791"/>
+        <zone points="3401,2590 3401,2665 3415,2674 4635,2672 4742,2664 4758,2658 4762,2651 4761,2623 4756,2617 4699,2605 4353,2592 3651,2583 3479,2574 3416,2576 3405,2581" rendition="Line" xml:id="facs_20_tl_1758705801"/>
+        <zone points="3441,2666 4814,2668 4814,2733 3441,2731" rendition="Line" xml:id="facs_20_tl_1758705819"/>
+        <zone points="3455,2728 4748,2728 4748,2788 3455,2788" rendition="Line" xml:id="facs_20_tl_1758705811"/>
+        <zone points="4761,2803 4730,2784 4716,2780 4166,2787 3559,2788 3472,2796 3471,2800 3459,2805 3457,2825 3459,2838 3466,2842 3514,2849 4498,2849 4724,2839 4761,2839" rendition="Line" xml:id="facs_20_tl_1758705795"/>
+        <zone points="3457,2846 4672,2846 4672,2920 3457,2920" rendition="Line" xml:id="facs_20_tl_1758705786"/>
+        <zone points="4789,2924 4785,2916 4773,2913 3478,2924 3423,2935 3414,2959 3418,2969 3431,2977 3463,2986 3620,2999 4778,3003 4788,2996" rendition="Line" xml:id="facs_20_tl_1758705778"/>
+        <zone points="3400,2989 4641,2989 4641,3096 3400,3096" rendition="Line" xml:id="facs_20_tl_1758705783"/>
+        <zone points="3322,3589 3328,3601 3358,3605 3590,3604 3711,3583 3874,3561 4061,3549 4231,3544 4339,3535 4386,3514 4392,3503 4393,3468 4390,3452 4381,3444 4338,3429 4104,3413 4026,3415 3973,3405 3939,3392 3917,3367 3897,3353 3878,3304 3866,3297 3845,3271 3825,3264 3779,3263 3752,3268 3704,3291 3684,3318 3663,3331 3652,3351 3628,3366 3609,3386 3536,3429 3439,3477 3361,3527" rendition="Line" xml:id="facs_20_tl_1758705785"/>
+      </zone>
+    </surface>
+    <surface ulx="0" uly="0" lrx="5546" lry="4173" xml:id="facs_21">
+      <graphic url="WSTLA-OKA-B1-1-051-1_21.tif" width="5546px" height="4173px"/>
+      <graphic url="https://files.transkribus.eu/Get?id=VSYIECALLJRHOMWCGXBYAENX&amp;fileType=view" width="5546px" height="4173px"/>
+      <zone points="0,0 2773,0 2773,4173 0,4173" rendition="TextRegion" xml:id="facs_21_region_155464173">
+        <zone points="801,539 805,594 819,614 832,622 850,642 911,652 1259,653 1955,642 2051,636 2069,630 2072,624 2072,572 2067,563 2050,557 1997,550 1620,546 1326,536 1155,545 1099,544 1046,539 922,504 870,499 814,504 804,515" rendition="Line" xml:id="facs_21_tl_1758705846"/>
+        <zone points="2085,667 2082,657 2074,651 2032,642 1647,642 933,652 882,657 874,663 872,676 877,699 917,706 1142,706 1739,696 1937,687 2075,685 2076,678" rendition="Line" xml:id="facs_21_tl_1758705864"/>
+        <zone points="2127,705 2124,687 2115,680 2061,678 1798,695 1027,706 938,710 894,720 884,728 881,747 886,757 926,759 1523,758 1943,750 2114,740 2126,734" rendition="Line" xml:id="facs_21_tl_1758705859"/>
+        <zone points="883,754 2138,754 2138,837 883,837" rendition="Line" xml:id="facs_21_tl_1758705855"/>
+        <zone points="900,824 1228,824 1228,904 900,904" rendition="Line" xml:id="facs_21_tl_1758705843"/>
+        <zone points="1983,1374 1979,1358 1969,1350 1915,1350 1830,1381 1811,1391 1801,1402 1759,1417 1654,1427 1588,1428 1466,1413 1399,1392 1352,1386 1257,1390 1137,1412 1063,1419 1015,1418 928,1406 885,1405 854,1417 838,1434 831,1462 830,1496 837,1534 872,1555 908,1561 1181,1569 1330,1578 1918,1568 1968,1555 1981,1543 1985,1495" rendition="Line" xml:id="facs_21_tl_1758705851"/>
+        <zone points="868,1544 992,1543 993,1544 1019,1544 1020,1545 1054,1545 1055,1546 1124,1546 1125,1547 1151,1547 1152,1548 1210,1548 1231,1552 1255,1547 1276,1552 1328,1540 1510,1547 1518,1575 1518,1603 1505,1610 1299,1601 1298,1602 1276,1602 1275,1603 1262,1603 1261,1604 1079,1605 1078,1604 1006,1604 1005,1603 995,1603 980,1600 868,1600" rendition="Line" xml:id="facs_21_line_1758783970799_877"/>
+        <zone points="879,1996 880,2029 885,2046 911,2075 918,2092 935,2100 967,2104 2038,2105 2070,2102 2076,2097 2077,2021 2071,2012 2056,2007 1916,1992 1629,1972 1112,1966 896,1956 885,1968" rendition="Line" xml:id="facs_21_tl_1758705845"/>
+        <zone points="940,2106 1023,2107 1085,2108 1116,2103 1375,2098 2068,2100 2089,2103 2098,2114 2098,2158 2088,2181 2078,2188 2051,2192 1776,2191 1622,2186 1542,2179 1496,2168 1435,2165 985,2166 940,2161" rendition="Line" xml:id="facs_21_line_1758783993010_892"/>
+        <zone points="948,2152 1512,2152 1512,2237 948,2237" rendition="Line" xml:id="facs_21_tl_1758705854"/>
+        <zone points="850,2267 926,2265 1111,2273 1581,2271 2110,2295 2103,2362 1312,2355 919,2375 842,2341 832,2286 835,2275" rendition="Line" xml:id="facs_21_line_1758784007817_902"/>
+        <zone points="900,2371 2074,2351 2559,2319 2614,2334 2618,2382 2578,2396 2562,2401 2181,2407 1140,2417 900,2417" rendition="Line" xml:id="facs_21_line_1758784030893_911"/>
+        <zone points="878,2445 879,2479 886,2487 897,2489 2052,2486 2173,2478 2180,2475 2188,2461 2183,2438 2177,2430 2155,2419 2133,2415 2005,2409 1395,2430 1207,2423 1083,2418 1013,2424 1002,2420 935,2415 926,2417 882,2433" rendition="Line" xml:id="facs_21_tl_1758705865"/>
+        <zone points="2637,2504 2620,2471 2567,2462 2222,2465 1600,2485 959,2488 891,2496 883,2510 876,2548 879,2563 895,2575 972,2585 2129,2542 2611,2549 2637,2534" rendition="Line" xml:id="facs_21_tl_1758705848"/>
+        <zone points="2017,2604 2127,2604 2127,2537 2017,2537" rendition="Line" xml:id="facs_21_line_1758784075254_916"/>
+        <zone points="1105,2894 1103,2909 1103,3004 1105,3010 1110,3015 1122,3018 1135,3019 1205,3013 1296,3011 1335,3008 1419,3008 1466,3013 1516,3022 1649,3023 1665,3021 1668,3014 1669,2921 1667,2911 1660,2904 1652,2901 1632,2899 1534,2903 1435,2904 1361,2899 1302,2891 1207,2891 1138,2885 1110,2886" rendition="Line" xml:id="facs_21_tl_1758705853"/>
+      </zone>
+      <zone points="2773,0 5546,0 5546,4173 2773,4173" rendition="TextRegion" xml:id="facs_21_region_255464173">
+        <zone points="4737,650 4737,585 4731,567 4680,547 4605,528 4550,494 4536,455 4501,439 4474,435 4407,439 4363,460 4335,485 4291,507 4173,531 4076,533 3980,528 3830,543 3727,546 3497,535 3458,538 3417,549 3405,566 3414,584 3433,603 3447,640 3467,649 3511,654 3805,665 3950,679 4385,688 4669,679 4727,668" rendition="Line" xml:id="facs_21_tl_1758705850"/>
+        <zone points="3472,650 3889,650 3889,737 3472,737" rendition="Line" xml:id="facs_21_tl_1758705844"/>
+        <zone points="3404,776 3405,819 3412,839 3448,861 3468,865 4497,864 4689,859 4706,856 4712,849 4710,784 4653,773 4338,778 3972,777 3654,765 3459,750 3417,757 3408,763" rendition="Line" xml:id="facs_21_tl_1758705847"/>
+        <zone points="3451,858 4705,858 4705,916 3451,916" rendition="Line" xml:id="facs_21_tl_1758705868"/>
+        <zone points="4715,923 4705,915 4665,911 3730,912 3471,920 3452,929 3451,964 3456,971 3494,976 4591,972 4703,966 4716,958" rendition="Line" xml:id="facs_21_tl_1758705857"/>
+        <zone points="3459,1009 3491,989 3522,979 3597,974 4569,972 4678,976 4678,1024 4430,1039 4065,1044 3531,1041 3504,1028 3461,1018" rendition="Line" xml:id="facs_21_line_1758784085495_933"/>
+        <zone points="3474,1032 4629,1030 5065,986 5196,995 5222,1006 5226,1043 5224,1064 5214,1071 4069,1108 3474,1108" rendition="Line" xml:id="facs_21_line_1758784092616_937"/>
+        <zone points="3382,1199 3385,1210 3392,1215 3441,1221 4568,1211 4714,1207 4728,1199 4727,1166 4719,1157 4662,1142 4288,1139 4044,1130 3591,1133 3452,1127 3404,1131 3385,1140" rendition="Line" xml:id="facs_21_tl_1758705852"/>
+        <zone points="4742,1215 4733,1208 4690,1205 4380,1211 3579,1212 3454,1217 3437,1224 3434,1238 3439,1254 3462,1264 3496,1271 4644,1265 4714,1262 4736,1257 4743,1251" rendition="Line" xml:id="facs_21_tl_1758705873"/>
+        <zone points="3465,1285 3470,1274 3490,1266 3611,1264 4666,1266 4765,1264 4766,1319 4430,1326 3918,1339 3537,1337 3533,1328 3471,1316 3465,1307" rendition="Line" xml:id="facs_21_line_1758784100368_944"/>
+        <zone points="3468,1318 4674,1328 5082,1279 5205,1287 5243,1295 5255,1307 5257,1354 5254,1363 5241,1371 3966,1383 3468,1383" rendition="Line" xml:id="facs_21_line_1758784109598_949"/>
+        <zone points="3420,1416 3429,1408 3450,1405 4182,1411 4653,1431 4699,1435 4700,1500 4354,1506 4153,1497 4057,1496 3980,1489 3710,1494 3456,1478 3422,1471" rendition="Line" xml:id="facs_21_line_1758784115919_954"/>
+        <zone points="3456,1479 4701,1497 5235,1455 5261,1461 5272,1470 5275,1527 5266,1542 3990,1553 3456,1553" rendition="Line" xml:id="facs_21_line_1758784119198_958"/>
+        <zone points="3400,1576 5250,1576 5250,1695 3400,1695" rendition="Line" xml:id="facs_21_tl_1758705860"/>
+        <zone points="3418,1704 4813,1704 4813,1798 3418,1798" rendition="Line" xml:id="facs_21_tl_1758705869"/>
+        <zone points="3470,1791 4671,1780 5275,1780 5275,1860 3922,1868 3470,1868" rendition="Line" xml:id="facs_21_line_1758784141557_966"/>
+        <zone points="3455,1885 3482,1874 4039,1879 4574,1893 4749,1901 4752,1973 4642,1977 4332,1976 3974,1976 3484,1973 3460,1962 3452,1916" rendition="Line" xml:id="facs_21_line_1758784149032_971"/>
+        <zone points="3456,1963 4707,1973 5149,1944 5215,1947 5265,1950 5270,1984 5267,2008 5252,2019 4065,2048 3456,2048" rendition="Line" xml:id="facs_21_line_1758784161284_977"/>
+        <zone points="3444,2051 3494,2045 3766,2056 4206,2058 4700,2082 4701,2155 4532,2155 4071,2150 3527,2137 3449,2125 3440,2112 3439,2073" rendition="Line" xml:id="facs_21_line_1758784174515_982"/>
+        <zone points="3478,2139 3499,2135 4708,2134 5270,2104 5288,2113 5292,2160 5287,2188 5272,2190 4202,2213 3689,2213 3537,2199 3481,2191 3476,2188 3474,2183 3474,2149" rendition="Line" xml:id="facs_21_line_1758784179382_987"/>
+        <zone points="3441,2250 3442,2302 3447,2311 3510,2323 3813,2332 4060,2333 4330,2339 4808,2337 4819,2332 4816,2324 4815,2285 4806,2270 4793,2264 4748,2259 4209,2238 3891,2238 3716,2228 3542,2224 3458,2226 3444,2233" rendition="Line" xml:id="facs_21_tl_1758705874"/>
+        <zone points="3472,2317 3877,2317 4733,2333 5056,2319 5247,2313 5279,2326 5298,2359 5207,2401 3877,2402 3472,2402" rendition="Line" xml:id="facs_21_tl_1758705878"/>
+        <zone points="3399,2445 3402,2513 3421,2521 3470,2526 4722,2523 4766,2519 4783,2508 4782,2473 4777,2459 4717,2447 4400,2448 3499,2426 3415,2430 3404,2434" rendition="Line" xml:id="facs_21_tl_1758705849"/>
+        <zone points="3459,2534 3460,2560 3463,2565 3481,2571 3624,2583 4034,2583 4233,2589 4643,2591 4726,2596 4773,2595 4790,2559 4789,2534 4784,2529 4769,2524 4027,2522 3500,2517 3470,2520" rendition="Line" xml:id="facs_21_tl_1758705882"/>
+        <zone points="5310,2633 5307,2585 5285,2569 5115,2561 4928,2561 4693,2574 4208,2580 3521,2580 3435,2593 3430,2611 3433,2635 3445,2640 3672,2653 5295,2652" rendition="Line" xml:id="facs_21_tl_1758705858"/>
+        <zone points="3432,2679 3456,2670 3713,2677 4684,2682 4737,2704 4722,2746 4432,2756 4305,2763 4154,2774 4080,2767 3460,2756 3433,2744" rendition="Line" xml:id="facs_21_line_1758784209257_1000"/>
+        <zone points="3475,2751 4711,2746 5257,2718 5285,2734 5286,2791 5280,2805 4137,2846 3475,2846" rendition="Line" xml:id="facs_21_line_1758784219703_1004"/>
+        <zone points="3429,2875 3425,2951 3453,2964 3501,2960 3784,2966 4671,2968 4685,2966 4690,2959 4690,2910 4683,2884 4670,2874 4629,2863 4434,2863 4137,2855 3670,2859 3579,2857 3450,2847 3434,2853" rendition="Line" xml:id="facs_21_tl_1758705877"/>
+        <zone points="3489,2947 4675,2958 5271,2926 5299,2941 5303,2976 5297,3004 5281,3017 3917,3027 3489,3027" rendition="Line" xml:id="facs_21_line_1758784233945_1018"/>
+        <zone points="3534,3220 3560,3165 3580,3138 3601,3128 3619,3112 3671,3100 3693,3101 3739,3115 3755,3168 3768,3185 3803,3216 3858,3250 3902,3264 3965,3271 4039,3270 4127,3262 4396,3273 4433,3285 4451,3297 4454,3307 4452,3334 4441,3365 4420,3385 4390,3396 4087,3403 4000,3411 3540,3392" rendition="Line" xml:id="facs_21_line_1758784259451_1030"/>
+      </zone>
+    </surface>
+    <surface ulx="0" uly="0" lrx="5550" lry="4187" xml:id="facs_22">
+      <graphic url="WSTLA-OKA-B1-1-051-1_00022.tif" width="5550px" height="4187px"/>
+      <graphic url="https://files.transkribus.eu/Get?id=ABHVSBTEFIXQIIGCLLSWGWTU&amp;fileType=view" width="5550px" height="4187px"/>
+      <zone points="0,0 2775,0 2775,4187 0,4187" rendition="TextRegion" xml:id="facs_22_region_155504187"/>
+      <zone points="2775,0 5550,0 5550,4187 2775,4187" rendition="TextRegion" xml:id="facs_22_region_255504187"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="5547" lry="4173" xml:id="facs_23">
+      <graphic url="WSTLA-OKA-B1-1-051-1_00023.tif" width="5547px" height="4173px"/>
+      <graphic url="https://files.transkribus.eu/Get?id=TGUVJPOBSZKSNTEOKAIODWJC&amp;fileType=view" width="5547px" height="4173px"/>
+      <zone points="0,0 2773,0 2773,4173 0,4173" rendition="TextRegion" xml:id="facs_23_region_155474173"/>
+      <zone points="2774,0 5547,0 5547,4173 2774,4173" rendition="TextRegion" xml:id="facs_23_region_255474173"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="5547" lry="4185" xml:id="facs_24">
+      <graphic url="WSTLA-OKA-B1-1-051-1_00024.tif" width="5547px" height="4185px"/>
+      <graphic url="https://files.transkribus.eu/Get?id=COGXWJHYGPMTNLSHJNIWDLYS&amp;fileType=view" width="5547px" height="4185px"/>
+      <zone points="0,0 2773,0 2773,4185 0,4185" rendition="TextRegion" xml:id="facs_24_region_155474185"/>
+      <zone points="2774,0 5547,0 5547,4185 2774,4185" rendition="TextRegion" xml:id="facs_24_region_255474185"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="5506" lry="4180" xml:id="facs_25">
+      <graphic url="WSTLA-OKA-B1-1-051-1_00025.tif" width="5506px" height="4180px"/>
+      <graphic url="https://files.transkribus.eu/Get?id=DOQVTZFSHWHXWKRFWBURBZMK&amp;fileType=view" width="5506px" height="4180px"/>
+      <zone points="0,0 2753,0 2753,4180 0,4180" rendition="TextRegion" xml:id="facs_25_region_155064180"/>
+      <zone points="2753,0 5506,0 5506,4180 2753,4180" rendition="TextRegion" xml:id="facs_25_region_255064180"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="5543" lry="4188" xml:id="facs_26">
+      <graphic url="WSTLA-OKA-B1-1-051-1_00026.tif" width="5543px" height="4188px"/>
+      <graphic url="https://files.transkribus.eu/Get?id=YAFQPFRPUQMAVFUPTXBLXQIH&amp;fileType=view" width="5543px" height="4188px"/>
+      <zone points="0,0 2771,0 2771,4188 0,4188" rendition="TextRegion" xml:id="facs_26_region_155434188"/>
+      <zone points="2772,0 5543,0 5543,4188 2772,4188" rendition="TextRegion" xml:id="facs_26_region_255434188"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="5534" lry="4175" xml:id="facs_27">
+      <graphic url="WSTLA-OKA-B1-1-051-1_00027.tif" width="5534px" height="4175px"/>
+      <graphic url="https://files.transkribus.eu/Get?id=SKPMLGQACQTXJSRGUUBESQBM&amp;fileType=view" width="5534px" height="4175px"/>
+      <zone points="0,0 2767,0 2767,4175 0,4175" rendition="TextRegion" xml:id="facs_27_region_155344175"/>
+      <zone points="2767,0 5534,0 5534,4175 2767,4175" rendition="TextRegion" xml:id="facs_27_region_255344175"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="5544" lry="4182" xml:id="facs_28">
+      <graphic url="WSTLA-OKA-B1-1-051-1_00028.tif" width="5544px" height="4182px"/>
+      <graphic url="https://files.transkribus.eu/Get?id=VDIAFIHRFRTVXATTCUXSYIJL&amp;fileType=view" width="5544px" height="4182px"/>
+      <zone points="0,0 2772,0 2772,4182 0,4182" rendition="TextRegion" xml:id="facs_28_region_155444182"/>
+      <zone points="2772,0 5544,0 5544,4182 2772,4182" rendition="TextRegion" xml:id="facs_28_region_255444182"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="5528" lry="4177" xml:id="facs_29">
+      <graphic url="WSTLA-OKA-B1-1-051-1_00029.tif" width="5528px" height="4177px"/>
+      <graphic url="https://files.transkribus.eu/Get?id=QJQGQOJHYOCIHODGGVLGNMHD&amp;fileType=view" width="5528px" height="4177px"/>
+      <zone points="0,0 2764,0 2764,4177 0,4177" rendition="TextRegion" xml:id="facs_29_region_155284177"/>
+      <zone points="2764,0 5528,0 5528,4177 2764,4177" rendition="TextRegion" xml:id="facs_29_region_255284177"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="5523" lry="4175" xml:id="facs_30">
+      <graphic url="WSTLA-OKA-B1-1-051-1_00030.tif" width="5523px" height="4175px"/>
+      <graphic url="https://files.transkribus.eu/Get?id=SBXDSPZTGLMNLKQMMNWSNNOF&amp;fileType=view" width="5523px" height="4175px"/>
+      <zone points="0,0 2761,0 2761,4175 0,4175" rendition="TextRegion" xml:id="facs_30_region_155234175"/>
+      <zone points="2762,0 5523,0 5523,4175 2762,4175" rendition="TextRegion" xml:id="facs_30_region_255234175"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="5558" lry="4194" xml:id="facs_31">
+      <graphic url="WSTLA-OKA-B1-1-051-1_00031.tif" width="5558px" height="4194px"/>
+      <graphic url="https://files.transkribus.eu/Get?id=SXVXNDIGMNTZOXALFBRIPSMS&amp;fileType=view" width="5558px" height="4194px"/>
+      <zone points="0,0 2779,0 2779,4194 0,4194" rendition="TextRegion" xml:id="facs_31_region_155584194"/>
+      <zone points="2779,0 5558,0 5558,4194 2779,4194" rendition="TextRegion" xml:id="facs_31_region_255584194"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="5564" lry="4194" xml:id="facs_32">
+      <graphic url="WSTLA-OKA-B1-1-051-1_00032.tif" width="5564px" height="4194px"/>
+      <graphic url="https://files.transkribus.eu/Get?id=JZNEHPMCXKVMJOWKCBOGRKEN&amp;fileType=view" width="5564px" height="4194px"/>
+      <zone points="0,0 2782,0 2782,4194 0,4194" rendition="TextRegion" xml:id="facs_32_region_155644194"/>
+      <zone points="2782,0 5564,0 5564,4194 2782,4194" rendition="TextRegion" xml:id="facs_32_region_255644194"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="5523" lry="4166" xml:id="facs_33">
+      <graphic url="WSTLA-OKA-B1-1-051-1_00033.tif" width="5523px" height="4166px"/>
+      <graphic url="https://files.transkribus.eu/Get?id=TSVCMAGAJYFLWHQUYPFTUSRJ&amp;fileType=view" width="5523px" height="4166px"/>
+      <zone points="0,0 2761,0 2761,4166 0,4166" rendition="TextRegion" xml:id="facs_33_region_155234166"/>
+      <zone points="2762,0 5523,0 5523,4166 2762,4166" rendition="TextRegion" xml:id="facs_33_region_255234166"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="5374" lry="4108" xml:id="facs_34">
+      <graphic url="WSTLA-OKA-B1-1-051-1_00034.tif" width="5374px" height="4108px"/>
+      <graphic url="https://files.transkribus.eu/Get?id=FQSTXERHCFHXUPAJOTBQIVMK&amp;fileType=view" width="5374px" height="4108px"/>
+      <zone points="0,0 2687,0 2687,4108 0,4108" rendition="TextRegion" xml:id="facs_34_region_153744108"/>
+      <zone points="2687,0 5374,0 5374,4108 2687,4108" rendition="TextRegion" xml:id="facs_34_region_253744108"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="5569" lry="4125" xml:id="facs_35">
+      <graphic url="WSTLA-OKA-B1-1-051-1_00035.tif" width="5569px" height="4125px"/>
+      <graphic url="https://files.transkribus.eu/Get?id=GOJEDTANJVDTKTCSAECCVFCG&amp;fileType=view" width="5569px" height="4125px"/>
+      <zone points="0,0 2784,0 2784,4125 0,4125" rendition="TextRegion" xml:id="facs_35_region_155694125"/>
+      <zone points="2785,0 5569,0 5569,4125 2785,4125" rendition="TextRegion" xml:id="facs_35_region_255694125"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="5607" lry="4155" xml:id="facs_36">
+      <graphic url="WSTLA-OKA-B1-1-051-1_00036.tif" width="5607px" height="4155px"/>
+      <graphic url="https://files.transkribus.eu/Get?id=ANJEUCVLNKBGYOBHZJEBNGHJ&amp;fileType=view" width="5607px" height="4155px"/>
+      <zone points="0,0 2803,0 2803,4155 0,4155" rendition="TextRegion" xml:id="facs_36_region_156074155"/>
+      <zone points="2804,0 5607,0 5607,4155 2804,4155" rendition="TextRegion" xml:id="facs_36_region_256074155"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="5691" lry="4264" xml:id="facs_37">
+      <graphic url="WSTLA-OKA-B1-1-051-1_00037.tif" width="5691px" height="4264px"/>
+      <graphic url="https://files.transkribus.eu/Get?id=VVYSSOSFTSOCDUAVLSVIMSNN&amp;fileType=view" width="5691px" height="4264px"/>
+      <zone points="0,0 2845,0 2845,4264 0,4264" rendition="TextRegion" xml:id="facs_37_region_156914264"/>
+      <zone points="2846,0 5691,0 5691,4264 2846,4264" rendition="TextRegion" xml:id="facs_37_region_256914264"/>
+    </surface>
+    <surface ulx="0" uly="0" lrx="2966" lry="4330" xml:id="facs_38">
+      <graphic url="WSTLA-OKA-B1-1-051-1_00038.tif" width="2966px" height="4330px"/>
+      <graphic url="https://files.transkribus.eu/Get?id=SWDHBGVKAJUWLDJCMMIEUWTT&amp;fileType=view" width="2966px" height="4330px"/>
+      <zone points="0,0 1483,0 2966,0 2966,4330 1483,4330 0,4330" rendition="TextRegion" xml:id="facs_38_TextRegion_1757589606839_498"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div>
+        <pb facs="#facs_1" n="1" xml:id="img_0001"/>
+        <pb facs="#facs_2" n="2" xml:id="img_0002"/>
+        <pb facs="#facs_3" n="3" xml:id="img_0003"/>
+        <pb facs="#facs_4" n="4" xml:id="img_0004"/>
+        <pb facs="#facs_5" n="5" xml:id="img_0005"/>
+        <pb facs="#facs_6" n="6" xml:id="img_0006"/>
+        <pb facs="#facs_7" n="7" xml:id="img_0007"/>
+        <pb facs="#facs_8" n="8" xml:id="img_0008"/>
+        <pb facs="#facs_9" n="9" xml:id="img_0009"/>
+        <pb facs="#facs_10" n="10" xml:id="img_0010"/>
+        <pb facs="#facs_11" n="11" xml:id="img_0011"/>
+        <pb facs="#facs_12" n="12" xml:id="img_0012"/>
+        <ab facs="#facs_12_region_154794142">
+          <lb facs="#facs_12_tl_1758705789" n="N001"/>Mit Sigmundenn Gwaltzhofer <unclear>Munnss</unclear>maister wittib
+               <lb facs="#facs_12_tl_1758705818" n="N002"/>ist abtzuraitten nach laut der vorigen Iar Wann Ich
+               <lb facs="#facs_12_tl_1758705821" n="N003"/>Iren Mann nach Sy Zu dhainer Raittung nye hab
+               <lb facs="#facs_12_tl_1758705819" n="N004"/>bringenn <unclear>inugen</unclear> hat des ain Zedl vnd vermainet
+               <lb facs="#facs_12_tl_1758705791" n="N005"/>die Stat sey Ir auch schuldig
+               <lb facs="#facs_12_tl_1758705799" n="N006"/>Mit Hannsenn Luatsch den man auch nennet haidn    
+               <lb facs="#facs_12_tl_1758705807" n="N007"/>von dem lxxxxiii Iar abgerait vnd hat gehabt iii ampfer
+               <lb facs="#facs_12_tl_1758705796" n="N008"/>vnd ii lagl die ampfer per vii γ die lagl per vi s Im
+               <lb facs="#facs_12_tl_1758705803" n="N009"/>dar Inn nachgebn iiii s ꞩ dennoch xxii γ d
+               <lb facs="#facs_12_tl_1758705809" n="N010"/>Mit demselbnn Luatschen abgeraitt von dem
+               <lb facs="#facs_12_tl_1758705830" n="N011"/>Lxxxxiiii Iar das er gehabt hat vi lagl per vi s ꞩ iiii γ iiii s d
+               <lb facs="#facs_12_tl_1758705806" n="N012"/>So ist Im auch aufgemerkt worden das er von
+               <lb facs="#facs_12_tl_1758705797" n="N013"/>der Osterperger aus der Newennstat ain halbe
+               <lb facs="#facs_12_tl_1758705794" n="N014"/>ampfer malmasia sol enphanngen habn der
+               <lb facs="#facs_12_tl_1758705804" n="N015"/>er aber in Irrung komen ist sol noch an dem
+               <lb facs="#facs_12_tl_1758705823" n="N016"/>Osterperger erfragt werdn
+               <lb facs="#facs_12_tl_1758705812" n="N017"/>Iorg Muerer von Knuttelfeld sol noch laut
+               <lb facs="#facs_12_tl_1758705822" n="N018"/>meiner verttign Raittung abraitten oder wein
+               <lb facs="#facs_12_tl_1758705814" n="N019"/>er den Malmasia gebn hab vnnderricht thun
+               <lb facs="#facs_12_tl_1758705793" n="N020"/>Dermassen Anndre Prettl von prukh auch laut
+               <lb facs="#facs_12_tl_1758705800" n="N021"/>meiner Verttigenn Raittung
+               <lb facs="#facs_12_tl_1758705788" n="N022"/>Peter Paldauf hat ditz gegennburttign Lxxxxiiii Iars
+               <lb facs="#facs_12_tl_1758705829" n="N023"/>gehabt vom <unclear>Remen</unclear> ii lagl von Sigmundn Sibn
+               <lb facs="#facs_12_tl_1758705805" n="N024"/>burger iiii lagl vnd von dem von Zintzenndorff
+               <lb facs="#facs_12_l_1" n="N025"/>i Lagl Ist im ain tail daraus verdorbn Die
+               <lb facs="#facs_12_l_2" n="N026"/>vbermass gelassen iii γ iiii s d
+               <lb facs="#facs_12_tl_1758705816" n="N027"/>Latus xxx γ d
+               <lb facs="#facs_12_tl_1758705808" n="N028"/>Suma Innemens von der vorgenannten Taferen
+               <lb facs="#facs_12_tl_1758705810" n="N029"/>ꞩ ii C xvii γ iii s xvi d
+            </ab>
+        <ab facs="#facs_12_region_254794142">
+          <lb facs="#facs_12_tl_1758705792" n="N001"/>Innemen vom vnd gegen dem Roten
+               <lb facs="#facs_12_tl_1758705838" n="N002"/>turenn vber
+               <lb facs="#facs_12_tl_1758705801" n="N003"/>An Sambstag vor sannd panngretzenn tag von Iorgn Hedl
+               <lb facs="#facs_12_tl_1758705828" n="N004"/>Ambtman seines Bestanndes darumb Im die waid verlassen
+               <lb facs="#facs_12_tl_1758705790" n="N006"/>Innemen von der Maut Zu Stadlau
+               <lb facs="#facs_12_tl_1758705825" n="N007"/>Auch der Alpeltawer vnd kagranner gerechtigkait
+               <lb facs="#facs_12_tl_1758705817" n="N008"/>Von Mathesenn Guetgesellenn Mawtter auf der pruken
+               <lb facs="#facs_12_tl_1758705835" n="N009"/>vor dem Rotenturen bey der Slagprukh von der Mawt Zu
+               <lb facs="#facs_12_tl_1758705833" n="N010"/>Stadlaw So dises Iar vber seinenn Solde gefallen vnd dem
+               <lb facs="#facs_12_line_1758711216590_3622" n="N011"/>Abbt <unclear>Zunn</unclear> Schottenn an seiner schuld gebn ist C xxv γ x s xxviii d ob
+               <lb facs="#facs_12_tl_1758705811" n="N012"/>In desselbenn Mawtter gegennburt von Peterenn Heindlein
+               <lb facs="#facs_12_tl_1758705832" n="N013"/>von Alpltaw derselben Apltawer gerechtigkaithalbn an
+               <lb facs="#facs_12_tl_1758705802" n="N014"/>Eritag sand Valenntins tag vii s iiii d Zu sannd Iorgn tag
+               <lb facs="#facs_12_tl_1758705826" n="N015"/>von den von Alpltaw i γ xxiiii d darnach Zu den phingsten
+               <lb facs="#facs_12_tl_1758705820" n="N016"/>i γ xxii d dauon dem Heindl <unclear>Zu dtringken</unclear> das ers hat
+               <lb facs="#facs_12_line_1758711225404_3632" n="N017"/>einbracht xxiiii d. Vnd von den Kagranneren die nur x
+               <lb facs="#facs_12_line_1758711234128_3646" n="N018"/>Hewser haben per Mautter Lxxxiiii d ꞩ iii γ Lxxx d
+               <lb facs="#facs_12_tl_1758705798" n="N019"/>Suma Latus C xxviiii γ xviii d
+               <lb facs="#facs_12_tl_1758705815" n="N020"/>Innemen von der kursner Maisterschaft
+               <lb facs="#facs_12_tl_1758705824" n="N021"/>Von Wolfganngen Hiess Kursner i γ d
+               <lb facs="#facs_12_tl_1758705795" n="N022"/>Innemen von der <unclear>Barban</unclear> der Beschau iii γ d
+            </ab>
+        <pb facs="#facs_13" n="13" xml:id="img_0013"/>
+        <ab facs="#facs_13_region_154714154">
+          <lb facs="#facs_13_tl_1758705870" n="N001"/>Innemen von den nachgeschriben personen
+               <lb facs="#facs_13_tl_1758705884" n="N002"/>Damit Sy Burgerrecht gewunnen vnd gesworen habenn
+               <lb facs="#facs_13_tl_1758705918" n="N003"/>Hanns Taufkircher von Medling viii γ d
+               <lb facs="#facs_13_tl_1758705928" n="N004"/>Iorg Vintta von Newsidel ii fl vnngr per x s xx ꞩ ii γ v s x d
+               <lb facs="#facs_13_tl_1758705955" n="N005"/>Mert Waldner i γ d
+               <lb facs="#facs_13_tl_1758705891" n="N006"/>Ruedolf Wanntzler Abentewrer i γ d
+               <lb facs="#facs_13_line_1758711318923_3663" n="N007"/>Leonnhart Hager iiii s d
+               <lb facs="#facs_13_tl_1758705882" n="N008"/>Hanns <unclear>Kberl</unclear> leinbeber iiii s d
+               <lb facs="#facs_13_tl_1758705902" n="N009"/>Michel Newnn kircher greisler vi s d
+               <lb facs="#facs_13_tl_1758705903" n="N010"/>Gregor Volkh <unclear>Stainmess</unclear> iiii s d
+               <lb facs="#facs_13_tl_1758705875" n="N011"/>Rueprecht leitgeb von Hawgstorf iiii s d
+               <lb facs="#facs_13_tl_1758705896" n="N012"/>Mathes Tannegker iiii s d
+               <lb facs="#facs_13_line_1758711347316_3672" n="N013"/>Iorg Sygennfelder Kremer i γ d
+               <lb facs="#facs_13_tl_1758705932" n="N014"/>Hainreich Kigel vi γ d
+               <lb facs="#facs_13_tl_1758705923" n="N015"/>Hanns Grutter von Saltzburg viii γ d
+               <lb facs="#facs_13_line_1758711361020_3678" n="N016"/>Hanns Wilderstorffer <unclear>Munnss</unclear>maister ii Terraspuxn
+               <lb facs="#facs_13_line_1758711364908_3682" n="N017"/>Iorg Froschhaimer iii <unclear>Hakew pn</unclear>
+          <lb facs="#facs_13_tl_1758705864" n="N018"/>Thomasch Valkhner i γ d
+               <lb facs="#facs_13_line_1758711377581_3687" n="N019"/>Sigmund Kembnater i γ iiii s d
+               <lb facs="#facs_13_tl_1758705925" n="N020"/>Cristof <unclear>Memmymger</unclear> fuerer iiii s d
+               <lb facs="#facs_13_tl_1758705934" n="N021"/>Thoman leydennfrost pekh x s d
+               <lb facs="#facs_13_tl_1758705892" n="N022"/>Steffann Herer pekh vi s d
+               <lb facs="#facs_13_line_1758711394661_3695" n="N023"/>Hanns dorennpekh i hakennpuxn
+               <lb facs="#facs_13_tl_1758705877" n="N024"/>Wolffganng Schiennk ledrer vi s d
+               <lb facs="#facs_13_line_1758711405157_3700" n="N025"/>Hanns <unclear>Egker</unclear> vi s d
+               <lb facs="#facs_13_tl_1758705917" n="N026"/>Vrban Valkheisen vi s d
+               <lb facs="#facs_13_line_1758711417205_3706" n="N027"/>Thoman Spenngler peitler iiii s d
+               <lb facs="#facs_13_tl_1758705905" n="N028"/>Vrben Mawl koch v s d
+               <lb facs="#facs_13_tl_1758705873" n="N029"/>Vlreich Eyscher koch v s d
+               <lb facs="#facs_13_tl_1758705895" n="N030"/>Lanntz peysmair koch v s d
+               <lb facs="#facs_13_tl_1758705919" n="N031"/>Mathes hunnger v s d
+               <lb facs="#facs_13_tl_1758705900" n="N032"/>Wolffganng Iager furer vi s d
+               <lb facs="#facs_13_tl_1758705861" n="N033"/>Wilhalm Panntz iii γ d
+               <lb facs="#facs_13_line_1758711468701_3725" n="N034"/>Lanntz Pair Melbmesser iiii s d
+               <lb facs="#facs_13_tl_1758705887" n="N035"/>Hanns Vallennter Melbmesser iiii s d
+               <lb facs="#facs_13_tl_1758705915" n="N036"/>Wolfganng Hereinmein Melbmesser iiii s d
+               <lb facs="#facs_13_tl_1758705890" n="N037"/>Iorg Laher Melbmesser iiii s d
+               <lb facs="#facs_13_line_1758711472999_3729" n="N038"/>Wolffganng Tunkhl Melbmesser iiii s d
+               <lb facs="#facs_13_tl_1758705909" n="N039"/>Latus xlvii γ iii s x d
+            </ab>
+        <ab facs="#facs_13_region_254714154">
+          <lb facs="#facs_13_tl_1758705951" n="N001"/>Wolfganng Wildenawer iiii s d
+               <lb facs="#facs_13_tl_1758705933" n="N002"/>Wolfganng Leustainer Sleiffer iiii s d
+               <lb facs="#facs_13_tl_1758705949" n="N003"/>Iorg Hofreitter leinbeber iiii s d
+               <lb facs="#facs_13_tl_1758705929" n="N004"/>Peter Sweintzer velferber iiii s d
+               <lb facs="#facs_13_tl_1758705947" n="N005"/>Fritz Graf veluerber iiii s d
+               <lb facs="#facs_13_tl_1758705897" n="N006"/>Hanns Fuettner hawer iiii s d
+               <lb facs="#facs_13_line_1758711534907_3760" n="N007"/>Caspar Mulnner Schuster i Hakennpuxen
+               <lb facs="#facs_13_tl_1758705869" n="N008"/>Anndre Haslinger Zimerman iiii s d
+               <lb facs="#facs_13_tl_1758705894" n="N009"/>Peter Tuchsmid drachssel iiii s d
+               <lb facs="#facs_13_tl_1758705938" n="N010"/>Lonntz Rogenn Schussler Ist im nachgelassen das er der Stat phlasstert
+               <lb facs="#facs_13_tl_1758705904" n="N011"/>Wolffganng Iopner iiii s d
+               <lb facs="#facs_13_line_1758711560785_3769" n="N012"/>Hanns Rues Kaldsmid iiii s d
+               <lb facs="#facs_13_tl_1758705926" n="N013"/>Steffann puchler Kaser i γ d
+               <lb facs="#facs_13_tl_1758705916" n="N014"/>Vlreich Cleeperger iiii s d
+               <lb facs="#facs_13_line_1758711582199_3775" n="N015"/>Hanns Brachpekh ii hakennpuxen
+               <lb facs="#facs_13_line_1758711595225_3779" n="N016"/>Leonnhart Gerestorffer Ausrueffer iiii s d
+               <lb facs="#facs_13_tl_1758705940" n="N017"/>Hanns von der<unclear> od</unclear> fuerer ist im nachgebn das er die Brantstat von der Stat kauft pawn sol
+               <lb facs="#facs_13_line_1758711618017_3786" n="N018"/>Cristoff Gerslaher Seidennater iii Hakenpuxen
+               <lb facs="#facs_13_tl_1758705911" n="N019"/>Sigmund Grunawer tischer iiii s d
+               <lb facs="#facs_13_tl_1758705860" n="N020"/>Hanns Tewfl Mullnner iiii s d
+               <lb facs="#facs_13_tl_1758705920" n="N021"/>Iorg Prueler Branntweiner iii γ d
+               <lb facs="#facs_13_tl_1758705910" n="N022"/>Hanns Stainynnger Branntweiner iiii s d
+               <lb facs="#facs_13_tl_1758705886" n="N023"/>Thoman Zehenntner schullnner iiii s d
+               <lb facs="#facs_13_tl_1758705880" n="N024"/>Lanntz Mulldorffer hawer iiii s d
+               <lb facs="#facs_13_tl_1758705883" n="N025"/>Ieronime Kisling vi γ d
+               <lb facs="#facs_13_tl_1758705912" n="N026"/>Annthoni ConnZin viii γ d
+               <lb facs="#facs_13_tl_1758705921" n="N027"/>Hanns Graff ii γ d
+               <lb facs="#facs_13_tl_1758705913" n="N028"/>Wenntzlab Mawttich gold smid x s d
+               <lb facs="#facs_13_tl_1758705893" n="N029"/>Leonnhart <unclear>Geennsrukher</unclear> Schuster vi s d
+               <lb facs="#facs_13_tl_1758705871" n="N030"/>wolffganng Haiden pintter iiii s d
+               <lb facs="#facs_13_tl_1758705867" n="N031"/>Leonnhart Sibennhaimer iiii s d
+               <lb facs="#facs_13_tl_1758705866" n="N032"/>Niclas lymdegker hawer iiii s d
+               <lb facs="#facs_13_tl_1758705872" n="N033"/>Steffann Guldein hawer iiii s d
+               <lb facs="#facs_13_tl_1758705863" n="N034"/>Hanns Reithofer Borttenwurher iiii s d
+               <lb facs="#facs_13_tl_1758705858" n="N035"/>Iacob Winkhler Borttenwurcher iiii s d
+               <lb facs="#facs_13_tl_1758705874" n="N036"/>Leonnhart Fuerher Cramer ii γ d
+               <lb facs="#facs_13_tl_1758705859" n="N037"/>Lanntz Parrach Cramer v x d
+               <lb facs="#facs_13_tl_1758705862" n="N038"/>Paul Aicher Hueter x s d
+               <lb facs="#facs_13_tl_1758705907" n="N039"/>Latus xxxvii γ iii s d
+            </ab>
+        <pb facs="#facs_14" n="14" xml:id="img_0014"/>
+        <ab facs="#facs_14_region_154824175">
+          <lb facs="#facs_14_tl_1758705874" n="N001"/>Mert Scheyringer puchpintter sol der Stat ain puch einpintten
+               <lb facs="#facs_14_tl_1758705853" n="N002"/>Michel Gundram iiii s d
+               <lb facs="#facs_14_tl_1758705864" n="N003"/>Iorg Belhofer Sneider vi s d
+               <lb facs="#facs_14_tl_1758705832" n="N004"/>Gregor Orttel <unclear>Zokl</unclear>macher i γ d
+               <lb facs="#facs_14_line_1758782682797_83" n="N005"/>Paul Valspek iiii s d
+               <lb facs="#facs_14_tl_1758705837" n="N006"/>Steffan Perenneder pekh i γ d
+               <lb facs="#facs_14_tl_1758705840" n="N007"/>Hanns Kaiser Kertzenmacher iiii s d
+               <lb facs="#facs_14_tl_1758705904" n="N008"/>Wildpolt Riedler Gwanntler iiii s d
+               <lb facs="#facs_14_tl_1758705854" n="N009"/>Niclas Potenstainer vnnderlewffel iiii s d
+               <lb facs="#facs_14_tl_1758705880" n="N010"/>Stephann Elpacher Mawrer vi s d
+               <lb facs="#facs_14_tl_1758705816" n="N011"/>Gillig Schetzl iiii s d
+               <lb facs="#facs_14_line_1758782530507_15" n="N012"/>Peter Lausstrer pader i γ iiii s d
+               <lb facs="#facs_14_tl_1758705819" n="N013"/>Cristoff Iopmer pader i γ d
+               <lb facs="#facs_14_line_1758782533864_19" n="N014"/>Mathes Stainperger messrer iiii s xvi d
+               <lb facs="#facs_14_tl_1758705838" n="N015"/>Wolfganng Fruestukher hawer iiii s d
+               <lb facs="#facs_14_tl_1758705863" n="N016"/>Anndre kolperger Stuelmacher i γ d
+               <lb facs="#facs_14_tl_1758705860" n="N017"/>Hanns <unclear>kunringer</unclear> hawer fvi s d
+               <lb facs="#facs_14_tl_1758705858" n="N018"/>Iorg Mairhofer obsser iiii s d
+               <lb facs="#facs_14_tl_1758705882" n="N019"/>Leonnhart Rainpacher Zimerman iiii s d
+               <lb facs="#facs_14_tl_1758705889" n="N020"/>Michel Nushakel von orttenberg pader vi s d
+               <lb facs="#facs_14_tl_1758705855" n="N022"/>Hanns Ortlieb von Regenspurg Mawrer iiii s d
+               <lb facs="#facs_14_tl_1758705883" n="N023"/>Erhart Stainer i γ d
+               <lb facs="#facs_14_tl_1758705859" n="N024"/>Ott Camerhueber hawer iiii s d
+               <lb facs="#facs_14_tl_1758705827" n="N025"/>Steffann puchler hueter i γ d
+               <lb facs="#facs_14_tl_1758705833" n="N026"/>Wenedict Vogl Hawer iii s d
+               <lb facs="#facs_14_tl_1758705815" n="N027"/>Gillig Schifer Zieglmacher iiii s d
+               <lb facs="#facs_14_tl_1758705812" n="N028"/>Hanns Pawr hawer iiii s d
+               <lb facs="#facs_14_tl_1758705892" n="N029"/>Iorg Lotter iiii s d
+               <lb facs="#facs_14_tl_1758705846" n="N030"/>Iorg Brukhnner hawer iiii s d
+               <lb facs="#facs_14_tl_1758705826" n="N031"/>Iacob von Rorbach Muttelpekh iiii s d
+               <lb facs="#facs_14_tl_1758705870" n="N032"/>Leonnhart Temblinger hawer iiii s d
+               <lb facs="#facs_14_tl_1758705817" n="N033"/>Michel peynntzel hawer iiii s d
+               <lb facs="#facs_14_tl_1758705878" n="N034"/>Mathes pawr hawer iiii s d
+               <lb facs="#facs_14_tl_1758705830" n="N035"/>Panngretz Crabat Wildbreter vi s d
+               <lb facs="#facs_14_tl_1758705824" n="N036"/>Panngretz Altweg hawer iii s d
+               <lb facs="#facs_14_tl_1758705836" n="N037"/>Bertlme Marthart hawer iiii s d
+               <lb facs="#facs_14_tl_1758705822" n="N038"/>Peter Cramer Fuerer iiii s d
+               <lb facs="#facs_14_tl_1758705842" n="N039"/>Ruebrecht haslinger <unclear>hunryrer</unclear> iiii s d
+               <lb facs="#facs_14_tl_1758705856" n="N040"/>Hainreich Cremer Sayttenmacher iiii s d
+               <lb facs="#facs_14_tl_1758705893" n="N041"/>Bertlme Berkhofer Hawer iiii s d
+               <lb facs="#facs_14_tl_1758705828" n="N042"/>Peter Wunder Hawer iiii s d
+               <lb facs="#facs_14_tl_1758705861" n="N043"/>Latus xxv γ xi s xvi d
+            </ab>
+        <ab facs="#facs_14_region_254824175">
+          <lb facs="#facs_14_tl_1758705901" n="N001"/>Niclas Cremennser iiii γ d
+               <lb facs="#facs_14_tl_1758705902" n="N002"/>Wolfganng Hiess Kursner iiii s d
+               <lb facs="#facs_14_tl_1758705881" n="N003"/>Anndre Steyrer hawer iiii s d
+               <lb facs="#facs_14_tl_1758705873" n="N004"/>Vlreich Stainer Schefman iiii s d
+               <lb facs="#facs_14_tl_1758705847" n="N005"/>Thoman Winkhler Scheffmon iiii s d
+               <lb facs="#facs_14_tl_1758705831" n="N006"/>Wolffganng Gutz Iar Schefman iiii s d
+               <lb facs="#facs_14_tl_1758705872" n="N007"/>Hanns Stellnner hawer iiii s d
+               <lb facs="#facs_14_tl_1758705818" n="N008"/>Peter Stenngl fuerer xi s d
+               <lb facs="#facs_14_tl_1758705869" n="N009"/>Anndre Velbermaister i γ d
+               <lb facs="#facs_14_line_1758782546526_23" n="N010"/>Symon Pawr prukhknecht <unclear>nichil ppter s   um</unclear>
+          <lb facs="#facs_14_tl_1758705879" n="N011"/>Iacob Lanng hawer iiii s d
+               <lb facs="#facs_14_tl_1758705877" n="N012"/>Mert Kumppholtz fuerer xi s d
+               <lb facs="#facs_14_tl_1758705871" n="N013"/>Niclas Veser gartner i γ d
+               <lb facs="#facs_14_tl_1758705844" n="N014"/>Wolfganng Hertzogburger pekh vi s d
+               <lb facs="#facs_14_tl_1758705894" n="N015"/>Lonntz Reischel iiii s d
+               <lb facs="#facs_14_tl_1758705865" n="N016"/>Mathes Mulberger Ladner iiii s d
+               <lb facs="#facs_14_tl_1758705868" n="N017"/>Mert <unclear>Dawm</unclear> hawer xi s d
+               <lb facs="#facs_14_tl_1758705814" n="N018"/>Hanns <unclear>Nadlstmuph</unclear> hawer iiii s d
+               <lb facs="#facs_14_tl_1758705821" n="N019"/>Gerat Hanns Hawer iiii s d
+               <lb facs="#facs_14_tl_1758705834" n="N020"/>Iorg Sprenngennoder hawer iiii s d
+               <lb facs="#facs_14_tl_1758705829" n="N021"/>Iacob windisch Rostauscher vi s d
+               <lb facs="#facs_14_tl_1758705839" n="N022"/>Marx Turbas hawer iiii s d
+               <lb facs="#facs_14_tl_1758705891" n="N023"/>Ziersues Wuechrer iiii s d
+               <lb facs="#facs_14_tl_1758705884" n="N024"/>Fudrich Camermain Schefmon iiii s d
+               <lb facs="#facs_14_tl_1758705866" n="N025"/>Leonnhart Scherer vischer iiii s d
+               <lb facs="#facs_14_tl_1758705851" n="N026"/>Hanns Guetman hawer iiii s d
+               <lb facs="#facs_14_tl_1758705862" n="N027"/>Hanns Griestkircher iiii s d
+               <lb facs="#facs_14_tl_1758705825" n="N028"/>Hanns Aichperger pekh v s d
+               <lb facs="#facs_14_tl_1758705885" n="N029"/>Achatz <unclear>Storpkl</unclear> iiii s d
+               <lb facs="#facs_14_line_1758782556690_27" n="N030"/>Hanns Behaim Fuetrer ii hakennpuxen
+               <lb facs="#facs_14_tl_1758705876" n="N031"/>Hanns Ott leitgeb iiii s d
+               <lb facs="#facs_14_tl_1758705848" n="N032"/>Erhart Eberhartter Irher i γ d
+               <lb facs="#facs_14_tl_1758705867" n="N033"/>Hanns Wasennawer koch iiii s d
+               <lb facs="#facs_14_tl_1758705823" n="N034"/>Wolfganng Guetlich vi s d
+               <lb facs="#facs_14_tl_1758705849" n="N035"/>Wolfganng Claus Mullnner i γ d
+               <lb facs="#facs_14_tl_1758705820" n="N036"/>Augustin Hainburger greissler vi s d
+               <lb facs="#facs_14_tl_1758705857" n="N037"/>Iorg Steger hawer iiii s d
+               <lb facs="#facs_14_tl_1758705888" n="N038"/>Hanns Gupelweid ii fl vnngr per x s xx ꞩ ii γ v x d
+               <lb facs="#facs_14_tl_1758705845" n="N039"/>Wilhalm Teschinger ii γ d
+               <lb facs="#facs_14_line_1758782566024_35" n="N040"/>Ieron<unclear>img</unclear> Welkher ii hakenpuxen
+               <lb facs="#facs_14_line_1758782562536_31" n="N041"/>Steffann Munichhawser <unclear>nichil ppter s   </unclear>
+          <lb facs="#facs_14_tl_1758705890" n="N042"/>Astem <unclear>heynnynnger</unclear> vi s d 
+               <lb facs="#facs_14_tl_1758705895" n="N043"/>Iacob Scharftzan der des Lxxxxiii Iars gesworen vnd viii haken
+               <lb facs="#facs_14_tl_1758705886" n="N044"/>puxn solt gebn habn hat er mir ditz gegnburtig Iar dafur beZalt vi γ d
+               <lb facs="#facs_14_tl_1758705887" n="N045"/>Latus xxxvi Lxx d
+            </ab>
+        <pb facs="#facs_15" n="15" xml:id="img_0015"/>
+        <ab facs="#facs_15_region_154974167">
+          <lb facs="#facs_15_tl_1758705878" n="N001"/>Die Burgerrecht abbrochen vnd betzalt aber nit
+               <lb facs="#facs_15_tl_1758705856" n="N002"/>gesworenn haben
+               <lb facs="#facs_15_line_1758782963249_214" n="N003"/>Hanns Mostfogl pogner ain vbermachts armbst
+               <lb facs="#facs_15_tl_1758705873" n="N004"/>Iorg Waldner vischer i γ d
+               <lb facs="#facs_15_tl_1758705880" n="N005"/>Iorg Prem hawer vi s d
+               <lb facs="#facs_15_line_1758782966911_218" n="N006"/>Steffan Kerner von Brunn iiii γ d
+               <lb facs="#facs_15_line_1758782971999_222" n="N007"/>Caspar <unclear>pewgewaiff hunrayrer</unclear> i γ d
+               <lb facs="#facs_15_line_1758782978019_226" n="N008"/>Mert Strobl pintter iiii s d
+               <lb facs="#facs_15_tl_1758705872" n="N009"/>Niclas <unclear>Wodscher</unclear> kotzenmacher vi s d
+               <lb facs="#facs_15_tl_1758705858" n="N010"/>Paul Seyberlich goldslaher vi s d
+               <lb facs="#facs_15_tl_1758705852" n="N011"/>Paul Spanfues hawer iii s d
+               <lb facs="#facs_15_tl_1758705857" n="N012"/>Steffan Haider hawer iiii s d
+               <lb facs="#facs_15_tl_1758705875" n="N013"/>Vrban Sturenn <unclear>Irger</unclear> vi s d
+               <lb facs="#facs_15_tl_1758705865" n="N014"/>Veit Stainberger ladnner iiii s d
+               <lb facs="#facs_15_tl_1758705854" n="N015"/>Leonnhart Gressel <unclear>tuchscherer</unclear> i γ d
+               <lb facs="#facs_15_tl_1758705881" n="N016"/>Latus xi γ xii s d
+               <lb facs="#facs_15_tl_1758705855" n="N017"/>Suma Innemens von den vorgenannten Burgerrechten
+               <lb facs="#facs_15_tl_1758705868" n="N018"/>ꞩ C lviii γ vi s vi d
+            </ab>
+        <ab facs="#facs_15_region_254974167">
+          <lb facs="#facs_15_tl_1758705869" n="N001"/>Innemen vmb verkaufts <unclear>holtzwerch</unclear>
+          <lb facs="#facs_15_tl_1758705862" n="N002"/>So hab Ich Zu mein selbs notdurften von der Stat holtz
+               <lb facs="#facs_15_tl_1758705874" n="N003"/>werch in gegennburttigkait Mr Mertten Zimerman Auch
+               <lb facs="#facs_15_tl_1758705866" n="N004"/>Mr Iorgen vnd des huebler Statknecht genomen xii <unclear>c</unclear>
+          <lb facs="#facs_15_tl_1758705861" n="N005"/>Schintlnn das <unclear>M<hi style="vertical-align: superscript;">o</hi>
+          </unclear> per vii s d viii gemain Ladn ainen per iii d
+               <lb facs="#facs_15_tl_1758705883" n="N006"/>iii <unclear>Re thladen</unclear> i per xv d iii gefierte hotz i per xi d
+               <lb facs="#facs_15_line_1758783037394_256" n="N007"/>Vnd iiii Trawnnische Trumer per xii ꞩ i γ v s xii d
+               <lb facs="#facs_15_tl_1758705876" n="N008"/>Ir solhem kauff s der Stat zuegestannden ist so der aber
+               <lb facs="#facs_15_tl_1758705860" n="N009"/>Ich wil der Stat annder souil holtz dafur Anntbintten
+               <lb facs="#facs_15_tl_1758705851" n="N010"/>Item von wegen der Stat Saltzkamer hab Ich von
+               <lb facs="#facs_15_tl_1758705864" n="N011"/>den Saltzerein nichts enphanngen wann Sy zugebnn
+               <lb facs="#facs_15_tl_1758705877" n="N012"/>nichts vermainen Aus vrsachn der man sich ab In
+               <lb facs="#facs_15_tl_1758705871" n="N013"/>erkundn mag Aber was Sy von Saltz dises Iars gehabt
+               <lb facs="#facs_15_tl_1758705859" n="N014"/>ist in aim Register sonnderlich aufgetzaichennt
+            </ab>
+        <pb facs="#facs_16" n="16" xml:id="img_0016"/>
+        <ab facs="#facs_16_region_154564142">
+          <lb facs="#facs_16_tl_1758705832" n="N001"/>So vermeld Ich das Ich der Stat am Ros schuldig bin Als
+               <lb facs="#facs_16_tl_1758705858" n="N002"/>dann das in meinenn vorigenn Raittungen antzaigt wirdet
+               <lb facs="#facs_16_tl_1758705852" n="N003"/>Suma Sumarum alles vorgeschribenn Innemens des
+               <lb facs="#facs_16_tl_1758705841" n="N004"/>
+          <unclear>Benutenn</unclear> gelts ꞩ vi M vi C xi γ vii s xviiii d x
+               <lb facs="#facs_16_tl_1758705828" n="N005"/>Suma Innemens der Remanenntz ꞩ C Lxxiiii γ x s vii d
+               <lb facs="#facs_16_tl_1758705855" n="N006"/>Suma Sumarum alles Innemens des beraiten gelts mit
+               <lb facs="#facs_16_tl_1758705834" n="N007"/>sambt den Remanenntzen ꞩ vi M vii c Lxxxi γ iiii s xxvi d
+            </ab>
+        <ab facs="#facs_16_region_254564142">
+          <lb facs="#facs_16_tl_1758705833" n="N001"/>Daentgegen mein Ausgeben des vorgenannten
+               <lb facs="#facs_16_tl_1758705831" n="N002"/>Tausennt Vier hunndert vnd vierund
+               <lb facs="#facs_16_tl_1758705843" n="N003"/>Newnntzigisten Iares von gemainer Stat Wienn wegenn
+               <lb facs="#facs_16_tl_1758705836" n="N004"/>gehanndlet vnd geton Hienach uoligunnd
+               <lb facs="#facs_16_tl_1758705848" n="N005"/>Vonerst gen Hof
+               <lb facs="#facs_16_tl_1758705838" n="N006"/>Mit Herenn Perennharten Perger weilennd vnnsers
+               <lb facs="#facs_16_tl_1758705861" n="N007"/>allergenedigistenn herrenn des Romischen Kaiser etc Anwald
+               <lb facs="#facs_16_tl_1758705839" n="N008"/>in der Stat Rate hie auf der kunigelichen Mt. gescheftbrief
+               <lb facs="#facs_16_tl_1758705849" n="N009"/>abgeraitt seinenn Anwald sold vii Quottember Zu yeglicher
+               <lb facs="#facs_16_tl_1758705860" n="N010"/>xxv γ Laut seiner <unclear>Q</unclear> die der Ro. <unclear>Ku.</unclear> Mt. Schatzmaister in
+               <lb facs="#facs_16_line_1758783071931_293" n="N011"/>der Raittung Zu hof Innehaltenn hat ꞩ C Lxxv γ d
+               <lb facs="#facs_16_tl_1758705856" n="N012"/>Daraus mir bey den Stewrherren von der Tennglen wegn
+               <lb facs="#facs_16_tl_1758705846" n="N013"/>ij̸ c γ sein her Perennharts der Statstewrhalbn xvi γ
+               <lb facs="#facs_16_tl_1758705857" n="N014"/>Vnd die viiii γ d bey der Stat schulden In mein Innemen
+               <lb facs="#facs_16_tl_1758705844" n="N015"/>komen
+               <lb facs="#facs_16_tl_1758705829" n="N016"/>Mit Herenn Sigmunden Marollttinger vnnsers aller
+               <lb facs="#facs_16_tl_1758705859" n="N017"/>genedigistenn herrenn des Romischen kunigs Anwald etc
+               <lb facs="#facs_16_tl_1758705835" n="N018"/>auf seiner <unclear>kn </unclear>gnaden gescheftbrief abgerait seinen Anwald
+               <lb facs="#facs_16_tl_1758705853" n="N019"/>sold von ij̸ Iaren ain Iar ii γ d Laut seiner <unclear>Q</unclear> So der
+               <lb facs="#facs_16_tl_1758705850" n="N020"/>Schatzmaister in der Raittung Zu hof Inne behalten hat ꞩ iii C γ d
+               <lb facs="#facs_16_tl_1758705842" n="N021"/>Daraus Ich bey den Stewrherrenn C lviiii γ vnd vor bey
+               <lb facs="#facs_16_tl_1758705840" n="N022"/>der Stat schuldenn C xli γ d in mein Innemen ge
+               <lb facs="#facs_16_tl_1758705854" n="N023"/>schriben hab
+               <lb facs="#facs_16_line_1758783122664_323" n="N024"/>Dem Cantor Zu sannd Steffann von der Knaben wegenn
+               <lb facs="#facs_16_line_1758783125977_327" n="N025"/>So vor sotzleichnamd <unclear>geen</unclear> vt <unclear>Q</unclear> xl γ d
+               <lb facs="#facs_16_tl_1758705845" n="N026"/>Dem Kirchmaister Zu sannd Michel von wegen derselben
+               <lb facs="#facs_16_line_1758783132450_331" n="N027"/>Knabenn vt <unclear>Q</unclear> vii γ d
+               <lb facs="#facs_16_tl_1758705830" n="N028"/>Latus v C xxii γ d
+            </ab>
+        <pb facs="#facs_17" n="17" xml:id="img_0017"/>
+        <ab facs="#facs_17_region_153334085">
+          <lb facs="#facs_17_tl_1758705844" n="N001"/>So hab Ich an den ccc Lxxxiii γ vi s xviii d die
+               <lb facs="#facs_17_tl_1758705855" n="N002"/>gemaine Stat nach beuelhung vnnsers allergenedigisten
+               <lb facs="#facs_17_tl_1758705843" n="N003"/>herenn des Romischen kunig Regennten von Ansledigung
+               <lb facs="#facs_17_tl_1758705859" n="N004"/>wegen seiner kuniglichen Mt diennstlewt aus den her
+               <lb facs="#facs_17_tl_1758705854" n="N005"/>bergen Innehalt aines Registers betzallung auf sich
+               <lb facs="#facs_17_tl_1758705851" n="N006"/>genomenn hat vnd der Stat in der Raitung Zu hoff
+               <lb facs="#facs_17_tl_1758705848" n="N007"/>durch Kn Mt Schatzmaister gelegt vnd abgetzogen sind
+               <lb facs="#facs_17_tl_1758705837" n="N008"/>außrichtung vnd betzallung tan
+               <lb facs="#facs_17_tl_1758705876" n="N009"/>Gabrielln Ennhueber Fur Hannsen von Loffingen vnd
+               <lb facs="#facs_17_tl_1758705882" n="N010"/>Cristoffenn Ellrechinger vt <unclear>Q</unclear> xlv γ xxxv d
+               <lb facs="#facs_17_tl_1758705873" n="N011"/>Leonnharten Perloder Fur den Vetschen vt <unclear>Q</unclear> xxviiii γ iiii s d
+               <lb facs="#facs_17_tl_1758705872" n="N012"/>Andreen Velbermaister Fur Mathiasenn <unclear>Lanen</unclear>munder
+               <lb facs="#facs_17_line_1758783157353_351" n="N013"/>Clain Iain vnd peterenn Slesinger vt <unclear>Q</unclear> xxviii γ Lx d
+               <lb facs="#facs_17_line_1758783166403_356" n="N014"/>Steffonn Tanpacher verber Fur Mathesenn Stainperger
+               <lb facs="#facs_17_tl_1758705889" n="N015"/>vt <unclear>Q</unclear> xvi γ iii s d
+               <lb facs="#facs_17_tl_1758705874" n="N016"/>Wildpoldenn krewtzer Fur Stephonn <unclear>Rebel</unclear> vt <unclear>Q</unclear> x γ d
+               <lb facs="#facs_17_tl_1758705840" n="N017"/>Hannsen Stokerawer vischer Fur Niclasen Lobel vt <unclear>Q</unclear> viiii γ iii s xiiii d
+               <lb facs="#facs_17_line_1758783196052_368" n="N018"/>Merttenn Wegstharder Fur Stephon vnd Maritzen die
+               <lb facs="#facs_17_line_1758783200993_373" n="N019"/>Crabaten vt <unclear>Q</unclear> viii γ vi s xx d
+               <lb facs="#facs_17_tl_1758705862" n="N020"/>
+          <unclear>Ioistkenn Erman</unclear> wirt in des Wolframstorffer haws
+               <lb facs="#facs_17_tl_1758705863" n="N021"/>am Newnmarkht Fur dieselbnn Crabaten vt <unclear>Q</unclear> iiii γ vii s x d
+               <lb facs="#facs_17_tl_1758705835" n="N022"/>Paulenn Tahenhaubt Fur Hannsen Wagner vt <unclear>Q</unclear> xiii γ Lx d
+               <lb facs="#facs_17_tl_1758705850" n="N023"/>Latus C Lxv γ v s xviiii d
+               <lb facs="#facs_17_tl_1758705870" n="N024"/>Suma des vorgenannten Ausgeben gen hof das Iar
+               <lb facs="#facs_17_tl_1758705884" n="N025"/>ꞩ vi c Lxxxvii γ v s xviiii d
+            </ab>
+        <ab facs="#facs_17_region_253334085">
+          <lb facs="#facs_17_tl_1758705838" n="N001"/>Ausgeben auf die Soldner so Zu gemainer
+               <lb facs="#facs_17_tl_1758705845" n="N002"/>Statt notdurft aufgenomen vnd gehaltten sein
+               <lb facs="#facs_17_tl_1758705834" n="N003"/>Vonerst auf die Nachthuet der Gskart
+               <lb facs="#facs_17_line_1758783234887_396" n="N004"/>Iane von <unclear>puntzschkt </unclear>Rotmaister auf xvi Fuesknecht iii
+               <lb facs="#facs_17_line_1758783248288_400" n="N005"/>wochenn sold Innehalt ii <unclear>Q</unclear> xxiiii γ d 
+               <lb facs="#facs_17_line_1758783255868_405" n="N006"/>Hannsen Newnburger Rotmaister auch auf xvi knecht
+               <lb facs="#facs_17_line_1758783274875_413" n="N007"/>vi wochenn sold Innehalt iiii <unclear>Q</unclear> xlviii γ d
+               <lb facs="#facs_17_tl_1758705860" n="N008"/>Zubehuet der torr vnd in annder gemainer
+               <lb facs="#facs_17_tl_1758705857" n="N009"/>Stat notdurft
+               <lb facs="#facs_17_line_1758783295183_422" n="N010"/>Hannsenn Newnburger Rotmaister auf viii Fuesknecht
+               <lb facs="#facs_17_line_1758783304463_426" n="N011"/>xvii wochenn sold Innehalt x <unclear>Q</unclear> Lxviii y d
+               <lb facs="#facs_17_tl_1758705868" n="N012"/>Demselben Newnburger auf iiii Fuesknecht xxv wochn
+               <lb facs="#facs_17_tl_1758705849" n="N013"/>sold Innehalt xi <unclear>Q</unclear> L γ d
+               <lb facs="#facs_17_tl_1758705836" n="N014"/>An der alten diennstleut schulden Ires soldes
+               <lb facs="#facs_17_tl_1758705841" n="N015"/>Peteren Pummen Rotmaister an dem newenn geltbrief der
+               <lb facs="#facs_17_tl_1758705878" n="N016"/>viiii c γ d So Im vnd dennen Zerossenn die in seiner Rott gewesen
+               <lb facs="#facs_17_tl_1758705875" n="N017"/>seien von erlosung wegen des vorigen geltbriefs Ires allten
+               <lb facs="#facs_17_tl_1758705867" n="N018"/>diennsts halbn gebn ist dauon noch iiii c γ d ausgestanndn
+               <lb facs="#facs_17_tl_1758705871" n="N019"/>Sind Im Lxxx γ d von wegen des enphanngs So er vnd annder
+               <lb facs="#facs_17_tl_1758705883" n="N020"/>aus seiner Rott von dem Spruch vnd vertrag So her Reinbrecht
+               <lb facs="#facs_17_tl_1758705866" n="N021"/>von Reichennburg Zwischen meiner herrenn Burgermaister
+               <lb facs="#facs_17_tl_1758705864" n="N022"/>vnd Rat an aim vnd sein am annderen tail des vor ange
+               <lb facs="#facs_17_tl_1758705847" n="N023"/>
+          <unclear>ruten</unclear> allten geltbriefs wegen gemacht auf vnd an <unclear>Q</unclear>
+          <lb facs="#facs_17_tl_1758705846" n="N024"/>getan habn abgetzogen worden vnd Im die vbermass auß
+               <lb facs="#facs_17_tl_1758705853" n="N025"/>gericht vnd betzalt vnd ist damit der obgenannt new gelt
+               <lb facs="#facs_17_tl_1758705842" n="N026"/>brief auch erlost vnd aller hanndel vnd schuldn So Im
+               <lb facs="#facs_17_tl_1758705869" n="N027"/>vnd den seinen gemaine Stat schuldig belibn ist genntzlichen
+               <lb facs="#facs_17_line_1758783347525_453" n="N028"/>entriicht vt <unclear>Q</unclear> ꞩ iii c xx γ d
+               <lb facs="#facs_17_tl_1758705861" n="N029"/>Suma außgeben auf die obgenannten Soldner mit sambt
+               <lb facs="#facs_17_tl_1758705865" n="N030"/>Peterenn Pummen volligenn betzallung ꞩ v c x γ d
+            </ab>
+        <pb facs="#facs_18" n="18" xml:id="img_0018"/>
+        <ab facs="#facs_18_region_155194157">
+          <lb facs="#facs_18_tl_1758705803" n="N001"/>Ausgeben auf die Ansleg So gemainer
+               <lb facs="#facs_18_tl_1758705805" n="N002"/>Stat neben gemainer Lanndtschaft auf Sannd phillip
+               <lb facs="#facs_18_tl_1758705836" n="N003"/>vnd Sand Iacobstag auch auf Sand Mertten tag ditz ge
+               <lb facs="#facs_18_tl_1758705835" n="N004"/>genwurttigen lxxxxiiii Iars der Romischen kunigelichen
+               <lb facs="#facs_18_tl_1758705809" n="N005"/>Maiestat zugebenn ausgelegt worden sind
+               <lb facs="#facs_18_tl_1758705811" n="N006"/>Herren Hannsen Kress genannt von Kollen des Stannds vonn
+               <lb facs="#facs_18_line_1758783368471_469" n="N007"/>Steten geornndten Innemer des vorgenannten Anslags auf
+               <lb facs="#facs_18_line_1758783372711_473" n="N008"/>phillipi et Iacobi Innehalt iii <unclear>Q</unclear> viiii c γ d
+               <lb facs="#facs_18_tl_1758705819" n="N009"/>Demselben Kress an dem Anslag Martini nach Lautt seiner
+               <lb facs="#facs_18_tl_1758705807" n="N011"/>Suma latus xviiii c γ d
+            </ab>
+        <ab facs="#facs_18_region_255194157">
+          <lb facs="#facs_18_tl_1758705812" n="N001"/>Was Ich das Iar der Stat entlechenten
+               <lb facs="#facs_18_tl_1758705804" n="N002"/>guets vnd annder der Stat Schuldenn betzalt hab
+               <lb facs="#facs_18_tl_1758705832" n="N003"/>Herren Georgen Rattaler an dem geltbrief den er von ge
+               <lb facs="#facs_18_line_1758783423001_487" n="N004"/>mainer Stat gehabt vnd xv c γ d gelant hat außgericht
+               <lb facs="#facs_18_line_1758783443065_496" n="N005"/>vnd betzalt vt <unclear>Q</unclear> iii c xxx γ d
+               <lb facs="#facs_18_tl_1758705820" n="N006"/>Also seinen Im dannoch an demselben geltbrief außgestanndn
+               <lb facs="#facs_18_tl_1758705829" n="N007"/>c γ d darumb ist Im ain newer geltbrief gebn worden vnd
+               <lb facs="#facs_18_tl_1758705838" n="N008"/>den allten heraus geanntburt denselbn newen geltbrief
+               <lb facs="#facs_18_line_1758783460092_506" n="N009"/>auch erlost vnd die hundert γ d betzalt vnd ist damit
+               <lb facs="#facs_18_line_1758783464613_510" n="N010"/>ganntz entricht vt <unclear>Q</unclear> C γ d
+               <lb facs="#facs_18_tl_1758705831" n="N011"/>Harttungen von Cappell außgericht vnd betzalt an dem gelt
+               <lb facs="#facs_18_tl_1758705841" n="N012"/>brief den er von gemainer Stat hat vnd xviii c gulden Innehelt
+               <lb facs="#facs_18_tl_1758705834" n="N013"/>Laut Zwayr <unclear>Q</unclear> iii c γ d
+               <lb facs="#facs_18_tl_1758705822" n="N014"/>Dem Abbt vnnser liebenn Frawn gotzhaws Zum Schottenn
+               <lb facs="#facs_18_tl_1758705837" n="N015"/>an der Schulden so seinem gotzhaws die Stat schuldig vnd
+               <lb facs="#facs_18_tl_1758705821" n="N016"/>darumb die Mawt Zu Stadlaw verschribn ist vt <unclear>Q</unclear> C xxv γ v s xxviii d i ob
+               <lb facs="#facs_18_tl_1758705815" n="N017"/>Veiten Coyan Seyfriden Coyan Zu Renns selign Son Zu sein
+               <lb facs="#facs_18_tl_1758705818" n="N018"/>selbs vnd seiner geswistreid vnd miterbn hanndn der ge
+               <lb facs="#facs_18_tl_1758705817" n="N019"/>walt er hat an den hundert vnd Funfundfunftzig phund
+               <lb facs="#facs_18_tl_1758705814" n="N020"/>pfeningn So gemaine Stat demselbn seinem vater vmb
+               <lb facs="#facs_18_line_1758783497473_530" n="N021"/>Kalich laut ains geltbriefs ist schuldig worden betzalt
+               <lb facs="#facs_18_line_1758783500323_534" n="N022"/>Innehalt ainer <unclear>Q</unclear> xxx γ d
+               <lb facs="#facs_18_tl_1758705813" n="N023"/>Merttenn Strawssenn burger Zu Burkhawsen an den ii c
+               <lb facs="#facs_18_tl_1758705840" n="N024"/>vnd Lxxv Rh fl  So im gemaine Stat vmb gewannt in
+               <lb facs="#facs_18_tl_1758705839" n="N025"/>verganngen Iaren Peteren Pummen gegebn ist schuldig
+               <lb facs="#facs_18_tl_1758705816" n="N026"/>worden die Im dannoch daran außgestanndn sind betzalt
+               <lb facs="#facs_18_tl_1758705833" n="N027"/>Innehalt dreyer sein vnd Hannsen Eykher seines dienner
+               <lb facs="#facs_18_tl_1758705810" n="N028"/>
+          <unclear>Q</unclear> vnd ist damit  derselb geltbrief erlost C lxxv γ d
+               <lb facs="#facs_18_tl_1758705828" n="N029"/>Sigmundn Sibennburger betzalt an dem gewannt So er
+               <lb facs="#facs_18_tl_1758705826" n="N030"/>an Sannd Scolasticenn tag des Lxxxxii Iars nagstuergangen
+               <lb facs="#facs_18_tl_1758705843" n="N031"/>Fur M<hi style="vertical-align: superscript;">o</hi> xlv fl ort Reinisch Zu abuerttigung Kn. Mt.
+               <lb facs="#facs_18_tl_1758705827" n="N032"/>diennstlewt gebenn hat Innehalt ii <unclear>Q</unclear> Lv γ xxx d
+               <lb facs="#facs_18_line_1758783523219_550" n="N033"/>Latus M<hi style="vertical-align: superscript;">o</hi> C xv γ vi s xxviii d
+            </ab>
+        <pb facs="#facs_19" n="19" xml:id="img_0019"/>
+        <ab facs="#facs_19_region_155424172">
+          <lb facs="#facs_19_tl_1758705804" n="N001"/>So Ist Colmonn Lempekhen vnd Mertten Fuxen In der
+               <lb facs="#facs_19_tl_1758705815" n="N002"/>Stewr nach Beuelhenn hern Paulenn Kegken Zu derselbn
+               <lb facs="#facs_19_tl_1758705806" n="N003"/>Zeit Burgermaister vnd des Rats abgetzogen wordn Fur
+               <lb facs="#facs_19_tl_1758705826" n="N004"/>ainen Zennten pulfer den weilennd Leonnhart Radawn
+               <lb facs="#facs_19_tl_1758705807" n="N005"/>Zewgmaister durch den Zochman seinenn dienner Zu der
+               <lb facs="#facs_19_tl_1758705801" n="N006"/>Stat notdurft von Hannsen Lempekhen salign genomen
+               <lb facs="#facs_19_tl_1758705821" n="N007"/>hat Vnd Bey den Stewrherrenn von desselbn Hannsen
+               <lb facs="#facs_19_tl_1758705797" n="N008"/>Lempekhn Irs vetterenn schuldn wegn auf mich geschriben xii γ d
+               <lb facs="#facs_19_tl_1758705798" n="N009"/>Suma außgebenn des vorgenannten entlechenten guts
+               <lb facs="#facs_19_tl_1758705800" n="N010"/>Vnd der Stat schuldenn betzalt ꞩ M<hi style="vertical-align: superscript;">o</hi> C xxii γ vi s xxviii d ./.
+            </ab>
+        <ab facs="#facs_19_region_255424172">
+          <lb facs="#facs_19_tl_1758705796" n="N001"/>Auf Burgermaister Zehen Tate Cam
+               <lb facs="#facs_19_tl_1758705808" n="N002"/>Vnd annden der Stat Ambtleuten Iren Solden
+               <lb facs="#facs_19_tl_1758705812" n="N003"/>Herrn Andreichen Geldrich Burgermaister seinen Iarsold von 9
+               <lb facs="#facs_19_line_1758783563195_582" n="N004"/>Dem Hofgewannt Zu schingsten wegen vnngen etc s. d
+               <lb facs="#facs_19_tl_1758705822" n="N005"/>sein Hausungelt 18
+               <lb facs="#facs_19_tl_1758705802" n="N006"/>Hannsen Manntstorffer seinern Iar sold Statthr von d. 8
+               <lb facs="#facs_19_tl_1758705819" n="N007"/>Vnd sein Hansen gelt 6 8
+               <lb facs="#facs_19_tl_1758705817" n="N008"/>Dem Herrn Verwesten der Stat gruntbuecher herrn
+               <lb facs="#facs_19_line_1758783582986_591" n="N009"/>Hannsen Lanntzharten vnd Bernharten lannder Iren
+               <lb facs="#facs_19_line_1758783602997_598" n="N010"/>Iarsolde 1 " 8
+               <lb facs="#facs_19_tl_1758705823" n="N011"/>Mir Clastern Annglhartsteter meinen sold als Statt
+               <lb facs="#facs_19_line_1758783628008_612" n="N012"/>Camrer das Iar li wochen wochenlich 1 f 18
+               <lb facs="#facs_19_tl_1758705803" n="N013"/>Ehergelt dem Burgermaistern 7. der frawen gulden
+               <lb facs="#facs_19_tl_1758705824" n="N014"/>hunngerisch dem Anwaldt Richter win Ratherenn vnd
+               <lb facs="#facs_19_tl_1758705814" n="N015"/>dem Statschreiber yedem 17. der Anwaldin Richterin vnd
+               <lb facs="#facs_19_line_1758783645166_628" n="N016"/>den Patrawen yeder f. vnd dem Statschreiber fur die
+               <lb facs="#facs_19_line_1758783651765_636" n="N017"/>Frawen auch 1 f. Anno etc 71 f 12 s d
+               <lb facs="#facs_19_tl_1758705810" n="N018"/>Dem Burgermaister von Rueffel Anwaldt Richter m
+               <lb facs="#facs_19_tl_1758705816" n="N019"/>Ratherren vnd Statschreiber yedem w hueffel Saltz Sind
+               <lb facs="#facs_19_tl_1758705818" n="N020"/>genomen von Hannsen during vt hueffe an die auf Zal
+               <lb facs="#facs_19_line_1758783677541_650" n="N021"/>das phund etc von 7. s 6 - s d
+               <lb facs="#facs_19_tl_1758705805" n="N022"/>in denen die ich
+            </ab>
+        <pb facs="#facs_20" n="20" xml:id="img_0020"/>
+        <ab facs="#facs_20_region_155464189">
+          <lb facs="#facs_20_tl_1758705779" n="N001"/>Von gnaden nach gescheft des Rates fur
+               <lb facs="#facs_20_tl_1758705775" n="N002"/>Letz vnd hofgewannt
+               <lb facs="#facs_20_tl_1758705782" n="N003"/>An phintzag nach dem Sonntag Letare nach beuelch meiner
+               <lb facs="#facs_20_tl_1758705822" n="N004"/>herrenn im Rat des Burgermaister dienneren Zu ainer pes
+               <lb facs="#facs_20_tl_1758705802" n="N005"/>serung nachdem man lanng nit Rat besessen hat ii γ d
+               <lb facs="#facs_20_tl_1758705780" n="N006"/>An Fritag vor sand Iorgenn tag nach Beuelhung meiner hern
+               <lb facs="#facs_20_tl_1758705804" n="N007"/>Burgermaister vnd Rat auf ain Suplicacion durch herren
+               <lb facs="#facs_20_tl_1758705806" n="N008"/>Wolfganngn Canntor in den Rat geanntwurt ainem
+               <lb facs="#facs_20_tl_1758705817" n="N009"/>knaben genannt Cristof von Znaym Zu ainem Lanngen Rokh
+               <lb facs="#facs_20_line_1758783704599_670" n="N010"/>in gegenburt Mr Augustin Haberman Sneider iiiij̸ elln
+               <lb facs="#facs_20_line_1758783718999_691" n="N011"/>Rots tuch ain elln per Lxxv ꞩ i γ iii s vii d
+               <lb facs="#facs_20_tl_1758705789" n="N012"/>An Monntag nach Bartholomei gekauft von Herren Hannsen
+               <lb facs="#facs_20_tl_1758705840" n="N013"/>koppln ainem Rotenn lanngn Nuremberger den Schutzen
+               <lb facs="#facs_20_line_1758783743479_705" n="N014"/>Zu Hostuecherenn per xvi γ d
+               <lb facs="#facs_20_tl_1758705792" n="N015"/>An Fritag nach sannd Thomanns tag betzallt herren Paulen
+               <lb facs="#facs_20_tl_1758705825" n="N016"/>kegkhenn dienner Vnnder den lawbn ainenn lanngenn
+               <lb facs="#facs_20_line_1758783757857_718" n="N018"/>gebn ist in beywesen des kekhn Son xvi γ d
+               <lb facs="#facs_20_line_1758783783137_735" n="N019"/>Maister Hannsenn Mennestorffer Statschreiber sein
+               <lb facs="#facs_20_line_1758783792257_739" n="N020"/>Letz aus dem Rat xxxii γ d
+               <lb facs="#facs_20_line_1758783800314_746" n="N021"/>Des Burgermaister diennerenn Fur ir letz vnd hofge
+               <lb facs="#facs_20_line_1758783808769_754" n="N022"/>wannt xii γ d
+               <lb facs="#facs_20_tl_1758705827" n="N023"/>Den Schreiberenn Im Rathaws letz vi γ d
+               <lb facs="#facs_20_tl_1758705833" n="N024"/>Dem Saltzburger fur sein hofgewannt xvii γ d
+               <lb facs="#facs_20_tl_1758705797" n="N025"/>Dem Hawsknecht Im Rathaws letz ausm Rat i γ d
+               <lb facs="#facs_20_tl_1758705788" n="N026"/>Den Stewrknechten aus Haissenn des Rats Zwen plab
+               <lb facs="#facs_20_tl_1758705830" n="N027"/>putzpacher Zu hofgwannt kauft von Herren Hannsen
+               <lb facs="#facs_20_line_1758783827224_772" n="N028"/>Kopplein an Fritag nach Thome vmb xii γ d
+               <lb facs="#facs_20_tl_1758705821" n="N029"/>Latus c xi γ iii s vii d
+            </ab>
+        <ab facs="#facs_20_region_255464189">
+          <lb facs="#facs_20_tl_1758705776" n="N001"/>Fur Hofgwannt Maister Merttenn der Stat Zimerman
+               <lb facs="#facs_20_line_1758783852034_780" n="N002"/>Mr Iorgen Stat knecht yedem iii γ vnd dem huebler xii s
+               <lb facs="#facs_20_line_1758783855751_784" n="N003"/>vt <unclear>Q</unclear> ꞩ vii γ iiii s d
+               <lb facs="#facs_20_line_1758783870913_791" n="N004"/>Den Turnerenn in sannd Steffanns thuren von der Rat
+               <lb facs="#facs_20_tl_1758705839" n="N005"/>glokhenn Zuleittenn vt <unclear>Q</unclear> iiii γ d
+               <lb facs="#facs_20_tl_1758705796" n="N006"/>Vnd dartzue Ir hofgewannt tuch in lanngen Rotenn
+               <lb facs="#facs_20_tl_1758705812" n="N007"/>Nuremberger
+               <lb facs="#facs_20_tl_1758705818" n="N008"/>Des Richter diennern Fur Ir hofgewannt oder oppfer gelt iii γ d
+               <lb facs="#facs_20_tl_1758705794" n="N009"/>Hannsenn Cles Iorgen Cles des thurnner in sand Steffons
+               <lb facs="#facs_20_tl_1758705787" n="N010"/>thurenn Son nach Beuelhung meiner herrenn <unclear>Burgermaister</unclear>
+          <lb facs="#facs_20_tl_1758705813" n="N012"/>demselben Seinem vater vnd Hainreichn Snawrrenberger
+               <lb facs="#facs_20_line_1758783899890_811" n="N013"/>Turnner im thurenn geplasen hat vnd In damit abgeferttigt
+               <lb facs="#facs_20_tl_1758705800" n="N015"/>Iorgenn Rosennhaimer Appotegker Inhanndn Inn <unclear>khrawenn</unclear>
+          <lb facs="#facs_20_tl_1758705815" n="N016"/>Agnesenn seiner dienner Inn die er Anndreenn Winkhler Zu
+               <lb facs="#facs_20_tl_1758705814" n="N017"/>Mistelbach verheyrat vnd Ir der Rat Zu heyratgut Zugebenn
+               <lb facs="#facs_20_tl_1758705823" n="N018"/>beuolhenn hat vnd komen her von der Rigel haws an Sand
+               <lb facs="#facs_20_tl_1758705777" n="N019"/>petersPreithof verschribenn v fl vnngrisch per x s xx vt <unclear>Q</unclear> vi γ v s x d
+               <lb facs="#facs_20_tl_1758705790" n="N020"/>Michelenn Zwetler dem Fuerer vnd <unclear>Ehbethen</unclear> seiner hausfrauen
+               <lb facs="#facs_20_tl_1758705838" n="N021"/>auch Zu heyratgut von yetzgemelter Rigel haws herkom
+               <lb facs="#facs_20_line_1758783927289_837" n="N022"/>mend v fl vnngrisch per x s xx ꞩ vi γ v s x d
+               <lb facs="#facs_20_tl_1758705798" n="N023"/>Aber Herrenn Hannsen Koppl vmb iiii ellenn Roten lanngenn
+               <lb facs="#facs_20_tl_1758705832" n="N024"/>Nuremberger den Schutzen die an den vorgenan<unclear>ten</unclear> Zwain
+               <lb facs="#facs_20_line_1758783939689_849" n="N025"/>Stukhn dauon In vnd anndern gebn ist abganngn seien die
+               <lb facs="#facs_20_tl_1758705791" n="N026"/>ellenn per iiii s ꞩ ii γ d
+               <lb facs="#facs_20_tl_1758705801" n="N027"/>Iorgenn Reinharten der Armbst schutzenn Schutzenmaister
+               <lb facs="#facs_20_tl_1758705819" n="N028"/>ist das Iar auf die Armbst schutzenn geben auf xxiii Sontag
+               <lb facs="#facs_20_tl_1758705811" n="N029"/>angefanngn des Sonntag nach sannd Iorgen tag vnntzt
+               <lb facs="#facs_20_tl_1758705795" n="N030"/>auf Sonntag vor Sand Michelstag yeglichen Sonntag ain
+               <lb facs="#facs_20_tl_1758705786" n="N031"/>ellen vnd ain drittail ꞩ xxx ellen vnd ii drittail
+               <lb facs="#facs_20_tl_1758705778" n="N032"/>Allermassen seien auch gebn Hannsen Hierspeioler vnd <unclear>Fridrer</unclear>
+          <lb facs="#facs_20_tl_1758705783" n="N033"/>Lachperger der puxenmaister Schutzenmaister vt <unclear>Q</unclear>
+          <lb facs="#facs_20_tl_1758705785" n="N034"/>Latus xxxi γ vi s xx d
+            </ab>
+        <pb facs="#facs_21" n="21" xml:id="img_0021"/>
+        <ab facs="#facs_21_region_155464173">
+          <lb facs="#facs_21_tl_1758705846" n="N001"/>Michelnn <unclear>melmres</unclear> Stainmessen In ainem hofge
+               <lb facs="#facs_21_tl_1758705864" n="N002"/>wannt das er seinenn Zewg vnd dienner Zu dem
+               <lb facs="#facs_21_tl_1758705859" n="N003"/>Ganng auf der Schrann am Hochenmarkt vnd anndrer
+               <lb facs="#facs_21_tl_1758705855" n="N004"/>pawenn der Stat gelichenn hat viij̸ ellen Roten Lanngen
+               <lb facs="#facs_21_tl_1758705843" n="N005"/>Nurmberger
+               <lb facs="#facs_21_tl_1758705851" n="N006"/>Suma des vorgenannten Ausgebenns von genadenn <unclear> ꞩ</unclear>
+          <lb facs="#facs_21_line_1758783970799_877" n="N007"/>C xxxviii γ Lxii d
+               <lb facs="#facs_21_tl_1758705845" n="N008"/>Auf die So Im lesen vnnder den Torren
+               <lb facs="#facs_21_line_1758783993010_892" n="N009"/>gestannden auch den Herren vnd annderen So am wein
+               <lb facs="#facs_21_tl_1758705854" n="N010"/>schreiben geganngen seien
+               <lb facs="#facs_21_line_1758784007817_902" n="N011"/>Der Schreiberenn So am weinschreibenn geganngen seien
+               <lb facs="#facs_21_line_1758784030893_911" n="N012"/>yedem i γ ꞩ iiii γ d
+               <lb facs="#facs_21_tl_1758705865" n="N013"/>Acht Stewr Knechtenn die auch am weinschreibn ganngen
+               <lb facs="#facs_21_tl_1758705848" n="N014"/>sind yedem iiii s vnd in der Stewr auf mich geschribn iiii γ d
+               <lb facs="#facs_21_tl_1758705853" n="N016"/>Suma Latus ꞩ viii γ d
+            </ab>
+        <ab facs="#facs_21_region_255464173">
+          <lb facs="#facs_21_tl_1758705850" n="N001"/>Einannder ausgeben den Hienach benanten
+               <lb facs="#facs_21_tl_1758705844" n="N002"/>Personnen Iren solde
+               <lb facs="#facs_21_tl_1758705847" n="N003"/>Herenn Iacoben Rechwein vnd Anndreen Branntsteter Fur Iren
+               <lb facs="#facs_21_tl_1758705868" n="N004"/>Solde das Sy an einbringung der weinstewr vnd viertzigistn
+               <lb facs="#facs_21_tl_1758705857" n="N005"/>phunds das nagsturganngn lxxxxii Iars verwilliget vnd
+               <lb facs="#facs_21_line_1758784085495_933" n="N006"/>auch des Weitzschko auslags des lxxxxiii stn Iars gesessen
+               <lb facs="#facs_21_line_1758784092616_937" n="N007"/>sind yedem xvi γ vt <unclear>Q</unclear> ꞩ xxxii γ d
+               <lb facs="#facs_21_tl_1758705852" n="N008"/>Demselben Rechwein vnd Branntsteter das Sy an einbrin
+               <lb facs="#facs_21_tl_1758705873" n="N009"/>gung der Remanenntz Weinstewr viertzigisten phunds vnd
+               <lb facs="#facs_21_line_1758784100368_944" n="N010"/>weitzschko anlags ditz gegennburttign Lxxxxiiii Iars gesessen
+               <lb facs="#facs_21_line_1758784109598_949" n="N011"/>sind yedm v γ vt <unclear>Q</unclear> ꞩ x γ d
+               <lb facs="#facs_21_line_1758784115919_954" n="N012"/>Mr Niclasen Schuelmaister Zu sannd Steffon an seinem
+               <lb facs="#facs_21_line_1758784119198_958" n="N013"/>Sold Innehalt ainer <unclear>Q</unclear> xxxii γ d
+               <lb facs="#facs_21_tl_1758705860" n="N014"/>Dem <unclear>Ormaister</unclear> Zu sannd Steffonn seinenn Sold vt <unclear>Q</unclear> xviii γ d
+               <lb facs="#facs_21_tl_1758705869" n="N015"/>Iacobenn Schratzen der Stat poten seinenn Sold das Iar wochn
+               <lb facs="#facs_21_line_1758784141557_966" n="N016"/>lichenn Lx vt <unclear>Q</unclear> ꞩ xiii γ d
+               <lb facs="#facs_21_line_1758784149032_971" n="N017"/>Sigmunden Mautter bey sannd Niclas seinenn Sold das Iar
+               <lb facs="#facs_21_line_1758784161284_977" n="N018"/>Lii wochenn per iii s vt <unclear>Q</unclear> ꞩ xviiii γ s d
+               <lb facs="#facs_21_line_1758784174515_982" n="N019"/>Hannsen Leuntlein wirt in kernnerthuren seinenn sold
+               <lb facs="#facs_21_line_1758784179382_987" n="N020"/>das Iar lii wochenn per Lx vt <unclear>Q</unclear> ꞩ xiii γ d
+               <lb facs="#facs_21_tl_1758705874" n="N021"/>Hannsen Dachawer Torhuetter <unclear>Beynn</unclear> klewbhofen x wochen
+               <lb facs="#facs_21_tl_1758705878" n="N022"/>sold per Lx vt <unclear>Q</unclear> ꞩ ii γ iiii s d
+               <lb facs="#facs_21_tl_1758705849" n="N023"/>Wolffganngen Prukhnner der an des yetz genannten Dach
+               <lb facs="#facs_21_tl_1758705882" n="N024"/>awer stat Zu Torhuetter beynn klewbhofen ist aufgenomen
+               <lb facs="#facs_21_tl_1758705858" n="N025"/>wordn xxxvii wochenn sold per iiii s vt <unclear>Q</unclear> ꞩ xviii γ s d
+               <lb facs="#facs_21_line_1758784209257_1000" n="N026"/>Thomon Teyrel auf dem Newennthuren seinen Sold das
+               <lb facs="#facs_21_line_1758784219703_1004" n="N027"/>Iar lii wochenn per Lx vt <unclear>Q</unclear> ꞩ xiii γ d
+               <lb facs="#facs_21_tl_1758705877" n="N028"/>Steffonn Munichawser Remanenntzer x wochennsold per
+               <lb facs="#facs_21_line_1758784233945_1018" n="N029"/>iiii s vt <unclear>Q</unclear> ꞩ v γ d
+               <lb facs="#facs_21_line_1758784259451_1030" n="N030"/>Latus c lxvii γ iiii s d
+            </ab>
+        <pb facs="#facs_22" n="22" xml:id="img_0022"/>
+        <pb facs="#facs_23" n="23" xml:id="img_0023"/>
+        <pb facs="#facs_24" n="24" xml:id="img_0024"/>
+        <pb facs="#facs_25" n="25" xml:id="img_0025"/>
+        <pb facs="#facs_26" n="26" xml:id="img_0026"/>
+        <pb facs="#facs_27" n="27" xml:id="img_0027"/>
+        <pb facs="#facs_28" n="28" xml:id="img_0028"/>
+        <pb facs="#facs_29" n="29" xml:id="img_0029"/>
+        <pb facs="#facs_30" n="30" xml:id="img_0030"/>
+        <pb facs="#facs_31" n="31" xml:id="img_0031"/>
+        <pb facs="#facs_32" n="32" xml:id="img_0032"/>
+        <pb facs="#facs_33" n="33" xml:id="img_0033"/>
+        <pb facs="#facs_34" n="34" xml:id="img_0034"/>
+        <pb facs="#facs_35" n="35" xml:id="img_0035"/>
+        <pb facs="#facs_36" n="36" xml:id="img_0036"/>
+        <pb facs="#facs_37" n="37" xml:id="img_0037"/>
+        <pb facs="#facs_38" n="38" xml:id="img_0038"/>
+      </div>
+    </body>
+  </text>
+</TEI>
