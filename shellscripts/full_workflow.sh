@@ -1,10 +1,11 @@
 #!/bin/bash
 . ./secret.env
 rm -rf data/editions/* data/mets/* tei_headers/*
-TRANSKRIBUS_DOC_IDS="6981834,10651984,7714156" ./pyscripts/download.py
-./pyscripts/transform.py
-./pyscripts/rename_files.py
-./pyscripts/fix_xml.py
-./pyscripts/add_missing_initial_page.py
-./pyscripts/generate_headers.py
-./pyscripts/fill_headers.py
+./pyscripts/01_download.py
+./pyscripts/02_fix_tkb.py
+./pyscripts/03_transform.py
+./pyscripts/04_rename_files.py
+./pyscripts/05_fix_xml.py
+# ./pyscripts/06_add_missing_initial_page.py
+./pyscripts/07_generate_headers.py
+./pyscripts/08_fill_headers.py

@@ -31,19 +31,21 @@ jobs:
     - name: Delete old files
       run: rm -rf data/editions/* data/mets/* tei_headers/*
     - name: Download
-      run: ./pyscripts/download.py
+      run: ./pyscripts/01_download.py
+    - name: Apply fixes to Transkribus files
+      run: ./pyscripts/02_fix_tkb.py
     - name: Generate XML-TEI
-      run: ./pyscripts/transform.py
+      run: ./pyscripts/03_transform.py
     - name: Rename files
-      run: ./pyscripts/rename_files.py
+      run: ./pyscripts/04_rename_files.py
     - name: Fix XML
-      run: ./pyscripts/fix_xml.py
-    - name: Ensure initial facsimile page
-      run: ./pyscripts/add_missing_initial_page.py
+      run: ./pyscripts/05_fix_xml.py
+#    - name: Ensure initial facsimile page
+#      run: ./pyscripts/06_add_missing_initial_page.py
     - name: Generate headers
-      run: ./pyscripts/generate_headers.py
+      run: ./pyscripts/07_generate_headers.py
     - name: Populate headers
-      run: ./pyscripts/fill_headers.py
+      run: ./pyscripts/08_fill_headers.py
     - uses: stefanzweifel/git-auto-commit-action@v5
       with:
         commit_message: Export and Transformation done

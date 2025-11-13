@@ -14,6 +14,7 @@ from __future__ import annotations
 import glob
 import os
 import re
+from pathlib import Path
 from typing import Dict, Optional, Tuple
 
 import lxml.etree as ET
@@ -21,11 +22,11 @@ import lxml.etree as ET
 from acdh_tei_pyutils.tei import TeiReader
 
 TEI_DIR = os.environ.get("TEI_DIR", "./data/editions")
+METS_DIR = Path(os.environ.get("METS_DIR", "./data/mets"))
 NSMAP = {"tei": "http://www.tei-c.org/ns/1.0"}
 TEI = "{http://www.tei-c.org/ns/1.0}"
 XML = "{http://www.w3.org/XML/1998/namespace}"
 
-FILENAME_PREFIX_RE = re.compile(r"^\d+_(WSTLA[-_].+)$")
 FACSIMILE_REF_RE = re.compile(r"#(facs_\d+)")
 
 FILE_PATTERN = os.path.join(TEI_DIR, "*.xml")
@@ -75,20 +76,57 @@ def collect_existing_graphic_urls(root) -> set[str]:  # type: ignore[name-define
     return {node.get("url") for node in root.xpath(".//tei:graphic", namespaces=NSMAP) if node.get("url")}
 
 
-def normalise_graphic_filenames(root) -> bool:  # type: ignore[name-defined]
-    """Strip numeric prefixes that Transkribus sometimes prepends to image names."""
+def resolve_image_name_file(doc_id: str) -> Optional[Path]:
+    """Return the path to the *_image_name.xml file for *doc_id*, if present."""
 
+    if not METS_DIR.exists():
+        return None
+    candidates = sorted(METS_DIR.glob(f"**/{doc_id}_image_name.xml"))
+    return candidates[0] if candidates else None
+
+
+def load_image_sequence(mapping_path: Path) -> list[str]:
+    """Read the Transkribus image name list for a document."""
+
+    try:
+        tree = ET.parse(mapping_path)
+    except ET.ParseError:
+        return []
+    return [item.text.strip() for item in tree.findall(".//item") if item.text]
+
+
+def apply_image_name_mapping(path: str, root, facsimile) -> bool:  # type: ignore[name-defined]
+    """Align local graphic URLs with Transkribus image names when available."""
+
+    doc_id = Path(path).stem
+    mapping_path = resolve_image_name_file(doc_id)
+    if mapping_path is None:
+        return False
+
+    image_names = load_image_sequence(mapping_path)
+    if not image_names:
+        return False
+
+    surfaces = list(facsimile.findall(f"{TEI}surface"))
+    if not surfaces:
+        return False
+
+    index = 0
     changed = False
-    for graphic in root.xpath(".//tei:graphic", namespaces=NSMAP):
-        url = graphic.get("url")
-        if not url or url.lower().startswith("http"):
-            continue
-        match = FILENAME_PREFIX_RE.match(url)
-        if match:
-            new_url = match.group(1)
-            if new_url != url:
-                graphic.set("url", new_url)
-                changed = True
+    sequence_length = len(image_names)
+
+    for surface in surfaces:
+        if index >= sequence_length:
+            break
+
+        target_name = image_names[index]
+        local_graphic = first_local_graphic(surface)
+        if local_graphic is not None and local_graphic.get("url") != target_name:
+            local_graphic.set("url", target_name)
+            changed = True
+
+        index += 1
+
     return changed
 
 def extract_surface_id(value: Optional[str]) -> Optional[str]:
@@ -229,6 +267,33 @@ def update_id_references(root, id_map: Dict[str, str]) -> bool:  # type: ignore[
 
     replacements.sort(key=lambda item: len(item[0]), reverse=True)
 
+    def replace_standalone_token(value: str, old: str, new: str) -> tuple[str, bool]:
+        """Replace *old* with *new* unless the match runs into extra digits."""
+
+        cursor = 0
+        result: list[str] = []
+        touched = False
+        token_len = len(old)
+
+        while True:
+            hit = value.find(old, cursor)
+            if hit == -1:
+                result.append(value[cursor:])
+                break
+
+            tail_index = hit + token_len
+            if tail_index < len(value) and value[tail_index].isdigit():
+                result.append(value[cursor:tail_index])
+                cursor = tail_index
+                continue
+
+            result.append(value[cursor:hit])
+            result.append(new)
+            cursor = tail_index
+            touched = True
+
+        return "".join(result), touched
+
     xml_id_key = f"{XML}id"
     for element in root.iter():
         for attr, value in list(element.attrib.items()):
@@ -238,11 +303,13 @@ def update_id_references(root, id_map: Dict[str, str]) -> bool:  # type: ignore[
                 continue
             new_value = value
             for old, new in replacements:
-                if old in new_value:
-                    new_value = new_value.replace(old, new)
+                if old not in new_value:
+                    continue
+                new_value, token_replaced = replace_standalone_token(new_value, old, new)
+                if token_replaced:
+                    changed = True
             if new_value != value:
                 element.set(attr, new_value)
-                changed = True
     return changed
 
 
@@ -430,7 +497,7 @@ def ensure_placeholder(path: str) -> bool:
         return False
     facsimile = facsimiles[0]
 
-    updated = normalise_graphic_filenames(root)
+    updated = apply_image_name_mapping(path, root, facsimile)
     if remove_redundant_placeholder(root, facsimile):
         updated = True
     if normalise_surface_ids(root, facsimile):
