@@ -16,7 +16,7 @@ transkribus_client = ACDHTranskribusUtils(
 )
 
 doc_id_subset = os.environ.get("TRANSKRIBUS_DOC_IDS", "")
-doc_id_subset = "6981834,10651984,7714156"
+#doc_id_subset = "6981834,10651984,7714156"
 if doc_id_subset:
     TARGET_DOC_IDS = [item.strip() for item in doc_id_subset.split(",") if item.strip()]
 else:
