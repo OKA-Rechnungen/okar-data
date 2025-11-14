@@ -105,7 +105,7 @@ def extract_from_table(table, ttl):
 
     row = matching_rows.iloc[0]
     idno = row["NonLinkedIdentifier"].strip()
-    title = row["Title"].strip()
+    record_title = row["Title"].strip()
     altTitle = row["AlternativeTitle"].strip()
     startDate = row["CoverageStartDate"].strip()
     endDate = row["CoverageEndDate"].strip()
@@ -116,22 +116,22 @@ def extract_from_table(table, ttl):
     note = row["Note"].strip()
     oberkaemmerer = {}
     for i in ["1", "2", "3", "4", "5"]:
-        title = row[f"Creator{i}/Title"].strip()
-        if title:
+        creator_title = row[f"Creator{i}/Title"].strip()
+        if creator_title:
             surname = " ".join((row[f"Creator{i}/LastName"].strip(), row[f"Creator{i}/LastName2"].strip())).strip()
             forename = row[f"Creator{i}/FirstName"].strip()
-            role_name = row[f"Creator{i}/PersonalName"].strip() or title
-            xmlid_candidate = slugify_xmlid(surname, forename, title)
+            role_name = row[f"Creator{i}/PersonalName"].strip() or creator_title
+            xmlid_candidate = slugify_xmlid(surname, forename, creator_title)
             oberkaemmerer[role_name] = {
                 "idno": row[f"Creator{i}/Identifier"].strip(),
-                "title": title,
+                "title": creator_title,
                 "forename": forename,
                 "surname": surname,
                 "role": role_name,
                 "note": row[f"Creator{i}/Note"].strip(),
                 "xmlid": xmlid_candidate,
             }
-    return {"idno": idno, "title": title, "altTitle": altTitle, "startDate": startDate,
+    return {"idno": idno, "title": record_title, "altTitle": altTitle, "startDate": startDate,
             "endDate": endDate, "pages": pages, "desc": desc, "desc2": desc2, "toc": toc,
             "note": note, "oberkaemmerer": oberkaemmerer}
 
