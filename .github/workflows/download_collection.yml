@@ -46,8 +46,8 @@ jobs:
       run: ./pyscripts/07_generate_headers.py
     - name: Populate headers
       run: ./pyscripts/08_fill_headers.py
-    - name: Enrich body
-      run: ./pyscripts/09_enrich_body.py
+    -name: Enrich body
+      run: ./pyscripts/09_enrich_body.py data/constants/metadata.json  data/editions
     - uses: stefanzweifel/git-auto-commit-action@v5
       with:
         commit_message: Export and Transformation done
