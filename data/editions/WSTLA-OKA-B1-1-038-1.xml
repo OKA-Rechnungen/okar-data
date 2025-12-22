@@ -1,0 +1,1213 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="WSTLA-OKA-B1-1-038-1.xml" xml:base="/" prev="WSTLA-OKA-B1-1-155-1.xml" next="WSTLA-OKA-B1-1-284-1.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="a" type="main" xml:lang="de">Kammeramtsrechnung 1475</title>
+        <title level="j" type="desc">Oberkammeramtsrechnungsbücher der Stadt Wien</title>
+        <title level="a" type="desc">WSTLA-OKA-B1-1-038-1</title>
+        <respStmt>
+          <resp>XML modelling</resp>
+          <resp>Data processing</resp>
+          <persName role="MetadataCreator" ref="https://orcid.org/0000-0002-8815-6741">
+            <forename>Fernando</forename>
+            <surname>Sanz-Lázaro</surname>
+            <idno type="URL" subtype="GND">http://d-nb.info/gnd/1297553608</idno>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Data processing</resp>
+          <persName role="Contributor" ref="https://orcid.org/0000-0003-2436-0361">
+            <forename>Daniel</forename>
+            <surname>Schopper</surname>
+            <idno type="URL" subtype="ORCID">https://orcid.org/0000-0003-2436-0361</idno>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Transcription</resp>
+          <persName role="Transcriptor" ref="https://orcid.org/0000-0002-0484-832X">
+            <forename>Robert</forename>
+            <surname>Klugseder</surname>
+            <idno type="URL" subtype="GND">http://d-nb.info/gnd/134072170</idno>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Transcription</resp>
+          <persName role="Transcriptor">
+            <forename>Johanna</forename>
+            <surname>Unterholzner</surname>
+            <idno type="URL" subtype="ORCID">https://orcid.org/0009-0001-2391-9939</idno>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp xml:lang="en">Digitisation (photography) of the archival materials</resp>
+          <orgName ref="http://d-nb.info/gnd/2060831-7" role="DigitisingAgent">
+            <orgName>Wiener Stadt- und Landesarchiv</orgName>
+            <idno type="URI" subtype="GND">http://d-nb.info/gnd/2060831-7</idno>
+          </orgName>
+        </respStmt>
+        <respStmt>
+          <resp>(Ober)kämmerer</resp>
+          <persName ref="#radauner-lienhard-linnhart-radawner" role="(Ober)kämmerer">Linnhart Radawner</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Kämmerer</resp>
+          <persName ref="#kraucker-jakob-iacob-kraukher" role="Kämmerer">Iacob Kraukher</persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <objectType xml:lang="de">Electronische Edition</objectType>
+          <objectType xml:lang="en">Electronic edition</objectType>
+        </edition>
+        <funder>
+          <orgName xml:lang="de">Bundesministerium für Kunst, Kultur, Öffentlicher Dienst und Sport</orgName>
+          <orgName xml:lang="en">Austrian Ministery for Art, Culture, Public Service, and Sport</orgName>
+          <idno type="URI" subtype="GND">http://d-nb.info/gnd/1216831270</idno>
+        </funder>
+        <funder>
+          <orgName xml:lang="de">Europäische Union</orgName>
+          <orgName xml:lang="en">European Union</orgName>
+          <idno type="URI" subtype="GND">https://d-nb.info/gnd/5098525-5</idno>
+        </funder>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName>Austrian Centre for Digital Humanities</orgName>
+          <idno type="URI" subtype="GND">http://d-nb.info/gnd/1226158307</idno>
+        </publisher>
+        <authority>
+          <orgName xml:lang="de">Österreichische Akademie der Wissenschaften</orgName>
+          <orgName xml:lang="en">Austrian Academy of Sciences</orgName>
+          <idno type="URI" subtype="GND">http://d-nb.info/gnd/1001454-8</idno>
+        </authority>
+        <address>
+          <addrLine xml:lang="de">Österreichische Akademie der Wissenschaften</addrLine>
+          <addrLine xml:lang="en">Austrian Academy of Sciences</addrLine>
+          <addrLine>Austrian Centre for Digital Humanities</addrLine>
+          <addrLine>Bäckerstraße 13</addrLine>
+          <addrLine>1100 Vienna</addrLine>
+          <addrLine xml:lang="en">Austria</addrLine>
+          <addrLine xml:lang="de">Österreich</addrLine>
+          <addrLine>
+            <ref target="https://www.oeaw.ac.at/acdh">https://www.oeaw.ac.at/acdh</ref>
+          </addrLine>
+          <addrLine>
+            <email>acdh-office@oeaw.ac.at</email>
+          </addrLine>
+        </address>
+        <pubPlace>
+          <placeName xml:lang="de">Wien</placeName>
+          <placeName xml:lang="en">Vienna</placeName>
+          <idno type="URI" subtype="GND">http://d-nb.info/gnd/4066009-6</idno>
+          <idno type="URI" subtype="Wikidata">https://www.wikidata.org/entity/Q1741</idno>
+        </pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed">CC-BY-SA</licence>
+        </availability>
+        <date when="2025-11-18">2024</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title>OKAR_Wien</title>
+      </seriesStmt>
+      <notesStmt>
+        
+        <note>Wechsel des zweiten Kämmerers siehe 1.1.1.B1/1.40; keine Schulden und Kapitalanlagen</note>
+      </notesStmt>
+      <sourceDesc>
+        <bibl>
+          <title type="main">1475_WSTLA-OKA-B1-1-038-1</title>
+          <date>1475</date>
+          <idno type="Transkribus">10584750</idno>
+        </bibl>
+        <msDesc>
+          <msIdentifier>
+            <institution>
+              <country>Austria</country>
+              <settlement>Vienna</settlement>
+              <orgName xml:lang="de">Wiener Stadt- und Landesarchiv</orgName>
+              <orgName xml:lang="en">Municipal and Provincial Archives of Vienna</orgName>
+              <idno type="URI" subtype="GND">http://d-nb.info/gnd/2060831-7</idno>
+            </institution>
+            <repository>
+              <orgName xml:lang="de">Wiener Stadt- und Landesarchiv</orgName>
+              <orgName xml:lang="en">Municipal and Provincial Archives of Vienna</orgName>
+              <idno type="URI" subtype="GND">http://d-nb.info/gnd/2060831-7</idno>
+              <idno type="URI" subtype="Wikidata">https://www.wikidata.org/wiki/Q1423528</idno>
+            </repository>
+            <collection>Oberkammeramtsrechnungen</collection>
+            <idno type="shelfmark">1.1.1.B1/1.38</idno>
+          </msIdentifier>
+          <msContents>
+            <summary />
+            <p>
+              <origDate when="1475-01-01" />
+            </p>
+            <p>Einnahmen: fol. 2r-26r; Ausgaben: fol. 27r-127r; Gegenrechnung Einnahmen – Ausgaben: fol. 127r</p>
+          </msContents>
+          <physDesc>
+            <objectDesc form="codex">
+              <supportDesc>
+                <support />
+                <extent>136</extent>
+              </supportDesc>
+            </objectDesc>
+            <bindingDesc>
+              <binding>
+                <p>Gebrauchseinband Pergament auf Karton vernäht</p>
+              </binding>
+            </bindingDesc>
+            <accMat />
+          </physDesc>
+          
+        </msDesc>
+        <listBibl type="secondary">
+          <bibl xml:id="schematismus">
+            <title>Staatsschematismus</title>
+          </bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p xml:lang="de">Maschinell erfasster Rohtext</p>
+        <p xml:lang="en">Machine-collected raw text</p>
+      </editorialDecl>
+      <appInfo>
+        <application ident="transkribus" version="1.26.0">
+          <label>Transkribus</label>
+          <desc xml:lang="de">Sammlung 258178</desc>
+          <desc xml:lang="en">collection 258178</desc>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="de" xml:lang="de">Frühneuhochdeutsch</language>
+        <language ident="de" xml:lang="en">Early New High German</language>
+      </langUsage>
+      <textDesc n="accountbook">
+        <channel mode="ws">
+          <objectType xml:lang="de">Handschrift</objectType>
+          <objectType>manuscript</objectType>
+        </channel>
+        <constitution type="composite" />
+        <derivation />
+        <domain type="administrative" />
+        <factuality type="fact" />
+        <interaction type="none" />
+        <preparedness type="official" />
+        <purpose type="recordkeeping" />
+      </textDesc>
+      <settingDesc>
+        <setting>
+          <name xml:lang="de">Wien</name>
+          <name xml:lang="en">Vienna</name>
+          <time />
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+        <listPerson>
+            <person xml:id="radauner-lienhard-linnhart-radawner" role="(Ober)kämmerer">
+                <persName type="norm">
+                    <forename>Lienhard</forename>
+                    <surname>Radauner</surname>
+                </persName>
+                <persName type="orig">Linnhart Radawner</persName>
+                <occupation>(Ober)kämmerer</occupation>
+                <idno type="URI" subtype="WienGeschichteWiki">https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=20837</idno>
+            </person>
+            <person xml:id="kraucker-jakob-iacob-kraukher" role="Kämmerer">
+                <persName type="norm">
+                    <forename>Jakob</forename>
+                    <surname>Kraucker</surname>
+                </persName>
+                <persName type="orig">Iacob Kraukher</persName>
+                <occupation>Kämmerer</occupation>
+                <idno type="URI" subtype="WienGeschichteWiki">https://www.geschichtewiki.wien.gv.at/Special:URIResolver/?curid=36526</idno>
+            </person>
+        </listPerson>
+        <spanGrp />
+    </standOff>
+  <facsimile>
+    <surface ulx="0" uly="0" lrx="3124" lry="3923" xml:id="facs_1">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00001.tif" width="3124px" height="3923px" />
+      <graphic url="https://files.transkribus.eu/Get?id=WKTSZLTSTEFPIIWUROPDQRIH&amp;fileType=view" width="3124px" height="3923px" />
+      <zone points="0,0 1562,0 3124,0 3124,3923 1562,3923 0,3923" rendition="TextRegion" xml:id="facs_1_TextRegion_1757933859832_35" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5472" lry="3653" xml:id="facs_2">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00002.tif" width="5472px" height="3653px" />
+      <graphic url="https://files.transkribus.eu/Get?id=XOOQFKFYKBFOJMHTOHBOAEEL&amp;fileType=view" width="5472px" height="3653px" />
+      <zone points="0,0 2736,0 2736,3653 0,3653" rendition="TextRegion" xml:id="facs_2_region_154723653" />
+      <zone points="2736,0 5472,0 5472,3653 2736,3653" rendition="TextRegion" xml:id="facs_2_region_254723653" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5459" lry="3662" xml:id="facs_3">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00003.tif" width="5459px" height="3662px" />
+      <graphic url="https://files.transkribus.eu/Get?id=RFZYNPIIVCIOGYVIXVAFJRXP&amp;fileType=view" width="5459px" height="3662px" />
+      <zone points="0,0 2729,0 2729,3662 0,3662" rendition="TextRegion" xml:id="facs_3_region_154593662" />
+      <zone points="2730,0 5459,0 5459,3662 2730,3662" rendition="TextRegion" xml:id="facs_3_region_254593662" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5487" lry="3708" xml:id="facs_4">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00004.tif" width="5487px" height="3708px" />
+      <graphic url="https://files.transkribus.eu/Get?id=WPJMHANZTMRTBBMGZAFHMHNT&amp;fileType=view" width="5487px" height="3708px" />
+      <zone points="0,0 2743,0 2743,3708 0,3708" rendition="TextRegion" xml:id="facs_4_region_154873708" />
+      <zone points="2744,0 5487,0 5487,3708 2744,3708" rendition="TextRegion" xml:id="facs_4_region_254873708" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5489" lry="3724" xml:id="facs_5">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00005.tif" width="5489px" height="3724px" />
+      <graphic url="https://files.transkribus.eu/Get?id=DINTLYRTCNMNQQIZEMRPBAAM&amp;fileType=view" width="5489px" height="3724px" />
+      <zone points="0,0 2744,0 2744,3724 0,3724" rendition="TextRegion" xml:id="facs_5_region_154893724" />
+      <zone points="2745,0 5489,0 5489,3724 2745,3724" rendition="TextRegion" xml:id="facs_5_region_254893724" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5469" lry="3726" xml:id="facs_6">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00006.tif" width="5469px" height="3726px" />
+      <graphic url="https://files.transkribus.eu/Get?id=LIDFFLEBHGOEOXIFWQWUCENY&amp;fileType=view" width="5469px" height="3726px" />
+      <zone points="0,0 2734,0 2734,3726 0,3726" rendition="TextRegion" xml:id="facs_6_region_154693726" />
+      <zone points="2735,0 5469,0 5469,3726 2735,3726" rendition="TextRegion" xml:id="facs_6_region_254693726" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5473" lry="3716" xml:id="facs_7">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00007.tif" width="5473px" height="3716px" />
+      <graphic url="https://files.transkribus.eu/Get?id=ARUSRADCDVFCPYBGMYUAUSET&amp;fileType=view" width="5473px" height="3716px" />
+      <zone points="0,0 2736,0 2736,3716 0,3716" rendition="TextRegion" xml:id="facs_7_region_154733716" />
+      <zone points="2737,0 5473,0 5473,3716 2737,3716" rendition="TextRegion" xml:id="facs_7_region_254733716" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5468" lry="3732" xml:id="facs_8">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00008.tif" width="5468px" height="3732px" />
+      <graphic url="https://files.transkribus.eu/Get?id=JFUMIUUAPWDRBOFNWYKXJPNC&amp;fileType=view" width="5468px" height="3732px" />
+      <zone points="0,0 2734,0 2734,3732 0,3732" rendition="TextRegion" xml:id="facs_8_region_154683732" />
+      <zone points="2734,0 5468,0 5468,3732 2734,3732" rendition="TextRegion" xml:id="facs_8_region_254683732" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5479" lry="3757" xml:id="facs_9">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00009.tif" width="5479px" height="3757px" />
+      <graphic url="https://files.transkribus.eu/Get?id=WNBQRSSDNWGOEWAYBOXFGGXM&amp;fileType=view" width="5479px" height="3757px" />
+      <zone points="0,0 2739,0 2739,3757 0,3757" rendition="TextRegion" xml:id="facs_9_region_154793757" />
+      <zone points="2740,0 5479,0 5479,3757 2740,3757" rendition="TextRegion" xml:id="facs_9_region_254793757" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5458" lry="3708" xml:id="facs_10">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00010.tif" width="5458px" height="3708px" />
+      <graphic url="https://files.transkribus.eu/Get?id=BWSCAPFGGSFFXIFTYFMKRXPJ&amp;fileType=view" width="5458px" height="3708px" />
+      <zone points="0,0 2729,0 2729,3708 0,3708" rendition="TextRegion" xml:id="facs_10_region_154583708" />
+      <zone points="2729,0 5458,0 5458,3708 2729,3708" rendition="TextRegion" xml:id="facs_10_region_254583708" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5491" lry="3748" xml:id="facs_11">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00011.tif" width="5491px" height="3748px" />
+      <graphic url="https://files.transkribus.eu/Get?id=JTRXMPPVHNRADYEWPEDPXWBM&amp;fileType=view" width="5491px" height="3748px" />
+      <zone points="0,0 2745,0 2745,3748 0,3748" rendition="TextRegion" xml:id="facs_11_region_154913748" />
+      <zone points="2746,0 5491,0 5491,3748 2746,3748" rendition="TextRegion" xml:id="facs_11_region_254913748" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5424" lry="3697" xml:id="facs_12">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00012.tif" width="5424px" height="3697px" />
+      <graphic url="https://files.transkribus.eu/Get?id=MMPZDPPRGQJCVQDAXDAYTLQV&amp;fileType=view" width="5424px" height="3697px" />
+      <zone points="0,0 2712,0 2712,3697 0,3697" rendition="TextRegion" xml:id="facs_12_region_154243697" />
+      <zone points="2712,0 5424,0 5424,3697 2712,3697" rendition="TextRegion" xml:id="facs_12_region_254243697" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5480" lry="3690" xml:id="facs_13">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00013.tif" width="5480px" height="3690px" />
+      <graphic url="https://files.transkribus.eu/Get?id=JJNKCPJCMHGEXCYVTCZVBJRK&amp;fileType=view" width="5480px" height="3690px" />
+      <zone points="0,0 2740,0 2740,3690 0,3690" rendition="TextRegion" xml:id="facs_13_region_154803690" />
+      <zone points="2740,0 5480,0 5480,3690 2740,3690" rendition="TextRegion" xml:id="facs_13_region_254803690" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5471" lry="3735" xml:id="facs_14">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00014.tif" width="5471px" height="3735px" />
+      <graphic url="https://files.transkribus.eu/Get?id=DNJIFNUUSOHOHGGDAALHEBRJ&amp;fileType=view" width="5471px" height="3735px" />
+      <zone points="0,0 2735,0 2735,3735 0,3735" rendition="TextRegion" xml:id="facs_14_region_154713735" />
+      <zone points="2736,0 5471,0 5471,3735 2736,3735" rendition="TextRegion" xml:id="facs_14_region_254713735" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5455" lry="3712" xml:id="facs_15">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00015.tif" width="5455px" height="3712px" />
+      <graphic url="https://files.transkribus.eu/Get?id=KSQTBBSVVZWCTWFLASNREKRP&amp;fileType=view" width="5455px" height="3712px" />
+      <zone points="0,0 2727,0 2727,3712 0,3712" rendition="TextRegion" xml:id="facs_15_region_154553712" />
+      <zone points="2728,0 5455,0 5455,3712 2728,3712" rendition="TextRegion" xml:id="facs_15_region_254553712" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5438" lry="3709" xml:id="facs_16">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00016.tif" width="5438px" height="3709px" />
+      <graphic url="https://files.transkribus.eu/Get?id=IZWXMIGNERDLGFQXABDLVWXX&amp;fileType=view" width="5438px" height="3709px" />
+      <zone points="0,0 2719,0 2719,3709 0,3709" rendition="TextRegion" xml:id="facs_16_region_154383709" />
+      <zone points="2719,0 5438,0 5438,3709 2719,3709" rendition="TextRegion" xml:id="facs_16_region_254383709" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5405" lry="3751" xml:id="facs_17">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00017.tif" width="5405px" height="3751px" />
+      <graphic url="https://files.transkribus.eu/Get?id=OXFMJSIDDTHDWDYVMTLFRWZG&amp;fileType=view" width="5405px" height="3751px" />
+      <zone points="0,0 2702,0 2702,3751 0,3751" rendition="TextRegion" xml:id="facs_17_region_154053751" />
+      <zone points="2703,0 5405,0 5405,3751 2703,3751" rendition="TextRegion" xml:id="facs_17_region_254053751" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5419" lry="3696" xml:id="facs_18">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00018.tif" width="5419px" height="3696px" />
+      <graphic url="https://files.transkribus.eu/Get?id=IXLRUBJCLHGSLFQANOLCQNAG&amp;fileType=view" width="5419px" height="3696px" />
+      <zone points="0,0 2709,0 2709,3696 0,3696" rendition="TextRegion" xml:id="facs_18_region_154193696" />
+      <zone points="2710,0 5419,0 5419,3696 2710,3696" rendition="TextRegion" xml:id="facs_18_region_254193696" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5421" lry="3695" xml:id="facs_19">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00019.tif" width="5421px" height="3695px" />
+      <graphic url="https://files.transkribus.eu/Get?id=QALSUWHZVNOZCZFYSFBAFWLD&amp;fileType=view" width="5421px" height="3695px" />
+      <zone points="0,0 2710,0 2710,3695 0,3695" rendition="TextRegion" xml:id="facs_19_region_154213695" />
+      <zone points="2711,0 5421,0 5421,3695 2711,3695" rendition="TextRegion" xml:id="facs_19_region_254213695" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5430" lry="3711" xml:id="facs_20">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00020.tif" width="5430px" height="3711px" />
+      <graphic url="https://files.transkribus.eu/Get?id=FEAMFIXYNCDJKCVILKOWKGCP&amp;fileType=view" width="5430px" height="3711px" />
+      <zone points="0,0 2715,0 2715,3711 0,3711" rendition="TextRegion" xml:id="facs_20_region_154303711" />
+      <zone points="2715,0 5430,0 5430,3711 2715,3711" rendition="TextRegion" xml:id="facs_20_region_254303711" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5437" lry="3641" xml:id="facs_21">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00021.tif" width="5437px" height="3641px" />
+      <graphic url="https://files.transkribus.eu/Get?id=PUFFJMVMFTAINACIGZLMDBNZ&amp;fileType=view" width="5437px" height="3641px" />
+      <zone points="0,0 2718,0 2718,3641 0,3641" rendition="TextRegion" xml:id="facs_21_region_154373641" />
+      <zone points="2719,0 5437,0 5437,3641 2719,3641" rendition="TextRegion" xml:id="facs_21_region_254373641" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5439" lry="3679" xml:id="facs_22">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00022.tif" width="5439px" height="3679px" />
+      <graphic url="https://files.transkribus.eu/Get?id=XBWGJGKVUCUCVGQQMKRPOSKQ&amp;fileType=view" width="5439px" height="3679px" />
+      <zone points="0,0 2719,0 2719,3679 0,3679" rendition="TextRegion" xml:id="facs_22_region_154393679" />
+      <zone points="2720,0 5439,0 5439,3679 2720,3679" rendition="TextRegion" xml:id="facs_22_region_254393679" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5409" lry="3712" xml:id="facs_23">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00023.tif" width="5409px" height="3712px" />
+      <graphic url="https://files.transkribus.eu/Get?id=HULJUGAHYCDZIUMHGKKPUUME&amp;fileType=view" width="5409px" height="3712px" />
+      <zone points="0,0 2704,0 2704,3712 0,3712" rendition="TextRegion" xml:id="facs_23_region_154093712" />
+      <zone points="2705,0 5409,0 5409,3712 2705,3712" rendition="TextRegion" xml:id="facs_23_region_254093712" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5425" lry="3696" xml:id="facs_24">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00024.tif" width="5425px" height="3696px" />
+      <graphic url="https://files.transkribus.eu/Get?id=GWQPWCANXCWBFQREMLQILXRX&amp;fileType=view" width="5425px" height="3696px" />
+      <zone points="0,0 2712,0 2712,3696 0,3696" rendition="TextRegion" xml:id="facs_24_region_154253696" />
+      <zone points="2713,0 5425,0 5425,3696 2713,3696" rendition="TextRegion" xml:id="facs_24_region_254253696" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5447" lry="3734" xml:id="facs_25">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00025.tif" width="5447px" height="3734px" />
+      <graphic url="https://files.transkribus.eu/Get?id=KSVLNJBOPODOGNBIQTUVGUYH&amp;fileType=view" width="5447px" height="3734px" />
+      <zone points="0,0 2723,0 2723,3734 0,3734" rendition="TextRegion" xml:id="facs_25_region_154473734" />
+      <zone points="2724,0 5447,0 5447,3734 2724,3734" rendition="TextRegion" xml:id="facs_25_region_254473734" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5400" lry="3680" xml:id="facs_26">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00026.tif" width="5400px" height="3680px" />
+      <graphic url="https://files.transkribus.eu/Get?id=LRFBGODEJXKAECIBBEXDOCER&amp;fileType=view" width="5400px" height="3680px" />
+      <zone points="0,0 2700,0 2700,3680 0,3680" rendition="TextRegion" xml:id="facs_26_region_154003680" />
+      <zone points="2700,0 5400,0 5400,3680 2700,3680" rendition="TextRegion" xml:id="facs_26_region_254003680" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5408" lry="3702" xml:id="facs_27">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00027.tif" width="5408px" height="3702px" />
+      <graphic url="https://files.transkribus.eu/Get?id=WOAFOZKBLCVONFQUZUIAUOJL&amp;fileType=view" width="5408px" height="3702px" />
+      <zone points="0,0 2704,0 2704,3702 0,3702" rendition="TextRegion" xml:id="facs_27_region_154083702" />
+      <zone points="2704,0 5408,0 5408,3702 2704,3702" rendition="TextRegion" xml:id="facs_27_region_254083702" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5379" lry="3705" xml:id="facs_28">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00028.tif" width="5379px" height="3705px" />
+      <graphic url="https://files.transkribus.eu/Get?id=GFXWVXQVXZDCWTFTWJTJOIGY&amp;fileType=view" width="5379px" height="3705px" />
+      <zone points="0,0 2689,0 2689,3705 0,3705" rendition="TextRegion" xml:id="facs_28_region_153793705" />
+      <zone points="2690,0 5379,0 5379,3705 2690,3705" rendition="TextRegion" xml:id="facs_28_region_253793705" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5357" lry="3728" xml:id="facs_29">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00029.tif" width="5357px" height="3728px" />
+      <graphic url="https://files.transkribus.eu/Get?id=AUGLFGYZTHORCANNQOTJIWWL&amp;fileType=view" width="5357px" height="3728px" />
+      <zone points="0,0 2678,0 2678,3728 0,3728" rendition="TextRegion" xml:id="facs_29_region_153573728" />
+      <zone points="2679,0 5357,0 5357,3728 2679,3728" rendition="TextRegion" xml:id="facs_29_region_253573728" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5376" lry="3707" xml:id="facs_30">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00030.tif" width="5376px" height="3707px" />
+      <graphic url="https://files.transkribus.eu/Get?id=UXWKKCGWOTYTZNEADXWXZUAW&amp;fileType=view" width="5376px" height="3707px" />
+      <zone points="0,0 2688,0 2688,3707 0,3707" rendition="TextRegion" xml:id="facs_30_region_153763707" />
+      <zone points="2688,0 5376,0 5376,3707 2688,3707" rendition="TextRegion" xml:id="facs_30_region_253763707" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5361" lry="3697" xml:id="facs_31">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00031.tif" width="5361px" height="3697px" />
+      <graphic url="https://files.transkribus.eu/Get?id=WYEAXBESJEUESWEPTCVHLDPE&amp;fileType=view" width="5361px" height="3697px" />
+      <zone points="0,0 2680,0 2680,3697 0,3697" rendition="TextRegion" xml:id="facs_31_region_153613697" />
+      <zone points="2681,0 5361,0 5361,3697 2681,3697" rendition="TextRegion" xml:id="facs_31_region_253613697" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5333" lry="3667" xml:id="facs_32">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00032.tif" width="5333px" height="3667px" />
+      <graphic url="https://files.transkribus.eu/Get?id=DNCQDUNSJVPAZEYTQLQWWEME&amp;fileType=view" width="5333px" height="3667px" />
+      <zone points="0,0 2666,0 2666,3667 0,3667" rendition="TextRegion" xml:id="facs_32_region_153333667" />
+      <zone points="2667,0 5333,0 5333,3667 2667,3667" rendition="TextRegion" xml:id="facs_32_region_253333667" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5321" lry="3690" xml:id="facs_33">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00033.tif" width="5321px" height="3690px" />
+      <graphic url="https://files.transkribus.eu/Get?id=JAENVKZZUUWPLYBWDMZEMDSY&amp;fileType=view" width="5321px" height="3690px" />
+      <zone points="0,0 2660,0 2660,3690 0,3690" rendition="TextRegion" xml:id="facs_33_region_153213690" />
+      <zone points="2661,0 5321,0 5321,3690 2661,3690" rendition="TextRegion" xml:id="facs_33_region_253213690" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5338" lry="3683" xml:id="facs_34">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00034.tif" width="5338px" height="3683px" />
+      <graphic url="https://files.transkribus.eu/Get?id=VUOFJGNRJIMIZLPEVGNLCMKL&amp;fileType=view" width="5338px" height="3683px" />
+      <zone points="0,0 2669,0 2669,3683 0,3683" rendition="TextRegion" xml:id="facs_34_region_153383683" />
+      <zone points="2669,0 5338,0 5338,3683 2669,3683" rendition="TextRegion" xml:id="facs_34_region_253383683" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5393" lry="3693" xml:id="facs_35">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00035.tif" width="5393px" height="3693px" />
+      <graphic url="https://files.transkribus.eu/Get?id=FCOXFLBURSXEMJDJMWOWNLVB&amp;fileType=view" width="5393px" height="3693px" />
+      <zone points="0,0 2696,0 2696,3693 0,3693" rendition="TextRegion" xml:id="facs_35_region_153933693" />
+      <zone points="2697,0 5393,0 5393,3693 2697,3693" rendition="TextRegion" xml:id="facs_35_region_253933693" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5364" lry="3638" xml:id="facs_36">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00036.tif" width="5364px" height="3638px" />
+      <graphic url="https://files.transkribus.eu/Get?id=SSRZCDLSRUMFWONDSCPIGWCB&amp;fileType=view" width="5364px" height="3638px" />
+      <zone points="0,0 2682,0 2682,3638 0,3638" rendition="TextRegion" xml:id="facs_36_region_153643638" />
+      <zone points="2682,0 5364,0 5364,3638 2682,3638" rendition="TextRegion" xml:id="facs_36_region_253643638" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5354" lry="3660" xml:id="facs_37">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00037.tif" width="5354px" height="3660px" />
+      <graphic url="https://files.transkribus.eu/Get?id=EIWYEJGEIJPFTKLRWZVEEUVQ&amp;fileType=view" width="5354px" height="3660px" />
+      <zone points="0,0 2677,0 2677,3660 0,3660" rendition="TextRegion" xml:id="facs_37_region_153543660" />
+      <zone points="2677,0 5354,0 5354,3660 2677,3660" rendition="TextRegion" xml:id="facs_37_region_253543660" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5313" lry="3650" xml:id="facs_38">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00038.tif" width="5313px" height="3650px" />
+      <graphic url="https://files.transkribus.eu/Get?id=AIUECMFIGJIEXKJOFURAQBNW&amp;fileType=view" width="5313px" height="3650px" />
+      <zone points="0,0 2656,0 2656,3650 0,3650" rendition="TextRegion" xml:id="facs_38_region_153133650" />
+      <zone points="2657,0 5313,0 5313,3650 2657,3650" rendition="TextRegion" xml:id="facs_38_region_253133650" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5377" lry="3623" xml:id="facs_39">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00039.tif" width="5377px" height="3623px" />
+      <graphic url="https://files.transkribus.eu/Get?id=NBEQQTQTZAUJZPLHHKWEJXYT&amp;fileType=view" width="5377px" height="3623px" />
+      <zone points="0,0 2688,0 2688,3623 0,3623" rendition="TextRegion" xml:id="facs_39_region_153773623" />
+      <zone points="2689,0 5377,0 5377,3623 2689,3623" rendition="TextRegion" xml:id="facs_39_region_253773623" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5342" lry="3643" xml:id="facs_40">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00040.tif" width="5342px" height="3643px" />
+      <graphic url="https://files.transkribus.eu/Get?id=IPFUIOZXBLLSNPXWZRXILNXN&amp;fileType=view" width="5342px" height="3643px" />
+      <zone points="0,0 2671,0 2671,3643 0,3643" rendition="TextRegion" xml:id="facs_40_region_153423643" />
+      <zone points="2671,0 5342,0 5342,3643 2671,3643" rendition="TextRegion" xml:id="facs_40_region_253423643" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5338" lry="3665" xml:id="facs_41">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00041.tif" width="5338px" height="3665px" />
+      <graphic url="https://files.transkribus.eu/Get?id=GGGZSTBJZQRWDHFXQOZWDDML&amp;fileType=view" width="5338px" height="3665px" />
+      <zone points="0,0 2669,0 2669,3665 0,3665" rendition="TextRegion" xml:id="facs_41_region_153383665" />
+      <zone points="2669,0 5338,0 5338,3665 2669,3665" rendition="TextRegion" xml:id="facs_41_region_253383665" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5393" lry="3726" xml:id="facs_42">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00042.tif" width="5393px" height="3726px" />
+      <graphic url="https://files.transkribus.eu/Get?id=BYUFPCAZQXGEAUMVPCBLPSQJ&amp;fileType=view" width="5393px" height="3726px" />
+      <zone points="0,0 2696,0 2696,3726 0,3726" rendition="TextRegion" xml:id="facs_42_region_153933726" />
+      <zone points="2697,0 5393,0 5393,3726 2697,3726" rendition="TextRegion" xml:id="facs_42_region_253933726" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5336" lry="3681" xml:id="facs_43">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00043.tif" width="5336px" height="3681px" />
+      <graphic url="https://files.transkribus.eu/Get?id=SUQCMEAJTYSQBFKPSAWCCXNV&amp;fileType=view" width="5336px" height="3681px" />
+      <zone points="0,0 2668,0 2668,3681 0,3681" rendition="TextRegion" xml:id="facs_43_region_153363681" />
+      <zone points="2668,0 5336,0 5336,3681 2668,3681" rendition="TextRegion" xml:id="facs_43_region_253363681" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5343" lry="3688" xml:id="facs_44">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00044.tif" width="5343px" height="3688px" />
+      <graphic url="https://files.transkribus.eu/Get?id=UKMTQNKKNZDPYWKAFWRCRROC&amp;fileType=view" width="5343px" height="3688px" />
+      <zone points="0,0 2671,0 2671,3688 0,3688" rendition="TextRegion" xml:id="facs_44_region_153433688" />
+      <zone points="2672,0 5343,0 5343,3688 2672,3688" rendition="TextRegion" xml:id="facs_44_region_253433688" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5369" lry="3676" xml:id="facs_45">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00045.tif" width="5369px" height="3676px" />
+      <graphic url="https://files.transkribus.eu/Get?id=IPKBXUPYQMFMSFGITYUMHPWD&amp;fileType=view" width="5369px" height="3676px" />
+      <zone points="0,0 2684,0 2684,3676 0,3676" rendition="TextRegion" xml:id="facs_45_region_153693676" />
+      <zone points="2685,0 5369,0 5369,3676 2685,3676" rendition="TextRegion" xml:id="facs_45_region_253693676" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5350" lry="3685" xml:id="facs_46">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00046.tif" width="5350px" height="3685px" />
+      <graphic url="https://files.transkribus.eu/Get?id=PVEZKLBVBWOUACOIBWVOUWZB&amp;fileType=view" width="5350px" height="3685px" />
+      <zone points="0,0 2675,0 2675,3685 0,3685" rendition="TextRegion" xml:id="facs_46_region_153503685" />
+      <zone points="2675,0 5350,0 5350,3685 2675,3685" rendition="TextRegion" xml:id="facs_46_region_253503685" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5322" lry="3688" xml:id="facs_47">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00047.tif" width="5322px" height="3688px" />
+      <graphic url="https://files.transkribus.eu/Get?id=QAGVIDSWSMCWCVCNVZIRYUMX&amp;fileType=view" width="5322px" height="3688px" />
+      <zone points="0,0 2661,0 2661,3688 0,3688" rendition="TextRegion" xml:id="facs_47_region_153223688" />
+      <zone points="2661,0 5322,0 5322,3688 2661,3688" rendition="TextRegion" xml:id="facs_47_region_253223688" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5331" lry="3662" xml:id="facs_48">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00048.tif" width="5331px" height="3662px" />
+      <graphic url="https://files.transkribus.eu/Get?id=PBOESBQEYJHITYLIADDRKSWB&amp;fileType=view" width="5331px" height="3662px" />
+      <zone points="0,0 2665,0 2665,3662 0,3662" rendition="TextRegion" xml:id="facs_48_region_153313662" />
+      <zone points="2666,0 5331,0 5331,3662 2666,3662" rendition="TextRegion" xml:id="facs_48_region_253313662" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5326" lry="3673" xml:id="facs_49">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00049.tif" width="5326px" height="3673px" />
+      <graphic url="https://files.transkribus.eu/Get?id=ULNPRELALHJVNFYNSHHCIEYI&amp;fileType=view" width="5326px" height="3673px" />
+      <zone points="0,0 2663,0 2663,3673 0,3673" rendition="TextRegion" xml:id="facs_49_region_153263673" />
+      <zone points="2663,0 5326,0 5326,3673 2663,3673" rendition="TextRegion" xml:id="facs_49_region_253263673" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5382" lry="3702" xml:id="facs_50">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00050.tif" width="5382px" height="3702px" />
+      <graphic url="https://files.transkribus.eu/Get?id=CTNBWACVSPGEAFYECPSLCBZW&amp;fileType=view" width="5382px" height="3702px" />
+      <zone points="0,0 2691,0 2691,3702 0,3702" rendition="TextRegion" xml:id="facs_50_region_153823702" />
+      <zone points="2691,0 5382,0 5382,3702 2691,3702" rendition="TextRegion" xml:id="facs_50_region_253823702" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5327" lry="3697" xml:id="facs_51">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00051.tif" width="5327px" height="3697px" />
+      <graphic url="https://files.transkribus.eu/Get?id=DWSFKQFPTLDVURZISJRLAPYG&amp;fileType=view" width="5327px" height="3697px" />
+      <zone points="0,0 2663,0 2663,3697 0,3697" rendition="TextRegion" xml:id="facs_51_region_153273697" />
+      <zone points="2664,0 5327,0 5327,3697 2664,3697" rendition="TextRegion" xml:id="facs_51_region_253273697" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5325" lry="3678" xml:id="facs_52">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00052.tif" width="5325px" height="3678px" />
+      <graphic url="https://files.transkribus.eu/Get?id=LVHJCHQKKMHKTPKGJQGZWNNL&amp;fileType=view" width="5325px" height="3678px" />
+      <zone points="0,0 2662,0 2662,3678 0,3678" rendition="TextRegion" xml:id="facs_52_region_153253678" />
+      <zone points="2663,0 5325,0 5325,3678 2663,3678" rendition="TextRegion" xml:id="facs_52_region_253253678" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5300" lry="3669" xml:id="facs_53">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00053.tif" width="5300px" height="3669px" />
+      <graphic url="https://files.transkribus.eu/Get?id=AKEKVYIORRWNPHJIBWLBMAPG&amp;fileType=view" width="5300px" height="3669px" />
+      <zone points="0,0 2650,0 2650,3669 0,3669" rendition="TextRegion" xml:id="facs_53_region_153003669" />
+      <zone points="2650,0 5300,0 5300,3669 2650,3669" rendition="TextRegion" xml:id="facs_53_region_253003669" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5353" lry="3702" xml:id="facs_54">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00054.tif" width="5353px" height="3702px" />
+      <graphic url="https://files.transkribus.eu/Get?id=OKYVBUUSFUTTETCKUGIIAZYF&amp;fileType=view" width="5353px" height="3702px" />
+      <zone points="0,0 2676,0 2676,3702 0,3702" rendition="TextRegion" xml:id="facs_54_region_153533702" />
+      <zone points="2677,0 5353,0 5353,3702 2677,3702" rendition="TextRegion" xml:id="facs_54_region_253533702" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5343" lry="3670" xml:id="facs_55">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00055.tif" width="5343px" height="3670px" />
+      <graphic url="https://files.transkribus.eu/Get?id=ZCCRGTWQWDTTMEQAJLENOZNZ&amp;fileType=view" width="5343px" height="3670px" />
+      <zone points="0,0 2671,0 2671,3670 0,3670" rendition="TextRegion" xml:id="facs_55_region_153433670" />
+      <zone points="2672,0 5343,0 5343,3670 2672,3670" rendition="TextRegion" xml:id="facs_55_region_253433670" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5389" lry="3750" xml:id="facs_56">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00056.tif" width="5389px" height="3750px" />
+      <graphic url="https://files.transkribus.eu/Get?id=PVWEKVWDLIAMIBBOLXCNXSOW&amp;fileType=view" width="5389px" height="3750px" />
+      <zone points="0,0 2694,0 2694,3750 0,3750" rendition="TextRegion" xml:id="facs_56_region_153893750" />
+      <zone points="2695,0 5389,0 5389,3750 2695,3750" rendition="TextRegion" xml:id="facs_56_region_253893750" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5386" lry="3697" xml:id="facs_57">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00057.tif" width="5386px" height="3697px" />
+      <graphic url="https://files.transkribus.eu/Get?id=OUHUDAWQXWDWLSCSDPTEDNYG&amp;fileType=view" width="5386px" height="3697px" />
+      <zone points="0,0 2693,0 2693,3697 0,3697" rendition="TextRegion" xml:id="facs_57_region_153863697" />
+      <zone points="2693,0 5386,0 5386,3697 2693,3697" rendition="TextRegion" xml:id="facs_57_region_253863697" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5382" lry="3730" xml:id="facs_58">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00058.tif" width="5382px" height="3730px" />
+      <graphic url="https://files.transkribus.eu/Get?id=XKPAAWLBZBOEKWWJHDTRMASQ&amp;fileType=view" width="5382px" height="3730px" />
+      <zone points="0,0 2691,0 2691,3730 0,3730" rendition="TextRegion" xml:id="facs_58_region_153823730" />
+      <zone points="2691,0 5382,0 5382,3730 2691,3730" rendition="TextRegion" xml:id="facs_58_region_253823730" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5345" lry="3702" xml:id="facs_59">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00059.tif" width="5345px" height="3702px" />
+      <graphic url="https://files.transkribus.eu/Get?id=AODWUHRPFPKJGKFODFCVXUFC&amp;fileType=view" width="5345px" height="3702px" />
+      <zone points="0,0 2672,0 2672,3702 0,3702" rendition="TextRegion" xml:id="facs_59_region_153453702" />
+      <zone points="2673,0 5345,0 5345,3702 2673,3702" rendition="TextRegion" xml:id="facs_59_region_253453702" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5360" lry="3742" xml:id="facs_60">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00060.tif" width="5360px" height="3742px" />
+      <graphic url="https://files.transkribus.eu/Get?id=SBPUNOZFJEGUEOISZHNUXLMG&amp;fileType=view" width="5360px" height="3742px" />
+      <zone points="0,0 2680,0 2680,3742 0,3742" rendition="TextRegion" xml:id="facs_60_region_153603742" />
+      <zone points="2680,0 5360,0 5360,3742 2680,3742" rendition="TextRegion" xml:id="facs_60_region_253603742" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5332" lry="3633" xml:id="facs_61">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00061.tif" width="5332px" height="3633px" />
+      <graphic url="https://files.transkribus.eu/Get?id=FGTACKDUFEIZXLTGPQINXJDF&amp;fileType=view" width="5332px" height="3633px" />
+      <zone points="0,0 2666,0 2666,3633 0,3633" rendition="TextRegion" xml:id="facs_61_region_153323633" />
+      <zone points="2666,0 5332,0 5332,3633 2666,3633" rendition="TextRegion" xml:id="facs_61_region_253323633" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5313" lry="3653" xml:id="facs_62">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00062.tif" width="5313px" height="3653px" />
+      <graphic url="https://files.transkribus.eu/Get?id=MMAYLTDPGOPUOUILOUBLTQOU&amp;fileType=view" width="5313px" height="3653px" />
+      <zone points="0,0 2656,0 2656,3653 0,3653" rendition="TextRegion" xml:id="facs_62_region_153133653" />
+      <zone points="2657,0 5313,0 5313,3653 2657,3653" rendition="TextRegion" xml:id="facs_62_region_253133653" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5329" lry="3610" xml:id="facs_63">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00063.tif" width="5329px" height="3610px" />
+      <graphic url="https://files.transkribus.eu/Get?id=NVZZNDWKQPMVWCRGLNPGRPLS&amp;fileType=view" width="5329px" height="3610px" />
+      <zone points="0,0 2664,0 2664,3610 0,3610" rendition="TextRegion" xml:id="facs_63_region_153293610" />
+      <zone points="2665,0 5329,0 5329,3610 2665,3610" rendition="TextRegion" xml:id="facs_63_region_253293610" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5299" lry="3630" xml:id="facs_64">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00064.tif" width="5299px" height="3630px" />
+      <graphic url="https://files.transkribus.eu/Get?id=QSEXPZBSYJKHJHNKSNEZMCAU&amp;fileType=view" width="5299px" height="3630px" />
+      <zone points="0,0 2649,0 2649,3630 0,3630" rendition="TextRegion" xml:id="facs_64_region_152993630" />
+      <zone points="2650,0 5299,0 5299,3630 2650,3630" rendition="TextRegion" xml:id="facs_64_region_252993630" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5367" lry="3670" xml:id="facs_65">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00065.tif" width="5367px" height="3670px" />
+      <graphic url="https://files.transkribus.eu/Get?id=HVZZDXMDSIRGTKNFCMAQPMTC&amp;fileType=view" width="5367px" height="3670px" />
+      <zone points="0,0 2683,0 2683,3670 0,3670" rendition="TextRegion" xml:id="facs_65_region_153673670" />
+      <zone points="2684,0 5367,0 5367,3670 2684,3670" rendition="TextRegion" xml:id="facs_65_region_253673670" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5344" lry="3698" xml:id="facs_66">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00066.tif" width="5344px" height="3698px" />
+      <graphic url="https://files.transkribus.eu/Get?id=QNXBIDENBRWUOVEISBCVWVJM&amp;fileType=view" width="5344px" height="3698px" />
+      <zone points="0,0 2672,0 2672,3698 0,3698" rendition="TextRegion" xml:id="facs_66_region_153443698" />
+      <zone points="2672,0 5344,0 5344,3698 2672,3698" rendition="TextRegion" xml:id="facs_66_region_253443698" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5352" lry="3641" xml:id="facs_67">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00067.tif" width="5352px" height="3641px" />
+      <graphic url="https://files.transkribus.eu/Get?id=OYHFGCJDIVQHUFCACDHQKUOV&amp;fileType=view" width="5352px" height="3641px" />
+      <zone points="0,0 2676,0 2676,3641 0,3641" rendition="TextRegion" xml:id="facs_67_region_153523641" />
+      <zone points="2676,0 5352,0 5352,3641 2676,3641" rendition="TextRegion" xml:id="facs_67_region_253523641" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5377" lry="3687" xml:id="facs_68">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00068.tif" width="5377px" height="3687px" />
+      <graphic url="https://files.transkribus.eu/Get?id=PQVHHASBUTXQWAKNAXWRHJFT&amp;fileType=view" width="5377px" height="3687px" />
+      <zone points="0,0 2688,0 2688,3687 0,3687" rendition="TextRegion" xml:id="facs_68_region_153773687" />
+      <zone points="2689,0 5377,0 5377,3687 2689,3687" rendition="TextRegion" xml:id="facs_68_region_253773687" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5360" lry="3651" xml:id="facs_69">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00069.tif" width="5360px" height="3651px" />
+      <graphic url="https://files.transkribus.eu/Get?id=VZDFJCKFDPDJYXVYZTGCYWUD&amp;fileType=view" width="5360px" height="3651px" />
+      <zone points="0,0 2680,0 2680,3651 0,3651" rendition="TextRegion" xml:id="facs_69_region_153603651" />
+      <zone points="2680,0 5360,0 5360,3651 2680,3651" rendition="TextRegion" xml:id="facs_69_region_253603651" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5329" lry="3638" xml:id="facs_70">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00070.tif" width="5329px" height="3638px" />
+      <graphic url="https://files.transkribus.eu/Get?id=NBHLNXGPXENQOCTANKGRXNSW&amp;fileType=view" width="5329px" height="3638px" />
+      <zone points="0,0 2664,0 2664,3638 0,3638" rendition="TextRegion" xml:id="facs_70_region_153293638" />
+      <zone points="2665,0 5329,0 5329,3638 2665,3638" rendition="TextRegion" xml:id="facs_70_region_253293638" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5376" lry="3682" xml:id="facs_71">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00071.tif" width="5376px" height="3682px" />
+      <graphic url="https://files.transkribus.eu/Get?id=WCDOCVRNRKDTBPMENFNKVFNW&amp;fileType=view" width="5376px" height="3682px" />
+      <zone points="0,0 2688,0 2688,3682 0,3682" rendition="TextRegion" xml:id="facs_71_region_153763682" />
+      <zone points="2688,0 5376,0 5376,3682 2688,3682" rendition="TextRegion" xml:id="facs_71_region_253763682" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5388" lry="3680" xml:id="facs_72">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00072.tif" width="5388px" height="3680px" />
+      <graphic url="https://files.transkribus.eu/Get?id=QEDPDFFSTSYKORNHYDVAZBAW&amp;fileType=view" width="5388px" height="3680px" />
+      <zone points="0,0 2694,0 2694,3680 0,3680" rendition="TextRegion" xml:id="facs_72_region_153883680" />
+      <zone points="2694,0 5388,0 5388,3680 2694,3680" rendition="TextRegion" xml:id="facs_72_region_253883680" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5352" lry="3711" xml:id="facs_73">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00073.tif" width="5352px" height="3711px" />
+      <graphic url="https://files.transkribus.eu/Get?id=BFGTRJUETJPKNUQZDMJQWHKW&amp;fileType=view" width="5352px" height="3711px" />
+      <zone points="0,0 2676,0 2676,3711 0,3711" rendition="TextRegion" xml:id="facs_73_region_153523711" />
+      <zone points="2676,0 5352,0 5352,3711 2676,3711" rendition="TextRegion" xml:id="facs_73_region_253523711" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5349" lry="3691" xml:id="facs_74">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00074.tif" width="5349px" height="3691px" />
+      <graphic url="https://files.transkribus.eu/Get?id=DSMASPCDMGYUGULBYAVLXQCU&amp;fileType=view" width="5349px" height="3691px" />
+      <zone points="0,0 2674,0 2674,3691 0,3691" rendition="TextRegion" xml:id="facs_74_region_153493691" />
+      <zone points="2675,0 5349,0 5349,3691 2675,3691" rendition="TextRegion" xml:id="facs_74_region_253493691" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5374" lry="3677" xml:id="facs_75">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00075.tif" width="5374px" height="3677px" />
+      <graphic url="https://files.transkribus.eu/Get?id=PAPIFAYRRRAXOXNYVECJZFVK&amp;fileType=view" width="5374px" height="3677px" />
+      <zone points="0,0 2687,0 2687,3677 0,3677" rendition="TextRegion" xml:id="facs_75_region_153743677" />
+      <zone points="2687,0 5374,0 5374,3677 2687,3677" rendition="TextRegion" xml:id="facs_75_region_253743677" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5355" lry="3671" xml:id="facs_76">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00076.tif" width="5355px" height="3671px" />
+      <graphic url="https://files.transkribus.eu/Get?id=LUBNHUIASAGMWUZWOMGEMASR&amp;fileType=view" width="5355px" height="3671px" />
+      <zone points="0,0 2677,0 2677,3671 0,3671" rendition="TextRegion" xml:id="facs_76_region_153553671" />
+      <zone points="2678,0 5355,0 5355,3671 2678,3671" rendition="TextRegion" xml:id="facs_76_region_253553671" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5374" lry="3687" xml:id="facs_77">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00077.tif" width="5374px" height="3687px" />
+      <graphic url="https://files.transkribus.eu/Get?id=OPJYNBGOZUKNBWNQGTDZAJHR&amp;fileType=view" width="5374px" height="3687px" />
+      <zone points="0,0 2687,0 2687,3687 0,3687" rendition="TextRegion" xml:id="facs_77_region_153743687" />
+      <zone points="2687,0 5374,0 5374,3687 2687,3687" rendition="TextRegion" xml:id="facs_77_region_253743687" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5380" lry="3678" xml:id="facs_78">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00078.tif" width="5380px" height="3678px" />
+      <graphic url="https://files.transkribus.eu/Get?id=EXFFWBJOTIJIOVPFEGWONRPB&amp;fileType=view" width="5380px" height="3678px" />
+      <zone points="0,0 2690,0 2690,3678 0,3678" rendition="TextRegion" xml:id="facs_78_region_153803678" />
+      <zone points="2690,0 5380,0 5380,3678 2690,3678" rendition="TextRegion" xml:id="facs_78_region_253803678" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5349" lry="3676" xml:id="facs_79">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00079.tif" width="5349px" height="3676px" />
+      <graphic url="https://files.transkribus.eu/Get?id=DWVHRSKWPUBKBXZWCDOVBWZV&amp;fileType=view" width="5349px" height="3676px" />
+      <zone points="0,0 2674,0 2674,3676 0,3676" rendition="TextRegion" xml:id="facs_79_region_153493676" />
+      <zone points="2675,0 5349,0 5349,3676 2675,3676" rendition="TextRegion" xml:id="facs_79_region_253493676" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5370" lry="3694" xml:id="facs_80">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00080.tif" width="5370px" height="3694px" />
+      <graphic url="https://files.transkribus.eu/Get?id=XYVQKDVLASABUNDKDSODIBQG&amp;fileType=view" width="5370px" height="3694px" />
+      <zone points="0,0 2685,0 2685,3694 0,3694" rendition="TextRegion" xml:id="facs_80_region_153703694" />
+      <zone points="2685,0 5370,0 5370,3694 2685,3694" rendition="TextRegion" xml:id="facs_80_region_253703694" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5387" lry="3678" xml:id="facs_81">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00081.tif" width="5387px" height="3678px" />
+      <graphic url="https://files.transkribus.eu/Get?id=BQTZANKYZPONYIXTSVFLLXXV&amp;fileType=view" width="5387px" height="3678px" />
+      <zone points="0,0 2693,0 2693,3678 0,3678" rendition="TextRegion" xml:id="facs_81_region_153873678" />
+      <zone points="2694,0 5387,0 5387,3678 2694,3678" rendition="TextRegion" xml:id="facs_81_region_253873678" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5385" lry="3685" xml:id="facs_82">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00082.tif" width="5385px" height="3685px" />
+      <graphic url="https://files.transkribus.eu/Get?id=XIRDAGYIFERCBGLHSCCGAMKW&amp;fileType=view" width="5385px" height="3685px" />
+      <zone points="0,0 2692,0 2692,3685 0,3685" rendition="TextRegion" xml:id="facs_82_region_153853685" />
+      <zone points="2693,0 5385,0 5385,3685 2693,3685" rendition="TextRegion" xml:id="facs_82_region_253853685" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5368" lry="3654" xml:id="facs_83">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00083.tif" width="5368px" height="3654px" />
+      <graphic url="https://files.transkribus.eu/Get?id=OCFPIMLXWKMBSXCWUMXUAAOI&amp;fileType=view" width="5368px" height="3654px" />
+      <zone points="0,0 2684,0 2684,3654 0,3654" rendition="TextRegion" xml:id="facs_83_region_153683654" />
+      <zone points="2684,0 5368,0 5368,3654 2684,3654" rendition="TextRegion" xml:id="facs_83_region_253683654" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5353" lry="3660" xml:id="facs_84">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00084.tif" width="5353px" height="3660px" />
+      <graphic url="https://files.transkribus.eu/Get?id=XPHCYYJECIFZVIGDFKDVVSCN&amp;fileType=view" width="5353px" height="3660px" />
+      <zone points="0,0 2676,0 2676,3660 0,3660" rendition="TextRegion" xml:id="facs_84_region_153533660" />
+      <zone points="2677,0 5353,0 5353,3660 2677,3660" rendition="TextRegion" xml:id="facs_84_region_253533660" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5322" lry="3623" xml:id="facs_85">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00085.tif" width="5322px" height="3623px" />
+      <graphic url="https://files.transkribus.eu/Get?id=TSRAUXIUNFEXAFRXPTPZHTSM&amp;fileType=view" width="5322px" height="3623px" />
+      <zone points="0,0 2661,0 2661,3623 0,3623" rendition="TextRegion" xml:id="facs_85_region_153223623" />
+      <zone points="2661,0 5322,0 5322,3623 2661,3623" rendition="TextRegion" xml:id="facs_85_region_253223623" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5349" lry="3665" xml:id="facs_86">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00086.tif" width="5349px" height="3665px" />
+      <graphic url="https://files.transkribus.eu/Get?id=GLKMTAJHOANWPGDXYPUKUMVL&amp;fileType=view" width="5349px" height="3665px" />
+      <zone points="0,0 2674,0 2674,3665 0,3665" rendition="TextRegion" xml:id="facs_86_region_153493665" />
+      <zone points="2675,0 5349,0 5349,3665 2675,3665" rendition="TextRegion" xml:id="facs_86_region_253493665" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5404" lry="3719" xml:id="facs_87">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00087.tif" width="5404px" height="3719px" />
+      <graphic url="https://files.transkribus.eu/Get?id=JVIYCEDNWDUILUBVXNHSVZNQ&amp;fileType=view" width="5404px" height="3719px" />
+      <zone points="0,0 2702,0 2702,3719 0,3719" rendition="TextRegion" xml:id="facs_87_region_154043719" />
+      <zone points="2702,0 5404,0 5404,3719 2702,3719" rendition="TextRegion" xml:id="facs_87_region_254043719" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5348" lry="3697" xml:id="facs_88">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00088.tif" width="5348px" height="3697px" />
+      <graphic url="https://files.transkribus.eu/Get?id=WHSCTISRDELVFEEJPFMKLYJT&amp;fileType=view" width="5348px" height="3697px" />
+      <zone points="0,0 2674,0 2674,3697 0,3697" rendition="TextRegion" xml:id="facs_88_region_153483697" />
+      <zone points="2674,0 5348,0 5348,3697 2674,3697" rendition="TextRegion" xml:id="facs_88_region_253483697" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5380" lry="3627" xml:id="facs_89">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00089.tif" width="5380px" height="3627px" />
+      <graphic url="https://files.transkribus.eu/Get?id=FXBMIHJUWLLXAKABPIDDNXSJ&amp;fileType=view" width="5380px" height="3627px" />
+      <zone points="0,0 2690,0 2690,3627 0,3627" rendition="TextRegion" xml:id="facs_89_region_153803627" />
+      <zone points="2690,0 5380,0 5380,3627 2690,3627" rendition="TextRegion" xml:id="facs_89_region_253803627" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5387" lry="3649" xml:id="facs_90">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00090.tif" width="5387px" height="3649px" />
+      <graphic url="https://files.transkribus.eu/Get?id=ULNLRJXFLQTCZCTDMZZNMTSG&amp;fileType=view" width="5387px" height="3649px" />
+      <zone points="0,0 2693,0 2693,3649 0,3649" rendition="TextRegion" xml:id="facs_90_region_153873649" />
+      <zone points="2694,0 5387,0 5387,3649 2694,3649" rendition="TextRegion" xml:id="facs_90_region_253873649" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5376" lry="3656" xml:id="facs_91">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00091.tif" width="5376px" height="3656px" />
+      <graphic url="https://files.transkribus.eu/Get?id=YFPDPSLHKQSSDFVDLAZACMMI&amp;fileType=view" width="5376px" height="3656px" />
+      <zone points="0,0 2688,0 2688,3656 0,3656" rendition="TextRegion" xml:id="facs_91_region_153763656" />
+      <zone points="2688,0 5376,0 5376,3656 2688,3656" rendition="TextRegion" xml:id="facs_91_region_253763656" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5381" lry="3682" xml:id="facs_92">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00092.tif" width="5381px" height="3682px" />
+      <graphic url="https://files.transkribus.eu/Get?id=CSRYMFXCBFMPMGDNZOGZAGOH&amp;fileType=view" width="5381px" height="3682px" />
+      <zone points="0,0 2690,0 2690,3682 0,3682" rendition="TextRegion" xml:id="facs_92_region_153813682" />
+      <zone points="2691,0 5381,0 5381,3682 2691,3682" rendition="TextRegion" xml:id="facs_92_region_253813682" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5355" lry="3681" xml:id="facs_93">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00093.tif" width="5355px" height="3681px" />
+      <graphic url="https://files.transkribus.eu/Get?id=IJXYKKAYSWHSKFVIALUXFPSZ&amp;fileType=view" width="5355px" height="3681px" />
+      <zone points="0,0 2677,0 2677,3681 0,3681" rendition="TextRegion" xml:id="facs_93_region_153553681" />
+      <zone points="2678,0 5355,0 5355,3681 2678,3681" rendition="TextRegion" xml:id="facs_93_region_253553681" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5374" lry="3663" xml:id="facs_94">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00094.tif" width="5374px" height="3663px" />
+      <graphic url="https://files.transkribus.eu/Get?id=RRFOQBRQHZGEOKHNZCSKFLBJ&amp;fileType=view" width="5374px" height="3663px" />
+      <zone points="0,0 2687,0 2687,3663 0,3663" rendition="TextRegion" xml:id="facs_94_region_153743663" />
+      <zone points="2687,0 5374,0 5374,3663 2687,3663" rendition="TextRegion" xml:id="facs_94_region_253743663" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5395" lry="3666" xml:id="facs_95">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00095.tif" width="5395px" height="3666px" />
+      <graphic url="https://files.transkribus.eu/Get?id=MQQLQMSDSQJCMPMGMKTYJSRV&amp;fileType=view" width="5395px" height="3666px" />
+      <zone points="0,0 2697,0 2697,3666 0,3666" rendition="TextRegion" xml:id="facs_95_region_153953666" />
+      <zone points="2698,0 5395,0 5395,3666 2698,3666" rendition="TextRegion" xml:id="facs_95_region_253953666" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5406" lry="3741" xml:id="facs_96">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00096.tif" width="5406px" height="3741px" />
+      <graphic url="https://files.transkribus.eu/Get?id=FRRUUWJZRRGHQMFJSWXNOHIJ&amp;fileType=view" width="5406px" height="3741px" />
+      <zone points="0,0 2703,0 2703,3741 0,3741" rendition="TextRegion" xml:id="facs_96_region_154063741" />
+      <zone points="2703,0 5406,0 5406,3741 2703,3741" rendition="TextRegion" xml:id="facs_96_region_254063741" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5421" lry="3706" xml:id="facs_97">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00097.tif" width="5421px" height="3706px" />
+      <graphic url="https://files.transkribus.eu/Get?id=QBKDGFETDICIMOPPXTZWEOYQ&amp;fileType=view" width="5421px" height="3706px" />
+      <zone points="0,0 2710,0 2710,3706 0,3706" rendition="TextRegion" xml:id="facs_97_region_154213706" />
+      <zone points="2711,0 5421,0 5421,3706 2711,3706" rendition="TextRegion" xml:id="facs_97_region_254213706" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5385" lry="3706" xml:id="facs_98">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00098.tif" width="5385px" height="3706px" />
+      <graphic url="https://files.transkribus.eu/Get?id=SPZZGEVEWOGSWGMZAPOBSAHT&amp;fileType=view" width="5385px" height="3706px" />
+      <zone points="0,0 2692,0 2692,3706 0,3706" rendition="TextRegion" xml:id="facs_98_region_153853706" />
+      <zone points="2693,0 5385,0 5385,3706 2693,3706" rendition="TextRegion" xml:id="facs_98_region_253853706" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5370" lry="3667" xml:id="facs_99">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00099.tif" width="5370px" height="3667px" />
+      <graphic url="https://files.transkribus.eu/Get?id=PJARFJXDNQITRZGRUIYCSPAS&amp;fileType=view" width="5370px" height="3667px" />
+      <zone points="0,0 2685,0 2685,3667 0,3667" rendition="TextRegion" xml:id="facs_99_region_153703667" />
+      <zone points="2685,0 5370,0 5370,3667 2685,3667" rendition="TextRegion" xml:id="facs_99_region_253703667" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5370" lry="3750" xml:id="facs_100">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00100.tif" width="5370px" height="3750px" />
+      <graphic url="https://files.transkribus.eu/Get?id=IOGUFGFXTSQUIHZNLMFWQLCJ&amp;fileType=view" width="5370px" height="3750px" />
+      <zone points="0,0 2685,0 2685,3750 0,3750" rendition="TextRegion" xml:id="facs_100_region_153703750" />
+      <zone points="2685,0 5370,0 5370,3750 2685,3750" rendition="TextRegion" xml:id="facs_100_region_253703750" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5360" lry="3658" xml:id="facs_101">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00101.tif" width="5360px" height="3658px" />
+      <graphic url="https://files.transkribus.eu/Get?id=QZGZTBGAPAMKOAGWYCUAJBLL&amp;fileType=view" width="5360px" height="3658px" />
+      <zone points="0,0 2680,0 2680,3658 0,3658" rendition="TextRegion" xml:id="facs_101_region_153603658" />
+      <zone points="2680,0 5360,0 5360,3658 2680,3658" rendition="TextRegion" xml:id="facs_101_region_253603658" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5373" lry="3663" xml:id="facs_102">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00102.tif" width="5373px" height="3663px" />
+      <graphic url="https://files.transkribus.eu/Get?id=VBNXLAFXSBQPPQVLLCNXCBYS&amp;fileType=view" width="5373px" height="3663px" />
+      <zone points="0,0 2686,0 2686,3663 0,3663" rendition="TextRegion" xml:id="facs_102_region_153733663" />
+      <zone points="2687,0 5373,0 5373,3663 2687,3663" rendition="TextRegion" xml:id="facs_102_region_253733663" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5388" lry="3684" xml:id="facs_103">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00103.tif" width="5388px" height="3684px" />
+      <graphic url="https://files.transkribus.eu/Get?id=GPTMQQABWQYVCFMTIXEFNKDW&amp;fileType=view" width="5388px" height="3684px" />
+      <zone points="0,0 2694,0 2694,3684 0,3684" rendition="TextRegion" xml:id="facs_103_region_153883684" />
+      <zone points="2694,0 5388,0 5388,3684 2694,3684" rendition="TextRegion" xml:id="facs_103_region_253883684" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5390" lry="3660" xml:id="facs_104">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00104.tif" width="5390px" height="3660px" />
+      <graphic url="https://files.transkribus.eu/Get?id=ZUJBMEFLRQVXTNPYGCSYRQVH&amp;fileType=view" width="5390px" height="3660px" />
+      <zone points="0,0 2695,0 2695,3660 0,3660" rendition="TextRegion" xml:id="facs_104_region_153903660" />
+      <zone points="2695,0 5390,0 5390,3660 2695,3660" rendition="TextRegion" xml:id="facs_104_region_253903660" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5416" lry="3700" xml:id="facs_105">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00105.tif" width="5416px" height="3700px" />
+      <graphic url="https://files.transkribus.eu/Get?id=MLLHIBRHUECTIMTIBBMIWGBG&amp;fileType=view" width="5416px" height="3700px" />
+      <zone points="0,0 2708,0 2708,3700 0,3700" rendition="TextRegion" xml:id="facs_105_region_154163700" />
+      <zone points="2708,0 5416,0 5416,3700 2708,3700" rendition="TextRegion" xml:id="facs_105_region_254163700" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5400" lry="3681" xml:id="facs_106">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00106.tif" width="5400px" height="3681px" />
+      <graphic url="https://files.transkribus.eu/Get?id=MVIXMOJXXBTQLIGZKOSWQBNH&amp;fileType=view" width="5400px" height="3681px" />
+      <zone points="0,0 2700,0 2700,3681 0,3681" rendition="TextRegion" xml:id="facs_106_region_154003681" />
+      <zone points="2700,0 5400,0 5400,3681 2700,3681" rendition="TextRegion" xml:id="facs_106_region_254003681" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5380" lry="3689" xml:id="facs_107">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00107.tif" width="5380px" height="3689px" />
+      <graphic url="https://files.transkribus.eu/Get?id=VASUEJFFHOOXHNSXZQQXXCIS&amp;fileType=view" width="5380px" height="3689px" />
+      <zone points="0,0 2690,0 2690,3689 0,3689" rendition="TextRegion" xml:id="facs_107_region_153803689" />
+      <zone points="2690,0 5380,0 5380,3689 2690,3689" rendition="TextRegion" xml:id="facs_107_region_253803689" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5374" lry="3676" xml:id="facs_108">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00108.tif" width="5374px" height="3676px" />
+      <graphic url="https://files.transkribus.eu/Get?id=EBNQZZXOUHWMWHIKPEBESADX&amp;fileType=view" width="5374px" height="3676px" />
+      <zone points="0,0 2687,0 2687,3676 0,3676" rendition="TextRegion" xml:id="facs_108_region_153743676" />
+      <zone points="2687,0 5374,0 5374,3676 2687,3676" rendition="TextRegion" xml:id="facs_108_region_253743676" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5391" lry="3693" xml:id="facs_109">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00109.tif" width="5391px" height="3693px" />
+      <graphic url="https://files.transkribus.eu/Get?id=OMPCSAAIXTIXYEKTBXRXVPPZ&amp;fileType=view" width="5391px" height="3693px" />
+      <zone points="0,0 2695,0 2695,3693 0,3693" rendition="TextRegion" xml:id="facs_109_region_153913693" />
+      <zone points="2696,0 5391,0 5391,3693 2696,3693" rendition="TextRegion" xml:id="facs_109_region_253913693" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5400" lry="3693" xml:id="facs_110">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00110.tif" width="5400px" height="3693px" />
+      <graphic url="https://files.transkribus.eu/Get?id=KIIGHILOWKNNNGOCGSCSDCDJ&amp;fileType=view" width="5400px" height="3693px" />
+      <zone points="0,0 2700,0 2700,3693 0,3693" rendition="TextRegion" xml:id="facs_110_region_154003693" />
+      <zone points="2700,0 5400,0 5400,3693 2700,3693" rendition="TextRegion" xml:id="facs_110_region_254003693" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5391" lry="3730" xml:id="facs_111">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00111.tif" width="5391px" height="3730px" />
+      <graphic url="https://files.transkribus.eu/Get?id=FVTZXHPCJQHCLBHERMYSRYXB&amp;fileType=view" width="5391px" height="3730px" />
+      <zone points="0,0 2695,0 2695,3730 0,3730" rendition="TextRegion" xml:id="facs_111_region_153913730" />
+      <zone points="2696,0 5391,0 5391,3730 2696,3730" rendition="TextRegion" xml:id="facs_111_region_253913730" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5408" lry="3708" xml:id="facs_112">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00112.tif" width="5408px" height="3708px" />
+      <graphic url="https://files.transkribus.eu/Get?id=RUSRWRRIWFLVPDFRGZGPPLZY&amp;fileType=view" width="5408px" height="3708px" />
+      <zone points="0,0 2704,0 2704,3708 0,3708" rendition="TextRegion" xml:id="facs_112_region_154083708" />
+      <zone points="2704,0 5408,0 5408,3708 2704,3708" rendition="TextRegion" xml:id="facs_112_region_254083708" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5402" lry="3670" xml:id="facs_113">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00113.tif" width="5402px" height="3670px" />
+      <graphic url="https://files.transkribus.eu/Get?id=MCYDYUCIPIXOVYNXVAXQYWNH&amp;fileType=view" width="5402px" height="3670px" />
+      <zone points="0,0 2701,0 2701,3670 0,3670" rendition="TextRegion" xml:id="facs_113_region_154023670" />
+      <zone points="2701,0 5402,0 5402,3670 2701,3670" rendition="TextRegion" xml:id="facs_113_region_254023670" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5430" lry="3708" xml:id="facs_114">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00114.tif" width="5430px" height="3708px" />
+      <graphic url="https://files.transkribus.eu/Get?id=ELIQLDEKBJMLYMROJZQGDONK&amp;fileType=view" width="5430px" height="3708px" />
+      <zone points="0,0 2715,0 2715,3708 0,3708" rendition="TextRegion" xml:id="facs_114_region_154303708" />
+      <zone points="2715,0 5430,0 5430,3708 2715,3708" rendition="TextRegion" xml:id="facs_114_region_254303708" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5413" lry="3693" xml:id="facs_115">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00115.tif" width="5413px" height="3693px" />
+      <graphic url="https://files.transkribus.eu/Get?id=HDIVFNUAGTDMOWWMXBEHQHAM&amp;fileType=view" width="5413px" height="3693px" />
+      <zone points="0,0 2706,0 2706,3693 0,3693" rendition="TextRegion" xml:id="facs_115_region_154133693" />
+      <zone points="2707,0 5413,0 5413,3693 2707,3693" rendition="TextRegion" xml:id="facs_115_region_254133693" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5427" lry="3740" xml:id="facs_116">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00116.tif" width="5427px" height="3740px" />
+      <graphic url="https://files.transkribus.eu/Get?id=JNDOYHIFLMNSTHBXMFCVFQUE&amp;fileType=view" width="5427px" height="3740px" />
+      <zone points="0,0 2713,0 2713,3740 0,3740" rendition="TextRegion" xml:id="facs_116_region_154273740" />
+      <zone points="2714,0 5427,0 5427,3740 2714,3740" rendition="TextRegion" xml:id="facs_116_region_254273740" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5447" lry="3709" xml:id="facs_117">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00117.tif" width="5447px" height="3709px" />
+      <graphic url="https://files.transkribus.eu/Get?id=SXWBLPUMBANAWOYHXFXREDSE&amp;fileType=view" width="5447px" height="3709px" />
+      <zone points="0,0 2723,0 2723,3709 0,3709" rendition="TextRegion" xml:id="facs_117_region_154473709" />
+      <zone points="2724,0 5447,0 5447,3709 2724,3709" rendition="TextRegion" xml:id="facs_117_region_254473709" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5436" lry="3717" xml:id="facs_118">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00118.tif" width="5436px" height="3717px" />
+      <graphic url="https://files.transkribus.eu/Get?id=RJRRZPCUULQZTMUBDQWGNXML&amp;fileType=view" width="5436px" height="3717px" />
+      <zone points="0,0 2718,0 2718,3717 0,3717" rendition="TextRegion" xml:id="facs_118_region_154363717" />
+      <zone points="2718,0 5436,0 5436,3717 2718,3717" rendition="TextRegion" xml:id="facs_118_region_254363717" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5397" lry="3684" xml:id="facs_119">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00119.tif" width="5397px" height="3684px" />
+      <graphic url="https://files.transkribus.eu/Get?id=AMCIJCQTGKVYWNNMNICXZDKV&amp;fileType=view" width="5397px" height="3684px" />
+      <zone points="0,0 2698,0 2698,3684 0,3684" rendition="TextRegion" xml:id="facs_119_region_153973684" />
+      <zone points="2699,0 5397,0 5397,3684 2699,3684" rendition="TextRegion" xml:id="facs_119_region_253973684" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5441" lry="3702" xml:id="facs_120">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00120.tif" width="5441px" height="3702px" />
+      <graphic url="https://files.transkribus.eu/Get?id=ZHWHRZUJILCLVKQJDDPQXQMJ&amp;fileType=view" width="5441px" height="3702px" />
+      <zone points="0,0 2720,0 2720,3702 0,3702" rendition="TextRegion" xml:id="facs_120_region_154413702" />
+      <zone points="2721,0 5441,0 5441,3702 2721,3702" rendition="TextRegion" xml:id="facs_120_region_254413702" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5358" lry="3691" xml:id="facs_121">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00121.tif" width="5358px" height="3691px" />
+      <graphic url="https://files.transkribus.eu/Get?id=ZHFCLYKQKNQZFKBZRYOSCEJC&amp;fileType=view" width="5358px" height="3691px" />
+      <zone points="0,0 2679,0 2679,3691 0,3691" rendition="TextRegion" xml:id="facs_121_region_153583691" />
+      <zone points="2679,0 5358,0 5358,3691 2679,3691" rendition="TextRegion" xml:id="facs_121_region_253583691" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5372" lry="3727" xml:id="facs_122">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00122.tif" width="5372px" height="3727px" />
+      <graphic url="https://files.transkribus.eu/Get?id=EZOTPTOODYVUGESVIEDGODDW&amp;fileType=view" width="5372px" height="3727px" />
+      <zone points="0,0 2686,0 2686,3727 0,3727" rendition="TextRegion" xml:id="facs_122_region_153723727" />
+      <zone points="2686,0 5372,0 5372,3727 2686,3727" rendition="TextRegion" xml:id="facs_122_region_253723727" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5382" lry="3683" xml:id="facs_123">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00123.tif" width="5382px" height="3683px" />
+      <graphic url="https://files.transkribus.eu/Get?id=JLGUOQDNOSEDQGLMXBYGNOSU&amp;fileType=view" width="5382px" height="3683px" />
+      <zone points="0,0 2691,0 2691,3683 0,3683" rendition="TextRegion" xml:id="facs_123_region_153823683" />
+      <zone points="2691,0 5382,0 5382,3683 2691,3683" rendition="TextRegion" xml:id="facs_123_region_253823683" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5382" lry="3697" xml:id="facs_124">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00124.tif" width="5382px" height="3697px" />
+      <graphic url="https://files.transkribus.eu/Get?id=RSJPEPFQSFPMOYPRTBXZVRAN&amp;fileType=view" width="5382px" height="3697px" />
+      <zone points="0,0 2691,0 2691,3697 0,3697" rendition="TextRegion" xml:id="facs_124_region_153823697" />
+      <zone points="2691,0 5382,0 5382,3697 2691,3697" rendition="TextRegion" xml:id="facs_124_region_253823697" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5399" lry="3673" xml:id="facs_125">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00125.tif" width="5399px" height="3673px" />
+      <graphic url="https://files.transkribus.eu/Get?id=YPVWIWHMXQWCUXMKBGCGXMBJ&amp;fileType=view" width="5399px" height="3673px" />
+      <zone points="0,0 2699,0 2699,3673 0,3673" rendition="TextRegion" xml:id="facs_125_region_153993673" />
+      <zone points="2700,0 5399,0 5399,3673 2700,3673" rendition="TextRegion" xml:id="facs_125_region_253993673" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5386" lry="3697" xml:id="facs_126">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00126.tif" width="5386px" height="3697px" />
+      <graphic url="https://files.transkribus.eu/Get?id=LAGBZTVFBDOYOZRZNQJARMWX&amp;fileType=view" width="5386px" height="3697px" />
+      <zone points="0,0 2693,0 2693,3697 0,3697" rendition="TextRegion" xml:id="facs_126_region_153863697" />
+      <zone points="2693,0 5386,0 5386,3697 2693,3697" rendition="TextRegion" xml:id="facs_126_region_253863697" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5404" lry="3750" xml:id="facs_127">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00127.tif" width="5404px" height="3750px" />
+      <graphic url="https://files.transkribus.eu/Get?id=ONTRZGCHSITVIYRTIDEWRTZI&amp;fileType=view" width="5404px" height="3750px" />
+      <zone points="0,0 2702,0 2702,3750 0,3750" rendition="TextRegion" xml:id="facs_127_region_154043750" />
+      <zone points="2702,0 5404,0 5404,3750 2702,3750" rendition="TextRegion" xml:id="facs_127_region_254043750" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5324" lry="3678" xml:id="facs_128">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00128.tif" width="5324px" height="3678px" />
+      <graphic url="https://files.transkribus.eu/Get?id=ZHEEEUBDDUNZRJHICIBBXSFR&amp;fileType=view" width="5324px" height="3678px" />
+      <zone points="0,0 2662,0 2662,3678 0,3678" rendition="TextRegion" xml:id="facs_128_region_153243678" />
+      <zone points="2662,0 5324,0 5324,3678 2662,3678" rendition="TextRegion" xml:id="facs_128_region_253243678" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5353" lry="3695" xml:id="facs_129">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00129.tif" width="5353px" height="3695px" />
+      <graphic url="https://files.transkribus.eu/Get?id=ENDAITNEUXUNYRKXYEKWKUDR&amp;fileType=view" width="5353px" height="3695px" />
+      <zone points="0,0 2676,0 2676,3695 0,3695" rendition="TextRegion" xml:id="facs_129_region_153533695" />
+      <zone points="2677,0 5353,0 5353,3695 2677,3695" rendition="TextRegion" xml:id="facs_129_region_253533695" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5375" lry="3704" xml:id="facs_130">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00130.tif" width="5375px" height="3704px" />
+      <graphic url="https://files.transkribus.eu/Get?id=DYVQXOLBCPAJNVIPBILQLGRT&amp;fileType=view" width="5375px" height="3704px" />
+      <zone points="0,0 2687,0 2687,3704 0,3704" rendition="TextRegion" xml:id="facs_130_region_153753704" />
+      <zone points="2688,0 5375,0 5375,3704 2688,3704" rendition="TextRegion" xml:id="facs_130_region_253753704" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5375" lry="3731" xml:id="facs_131">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00131.tif" width="5375px" height="3731px" />
+      <graphic url="https://files.transkribus.eu/Get?id=ZJFJDPGMMNKAXTYPUMSZFKYB&amp;fileType=view" width="5375px" height="3731px" />
+      <zone points="0,0 2687,0 2687,3731 0,3731" rendition="TextRegion" xml:id="facs_131_region_153753731" />
+      <zone points="2688,0 5375,0 5375,3731 2688,3731" rendition="TextRegion" xml:id="facs_131_region_253753731" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5370" lry="3700" xml:id="facs_132">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00132.tif" width="5370px" height="3700px" />
+      <graphic url="https://files.transkribus.eu/Get?id=LUZLBUAJCHHJIVCGHHIBBNRC&amp;fileType=view" width="5370px" height="3700px" />
+      <zone points="0,0 2685,0 2685,3700 0,3700" rendition="TextRegion" xml:id="facs_132_region_153703700" />
+      <zone points="2685,0 5370,0 5370,3700 2685,3700" rendition="TextRegion" xml:id="facs_132_region_253703700" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5366" lry="3699" xml:id="facs_133">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00133.tif" width="5366px" height="3699px" />
+      <graphic url="https://files.transkribus.eu/Get?id=EPJQEQTUBZSLGKOMKBGANZRC&amp;fileType=view" width="5366px" height="3699px" />
+      <zone points="0,0 2683,0 2683,3699 0,3699" rendition="TextRegion" xml:id="facs_133_region_153663699" />
+      <zone points="2683,0 5366,0 5366,3699 2683,3699" rendition="TextRegion" xml:id="facs_133_region_253663699" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5361" lry="3700" xml:id="facs_134">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00134.tif" width="5361px" height="3700px" />
+      <graphic url="https://files.transkribus.eu/Get?id=QQGNNUBJZVNWLQORLBCYXTUQ&amp;fileType=view" width="5361px" height="3700px" />
+      <zone points="0,0 2680,0 2680,3700 0,3700" rendition="TextRegion" xml:id="facs_134_region_153613700" />
+      <zone points="2681,0 5361,0 5361,3700 2681,3700" rendition="TextRegion" xml:id="facs_134_region_253613700" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5384" lry="3714" xml:id="facs_135">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00135.tif" width="5384px" height="3714px" />
+      <graphic url="https://files.transkribus.eu/Get?id=HJNUDNIBRPJBSELDTXUAPGBK&amp;fileType=view" width="5384px" height="3714px" />
+      <zone points="0,0 2692,0 2692,3714 0,3714" rendition="TextRegion" xml:id="facs_135_region_153843714" />
+      <zone points="2692,0 5384,0 5384,3714 2692,3714" rendition="TextRegion" xml:id="facs_135_region_253843714" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5366" lry="3705" xml:id="facs_136">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00136.tif" width="5366px" height="3705px" />
+      <graphic url="https://files.transkribus.eu/Get?id=YFHITOVHGIUHBNLBKUNZDYZJ&amp;fileType=view" width="5366px" height="3705px" />
+      <zone points="0,0 2683,0 2683,3705 0,3705" rendition="TextRegion" xml:id="facs_136_region_153663705" />
+      <zone points="2683,0 5366,0 5366,3705 2683,3705" rendition="TextRegion" xml:id="facs_136_region_253663705" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5334" lry="3708" xml:id="facs_137">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00137.tif" width="5334px" height="3708px" />
+      <graphic url="https://files.transkribus.eu/Get?id=VRUXFNSNCNHJQHQYTUTCEAAW&amp;fileType=view" width="5334px" height="3708px" />
+      <zone points="0,0 2667,0 2667,3708 0,3708" rendition="TextRegion" xml:id="facs_137_region_153343708" />
+      <zone points="2667,0 5334,0 5334,3708 2667,3708" rendition="TextRegion" xml:id="facs_137_region_253343708" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="5677" lry="3737" xml:id="facs_138">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00138.tif" width="5677px" height="3737px" />
+      <graphic url="https://files.transkribus.eu/Get?id=JCBPOTKGAGZIXVHJIOTQJVGT&amp;fileType=view" width="5677px" height="3737px" />
+      <zone points="0,0 2838,0 2838,3737 0,3737" rendition="TextRegion" xml:id="facs_138_region_156773737" />
+      <zone points="2839,0 5677,0 5677,3737 2839,3737" rendition="TextRegion" xml:id="facs_138_region_256773737" />
+    </surface>
+    <surface ulx="0" uly="0" lrx="3182" lry="3956" xml:id="facs_139">
+      <graphic url="WSTLA-OKA-B1-1-038-1_00139.tif" width="3182px" height="3956px" />
+      <graphic url="https://files.transkribus.eu/Get?id=RYXONIEOTTLPJQJYMRWJVVPR&amp;fileType=view" width="3182px" height="3956px" />
+      <zone points="0,0 1591,0 3182,0 3182,3956 1591,3956 0,3956" rendition="TextRegion" xml:id="facs_139_TextRegion_1757933864770_43" />
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div>
+        <pb facs="#facs_1" n="1" xml:id="img_0001" />
+        <pb facs="#facs_2" n="2" xml:id="img_0002" />
+        <pb facs="#facs_3" n="3" xml:id="img_0003" />
+        <pb facs="#facs_4" n="4" xml:id="img_0004" />
+        <pb facs="#facs_5" n="5" xml:id="img_0005" />
+        <pb facs="#facs_6" n="6" xml:id="img_0006" />
+        <pb facs="#facs_7" n="7" xml:id="img_0007" />
+        <pb facs="#facs_8" n="8" xml:id="img_0008" />
+        <pb facs="#facs_9" n="9" xml:id="img_0009" />
+        <pb facs="#facs_10" n="10" xml:id="img_0010" />
+        <pb facs="#facs_11" n="11" xml:id="img_0011" />
+        <pb facs="#facs_12" n="12" xml:id="img_0012" />
+        <pb facs="#facs_13" n="13" xml:id="img_0013" />
+        <pb facs="#facs_14" n="14" xml:id="img_0014" />
+        <pb facs="#facs_15" n="15" xml:id="img_0015" />
+        <pb facs="#facs_16" n="16" xml:id="img_0016" />
+        <pb facs="#facs_17" n="17" xml:id="img_0017" />
+        <pb facs="#facs_18" n="18" xml:id="img_0018" />
+        <pb facs="#facs_19" n="19" xml:id="img_0019" />
+        <pb facs="#facs_20" n="20" xml:id="img_0020" />
+        <pb facs="#facs_21" n="21" xml:id="img_0021" />
+        <pb facs="#facs_22" n="22" xml:id="img_0022" />
+        <pb facs="#facs_23" n="23" xml:id="img_0023" />
+        <pb facs="#facs_24" n="24" xml:id="img_0024" />
+        <pb facs="#facs_25" n="25" xml:id="img_0025" />
+        <pb facs="#facs_26" n="26" xml:id="img_0026" />
+        <pb facs="#facs_27" n="27" xml:id="img_0027" />
+        <pb facs="#facs_28" n="28" xml:id="img_0028" />
+        <pb facs="#facs_29" n="29" xml:id="img_0029" />
+        <pb facs="#facs_30" n="30" xml:id="img_0030" />
+        <pb facs="#facs_31" n="31" xml:id="img_0031" />
+        <pb facs="#facs_32" n="32" xml:id="img_0032" />
+        <pb facs="#facs_33" n="33" xml:id="img_0033" />
+        <pb facs="#facs_34" n="34" xml:id="img_0034" />
+        <pb facs="#facs_35" n="35" xml:id="img_0035" />
+        <pb facs="#facs_36" n="36" xml:id="img_0036" />
+        <pb facs="#facs_37" n="37" xml:id="img_0037" />
+        <pb facs="#facs_38" n="38" xml:id="img_0038" />
+        <pb facs="#facs_39" n="39" xml:id="img_0039" />
+        <pb facs="#facs_40" n="40" xml:id="img_0040" />
+        <pb facs="#facs_41" n="41" xml:id="img_0041" />
+        <pb facs="#facs_42" n="42" xml:id="img_0042" />
+        <pb facs="#facs_43" n="43" xml:id="img_0043" />
+        <pb facs="#facs_44" n="44" xml:id="img_0044" />
+        <pb facs="#facs_45" n="45" xml:id="img_0045" />
+        <pb facs="#facs_46" n="46" xml:id="img_0046" />
+        <pb facs="#facs_47" n="47" xml:id="img_0047" />
+        <pb facs="#facs_48" n="48" xml:id="img_0048" />
+        <pb facs="#facs_49" n="49" xml:id="img_0049" />
+        <pb facs="#facs_50" n="50" xml:id="img_0050" />
+        <pb facs="#facs_51" n="51" xml:id="img_0051" />
+        <pb facs="#facs_52" n="52" xml:id="img_0052" />
+        <pb facs="#facs_53" n="53" xml:id="img_0053" />
+        <pb facs="#facs_54" n="54" xml:id="img_0054" />
+        <pb facs="#facs_55" n="55" xml:id="img_0055" />
+        <pb facs="#facs_56" n="56" xml:id="img_0056" />
+        <pb facs="#facs_57" n="57" xml:id="img_0057" />
+        <pb facs="#facs_58" n="58" xml:id="img_0058" />
+        <pb facs="#facs_59" n="59" xml:id="img_0059" />
+        <pb facs="#facs_60" n="60" xml:id="img_0060" />
+        <pb facs="#facs_61" n="61" xml:id="img_0061" />
+        <pb facs="#facs_62" n="62" xml:id="img_0062" />
+        <pb facs="#facs_63" n="63" xml:id="img_0063" />
+        <pb facs="#facs_64" n="64" xml:id="img_0064" />
+        <pb facs="#facs_65" n="65" xml:id="img_0065" />
+        <pb facs="#facs_66" n="66" xml:id="img_0066" />
+        <pb facs="#facs_67" n="67" xml:id="img_0067" />
+        <pb facs="#facs_68" n="68" xml:id="img_0068" />
+        <pb facs="#facs_69" n="69" xml:id="img_0069" />
+        <pb facs="#facs_70" n="70" xml:id="img_0070" />
+        <pb facs="#facs_71" n="71" xml:id="img_0071" />
+        <pb facs="#facs_72" n="72" xml:id="img_0072" />
+        <pb facs="#facs_73" n="73" xml:id="img_0073" />
+        <pb facs="#facs_74" n="74" xml:id="img_0074" />
+        <pb facs="#facs_75" n="75" xml:id="img_0075" />
+        <pb facs="#facs_76" n="76" xml:id="img_0076" />
+        <pb facs="#facs_77" n="77" xml:id="img_0077" />
+        <pb facs="#facs_78" n="78" xml:id="img_0078" />
+        <pb facs="#facs_79" n="79" xml:id="img_0079" />
+        <pb facs="#facs_80" n="80" xml:id="img_0080" />
+        <pb facs="#facs_81" n="81" xml:id="img_0081" />
+        <pb facs="#facs_82" n="82" xml:id="img_0082" />
+        <pb facs="#facs_83" n="83" xml:id="img_0083" />
+        <pb facs="#facs_84" n="84" xml:id="img_0084" />
+        <pb facs="#facs_85" n="85" xml:id="img_0085" />
+        <pb facs="#facs_86" n="86" xml:id="img_0086" />
+        <pb facs="#facs_87" n="87" xml:id="img_0087" />
+        <pb facs="#facs_88" n="88" xml:id="img_0088" />
+        <pb facs="#facs_89" n="89" xml:id="img_0089" />
+        <pb facs="#facs_90" n="90" xml:id="img_0090" />
+        <pb facs="#facs_91" n="91" xml:id="img_0091" />
+        <pb facs="#facs_92" n="92" xml:id="img_0092" />
+        <pb facs="#facs_93" n="93" xml:id="img_0093" />
+        <pb facs="#facs_94" n="94" xml:id="img_0094" />
+        <pb facs="#facs_95" n="95" xml:id="img_0095" />
+        <pb facs="#facs_96" n="96" xml:id="img_0096" />
+        <pb facs="#facs_97" n="97" xml:id="img_0097" />
+        <pb facs="#facs_98" n="98" xml:id="img_0098" />
+        <pb facs="#facs_99" n="99" xml:id="img_0099" />
+        <pb facs="#facs_100" n="100" xml:id="img_0100" />
+        <pb facs="#facs_101" n="101" xml:id="img_0101" />
+        <pb facs="#facs_102" n="102" xml:id="img_0102" />
+        <pb facs="#facs_103" n="103" xml:id="img_0103" />
+        <pb facs="#facs_104" n="104" xml:id="img_0104" />
+        <pb facs="#facs_105" n="105" xml:id="img_0105" />
+        <pb facs="#facs_106" n="106" xml:id="img_0106" />
+        <pb facs="#facs_107" n="107" xml:id="img_0107" />
+        <pb facs="#facs_108" n="108" xml:id="img_0108" />
+        <pb facs="#facs_109" n="109" xml:id="img_0109" />
+        <pb facs="#facs_110" n="110" xml:id="img_0110" />
+        <pb facs="#facs_111" n="111" xml:id="img_0111" />
+        <pb facs="#facs_112" n="112" xml:id="img_0112" />
+        <pb facs="#facs_113" n="113" xml:id="img_0113" />
+        <pb facs="#facs_114" n="114" xml:id="img_0114" />
+        <pb facs="#facs_115" n="115" xml:id="img_0115" />
+        <pb facs="#facs_116" n="116" xml:id="img_0116" />
+        <pb facs="#facs_117" n="117" xml:id="img_0117" />
+        <pb facs="#facs_118" n="118" xml:id="img_0118" />
+        <pb facs="#facs_119" n="119" xml:id="img_0119" />
+        <pb facs="#facs_120" n="120" xml:id="img_0120" />
+        <pb facs="#facs_121" n="121" xml:id="img_0121" />
+        <pb facs="#facs_122" n="122" xml:id="img_0122" />
+        <pb facs="#facs_123" n="123" xml:id="img_0123" />
+        <pb facs="#facs_124" n="124" xml:id="img_0124" />
+        <pb facs="#facs_125" n="125" xml:id="img_0125" />
+        <pb facs="#facs_126" n="126" xml:id="img_0126" />
+        <pb facs="#facs_127" n="127" xml:id="img_0127" />
+        <pb facs="#facs_128" n="128" xml:id="img_0128" />
+        <pb facs="#facs_129" n="129" xml:id="img_0129" />
+        <pb facs="#facs_130" n="130" xml:id="img_0130" />
+        <pb facs="#facs_131" n="131" xml:id="img_0131" />
+        <pb facs="#facs_132" n="132" xml:id="img_0132" />
+        <pb facs="#facs_133" n="133" xml:id="img_0133" />
+        <pb facs="#facs_134" n="134" xml:id="img_0134" />
+        <pb facs="#facs_135" n="135" xml:id="img_0135" />
+        <pb facs="#facs_136" n="136" xml:id="img_0136" />
+        <pb facs="#facs_137" n="137" xml:id="img_0137" />
+        <pb facs="#facs_138" n="138" xml:id="img_0138" />
+        <pb facs="#facs_139" n="139" xml:id="img_0139" />
+      </div>
+    </body>
+  </text>
+</TEI>
