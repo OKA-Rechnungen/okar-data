@@ -31,13 +31,15 @@ jobs:
     - name: Delete old files
       run: rm -rf data/editions/* data/mets/* tei_headers/*
     - name: Download
-      run: ./pyscripts/01_download.py
+      run: ./pyscripts/01_download.py --all
     #- name: Apply fixes to Transkribus files
     #  run: ./pyscripts/02_fix_tkb.py
     - name: Generate XML-TEI
       run: ./pyscripts/03_transform.py
     - name: Rename files
       run: ./pyscripts/04_rename_files.py
+    - name: Naming conventions and junk files
+      run: ./shellscripts/04b_rename_files.sh
     - name: Fix XML
       run: ./pyscripts/05_fix_xml.py
 #    - name: Ensure initial facsimile page
