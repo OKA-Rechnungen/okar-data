@@ -26,8 +26,22 @@ jobs:
     steps:
     - name: Perform Checkout
       uses: actions/checkout@v4
+    - name: Setup Java
+      uses: actions/setup-java@v4
+      with:
+        distribution: temurin
+        java-version: '21'
     - name: Install Python Packages
       run: pip install -U -r pyscripts/requirements.txt
+    - name: Download Saxon-HE (Java)
+      run: |
+        mkdir -p .tools
+        curl -L --retry 3 --retry-delay 2 \
+          -o .tools/Saxon-HE-12.4.jar \
+          https://repo1.maven.org/maven2/net/sf/saxon/Saxon-HE/12.4/Saxon-HE-12.4.jar
+        curl -L --retry 3 --retry-delay 2 \
+          -o .tools/xmlresolver-5.2.1.jar \
+          https://repo1.maven.org/maven2/org/xmlresolver/xmlresolver/5.2.1/xmlresolver-5.2.1.jar
     - name: Delete old files
       run: rm -rf data/editions/* data/mets/* tei_headers/*
     - name: Download
@@ -35,11 +49,14 @@ jobs:
     #- name: Apply fixes to Transkribus files
     #  run: ./pyscripts/02_fix_tkb.py
     - name: Generate XML-TEI
+      env:
+        OKAR_XSLT_ENGINE: java
+        SAXON_CP: .tools/Saxon-HE-12.4.jar:.tools/xmlresolver-5.2.1.jar
+        SAXON_JAR: .tools/Saxon-HE-12.4.jar:.tools/xmlresolver-5.2.1.jar
+        SAXON_JAVA_OPTS: -Xss32m
       run: |
-        # SaxonC (via saxonche) can overflow the native thread stack on deep
-        # recursion for some METS/XSLT inputs when CI uses the default stack.
-        # Raise the stack limit for this step to avoid crashes.
-        ulimit -s 65532
+        # Use Java Saxon with an explicit larger Java thread stack to avoid
+        # SaxonC (saxonche) native crashes on deep recursion.
         ./pyscripts/03_transform.py
     - name: Rename files
       run: ./pyscripts/04_rename_files.py
