@@ -35,7 +35,12 @@ jobs:
     #- name: Apply fixes to Transkribus files
     #  run: ./pyscripts/02_fix_tkb.py
     - name: Generate XML-TEI
-      run: ./pyscripts/03_transform.py
+      run: |
+        # SaxonC (via saxonche) can overflow the native thread stack on deep
+        # recursion for some METS/XSLT inputs when CI uses the default stack.
+        # Raise the stack limit for this step to avoid crashes.
+        ulimit -s 65532
+        ./pyscripts/03_transform.py
     - name: Rename files
       run: ./pyscripts/04_rename_files.py
     - name: Naming conventions and junk files
