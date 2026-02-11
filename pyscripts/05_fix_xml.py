@@ -1,31 +1,45 @@
 #!/usr/bin/env python3
-# Run just once from the top directory to add a xml:id attrib to  the TEI
-# files in data/editions. It uses the file name without extension
+"""Normalize TEI files by setting xml:id/base and aligning facsimile URLs."""
+
+from __future__ import annotations
+
 import os
 import re
-from acdh_tei_pyutils.tei import TeiReader
-import lxml.etree as ET
+from pathlib import Path
 
+import lxml.etree as ET
 
 LOCAL_TIF_RE = re.compile(r'^\d+\.tif$', re.IGNORECASE)
 COUNTER_RE = re.compile(r'(\d+)(\.[^.]+)$')
 
 BASENAME = "/"
-xml_path = "./data/editions"
-xml_files = [f for f in os.listdir(xml_path) if
-             f.startswith("WSTLA-OKA") and f.endswith(".xml")]
+XML_NS = "http://www.w3.org/XML/1998/namespace"
+TEI_NS = {"tei": "http://www.tei-c.org/ns/1.0"}
+
+XML_DIR = Path("./data/editions")
 
 
-prev_file = ""
-for current_file in xml_files:
-    print(f"Fixing {current_file}")
-    volume_name = re.sub(r"(WSTLA-OKA-B1-\d+-\d+-\d).*", r"\1", current_file)
-    current_filepath = os.path.join(xml_path, current_file)
-    xml_current = TeiReader(current_filepath)
-    xml_current_root = xml_current.tree.getroot()
-    xml_current_root.attrib[f'{{{xml_current.ns_xml.get("xml")}}}id'] = "".join(os.path.splitext(current_file))
-    xml_current_root.attrib[f'{{{xml_current.ns_xml.get("xml")}}}base'] = BASENAME
-    for graphic in xml_current.any_xpath('//tei:graphic'):
+def _load_tree(path: Path) -> ET._ElementTree:
+    """Parse XML, falling back to recover mode on malformed input."""
+
+    parser = ET.XMLParser(remove_blank_text=False)
+    try:
+        return ET.parse(str(path), parser=parser)
+    except ET.XMLSyntaxError as exc:
+        print(f"  Warning: {path.name} is not well-formed ({exc}); attempting recovery")
+        recover_parser = ET.XMLParser(remove_blank_text=False, recover=True)
+        return ET.parse(str(path), parser=recover_parser)
+
+
+def _write_tree(tree: ET._ElementTree, path: Path) -> None:
+    xml_bytes = ET.tostring(
+        tree.getroot(), encoding="utf-8", xml_declaration=True, pretty_print=True
+    )
+    path.write_bytes(xml_bytes)
+
+
+def _fix_graphic_urls(root: ET._Element, volume_name: str) -> None:
+    for graphic in root.xpath('.//tei:graphic', namespaces=TEI_NS):
         url = graphic.get('url')
         if not url or url.lower().startswith('http'):
             continue
@@ -33,11 +47,10 @@ for current_file in xml_files:
         if LOCAL_TIF_RE.match(url):
             # Align legacy "0001.tif" style links with the volume identifier.
             surface = graphic.getparent()
-            xml_id = surface.get('{http://www.w3.org/XML/1998/namespace}id')
+            xml_id = surface.get(f'{{{XML_NS}}}id') if surface is not None else None
             if xml_id:
                 id_suffix = xml_id.split('_')[1] if '_' in xml_id else xml_id
-                new_url = f"{volume_name}_{id_suffix}.tif"
-                graphic.set('url', new_url)
+                graphic.set('url', f"{volume_name}_{id_suffix}.tif")
             continue
 
         match = COUNTER_RE.search(url)
@@ -49,15 +62,45 @@ for current_file in xml_files:
         target = f"{volume_name}_{padded}"
         if target != url:
             graphic.set('url', target)
-    if prev_file:
-        xml_current_root.attrib['prev'] = prev_file
-        prev_filepath = os.path.join(xml_path, prev_file)
-        xml_prev = TeiReader(prev_filepath)
-        xml_prev_root = xml_prev.tree.getroot()
-        xml_prev_root.attrib['next'] = current_file
-        with open(prev_filepath, "wb") as f:
-            f.write(ET.tostring(xml_prev_root, pretty_print=True))
-    prev_file = current_file
 
-    with open(current_filepath, "wb") as f:
-        f.write(ET.tostring(xml_current_root, pretty_print=True))
+
+def _volume_name(filename: str) -> str:
+    match = re.search(r"(WSTLA-OKA-B1-\d+-\d+-\d)", filename)
+    return match.group(1) if match else os.path.splitext(filename)[0]
+
+
+def main() -> int:
+    xml_files = sorted(
+        path for path in XML_DIR.iterdir() if path.name.startswith('WSTLA-OKA') and path.suffix == '.xml'
+    )
+
+    prev_entry: tuple[str, Path, ET._ElementTree] | None = None
+
+    for current_path in xml_files:
+        current_name = current_path.name
+        print(f"Fixing {current_name}")
+        tree = _load_tree(current_path)
+        root = tree.getroot()
+
+        volume_name = _volume_name(current_name)
+        root.set(f'{{{XML_NS}}}id', "".join(os.path.splitext(current_name)))
+        root.set(f'{{{XML_NS}}}base', BASENAME)
+
+        if prev_entry:
+            prev_name, prev_path, prev_tree = prev_entry
+            prev_tree.getroot().set('next', current_name)
+            _write_tree(prev_tree, prev_path)
+            root.set('prev', prev_name)
+
+        _fix_graphic_urls(root, volume_name)
+
+        prev_entry = (current_name, current_path, tree)
+
+    if prev_entry:
+        _write_tree(prev_entry[2], prev_entry[1])
+
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
