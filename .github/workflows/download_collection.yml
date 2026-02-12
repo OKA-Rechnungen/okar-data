@@ -54,6 +54,7 @@ jobs:
         SAXON_CP: .tools/Saxon-HE-12.4.jar:.tools/xmlresolver-5.2.1.jar
         SAXON_JAR: .tools/Saxon-HE-12.4.jar:.tools/xmlresolver-5.2.1.jar
         SAXON_JAVA_OPTS: -Xss32m
+        SAXON_TIMEOUT: "900"
       run: |
         # Use Java Saxon with an explicit larger Java thread stack to avoid
         # SaxonC (saxonche) native crashes on deep recursion.
