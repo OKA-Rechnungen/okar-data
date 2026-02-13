@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=2.23.0:model_id=292753:lm=provided:date=18_02_2025_21:57</Creator>
+        <Created>2025-02-18T15:31:08.249+01:00</Created>
+        <LastChange>2025-02-27T13:28:24.156+01:00</LastChange>
+        <TranskribusMetadata docId="6981834" pageId="91762627" pageNr="118" tsid="230934284" status="GT" userId="234" imgUrl="https://files.transkribus.eu/Get?id=EMKRIXFENCDKKVULWMRRHDFI&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=JJTJKMKXWLAJKHKDTEBRRIML" imageId="76570393"/>
+    </Metadata>
+    <Page imageFilename="0118_WSTLA-OKA-B1-1-095-1_00119.jpg" imageWidth="2306" imageHeight="1680">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1740659304156" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="region_123061680"/>
+                <RegionRefIndexed index="1" regionRef="region_223061680"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="region_123061680" custom="readingOrder {index:0;} structure {type:page_1;}">
+            <Coords points="0,0 1153,0 1153,1680 0,1680"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="region_223061680" custom="readingOrder {index:1;} structure {type:page_2;}">
+            <Coords points="1153,0 2306,0 2306,1680 1153,1680"/>
+            <TextLine id="tl_1739897206" custom="readingOrder {index:0;} headline {offset:0; length:14; continued:true;}">
+                <Coords points="1263,48 1288,270 1362,307 1414,304 1530,235 1924,229 1926,144 1868,42 1726,119 1416,24 1273,31"/>
+                <Baseline points="1263,234 1927,234"/>
+                <TextEquiv>
+                    <Unicode>Von Pöenfallen</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tl_1739897207" custom="readingOrder {index:1;} headline {offset:0; length:14; continued:true;}">
+                <Coords points="1554,236 1556,288 1581,308 1727,298 1794,319 1854,304 1866,290 1861,230 1763,250 1719,234 1555,231"/>
+                <Baseline points="1554,295 1866,295"/>
+                <TextEquiv>
+                    <Unicode>Vnnd Strafgelt</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Von Pöenfallen
+Vnnd Strafgelt</Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=2.23.0:model_id=293513:lm=none:date=23_02_2025_12:51</Creator>
+        <Created>2025-02-18T15:31:07.983+01:00</Created>
+        <LastChange>2025-02-27T13:28:20.723+01:00</LastChange>
+        <TranskribusMetadata docId="6981834" pageId="91762556" pageNr="94" tsid="230963670" status="GT" userId="234" imgUrl="https://files.transkribus.eu/Get?id=CMIVLKORJKIWCSATDISZCARK&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=TIRBZWEVAANZGQIJRFVQQAGK" imageId="76570269"/>
+    </Metadata>
+    <Page imageFilename="0094_WSTLA-OKA-B1-1-095-1_00095.jpg" imageWidth="2271" imageHeight="1528">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1740659300723" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="region_122711528"/>
+                <RegionRefIndexed index="1" regionRef="region_222711528"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="region_122711528" custom="readingOrder {index:0;} structure {type:page_1;}">
+            <Coords points="0,0 1135,0 1135,1528 0,1528"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="region_222711528" custom="readingOrder {index:1;} structure {type:page_2;}">
+            <Coords points="1136,0 2271,0 2271,1528 1136,1528"/>
+            <TextLine id="tl_1739897247" custom="readingOrder {index:0;} headline {offset:0; length:14; continued:true;}">
+                <Coords points="1244,117 1244,120 1253,130 1259,152 1259,300 1261,309 1279,318 1288,330 1299,333 1313,341 1366,341 1422,316 1437,313 1486,312 1525,306 1569,305 1590,298 1777,295 1799,288 1869,286 1877,281 1877,221 1871,216 1861,214 1845,206 1818,205 1792,197 1726,196 1696,189 1680,189 1656,196 1582,197 1565,196 1542,188 1520,187 1505,179 1492,176 1481,165 1468,159 1457,146 1448,143 1436,134 1422,130 1416,118 1402,114 1388,105 1365,97 1296,96 1270,92 1255,99"/>
+                <Baseline points="1244,278 1877,278"/>
+                <TextEquiv>
+                    <Unicode>Vom Pranntwein</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tl_1739897248" custom="readingOrder {index:1;} headline {offset:0; length:9; continued:true;}">
+                <Coords points="1685,292 1682,290 1674,289 1673,288 1610,288 1609,289 1604,289 1603,290 1587,290 1586,291 1581,291 1580,292 1577,292 1576,293 1570,293 1566,295 1555,296 1554,297 1551,297 1550,298 1527,298 1526,299 1520,299 1519,300 1515,300 1514,301 1496,301 1495,302 1488,302 1487,303 1480,304 1478,305 1472,311 1471,313 1471,319 1470,320 1470,347 1480,352 1484,352 1485,353 1494,353 1495,354 1521,354 1522,353 1536,353 1537,352 1541,352 1542,351 1556,351 1557,350 1561,350 1562,349 1566,349 1567,348 1599,348 1600,349 1603,349 1604,350 1607,350 1608,351 1612,351 1613,352 1616,352 1617,353 1622,353 1623,354 1648,354 1649,353 1652,353 1653,352 1656,352 1657,351 1661,351 1662,350 1673,348 1674,347 1676,347 1678,345 1679,339 1683,334 1684,330 1685,329 1685,324 1686,323 1686,297 1685,296"/>
+                <Baseline points="1470,336 1686,336"/>
+                <TextEquiv>
+                    <Unicode>ner Recht</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>
