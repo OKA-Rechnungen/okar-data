@@ -2,6 +2,7 @@
 # Executable file that calls library maketei
 import glob
 import os
+import re
 from acdh_tei_pyutils.tei import TeiReader, ET
 import copy
 
@@ -21,10 +22,42 @@ schema_file = "tei_ms.xsd"
 template = "./data/constants/template.xml"
 
 
+def extract_year(*candidates):
+    for candidate in candidates:
+        if not candidate:
+            continue
+        match = re.search(r"\b(\d{4})\b", str(candidate))
+        if match:
+            return match.group(1)
+    return None
+
+
 def get_info(doc):
-    date, ttltitle = doc.xpath(".//tei:fileDesc/tei:titleStmt/tei:title", namespaces=nsmap)[0].text.split("_")
-    srctitle = doc.xpath(".//tei:fileDesc/tei:sourceDesc/tei:bibl/tei:title", namespaces=nsmap)[0].text
-    srcidno = doc.xpath(".//tei:fileDesc/tei:sourceDesc/tei:bibl/tei:idno", namespaces=nsmap)[0].text
+    title_elems = doc.xpath(".//tei:fileDesc/tei:titleStmt/tei:title", namespaces=nsmap)
+    first_title_text = (title_elems[0].text or "").strip() if title_elems else ""
+
+    ttltitle = ""
+    date = ""
+    if "_" in first_title_text:
+        date_part, title_part = first_title_text.split("_", 1)
+        date = (date_part or "").strip()
+        ttltitle = (title_part or "").strip()
+    else:
+        desc_titles = doc.xpath(
+            ".//tei:fileDesc/tei:titleStmt/tei:title[@type='desc' and @level='a']",
+            namespaces=nsmap,
+        )
+        ttltitle = ((desc_titles[0].text or "").strip() if desc_titles else "")
+
+        bibl_date = doc.xpath(".//tei:fileDesc/tei:sourceDesc/tei:bibl/tei:date", namespaces=nsmap)
+        bibl_date_text = ((bibl_date[0].text or "").strip() if bibl_date else "")
+        date = extract_year(first_title_text, bibl_date_text) or ""
+
+    srctitle_elem = doc.xpath(".//tei:fileDesc/tei:sourceDesc/tei:bibl/tei:title", namespaces=nsmap)
+    srctitle = ((srctitle_elem[0].text or "").strip() if srctitle_elem else "")
+
+    srcidno_elem = doc.xpath(".//tei:fileDesc/tei:sourceDesc/tei:bibl/tei:idno", namespaces=nsmap)
+    srcidno = ((srcidno_elem[0].text or "").strip() if srcidno_elem else "")
     return (ttltitle, date, srctitle, srcidno)
 
 
@@ -56,6 +89,14 @@ for input_file in glob.glob(os.path.join(source_directory, "*.xml")):
     titleStmt = root.xpath(".//tei:teiHeader/tei:fileDesc/tei:titleStmt", namespaces=nsmap)[0]
     bibl = root.xpath(".//tei:sourceDesc/tei:bibl", namespaces=nsmap)[0]
     print(existing_info[0])
+
+    year = extract_year(existing_info[1], existing_info[0])
+    main_title_de = root.xpath(
+        ".//tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[@level='a' and @type='main' and @xml:lang='de']",
+        namespaces=nsmap,
+    )
+    if main_title_de:
+        main_title_de[0].text = f"Oberkammeramtstrechnung | {year}" if year else "Oberkammeramtstrechnung"
 
     # Create the desc title element and insert it at the top of titleStmt, after existing titles
     titleStmttitle = ET.Element("title", attrib={"level": "a", "type": "desc"})
