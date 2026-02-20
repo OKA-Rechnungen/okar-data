@@ -172,15 +172,16 @@ def find_page(pages: list[dict], surfaces: dict[str, list[str]], image_id: str) 
         for page in pages:
             if page['number'] == suffix_number:
                 return page
-    image_filename = f"{image_id}.jpg"
     for page in pages:
         facs_ref = page['facs']
         if not facs_ref:
             continue
         facs_id = facs_ref.lstrip('#')
         urls = surfaces.get(facs_id, [])
-        if image_filename in urls:
-            return page
+        for url in urls:
+            base = url.rsplit('.', 1)[0] if '.' in url else url
+            if base == image_id:
+                return page
     return None
 
 
