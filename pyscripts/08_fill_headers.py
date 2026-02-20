@@ -41,6 +41,9 @@ if missing_env:
 
 BASEROW_DB_ID = cast(str, BASEROW_DB_ID)
 BASEROW_URL = cast(str, BASEROW_URL)
+# Ensure the URL ends with /api/ as required by acdh_baserow_pyutils
+if not BASEROW_URL.rstrip("/").endswith("/api"):
+    BASEROW_URL = BASEROW_URL.rstrip("/") + "/api/"
 BASEROW_TOKEN = cast(str, BASEROW_TOKEN)
 BASEROW_USER = cast(str, BASEROW_USER)
 BASEROW_PW = cast(str, BASEROW_PW)
