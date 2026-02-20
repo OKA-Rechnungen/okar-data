@@ -57,8 +57,8 @@ def _fix_graphic_urls(root: ET._Element, volume_name: str) -> None:
         if not match:
             continue
 
-        counter, extension = match.groups()
-        padded = f"{int(counter):0{len(counter)}d}{extension}"
+        counter, _extension = match.groups()
+        padded = f"{int(counter):0{len(counter)}d}.tif"
         target = f"{volume_name}_{padded}"
         if target != url:
             graphic.set('url', target)
