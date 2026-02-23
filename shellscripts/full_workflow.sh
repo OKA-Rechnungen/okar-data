@@ -1,7 +1,7 @@
 #!/bin/bash
-. ./.secret.env
+. ../.secret.env
 rm -rf data/editions/* data/mets/* tei_headers/*
-./pyscripts/01_download.py
+./pyscripts/01_download.py --all
 ./pyscripts/02_fix_tkb.py
 ./pyscripts/03_transform.py
 ./pyscripts/04_rename_files.py

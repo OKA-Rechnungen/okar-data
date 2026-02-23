@@ -501,7 +501,14 @@
       <xsl:param name="center" tunnel="true" as="xs:double"/>
       
       <xsl:variable name="custom" as="map(*)">
-         <xsl:apply-templates select="@custom"/>
+         <xsl:choose>
+            <xsl:when test="@custom">
+               <xsl:apply-templates select="@custom"/>
+            </xsl:when>
+            <xsl:otherwise>
+               <xsl:map/>
+            </xsl:otherwise>
+         </xsl:choose>
       </xsl:variable>
       <xsl:variable name="regionType" as="xs:string*" select="(@type, $custom?structure?type)" />
 
