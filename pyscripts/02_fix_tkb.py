@@ -34,6 +34,10 @@ def normalise_image_name(value: str) -> str:
 	prefix_segments = segments[:-1]
 	counter = segments[-1]
 
+	# Pad the numeric counter to 5 digits (e.g. 56 -> 00056)
+	if counter.isdigit() and len(counter) < 5:
+		counter = counter.zfill(5)
+
 	prefix = "-".join(prefix_segments)
 	return f"{prefix}_{counter}{suffix}"
 
