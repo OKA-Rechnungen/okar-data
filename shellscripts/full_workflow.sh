@@ -1,5 +1,7 @@
 #!/bin/bash
-. ../.secret.env
+set -a
+source ../.secret.env
+set +a
 rm -rf data/editions/* data/mets/* tei_headers/*
 ./pyscripts/01_download.py --all
 ./pyscripts/02_fix_tkb.py
