@@ -44,10 +44,21 @@ def _fix_graphic_urls(root: ET._Element, volume_name: str) -> None:
         if not url or url.lower().startswith('http'):
             continue
 
+        # Derive the sequential page number from the parent <surface xml:id="facs_N">.
+        surface = graphic.getparent()
+        xml_id = surface.get(f'{{{XML_NS}}}id') if surface is not None else None
+        if xml_id and '_' in xml_id:
+            page_num = xml_id.split('_')[1]
+            try:
+                target = f"{volume_name}_{int(page_num):05d}.tif"
+                if target != url:
+                    graphic.set('url', target)
+                continue
+            except ValueError:
+                pass
+
+        # Fallback: try to normalise the numeric suffix already in the URL.
         if LOCAL_TIF_RE.match(url):
-            # Align legacy "0001.tif" style links with the volume identifier.
-            surface = graphic.getparent()
-            xml_id = surface.get(f'{{{XML_NS}}}id') if surface is not None else None
             if xml_id:
                 id_suffix = xml_id.split('_')[1] if '_' in xml_id else xml_id
                 graphic.set('url', f"{volume_name}_{id_suffix}.tif")
@@ -58,7 +69,7 @@ def _fix_graphic_urls(root: ET._Element, volume_name: str) -> None:
             continue
 
         counter, _extension = match.groups()
-        padded = f"{int(counter):0{len(counter)}d}.tif"
+        padded = f"{int(counter):05d}.tif"
         target = f"{volume_name}_{padded}"
         if target != url:
             graphic.set('url', target)
