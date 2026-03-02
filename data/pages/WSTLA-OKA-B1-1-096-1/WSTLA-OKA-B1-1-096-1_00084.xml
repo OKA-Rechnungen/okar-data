@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=2.23.0:model_id=289933:lm=provided:date=16_02_2025_16:01</Creator>
+        <Created>2025-02-14T11:37:48.383+01:00</Created>
+        <LastChange>2025-02-16T16:07:59.444+01:00</LastChange>
+        <TranskribusMetadata docId="6914252" pageId="91551053" pageNr="84" status="GT" userId="234" imgUrl="https://files.transkribus.eu/Get?id=GEQYXDRTHKTFBCVQPPADWTVT&amp;fileType=view" imageId="76384725"/>
+    </Metadata>
+    <Page imageFilename="91551053.jpg" imageWidth="5521" imageHeight="3880">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1739718479444" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="region_155213880"/>
+                <RegionRefIndexed index="1" regionRef="region_255213880"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="region_155213880" custom="readingOrder {index:0;} structure {type:page_1;}">
+            <Coords points="0,0 2852,0 2852,3880 0,3880"/>
+            <TextLine id="tl_1739534105" custom="readingOrder {index:0;}">
+                <Coords points="936,1191 940,1345 1109,1464 2421,1499 2419,1373 2355,1348 1386,1356 1313,1338 1240,1145 950,1161"/>
+                <Baseline points="935,1410 2421,1410"/>
+                <TextEquiv>
+                    <Unicode>Summa Ausgab auff Schanckhung</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tl_1739534107" custom="readingOrder {index:1;}">
+                <Coords points="1280,1519 1720,1538 1873,1524 1933,1480 1989,1479 1280,1467"/>
+                <Baseline points="1280,1519 1989,1519"/>
+                <TextEquiv>
+                    <Unicode>vnnd vererung</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tl_1739534106" custom="readingOrder {index:2;}">
+                <Coords points="1283,1586 1334,1632 2325,1674 2330,1544 2279,1527 1634,1550 1423,1524 1290,1575"/>
+                <Baseline points="1283,1641 2332,1641"/>
+                <TextEquiv>
+                    <Unicode>Ø 1455 γ 1 s 23 ½ d</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Summa Ausgab auff Schanckhung&#13;
+vnnd vererung&#13;
+Ø 1455 γ 1 s 23 ½ d</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="region_255213880" custom="readingOrder {index:1;} structure {type:page_2;}">
+            <Coords points="2918,0 5521,0 5521,3880 2918,3880"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

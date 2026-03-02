@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=2.23.0:model_id=291473:lm=provided:date=17_02_2025_22:33</Creator>
+        <Created>2025-02-14T11:39:58.130+01:00</Created>
+        <LastChange>2025-02-18T06:59:27.208+01:00</LastChange>
+        <TranskribusMetadata docId="6914252" pageId="91551759" pageNr="510" status="GT" userId="234" imgUrl="https://files.transkribus.eu/Get?id=TUYYPKBSOKGQLLKLHWRCWSNG&amp;fileType=view" imageId="76385531"/>
+    </Metadata>
+    <Page imageFilename="91551759.jpg" imageWidth="5663" imageHeight="3820">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1739858367208" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="region_156633820"/>
+                <RegionRefIndexed index="1" regionRef="region_256633820"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="region_156633820" custom="readingOrder {index:0;} structure {type:page_1;}">
+            <Coords points="0,0 2831,0 2831,3820 0,3820"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="region_256633820" custom="readingOrder {index:1;} structure {type:page_2;}">
+            <Coords points="2832,0 5663,0 5663,3820 2832,3820"/>
+            <TextLine id="tl_1739532124" custom="readingOrder {index:0;} headline {offset:0; length:15; continued:true;}">
+                <Coords points="3229,115 3286,519 3426,623 4146,605 4592,648 4825,599 4823,245 4754,198 4395,216 4169,111 3997,231 3824,114 3235,101"/>
+                <Baseline points="3227,508 4825,508"/>
+                <TextEquiv>
+                    <Unicode>Vmb verkhauffte</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tl_1739532126" custom="readingOrder {index:1;} headline {offset:0; length:6; continued:true;}">
+                <Coords points="4218,600 4111,585 3973,596 3974,671 3999,696 4163,706 4179,689 4218,672"/>
+                <Baseline points="3973,675 4218,675"/>
+                <TextEquiv>
+                    <Unicode>Heußer</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tl_1739532127" custom="readingOrder {index:2;}">
+                <Coords points="4828,893 4665,836 3952,888 3494,853 3494,970 3548,994 4828,977"/>
+                <Baseline points="3494,959 4828,959"/>
+                <TextEquiv>
+                    <Unicode>Item Vnndter diser Rubrigkhen Ist dises Funff</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tl_1739532123" custom="readingOrder {index:3;}">
+                <Coords points="4819,997 3531,998 3532,1067 3764,1084 4819,1056"/>
+                <Baseline points="3531,1063 4819,1063"/>
+                <TextEquiv>
+                    <Unicode>Zechenhunndert dreyvnndsechzigisten Iars nichts</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tl_1739532125" custom="readingOrder {index:4;}">
+                <Coords points="4871,1061 3537,1083 3540,1181 3614,1188 4238,1208 4871,1163"/>
+                <Baseline points="3537,1170 4871,1170"/>
+                <TextEquiv>
+                    <Unicode>gehanndlt worden, der halben auch nichts einkhomen</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tl_1739532129" custom="readingOrder {index:5;}">
+                <Coords points="4044,1375 4044,1488 4068,1551 4118,1574 4298,1574 4299,1422 4219,1437 4150,1414 4111,1374 4048,1372"/>
+                <Baseline points="4044,1522 4303,1522"/>
+                <TextEquiv>
+                    <Unicode>Vacat</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Vmb verkhauffte&#13;
+Heußer&#13;
+Item Vnndter diser Rubrigkhen Ist dises Funff&#13;
+Zechenhunndert dreyvnndsechzigisten Iars nichts&#13;
+gehanndlt worden, der halben auch nichts einkhomen&#13;
+Vacat</Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

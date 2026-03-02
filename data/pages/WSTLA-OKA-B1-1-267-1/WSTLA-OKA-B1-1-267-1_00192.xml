@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2025-07-15T12:48:22.219+02:00</Created>
+        <LastChange>2026-01-16T11:53:07.124+01:00</LastChange>
+        <TranskribusMetadata docId="9564798" pageId="100373716" pageNr="192" status="IN_PROGRESS" userId="261754" imgUrl="https://files.transkribus.eu/Get?fileType=view&amp;id=KQFGUEISWZMVUNOUEXCTVARO" imageId="84220966"/>
+    </Metadata>
+    <Page imageFilename="WSTLA-OKA-B1-1-267-1_00192.tif" imageWidth="6386" imageHeight="4746">
+        <ReadingOrder>
+            <OrderedGroup id="ro_63864746" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="region_163864746"/>
+                <RegionRefIndexed index="1" regionRef="region_263864746"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="region_163864746" custom="readingOrder {index:0;}">
+            <Coords points="0,0 3193,0 3193,4746 0,4746"/>
+        </TextRegion>
+        <TextRegion id="region_263864746" custom="readingOrder {index:1;}">
+            <Coords points="3193,0 6386,0 6386,4746 3193,4746"/>
+            <TextLine id="tl_1768559434">
+                <Coords points="5037,285 5029,270 4997,258 4954,262 4910,287 4845,348 4802,376 4756,394 4679,409 4586,412 4545,407 4478,389 4436,356 4371,292 4325,268 4287,261 4203,259 4088,265 4050,272 4012,290 4000,302 3984,335 3990,434 3986,457 3988,699 4010,718 4058,722 4648,721 4795,704 4837,695 4962,684 5000,667 5046,612 5048,382"/>
+                <Baseline points="3984,606 5048,606"/>
+            </TextLine>
+            <TextLine id="tl_1768559433">
+                <Coords points="5567,893 5554,875 5432,837 5311,826 4918,829 3944,865 3863,878 3812,924 3797,977 3794,1024 3799,1034 3815,1040 3871,1045 4390,1044 4777,1014 5095,1009 5537,979 5564,968"/>
+                <Baseline points="3794,988 5567,988"/>
+            </TextLine>
+        </TextRegion>
+    </Page>
+</PcGts>

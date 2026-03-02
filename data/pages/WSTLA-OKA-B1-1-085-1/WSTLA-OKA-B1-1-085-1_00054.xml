@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2025-08-19T09:37:33.933+02:00</Created>
+        <LastChange>2026-01-16T15:37:14.686+01:00</LastChange>
+        <TranskribusMetadata docId="10165481" pageId="101866735" pageNr="54" status="IN_PROGRESS" userId="234" imgUrl="https://files.transkribus.eu/Get?fileType=view&amp;id=QDOVVRVVRRYLGSUIHKKUSHKP" imageId="85446669"/>
+    </Metadata>
+    <Page imageFilename="WSTLA-OKA-B1-1-085-1_00054.tif" imageWidth="5243" imageHeight="3861">
+        <ReadingOrder>
+            <OrderedGroup id="ro_52433861" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="region_152433861"/>
+                <RegionRefIndexed index="1" regionRef="region_252433861"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="region_152433861" custom="readingOrder {index:0;}">
+            <Coords points="0,0 2621,0 2621,3861 0,3861"/>
+        </TextRegion>
+        <TextRegion id="region_252433861" custom="readingOrder {index:1;}">
+            <Coords points="2622,0 5243,0 5243,3861 2622,3861"/>
+            <TextLine id="tl_1768574216">
+                <Coords points="2971,488 2969,681 2974,714 2982,727 3031,753 3106,776 3200,823 3245,835 3366,839 4236,835 4412,823 4480,800 4490,783 4490,559 4487,541 4473,520 4447,503 4361,483 4296,480 4249,461 4176,442 4139,421 4026,408 4041,390 3933,383 3750,382 3652,373 3535,379 3379,403 3210,411 3141,426 3028,441 2982,468"/>
+                <Baseline points="2969,721 4490,721"/>
+            </TextLine>
+            <TextLine id="tl_1768574217">
+                <Coords points="3346,872 3348,899 3356,920 3381,938 3447,948 3785,959 4222,958 4242,954 4251,949 4256,942 4258,928 4258,866 4254,855 4217,843 4123,833 4021,839 3912,835 3803,843 3753,843 3635,834 3393,830 3357,838 3349,854"/>
+                <Baseline points="3346,926 4258,926"/>
+            </TextLine>
+        </TextRegion>
+    </Page>
+</PcGts>

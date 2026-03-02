@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2025-08-28T09:12:49.053+02:00</Created>
+        <LastChange>2025-09-01T12:17:07.916+02:00</LastChange>
+        <TranskribusMetadata docId="10322582" pageId="102213864" pageNr="7" status="IN_PROGRESS" userId="261754" imgUrl="https://files.transkribus.eu/Get?id=HQSIBCEDWPWTMIOJSFYOJLUB&amp;fileType=view" imageId="85725203"/>
+    </Metadata>
+    <Page imageFilename="WSTLA-OKA-B1-1-196-1_00007.tif" imageWidth="4980" imageHeight="3980">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1756721827843" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="region_149803980"/>
+                <RegionRefIndexed index="1" regionRef="region_249803980"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="region_149803980" custom="readingOrder {index:0;}">
+            <Coords points="0,0 2490,0 2490,3980 0,3980"/>
+        </TextRegion>
+        <TextRegion id="region_249803980" custom="readingOrder {index:1;}">
+            <Coords points="2490,0 4980,0 4980,3980 2490,3980"/>
+            <TextLine id="line_1756721807483_2185" custom="readingOrder {index:0;}">
+                <Coords points="3057,424 3079,382 3130,283 3215,202 3513,299 3810,321 4197,384 4209,424 4209,532 4102,609 4027,534 3470,546 3215,584 3031,586 3025,517"/>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1756721809051_2188" custom="readingOrder {index:1;}">
+                <Coords points="3229,576 3298,556 3622,546 3954,540 3980,576 3980,657 3926,687 3387,665 3229,657"/>
+                <TextEquiv>
+                    <Unicode></Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>&#13;
+</Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

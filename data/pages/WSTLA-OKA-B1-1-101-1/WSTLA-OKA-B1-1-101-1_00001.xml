@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2025-03-11T13:33:15.953+01:00</Created>
+        <LastChange>2025-03-17T11:07:32.591+01:00</LastChange>
+        <TranskribusMetadata docId="7364631" pageId="93292037" pageNr="1" status="IN_PROGRESS" userId="261754" imgUrl="https://files.transkribus.eu/Get?id=YYFYNFIHZZIJIRFMUXSGOLPI&amp;fileType=view" imageId="78011692"/>
+    </Metadata>
+    <Page imageFilename="WSTLA-OKA-B1-1-101-1_00001.tif" imageWidth="3151" imageHeight="4223">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1742206052591" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="region_131514223"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="region_131514223" custom="readingOrder {index:0;}">
+            <Coords points="0,0 3149,-2 3149,4221 0,4223"/>
+            <TextLine id="line_1742202863530_15" custom="readingOrder {index:0;}">
+                <Coords points="651,723 2749,723 2749,1078 651,1078"/>
+                <TextEquiv>
+                    <Unicode>Ober Cammer Ambts</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1742202866246_18" custom="readingOrder {index:1;}">
+                <Coords points="1164,1090 2394,1090 2394,1406 1164,1406"/>
+                <TextEquiv>
+                    <Unicode>Raittung.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1742202868732_21" custom="readingOrder {index:2;}">
+                <Coords points="899,1501 2573,1501 2573,1993 899,1993"/>
+                <TextEquiv>
+                    <Unicode>1568</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Ober Cammer Ambts&#13;
+Raittung.&#13;
+1568</Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

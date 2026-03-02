@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=2.27.0:model_id=344665:lm=provided:date=02_06_2025_11:33</Creator>
+        <Created>2025-05-27T15:02:43.403+02:00</Created>
+        <LastChange>2025-06-04T13:32:23.317+02:00</LastChange>
+        <TranskribusMetadata docId="8715728" pageId="97835487" pageNr="108" tsid="246297687" status="IN_PROGRESS" userId="261754" imgUrl="https://files.transkribus.eu/Get?id=NEMAQWMVXNWRDTDJUXYDXKKO&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=MNOLIXNIQHLIQHHDVQBVVGKE" imageId="82034240"/>
+    </Metadata>
+    <Page imageFilename="97835487.tif" imageWidth="4947" imageHeight="4019">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1749036743317" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="region_149474019"/>
+                <RegionRefIndexed index="1" regionRef="region_249474019"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="region_149474019" custom="readingOrder {index:0;}">
+            <Coords points="0,0 2473,0 2473,4019 0,4019"/>
+            <TextLine id="tl_1748854788" custom="readingOrder {index:0;}">
+                <Coords points="648,1595 656,1698 679,1745 688,1791 688,1852 693,1863 713,1869 809,1843 1046,1847 1199,1864 1292,1849 1377,1843 1525,1848 1674,1863 1952,1859 1978,1855 1989,1841 1988,1773 1980,1735 1943,1699 1916,1687 1870,1682 1715,1680 1550,1683 1364,1694 1054,1693 948,1672 897,1648 877,1629 849,1618 822,1597 763,1573 718,1567 670,1571 652,1583"/>
+                <Baseline points="648,1792 1989,1792"/>
+                <TextEquiv>
+                    <Unicode>Summa 2000. f</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="region_249474019" custom="readingOrder {index:1;}">
+            <Coords points="2474,0 4947,0 4947,4019 2474,4019"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

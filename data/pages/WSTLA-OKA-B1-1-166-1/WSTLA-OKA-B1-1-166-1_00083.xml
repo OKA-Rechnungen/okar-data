@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2025-08-28T09:11:03.288+02:00</Created>
+        <LastChange>2025-09-01T11:14:27.887+02:00</LastChange>
+        <TranskribusMetadata docId="10322680" pageId="102213688" pageNr="83" status="IN_PROGRESS" userId="261754" imgUrl="https://files.transkribus.eu/Get?id=YGTYVZKGLSYWMZPUWBLYSZUF&amp;fileType=view" imageId="85724993"/>
+    </Metadata>
+    <Page imageFilename="WSTLA-OKA-B1-1-166-1_00083.tif" imageWidth="4950" imageHeight="4075">
+        <ReadingOrder>
+            <OrderedGroup id="ro_49504075" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="region_149504075"/>
+                <RegionRefIndexed index="1" regionRef="region_249504075"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="region_149504075" custom="readingOrder {index:0;}">
+            <Coords points="0,0 2475,0 2475,4075 0,4075"/>
+        </TextRegion>
+        <TextRegion id="region_249504075" custom="readingOrder {index:1;}">
+            <Coords points="2475,0 4950,0 4950,4075 2475,4075"/>
+            <TextLine id="tl_1756718029">
+                <Coords points="4383,719 4378,636 4338,600 4309,516 4322,458 4323,365 4299,332 4239,316 4116,315 4049,333 3971,382 3944,420 3917,435 3873,476 3811,494 3769,484 3760,466 3735,448 3706,404 3652,365 3579,341 3503,331 3202,323 3010,331 2929,349 2859,382 2845,417 2829,437 2812,447 2778,486 2684,542 2673,566 2680,619 2709,721 2731,751 2768,767 3243,774 3652,767 4302,775 4344,768 4374,752"/>
+                <Baseline points="2673,660 4383,660"/>
+            </TextLine>
+            <TextLine id="tl_1756718028">
+                <Coords points="3217,748 3879,748 3879,887 3217,887"/>
+                <Baseline points="3217,850 3879,850"/>
+            </TextLine>
+        </TextRegion>
+    </Page>
+</PcGts>

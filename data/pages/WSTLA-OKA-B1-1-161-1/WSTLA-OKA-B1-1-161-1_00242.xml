@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2025-08-28T09:09:17.941+02:00</Created>
+        <LastChange>2025-09-01T10:58:56.292+02:00</LastChange>
+        <TranskribusMetadata docId="10322659" pageId="102213490" pageNr="242" status="IN_PROGRESS" userId="261754" imgUrl="https://files.transkribus.eu/Get?id=OSLSHICHQFSJDNEZBLXOFLTR&amp;fileType=view" imageId="85724861"/>
+    </Metadata>
+    <Page imageFilename="WSTLA-OKA-B1-1-161-1_00243.tif" imageWidth="5049" imageHeight="3941">
+        <ReadingOrder>
+            <OrderedGroup id="ro_50493941" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="region_150493941"/>
+                <RegionRefIndexed index="1" regionRef="region_250493941"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="region_150493941" custom="readingOrder {index:0;}">
+            <Coords points="0,0 2524,0 2524,3941 0,3941"/>
+        </TextRegion>
+        <TextRegion id="region_250493941" custom="readingOrder {index:1;}">
+            <Coords points="2525,0 5049,0 5049,3941 2525,3941"/>
+            <TextLine id="tl_1756717035">
+                <Coords points="2586,180 4250,180 4250,627 2586,627"/>
+                <Baseline points="2586,513 4250,513"/>
+            </TextLine>
+            <TextLine id="tl_1756717036">
+                <Coords points="3241,631 3240,682 3242,737 3256,787 3258,809 3263,822 3269,825 3287,827 3343,826 3378,812 3400,807 3497,802 3514,804 3530,809 3550,810 3569,804 3613,798 3734,794 3757,789 3760,787 3763,780 3763,717 3761,708 3755,699 3738,686 3723,680 3667,671 3639,664 3620,654 3608,642 3587,630 3568,627 3529,631 3512,640 3494,643 3472,642 3438,631 3416,627 3316,627 3262,622 3248,623"/>
+                <Baseline points="3240,775 3763,775"/>
+            </TextLine>
+        </TextRegion>
+    </Page>
+</PcGts>

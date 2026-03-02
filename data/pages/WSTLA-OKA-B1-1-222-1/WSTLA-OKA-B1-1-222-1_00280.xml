@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2025-06-17T09:33:52.194+02:00</Created>
+        <LastChange>2025-09-15T16:05:10.728+02:00</LastChange>
+        <TranskribusMetadata docId="9076119" pageId="99171044" pageNr="280" status="IN_PROGRESS" userId="261754" imgUrl="https://files.transkribus.eu/Get?id=QPTXIRHRVKTLXSRCWPKORVQR&amp;fileType=view" imageId="83206905"/>
+    </Metadata>
+    <Page imageFilename="WSTLA-OKA-B1-1-222-1_00280.tif" imageWidth="5015" imageHeight="4303">
+        <ReadingOrder>
+            <OrderedGroup id="ro_50154303" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="region_150154303"/>
+                <RegionRefIndexed index="1" regionRef="region_250154303"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="region_150154303" custom="readingOrder {index:0;}">
+            <Coords points="0,0 2507,0 2507,4303 0,4303"/>
+        </TextRegion>
+        <TextRegion id="region_250154303" custom="readingOrder {index:1;}">
+            <Coords points="2508,0 5015,0 5015,4303 2508,4303"/>
+            <TextLine id="tl_1757944492">
+                <Coords points="4065,555 4050,537 4006,529 3863,560 3814,552 3746,523 3728,504 3695,486 3677,451 3641,432 3582,426 3518,431 3465,449 3390,488 3358,499 3315,521 3295,540 3267,552 3241,572 3193,595 3137,614 2989,639 2933,655 2878,677 2785,731 2750,756 2733,783 2730,860 2734,905 2750,912 2902,913 3217,899 3603,897 4004,876 4030,859 4055,819 4052,730 4042,683 4043,608"/>
+                <Baseline points="2730,789 4065,789"/>
+            </TextLine>
+            <TextLine id="tl_1757944491">
+                <Coords points="2927,885 4137,885 4137,1074 2927,1074"/>
+                <Baseline points="2927,1026 4137,1026"/>
+            </TextLine>
+        </TextRegion>
+    </Page>
+</PcGts>

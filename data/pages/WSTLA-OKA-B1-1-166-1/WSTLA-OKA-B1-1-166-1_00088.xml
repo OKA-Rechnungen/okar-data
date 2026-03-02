@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2025-08-28T09:11:04.050+02:00</Created>
+        <LastChange>2025-09-01T11:14:28.458+02:00</LastChange>
+        <TranskribusMetadata docId="10322680" pageId="102213691" pageNr="88" status="IN_PROGRESS" userId="261754" imgUrl="https://files.transkribus.eu/Get?id=JCAULCADCARERXVSCPBHBGEV&amp;fileType=view" imageId="85724996"/>
+    </Metadata>
+    <Page imageFilename="WSTLA-OKA-B1-1-166-1_00088.tif" imageWidth="4880" imageHeight="3959">
+        <ReadingOrder>
+            <OrderedGroup id="ro_48803959" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="region_148803959"/>
+                <RegionRefIndexed index="1" regionRef="region_248803959"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="region_148803959" custom="readingOrder {index:0;}">
+            <Coords points="0,0 2440,0 2440,3959 0,3959"/>
+        </TextRegion>
+        <TextRegion id="region_248803959" custom="readingOrder {index:1;}">
+            <Coords points="2440,0 4880,0 4880,3959 2440,3959"/>
+            <TextLine id="tl_1756717289">
+                <Coords points="3036,1873 3038,1956 3049,1965 3083,1971 3765,1970 4023,1954 4059,1946 4065,1939 4063,1865 4054,1859 4015,1851 3788,1848 3745,1852 3685,1865 3608,1876 3439,1876 3348,1867 3235,1845 3119,1843 3083,1846 3053,1854 3039,1864"/>
+                <Baseline points="3036,1939 4065,1939"/>
+            </TextLine>
+            <TextLine id="tl_1756717290">
+                <Coords points="3066,1979 3393,1979 3393,2081 3066,2081"/>
+                <Baseline points="3066,2054 3393,2054"/>
+            </TextLine>
+            <TextLine id="tl_1756717291">
+                <Coords points="4212,2116 4211,2110 4206,2103 4186,2096 4104,2087 4077,2080 4049,2065 4029,2050 4014,2032 3977,2026 3930,2031 3877,2046 3782,2062 3727,2063 3684,2057 3611,2055 3561,2061 3551,2066 3532,2096 3528,2109 3528,2129 3534,2166 3532,2183 3539,2198 3545,2202 3563,2204 3613,2204 3805,2198 4139,2159 4176,2153 4205,2143 4211,2136"/>
+                <Baseline points="3528,2158 4212,2158"/>
+            </TextLine>
+        </TextRegion>
+    </Page>
+</PcGts>

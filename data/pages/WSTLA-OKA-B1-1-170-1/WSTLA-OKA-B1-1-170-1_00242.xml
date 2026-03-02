@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=2.27.0:model_id=353485:lm=provided:date=10_06_2025_10:16</Creator>
+        <Created>2025-06-02T09:24:31.018+02:00</Created>
+        <LastChange>2025-06-10T15:28:50.417+02:00</LastChange>
+        <TranskribusMetadata docId="8812016" pageId="98074479" pageNr="242" tsid="246415375" status="IN_PROGRESS" userId="261754" imgUrl="https://files.transkribus.eu/Get?id=MLKWTCTZIGIXOXGKBZZIDEHB&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=FRFEXQPIJAMGPCAUDRDQXXDC" imageId="82236798"/>
+    </Metadata>
+    <Page imageFilename="98074479.tif" imageWidth="4823" imageHeight="4002">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1749562130418" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="region_148234002"/>
+                <RegionRefIndexed index="1" regionRef="region_248234002"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="region_148234002" custom="readingOrder {index:0;}">
+            <Coords points="0,0 2411,0 2411,4002 0,4002"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="region_248234002" custom="readingOrder {index:1;}">
+            <Coords points="2412,0 4823,0 4823,4002 2412,4002"/>
+            <TextLine id="tl_1748952950" custom="readingOrder {index:0;}">
+                <Coords points="2656,875 2660,898 2679,907 2918,908 3062,869 3202,855 3252,842 3485,832 3588,817 3878,813 3926,807 3939,799 3949,776 3950,725 3958,687 3985,659 3991,643 3997,585 3997,435 3981,408 3931,400 3877,403 3826,416 3766,422 3587,427 3491,419 3389,381 3366,358 3332,341 3309,313 3287,300 3265,262 3215,235 3154,229 3108,237 3076,266 3041,286 3033,319 2993,358 2984,434 2948,472 2938,508 2903,530 2873,558 2809,592 2787,611 2753,626 2707,670 2696,711 2667,752 2660,777"/>
+                <Baseline points="2656,736 3997,736"/>
+                <TextEquiv>
+                    <Unicode>Außgab auf</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tl_1748952951" custom="readingOrder {index:1;}">
+                <Coords points="2929,811 3967,811 3967,950 2929,950"/>
+                <Baseline points="2929,913 3967,913"/>
+                <TextEquiv>
+                    <Unicode>Khlaidung vndt opffer gelt ./.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

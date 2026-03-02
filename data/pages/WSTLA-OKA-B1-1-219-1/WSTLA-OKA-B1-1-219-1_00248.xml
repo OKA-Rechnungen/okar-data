@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2025-06-17T09:28:34.875+02:00</Created>
+        <LastChange>2025-09-10T16:46:27.317+02:00</LastChange>
+        <TranskribusMetadata docId="9076097" pageId="99169899" pageNr="248" status="GT" userId="261754" imgUrl="https://files.transkribus.eu/Get?id=AKCKGXJLQRMPHLSLFTZWHRFP&amp;fileType=view" imageId="83205672"/>
+    </Metadata>
+    <Page imageFilename="WSTLA-OKA-B1-1-219-1_00248.tif" imageWidth="5083" imageHeight="4087">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1757515586735" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="region_150834087"/>
+                <RegionRefIndexed index="1" regionRef="region_250834087"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="region_150834087" custom="readingOrder {index:0;}">
+            <Coords points="0,0 2541,0 2541,4087 0,4087"/>
+        </TextRegion>
+        <TextRegion id="region_250834087" custom="readingOrder {index:1;}">
+            <Coords points="2542,0 5083,0 5083,4087 2542,4087"/>
+            <TextLine id="tl_1756465158" custom="readingOrder {index:0;}">
+                <Coords points="3138,451 3132,480 3132,642 3127,674 3102,710 3099,734 3100,780 3105,795 3113,800 3173,804 3429,804 3782,798 3876,790 3985,787 4021,773 4033,761 4041,677 4060,624 4064,588 4065,483 4051,467 3911,457 3810,439 3756,441 3706,456 3674,460 3632,460 3599,455 3561,440 3495,403 3453,364 3445,345 3434,333 3394,320 3354,324 3206,392 3174,413"/>
+                <Baseline points="3099,683 4065,683"/>
+            </TextLine>
+            <TextLine id="tl_1756465157" custom="readingOrder {index:1;}">
+                <Coords points="3021,797 4047,798 4047,963 3021,962"/>
+                <Baseline points="3021,920 4118,920"/>
+            </TextLine>
+        </TextRegion>
+    </Page>
+</PcGts>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2025-08-19T09:55:29.970+02:00</Created>
+        <LastChange>2025-09-01T10:13:11.133+02:00</LastChange>
+        <TranskribusMetadata docId="10165879" pageId="101870407" pageNr="132" status="IN_PROGRESS" userId="261754" imgUrl="https://files.transkribus.eu/Get?id=WXZYKVPRCGEMPVJZFLFNVCKK&amp;fileType=view" imageId="85450360"/>
+    </Metadata>
+    <Page imageFilename="WSTLA-OKA-B1-1-113-1_00132.tif" imageWidth="4965" imageHeight="3898">
+        <ReadingOrder>
+            <OrderedGroup id="ro_49653898" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="region_149653898"/>
+                <RegionRefIndexed index="1" regionRef="region_249653898"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="region_149653898" custom="readingOrder {index:0;}">
+            <Coords points="0,0 2482,0 2482,3898 0,3898"/>
+        </TextRegion>
+        <TextRegion id="region_249653898" custom="readingOrder {index:1;}">
+            <Coords points="2483,0 4965,0 4965,3898 2483,3898"/>
+            <TextLine id="tl_1756713677">
+                <Coords points="3103,1548 3108,1560 3125,1566 3179,1571 4649,1569 4656,1557 4652,1481 4635,1474 4583,1469 3874,1476 3709,1472 3169,1443 3130,1446 3110,1453 3104,1465"/>
+                <Baseline points="3103,1539 4656,1539"/>
+            </TextLine>
+            <TextLine id="tl_1756713678">
+                <Coords points="3117,1612 3120,1650 3149,1660 4006,1696 4568,1696 4620,1686 4629,1679 4632,1664 4629,1588 4606,1579 3176,1575 3127,1583 3120,1593"/>
+                <Baseline points="3117,1665 4632,1665"/>
+            </TextLine>
+            <TextLine id="tl_1756713679">
+                <Coords points="3136,1655 3756,1655 3756,1776 3136,1776"/>
+                <Baseline points="3136,1745 3756,1745"/>
+            </TextLine>
+        </TextRegion>
+    </Page>
+</PcGts>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=2.27.0:model_id=344665:lm=provided:date=27_05_2025_14:33</Creator>
+        <Created>2025-05-27T13:28:22.570+02:00</Created>
+        <LastChange>2025-05-28T13:15:17.983+02:00</LastChange>
+        <TranskribusMetadata docId="8714515" pageId="97823933" pageNr="55" tsid="245539367" status="IN_PROGRESS" userId="261754" imgUrl="https://files.transkribus.eu/Get?id=RVISSIJJAGFRUKIPZWLFGUTL&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=MDKBEBWCLRVYJNGGYPPTPYZV" imageId="82023087"/>
+    </Metadata>
+    <Page imageFilename="97823933.tif" imageWidth="5043" imageHeight="4027">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1748430917983" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="region_150434027"/>
+                <RegionRefIndexed index="1" regionRef="region_250434027"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="region_150434027" custom="readingOrder {index:0;}">
+            <Coords points="0,0 2521,0 2521,4027 0,4027"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="region_250434027" custom="readingOrder {index:1;}">
+            <Coords points="2522,0 5043,0 5043,4027 2522,4027"/>
+            <TextLine id="tl_1748346593" custom="readingOrder {index:0;}">
+                <Coords points="3135,1536 3138,1596 3152,1603 3194,1609 3541,1608 3737,1611 3840,1617 4305,1617 4319,1615 4325,1601 4324,1521 4313,1515 4225,1508 3937,1507 3707,1485 3600,1470 3533,1470 3416,1481 3195,1481 3150,1505 3138,1523"/>
+                <Baseline points="3135,1578 4325,1578"/>
+                <TextEquiv>
+                    <Unicode>Summa Empfang des Trögler</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tl_1748346594" custom="readingOrder {index:1;}">
+                <Coords points="3542,1587 3785,1587 3785,1691 3542,1691"/>
+                <Baseline points="3542,1665 3785,1665"/>
+                <TextEquiv>
+                    <Unicode>Gföhl</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tl_1748346595" custom="readingOrder {index:2;}">
+                <Coords points="3436,2045 3448,2056 3664,2058 3756,2033 3980,1960 4022,1954 4132,1954 4165,1958 4212,1974 4255,1978 4436,1959 4534,1957 4622,1967 4674,1956 4688,1940 4690,1833 4683,1824 4668,1817 4482,1799 4351,1777 4105,1779 4026,1771 3955,1743 3891,1735 3615,1778 3566,1793 3533,1818 3512,1828 3467,1878 3452,1911 3447,1937 3455,2000 3449,2020 3452,2032"/>
+                <Baseline points="3436,1975 4690,1975"/>
+                <TextEquiv>
+                    <Unicode>Ø 335. f. 5. s. 2. d.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

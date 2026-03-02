@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15">
+    <Metadata>
+        <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=2.24.0:model_id=306733:lm=provided:date=25_03_2025_11:29</Creator>
+        <Created>2025-03-25T10:21:30.673+01:00</Created>
+        <LastChange>2026-01-15T11:50:16.500+01:00</LastChange>
+        <TranskribusMetadata docId="7611073" pageId="93963380" pageNr="241" status="GT" userId="261754" imgUrl="https://files.transkribus.eu/Get?fileType=view&amp;id=QIJILGDYVTIDCDFTHPGSMISU" imageId="78599382"/>
+    </Metadata>
+    <Page imageFilename="93963380.tif" imageWidth="5140" imageHeight="3751">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1743273973082" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="region_151403751"/>
+                <RegionRefIndexed index="1" regionRef="region_251403751"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="region_151403751" custom="readingOrder {index:0;}">
+            <Coords points="0,0 2570,0 2570,3751 0,3751"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="region_251403751" custom="readingOrder {index:1;}">
+            <Coords points="2570,0 5140,0 5140,3751 2570,3751"/>
+            <TextLine id="tl_1742895564" custom="readingOrder {index:0;} headline {offset:0; length:36; continued:true;}">
+                <Coords points="2815,364 2825,399 2855,433 2868,514 2876,529 2898,541 2963,554 3298,558 3722,525 4222,536 4533,520 4618,503 4630,484 4630,216 4602,201 4556,194 4468,200 4393,190 4279,159 4141,142 4009,164 3933,151 3902,128 3833,107 3753,93 3682,96 3485,135 3296,156 3212,138 3160,112 3073,130 3065,147 3062,183 3045,197 3004,213 2994,249 2943,262 2880,290 2856,324 2819,349"/>
+                <Baseline points="2815,441 4630,441"/>
+                <TextEquiv>
+                    <Unicode>Auf die Vleischhack</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tl_1742895565" custom="readingOrder {index:1;} headline {offset:0; length:36; continued:true;}">
+                <Coords points="3933,627 3956,648 3974,636 4006,531 3920,539 3915,524 3893,517 3866,515 3815,505 3788,505 3758,509 3728,510 3697,518 3674,519 3662,516 3636,516 3611,524 3604,530 3584,539 3563,544 3484,537 3444,540 3420,548 3416,552 3411,567 3400,581 3397,594 3398,647 3409,659 3419,661 3507,661 3580,654 3623,646 3677,640 3751,638 3778,634 3804,634 3865,639 3910,650 3922,647 3931,642"/>
+                <Baseline points="3397,622 3933,622"/>
+                <TextEquiv>
+                    <Unicode>her Ausgeben ./.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tl_1742895566" custom="readingOrder {index:2;}">
+                <Coords points="3396,1080 3710,1080 3710,1222 3396,1222"/>
+                <Baseline points="3396,1185 3710,1185"/>
+                <TextEquiv>
+                    <Unicode>Vacat.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Auf die Vleischhack
+her Ausgeben ./.
+Vacat.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

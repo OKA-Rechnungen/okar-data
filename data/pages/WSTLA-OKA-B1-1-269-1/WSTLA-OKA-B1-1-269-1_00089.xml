@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2025-07-15T12:51:45.559+02:00</Created>
+        <LastChange>2026-01-16T12:38:57.180+01:00</LastChange>
+        <TranskribusMetadata docId="9564895" pageId="100374099" pageNr="89" status="IN_PROGRESS" userId="261754" imgUrl="https://files.transkribus.eu/Get?fileType=view&amp;id=AEMLBYMAQTICGXDQDMKCYOFN" imageId="84221366"/>
+    </Metadata>
+    <Page imageFilename="WSTLA-OKA-B1-1-269-1_00089.tif" imageWidth="6256" imageHeight="4762">
+        <ReadingOrder>
+            <OrderedGroup id="ro_62564762" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="region_162564762"/>
+                <RegionRefIndexed index="1" regionRef="region_262564762"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="region_162564762" custom="readingOrder {index:0;}">
+            <Coords points="0,0 3128,0 3128,4762 0,4762"/>
+        </TextRegion>
+        <TextRegion id="region_262564762" custom="readingOrder {index:1;}">
+            <Coords points="3128,0 6256,0 6256,4762 3128,4762"/>
+            <TextLine id="tl_1768562747">
+                <Coords points="3683,285 3672,354 3649,401 3640,441 3638,608 3648,630 3689,660 3730,680 3828,701 4047,705 4243,720 4836,720 4855,712 4857,496 4852,480 4842,474 4509,403 4324,396 4270,385 4248,374 4191,322 4150,297 4059,261 3915,228 3856,224 3772,228 3732,241 3694,270"/>
+                <Baseline points="3638,596 4857,596"/>
+            </TextLine>
+            <TextLine id="tl_1768562746">
+                <Coords points="3723,944 3730,958 3777,981 3800,988 4864,989 5138,960 5203,940 5214,924 5214,807 5210,799 5195,793 5146,788 4240,803 4020,803 3854,788 3810,791 3777,799 3754,850 3740,859 3729,875"/>
+                <Baseline points="3723,938 5214,938"/>
+            </TextLine>
+        </TextRegion>
+    </Page>
+</PcGts>

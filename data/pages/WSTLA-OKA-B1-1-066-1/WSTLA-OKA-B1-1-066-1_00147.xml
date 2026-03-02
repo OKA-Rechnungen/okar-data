@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2025-09-11T13:53:05.952+02:00</Created>
+        <LastChange>2025-09-17T09:44:50.138+02:00</LastChange>
+        <TranskribusMetadata docId="10584800" pageId="102847965" pageNr="147" status="IN_PROGRESS" userId="261754" imgUrl="https://files.transkribus.eu/Get?id=LMXUEBOWBOTZGXICODXUTFLV&amp;fileType=view" imageId="86226840"/>
+    </Metadata>
+    <Page imageFilename="WSTLA-OKA-B1-1-066-1_00147.tif" imageWidth="5050" imageHeight="4004">
+        <ReadingOrder>
+            <OrderedGroup id="ro_50504004" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="region_150504004"/>
+                <RegionRefIndexed index="1" regionRef="region_250504004"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="region_150504004" custom="readingOrder {index:0;}">
+            <Coords points="0,0 2525,0 2525,4004 0,4004"/>
+        </TextRegion>
+        <TextRegion id="region_250504004" custom="readingOrder {index:1;}">
+            <Coords points="2525,0 5050,0 5050,4004 2525,4004"/>
+        </TextRegion>
+    </Page>
+</PcGts>
