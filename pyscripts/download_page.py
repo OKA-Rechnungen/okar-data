@@ -5,9 +5,28 @@ from pathlib import Path
 from xml.etree import ElementTree as ET
 
 import requests
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 METS_DIR = Path("./data/mets")
 PAGES_DIR = Path("./data/pages")
+
+_session: requests.Session | None = None
+
+
+def _get_session() -> requests.Session:
+    """Return a requests session with automatic retries on server errors."""
+    global _session
+    if _session is None:
+        _session = requests.Session()
+        retries = Retry(
+            total=5,
+            backoff_factor=2,
+            status_forcelist=[429, 500, 502, 503, 504],
+        )
+        _session.mount("https://", HTTPAdapter(max_retries=retries))
+        _session.mount("http://", HTTPAdapter(max_retries=retries))
+    return _session
 
 NAMESPACES = {
     "mets": "http://www.loc.gov/METS/",
@@ -73,7 +92,7 @@ def download_page_xml_from_mets(mets_file: Path) -> None:
             continue
 
         # Download the PAGE XML content first
-        response = requests.get(url)
+        response = _get_session().get(url, timeout=60)
         response.raise_for_status()
         content = response.content
 
