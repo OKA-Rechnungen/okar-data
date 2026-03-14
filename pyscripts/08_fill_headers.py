@@ -208,8 +208,13 @@ def populate_people(listperson, people):
 
 
 def populate_others(doc, values):
-    doc.xpath(".//tei:fileDesc/tei:titleStmt/tei:title[@level='a' and @type='main']",
-              namespaces=nsmap)[0].text = values["title"]
+    year = re.search(r"\b(\d{4})\b", values.get("startDate", ""))
+    year = year.group(1) if year else None
+    main_title = doc.xpath(
+        ".//tei:fileDesc/tei:titleStmt/tei:title[@level='a' and @type='main']",
+        namespaces=nsmap,
+    )[0]
+    main_title.text = f"Oberkammeramtsrechnung | {year}" if year else "Oberkammeramtsrechnung"
 
     # Find msDesc and add origDate and TOC
     mscontents = doc.xpath(".//tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msContents", namespaces=nsmap)[0]
