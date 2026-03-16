@@ -15,18 +15,27 @@
     </teiHeader>
     <text>
         <body>
-            <h2>Zur Quelle (</h2>
-            <p>Infos zu den Daten...</p>
+            <div type="contents">
+            <head rend="h2">Zur Quelle</head>
+               <p> 
+                    Die Rechnungsbücher sind eine zentrale Quelle für die mittelalterliche und frühneuzeitliche Stadtgeschichte Wiens und stellen somit bedeutende Denkmäler des österreichischen kulturellen Erbes dar. Sie erlauben Einblicke in die Geschichte, die sonst verwehrt blieben.
+                </p>
 
-	    <h2>Methodik</h2>
-	    <h3>Digitalisierung</h3>
-            <p>Lorem ipsum</p>
+  <p> 
+                    Die Ausgaben spiegeln die Aufgaben der Stadtverwaltung wider. Hier sind die städtischen Kasernen und andere städtische Gebäude ebenso zu finden wie die städtischen Wachen, die Bürgerschule bei St. Stephan oder die Uhr am Stephansdom.
+                </p>
+</div>
+<div type="contents">
+	    <head rend="h2">Methodik</head>
+	    <head rend="h3">Digitalisierung</head>
+            <p>In diesem DH-Projekt werden 289 Oberkammeramts-Rechnungsbücher der Stadt Wien aus der Zeit von 1424 bis 1768 digitalisiert.</p>
 
-	    <h3>Management</h3>
-            <p>Lorem ipsum</p>
+	    <head rend="h3">Management</head>
+            <p>Die dabei produzierten 150.000 Abbildungen werden in Goobi mit Metadaten angereichert und soweit möglich mit Hilfe der KI-gestützten Applikation Transkribus in moderne Schrift übertragen. Die Transkriptionen stellen die Basis für eine nachfolgende inhaltliche Tiefenerschließung dar.</p>
 
-	    <h3>Erschließung</h3>
-            <p>Lorem ipsum</p>
+	     <head rend="h3">Erschließung</head>
+            <p>Die Transkriptionen stellen die Basis für eine nachfolgende inhaltliche Tiefenerschließung dar. Zudem werden die bis dato nur rudimentär erschlossenen Rechnungen auch inhaltlich durchsuchbar sein.</p>
+</div>
         </body>
     </text>
 </TEI>
