@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Hinweise zur Volltextsuche</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p>Die Volltextsuche durchsucht die transkribierten Texte der Oberkammeramtsrechnungsbücher.
+                   Sie basiert auf <ref target="https://typesense.org/">Typesense</ref>, einer
+                   leistungsfähigen Open-Source-Suchmaschine. Im Folgenden finden Sie Hinweise
+                   und Tipps für eine effektive Nutzung der Suche.</p>
+            </div>
+
+            <div>
+                <p><hi rend="bold">Einfache Suche</hi></p>
+                <p>Geben Sie einen oder mehrere Suchbegriffe in das Suchfeld ein.
+                   Die Suche berücksichtigt den gesamten Volltext, den Dokumenttitel und die
+                   Dokumentkennung. Bereits während der Eingabe werden die Ergebnisse
+                   aktualisiert.</p>
+                <p>Beispiele:</p>
+                <list>
+                    <item><hi rend="italic">Torsteher</hi> — findet alle Dokumente, in denen Torsteher" vorkommt.</item>
+                    <item><hi rend="italic">Stephansdom</hi> — findet Einträge zum Stephansdom.</item>
+                    <item><hi rend="italic">Torsteher als</hi> — findet Dokumente, die die beiden Begriffe enthalten.</item>
+                </list>
+            </div>
+
+            <div>
+                <p><hi rend="bold">Unscharfe Suche (Fuzzy Search)</hi></p>
+                <p>Aktivieren Sie die Option „Unscharfe Suche aktivieren", um auch 
+                   Ergebnisse mit leicht abweichender Schreibweise zu finden.
+                   Dies ist besonders nützlich bei historischen Texten, in denen Begriffe
+                   in verschiedenen Schreibweisen vorkommen können, sowie bei Tippfehlern.</p>
+                <p>Beispiele:</p>
+                <list>
+                    <item><hi rend="italic">khirchen</hi> statt „Kirchen"</item>
+                    <item><hi rend="italic">weingartten</hi> statt „Weingarten"</item>
+                </list>
+            </div>
+
+            <div>
+                <p><hi rend="bold">Filter und Facetten</hi></p>
+                <p>Nutzen Sie die Filter auf der linken Seite, um die Ergebnismenge einzuschränken:</p>
+                <list>
+                    <item><hi rend="bold">Jahr</hi> — Eingrenzen auf einen bestimmten Zeitraum (von–bis).</item>
+                    <item><hi rend="bold">Kämmerer</hi> — Filtern nach dem jeweiligen Kämmerer.</item>
+                    <item><hi rend="bold">Inhalt</hi> — Filtern nach Dokumenten mit oder ohne Beilage.</item>
+                </list>
+                <p>Aktive Filter werden oberhalb der Ergebnisliste angezeigt und können dort
+                   einzeln entfernt oder über „Filter zurücksetzen" gemeinsam gelöscht werden.</p>
+            </div>
+
+            <div>
+                <p><hi rend="bold">Ergebnisanzeige</hi></p>
+                <p>Die Suchergebnisse werden als Tabelle mit Dokument, Seite und Trefferauszug
+                   angezeigt. Ein Klick auf den Dokumentnamen öffnet das Dokument in einem
+                   neuen Tab. Die Suchbegriffe werden im geöffneten Dokument farblich
+                   hervorgehoben.</p>
+            </div>
+
+            <div>
+                <p><hi rend="bold">Suche über die Navigationsleiste</hi></p>
+                <p>Sie können die Suche auch direkt über das Suchfeld in der Navigationsleiste
+                   starten. Das Suchfeld am oberen Seitenrand leitet Ihre Anfrage an die
+                   Volltextsuche weiter.</p>
+                <p>In der Einzelansicht eines Dokuments kann die Suche zusätzlich auf den
+                   aktuellen Band eingeschränkt werden (Checkbox „In diesem Band").</p>
+            </div>
+
+            <div>
+                <p><hi rend="bold">Tipps für historische Texte</hi></p>
+                <list>
+                    <item>Probieren Sie alternative historische Schreibweisen aus (z. B.
+                          „haus" / „hauß", „amt" / „ambt").</item>
+                    <item>Nutzen Sie die unscharfe Suche, um Schreibvarianten automatisch abzudecken.</item>
+                    <item>Beginnen Sie mit kürzeren Suchbegriffen und grenzen Sie die Ergebnisse
+                          anschließend über die Filter ein.</item>
+                </list>
+            </div>
+
+            <div>
+                <p><hi rend="bold">Technische Grundlage</hi></p>
+                <p>Die Volltextsuche verwendet <ref target="https://typesense.org/">Typesense</ref>,
+                   eine typo-tolerante Suchmaschine, die speziell für schnelle Volltextsuche
+                   optimiert ist. Weitere Informationen zur Suchsyntax und zu den Möglichkeiten
+                   von Typesense finden Sie in der
+                   <ref target="https://typesense.org/docs/guide/search.html">offiziellen Typesense-Suchdokumentation</ref>.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
