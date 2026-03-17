@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2025-03-11T13:33:16.229+01:00</Created>
+        <LastChange>2025-03-14T13:12:36.496+01:00</LastChange>
+        <TranskribusMetadata docId="7364631" pageId="93292038" pageNr="3" tsid="234493626" status="NEW" userId="261754" imgUrl="https://files.transkribus.eu/Get?id=PNXZELIRHCKFEGDBOFHMDVYX&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=THGWBIJMDXWHUJCULSEQLOLJ" imageId="78011693"/>
+    </Metadata>
+    <Page imageFilename="WSTLA-OKA-B1-1-101-1_00003.tif" imageWidth="5343" imageHeight="4046">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1741954356504" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="region_153434046"/>
+                <RegionRefIndexed index="1" regionRef="region_253434046"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="region_153434046" custom="readingOrder {index:0;}">
+            <Coords points="0,0 2671,0 2671,4046 0,4046"/>
+        </TextRegion>
+        <TextRegion id="region_253434046" custom="readingOrder {index:1;}">
+            <Coords points="2672,0 5343,0 5343,4046 2672,4046"/>
+            <TextLine id="tl_1741954323" custom="readingOrder {index:0;}">
+                <Coords points="5194,230 5178,217 5091,209 4381,209 3978,216 3583,252 3051,240 2968,247 2939,256 2930,354 2936,369 2970,378 3253,367 3483,369 3868,359 4283,372 4981,359 5114,336 5137,290 5179,256"/>
+                <Baseline points="2930,335 5194,335"/>
+            </TextLine>
+            <TextLine id="tl_1741954322" custom="readingOrder {index:1;}">
+                <Coords points="4154,433 4150,417 4120,401 4102,379 4046,362 3826,359 3652,365 3245,400 3040,404 2985,409 2962,416 2957,424 2956,498 2961,509 2976,515 3141,520 3501,516 3748,503 3879,513 3929,508 4005,489 4090,484 4139,474 4153,463"/>
+                <Baseline points="2956,479 4154,479"/>
+            </TextLine>
+        </TextRegion>
+    </Page>
+</PcGts>

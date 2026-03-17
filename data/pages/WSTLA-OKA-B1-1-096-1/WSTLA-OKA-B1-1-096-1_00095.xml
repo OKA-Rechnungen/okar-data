@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=2.23.0:model_id=289933:lm=provided:date=16_02_2025_15:26</Creator>
+        <Created>2025-02-14T11:37:49.804+01:00</Created>
+        <LastChange>2025-02-17T14:31:01.885+01:00</LastChange>
+        <TranskribusMetadata docId="6914252" pageId="91551015" pageNr="95" status="GT" userId="234" imgUrl="https://files.transkribus.eu/Get?id=JWUAJZZUZGOYVRABQQWCCHTQ&amp;fileType=view" imageId="76384780"/>
+    </Metadata>
+    <Page imageFilename="91551015.jpg" imageWidth="5560" imageHeight="3895">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1739799061885" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="region_155603895"/>
+                <RegionRefIndexed index="1" regionRef="region_255603895"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="region_155603895" custom="readingOrder {index:0;} structure {type:page_1;}">
+            <Coords points="0,0 2883,0 2883,3895 0,3895"/>
+            <TextLine id="tl_1739533924" custom="readingOrder {index:0;}">
+                <Coords points="1104,1531 1132,1655 2398,1653 2412,1549 1576,1522 1270,1421 1156,1448 1110,1507"/>
+                <Baseline points="1104,1616 2379,1616"/>
+                <TextEquiv>
+                    <Unicode>Bezallung des Entlechenndten gelt</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tl_1739533921" custom="readingOrder {index:1;}">
+                <Coords points="1229,1729 1365,1781 2235,1788 2289,1774 2329,1676 1999,1682 1853,1648 1229,1673"/>
+                <Baseline points="1229,1753 2329,1753"/>
+                <TextEquiv>
+                    <Unicode>Ø 6205 γ 6 s 20 d.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Bezallung des Entlechenndten gelt&#13;
+Ø 6205 γ 6 s 20 d.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="region_255603895" custom="readingOrder {index:1;} structure {type:page_2;}">
+            <Coords points="2920,0 5560,0 5560,3895 2920,3895"/>
+            <TextLine id="tl_1739533920" custom="readingOrder {index:0;} headline {offset:0; length:14; continued:true;}">
+                <Coords points="3438,191 3430,405 3382,469 3394,712 4801,675 4825,512 4630,392 4547,259 4424,272 4254,406 4128,425 4080,139 3830,179 3509,152"/>
+                <Baseline points="3381,568 4826,568"/>
+                <TextEquiv>
+                    <Unicode>Aufß Angießen:</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tl_1739533923" custom="readingOrder {index:1;} headline {offset:0; length:17; continued:true;}">
+                <Coords points="4550,677 4301,682 4198,651 4102,680 3944,662 3830,699 3860,768 3946,781 4462,792 4550,756"/>
+                <Baseline points="3830,756 4550,756"/>
+                <TextEquiv>
+                    <Unicode>der Traitmas etc.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tl_1739533922" custom="readingOrder {index:2;}">
+                <Coords points="3482,951 3501,1081 4803,1032 4801,923 4707,905 4345,945 3870,934 3595,881 3487,935"/>
+                <Baseline points="3482,1031 4803,1031"/>
+                <TextEquiv>
+                    <Unicode>Dises Funtzechenhunndert vnnd Dreyunndt</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tl_1739533919" custom="readingOrder {index:3;}">
+                <Coords points="4815,1033 3697,1045 3644,1056 3642,1138 4815,1138"/>
+                <Baseline points="3642,1125 4777,1125"/>
+                <TextEquiv>
+                    <Unicode>sechzigisten Iars Ist nichts auf die Rubrigkh</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tl_1739533925" custom="readingOrder {index:4;}">
+                <Coords points="3638,1122 4271,1122 4271,1259 3638,1259"/>
+                <Baseline points="3638,1224 4271,1224"/>
+                <TextEquiv>
+                    <Unicode>en Ausgeben worden etc.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1739716789179_550" custom="readingOrder {index:5;}">
+                <Coords points="3883,1379 4400,1379 4400,1661 3883,1661"/>
+                <TextEquiv>
+                    <Unicode>Vacat</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Aufß Angießen:&#13;
+der Traitmas etc.&#13;
+Dises Funtzechenhunndert vnnd Dreyunndt&#13;
+sechzigisten Iars Ist nichts auf die Rubrigkh&#13;
+en Ausgeben worden etc.&#13;
+Vacat</Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

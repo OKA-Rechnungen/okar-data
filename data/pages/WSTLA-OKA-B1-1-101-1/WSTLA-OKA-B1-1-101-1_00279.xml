@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2025-03-11T13:33:47.516+01:00</Created>
+        <LastChange>2025-03-17T11:30:15.243+01:00</LastChange>
+        <TranskribusMetadata docId="7364631" pageId="93292444" pageNr="279" tsid="234496053" status="NEW" userId="261754" imgUrl="https://files.transkribus.eu/Get?id=OVECHSRZNGHGGUDOKBZCBOSM&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=BLRFYCGUYCBXSMJHZHIQFKSQ" imageId="78012137"/>
+    </Metadata>
+    <Page imageFilename="WSTLA-OKA-B1-1-101-1_00279.tif" imageWidth="5124" imageHeight="4000">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1742207415243" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="region_151244000"/>
+                <RegionRefIndexed index="1" regionRef="region_251244000"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="region_151244000" custom="readingOrder {index:0;}">
+            <Coords points="0,0 2562,0 2562,4000 0,4000"/>
+            <TextLine id="tl_1742207401" custom="readingOrder {index:0;}">
+                <Coords points="2048,689 2035,627 2016,617 1987,613 1903,616 1866,625 1843,640 1757,661 1595,681 1268,681 1004,672 843,673 747,680 726,686 691,706 678,720 673,762 674,854 681,869 700,878 741,884 875,888 1830,890 2009,886 2036,881 2050,867"/>
+                <Baseline points="673,820 2050,820"/>
+            </TextLine>
+        </TextRegion>
+        <TextRegion id="region_251244000" custom="readingOrder {index:1;}">
+            <Coords points="2562,0 5124,0 5124,4000 2562,4000"/>
+            <TextLine id="tl_1742207400" custom="readingOrder {index:0;}">
+                <Coords points="3065,858 3069,890 3084,900 3128,915 3192,919 3420,914 3622,895 3833,894 4129,907 4295,903 4327,898 4344,889 4346,725 4340,713 4325,706 4271,704 4232,710 4139,713 4007,731 3912,731 3856,726 3674,740 3585,731 3431,694 3300,673 3227,654 3175,652 3124,667 3113,676 3106,798 3096,812 3071,830"/>
+                <Baseline points="3065,850 4346,850"/>
+            </TextLine>
+            <TextLine id="tl_1742207399" custom="readingOrder {index:1;}">
+                <Coords points="3923,885 3918,879 3888,877 3836,877 3835,878 3795,878 3794,879 3612,878 3611,879 3586,879 3568,884 3560,889 3558,898 3562,925 3564,928 3564,933 3566,936 3566,941 3568,946 3570,974 3571,976 3580,980 3585,984 3602,990 3625,995 3708,995 3727,990 3739,985 3759,981 3767,978 3816,977 3841,981 3850,984 3862,991 3870,994 3878,995 3890,993 3894,991 3901,984 3906,982 3909,979 3912,972 3919,965 3922,959"/>
+                <Baseline points="3558,964 3923,964"/>
+            </TextLine>
+        </TextRegion>
+    </Page>
+</PcGts>

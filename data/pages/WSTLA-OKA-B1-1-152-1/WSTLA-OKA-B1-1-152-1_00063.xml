@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=2.27.0:model_id=344665:lm=provided:date=27_05_2025_14:41</Creator>
+        <Created>2025-05-27T13:35:08.209+02:00</Created>
+        <LastChange>2025-06-03T11:04:36.637+02:00</LastChange>
+        <TranskribusMetadata docId="8714537" pageId="97824635" pageNr="63" tsid="245540640" status="IN_PROGRESS" userId="261754" imgUrl="https://files.transkribus.eu/Get?id=HVXBJDZXBEQRUQIJBKPFXGDR&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=LXJKIHBUFHUBBZQDTQFPXNBG" imageId="82023833"/>
+    </Metadata>
+    <Page imageFilename="97824635.tif" imageWidth="4970" imageHeight="4058">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1748941476637" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="region_149704058"/>
+                <RegionRefIndexed index="1" regionRef="region_249704058"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="region_149704058" custom="readingOrder {index:0;}">
+            <Coords points="0,0 2485,0 2485,4058 0,4058"/>
+            <TextLine id="tl_1748346966" custom="readingOrder {index:0;}">
+                <Coords points="863,768 868,776 885,780 1186,782 1477,799 1587,811 1826,811 1848,809 1859,801 1858,740 1851,735 1823,731 1724,726 1614,715 1491,723 1121,716 1018,707 960,696 920,692 877,694 864,702"/>
+                <Baseline points="863,779 1859,779"/>
+                <TextEquiv>
+                    <Unicode>Summa des völligen Empfangs</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tl_1748346963" custom="readingOrder {index:1;}">
+                <Coords points="902,808 903,862 911,868 934,871 1216,879 1546,878 1547,827 1545,816 1539,809 1514,803 1337,795 1214,795 1119,789 973,788 923,789 912,791 904,797"/>
+                <Baseline points="902,854 1547,854"/>
+                <TextEquiv>
+                    <Unicode>der Tändler Recht</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tl_1748346967" custom="readingOrder {index:2;}">
+                <Coords points="1075,939 1645,939 1645,1112 1075,1112"/>
+                <Baseline points="1075,1068 1645,1068"/>
+                <TextEquiv>
+                    <Unicode>20. f.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="region_249704058" custom="readingOrder {index:1;}">
+            <Coords points="2485,0 4970,0 4970,4058 2485,4058"/>
+            <TextLine id="tl_1748346964" custom="readingOrder {index:0;}">
+                <Coords points="4428,542 4427,418 4421,376 4358,332 4279,301 4152,240 4131,204 4085,175 4059,169 3711,170 3544,205 3427,203 3321,184 3201,178 2950,190 2904,203 2884,222 2874,348 2863,362 2862,378 2848,394 2844,423 2848,486 2893,564 2959,595 3001,601 3382,601 3570,589 4254,587 4401,573 4422,563"/>
+                <Baseline points="2844,493 4428,493"/>
+                <TextEquiv>
+                    <Unicode>Empfang Wein</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tl_1748346965" custom="readingOrder {index:1;}">
+                <Coords points="3913,630 3908,616 3902,611 3892,592 3869,578 3859,576 3782,574 3731,580 3669,580 3641,585 3572,592 3520,591 3496,587 3442,583 3413,584 3398,587 3390,591 3380,612 3373,618 3371,628 3371,678 3373,701 3377,712 3385,719 3395,723 3496,722 3532,717 3580,702 3610,696 3658,691 3711,691 3774,697 3791,701 3825,717 3840,720 3865,720 3888,714 3910,700 3913,693"/>
+                <Baseline points="3371,685 3913,685"/>
+                <TextEquiv>
+                    <Unicode>Zaiger Recht etc.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

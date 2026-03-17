@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=2.26.0:model_id=327853:lm=provided:date=24_04_2025_19:38</Creator>
+        <Created>2025-04-24T11:22:14.803+02:00</Created>
+        <LastChange>2025-04-28T10:31:59.000+02:00</LastChange>
+        <TranskribusMetadata docId="8116636" pageId="95701973" pageNr="111" tsid="241349446" status="GT" userId="261754" imgUrl="https://files.transkribus.eu/Get?id=HYYZANRHAPYUBYZDJYUNSYAK&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=OOLFSVOQQSCTSTQHPSQAESMB" imageId="80098546"/>
+    </Metadata>
+    <Page imageFilename="95701973.tif" imageWidth="4547" imageHeight="4006">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1745829119000" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="region_145474006"/>
+                <RegionRefIndexed index="1" regionRef="region_245474006"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="region_145474006" custom="readingOrder {index:0;}">
+            <Coords points="0,0 2273,0 2273,4006 0,4006"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="region_245474006" custom="readingOrder {index:1;}">
+            <Coords points="2274,0 4547,0 4547,4006 2274,4006"/>
+            <TextLine id="tl_1745490062" custom="readingOrder {index:0;}">
+                <Coords points="2616,1263 2616,1351 2622,1360 2661,1367 2957,1376 3457,1377 3669,1372 3685,1369 3692,1361 3691,1313 3679,1307 3636,1300 3525,1297 3426,1288 3311,1290 3181,1278 3095,1282 3053,1279 2979,1266 2928,1266 2868,1275 2824,1276 2786,1269 2709,1243 2624,1244 2619,1249"/>
+                <Baseline points="2616,1342 3692,1342"/>
+                <TextEquiv>
+                    <Unicode>Suma Sumarum thuen aller</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tl_1745490063" custom="readingOrder {index:1;} textStyle {offset:0; length:8;strikethrough:true;} unclear {offset:15; length:3;}">
+                <Coords points="2638,1388 2638,1436 2641,1446 2666,1461 2682,1481 2699,1484 3690,1484 3783,1479 3780,1475 3786,1471 3764,1467 3770,1463 3765,1459 3768,1450 3725,1417 3718,1389 3699,1383 2665,1372 2644,1376"/>
+                <Baseline points="2638,1456 3786,1456"/>
+                <TextEquiv>
+                    <Unicode>Außgaben Empfangen Zusamen benentlich</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1745490703089_1144" custom="readingOrder {index:2;}">
+                <Coords points="2931,1625 3012,1616 3304,1612 3679,1554 3942,1540 4010,1545 4019,1557 4020,1665 4016,1690 4006,1710 3957,1760 3942,1769 3835,1766 3610,1745 3364,1744 3135,1752 2931,1747"/>
+                <Baseline points="2931,1795 4020,1795"/>
+                <TextEquiv>
+                    <Unicode>87991. f. 5. s. 28. d</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

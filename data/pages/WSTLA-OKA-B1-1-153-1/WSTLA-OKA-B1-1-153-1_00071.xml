@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=2.27.0:model_id=344665:lm=provided:date=27_05_2025_14:49</Creator>
+        <Created>2025-05-27T13:59:26.076+02:00</Created>
+        <LastChange>2025-06-03T11:27:26.818+02:00</LastChange>
+        <TranskribusMetadata docId="8714937" pageId="97828978" pageNr="71" tsid="245543381" status="IN_PROGRESS" userId="261754" imgUrl="https://files.transkribus.eu/Get?id=XULSGQFYNVIIJWOOWLGVOJKP&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=ZUIIZRXLNKCBFVFECNKRKKID" imageId="82028115"/>
+    </Metadata>
+    <Page imageFilename="97828978.tif" imageWidth="4984" imageHeight="4100">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1748942846818" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="region_149844100"/>
+                <RegionRefIndexed index="1" regionRef="region_249844100"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="region_149844100" custom="readingOrder {index:0;}">
+            <Coords points="0,0 2492,0 2492,4100 0,4100"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="region_249844100" custom="readingOrder {index:1;}">
+            <Coords points="2492,0 4984,0 4984,4100 2492,4100"/>
+            <TextLine id="tl_1748347779" custom="readingOrder {index:0;}">
+                <Coords points="2640,561 2643,695 2653,731 2668,738 4101,742 4167,737 4213,719 4233,706 4238,682 4236,505 4228,470 4213,457 4169,445 4142,445 4065,468 3982,519 3923,526 3904,515 3879,484 3892,468 3878,425 3880,409 3867,398 3823,378 3752,359 3639,345 3478,347 3133,331 2883,330 2810,335 2751,350 2702,393 2688,470 2675,494 2650,519"/>
+                <Baseline points="2640,639 4238,639"/>
+                <TextEquiv>
+                    <Unicode>Empfang Brandt</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tl_1748347778" custom="readingOrder {index:1;}">
+                <Coords points="3973,746 3969,736 3963,732 3935,728 3737,724 3573,727 3358,739 3144,743 3099,748 3087,755 3084,769 3084,835 3088,844 3096,849 3157,860 3360,862 3474,854 3615,853 3784,832 3929,832 3959,824 3970,818 3974,802"/>
+                <Baseline points="3084,826 3974,826"/>
+                <TextEquiv>
+                    <Unicode>Wein handel Recht ./.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

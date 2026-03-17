@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15">
+    <Metadata>
+        <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=2.25.0:model_id=314193:lm=provided:date=31_03_2025_19:02</Creator>
+        <Created>2025-03-31T16:21:48.957+02:00</Created>
+        <LastChange>2026-01-15T11:52:07.574+01:00</LastChange>
+        <TranskribusMetadata docId="7714156" pageId="94275123" pageNr="10" status="IN_PROGRESS" userId="261754" imgUrl="https://files.transkribus.eu/Get?fileType=view&amp;id=FECBNVBRBXVOOGTHVXSPRVAL" imageId="78884643"/>
+    </Metadata>
+    <Page imageFilename="94275123.tif" imageWidth="5376" imageHeight="3966">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1743582435774" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="region_153763966"/>
+                <RegionRefIndexed index="1" regionRef="region_253763966"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="region_153763966" custom="readingOrder {index:0;}">
+            <Coords points="0,0 2688,0 2688,3966 0,3966"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="region_253763966" custom="readingOrder {index:1;}">
+            <Coords points="2688,0 5376,0 5376,3966 2688,3966"/>
+            <TextLine id="tl_1743432339" custom="readingOrder {index:0;} headline {offset:0; length:45; continued:true;}">
+                <Coords points="4365,239 4341,225 4275,215 4081,219 3842,184 3534,183 3478,188 3390,212 3315,253 3301,279 3288,285 3268,280 3251,257 3221,247 3183,215 3144,206 3062,200 2636,206 2611,214 2561,253 2548,273 2544,428 2553,474 2589,510 2602,539 2610,736 2667,778 2697,786 2925,787 3260,751 3557,740 3617,732 4284,723 4340,713 4366,686"/>
+                <Baseline points="2544,636 4366,636"/>
+                <TextEquiv>
+                    <Unicode>Empfang Resst</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tl_1743432340" custom="readingOrder {index:1;} headline {offset:0; length:45; continued:true;}">
+                <Coords points="2822,705 4253,705 4253,1038 2822,1038"/>
+                <Baseline points="2822,954 4253,954"/>
+                <TextEquiv>
+                    <Unicode>gelt Laut fertiger</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tl_1743432341" custom="readingOrder {index:2;} headline {offset:0; length:45; continued:true;}">
+                <Coords points="3143,1022 3644,1022 3743,1111 3644,1214 3143,1214"/>
+                <Baseline points="3143,1166 3644,1166"/>
+                <TextEquiv>
+                    <Unicode>Raittung ./.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

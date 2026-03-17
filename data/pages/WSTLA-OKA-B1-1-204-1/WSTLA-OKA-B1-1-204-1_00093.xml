@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2025-09-11T12:14:59.311+02:00</Created>
+        <LastChange>2025-10-01T20:39:16.082+02:00</LastChange>
+        <TranskribusMetadata docId="10582701" pageId="102838863" pageNr="93" status="IN_PROGRESS" userId="261754" imgUrl="https://files.transkribus.eu/Get?id=DVBYJPSKBDZYWVABYRVQYXBX&amp;fileType=view" imageId="86218039"/>
+    </Metadata>
+    <Page imageFilename="WSTLA-OKA-B1-1-204-1_00093.tif" imageWidth="4965" imageHeight="3979">
+        <ReadingOrder>
+            <OrderedGroup id="ro_49653979" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="region_149653979"/>
+                <RegionRefIndexed index="1" regionRef="region_249653979"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="region_149653979" custom="readingOrder {index:0;}">
+            <Coords points="0,0 2482,0 2482,3979 0,3979"/>
+        </TextRegion>
+        <TextRegion id="region_249653979" custom="readingOrder {index:1;}">
+            <Coords points="2483,0 4965,0 4965,3979 2483,3979"/>
+            <TextLine id="tl_1759343761">
+                <Coords points="2860,515 2864,560 2898,616 2947,635 2991,641 4026,645 4070,639 4077,619 4075,491 4060,470 4012,447 3878,443 3723,417 3653,420 3533,449 3484,450 3441,441 3398,411 3385,395 3367,301 3329,276 3312,271 3261,271 3214,281 3122,316 3105,334 3074,353 3060,383 3040,396 3016,423 2903,465 2862,504"/>
+                <Baseline points="2860,550 4077,550"/>
+            </TextLine>
+            <TextLine id="tl_1759343762">
+                <Coords points="3024,786 3030,797 3067,813 3328,815 3526,805 3826,804 4059,796 4087,791 4097,782 4097,676 4093,667 4085,661 4048,654 3771,655 3649,660 3584,653 3525,652 3442,659 3282,657 3111,663 3076,669 3061,677 3044,740 3027,769"/>
+                <Baseline points="3024,772 4097,772"/>
+            </TextLine>
+        </TextRegion>
+    </Page>
+</PcGts>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2025-08-28T09:13:24.869+02:00</Created>
+        <LastChange>2025-09-01T12:40:31.040+02:00</LastChange>
+        <TranskribusMetadata docId="10322582" pageId="102214439" pageNr="305" status="IN_PROGRESS" userId="261754" imgUrl="https://files.transkribus.eu/Get?id=QAZUTSHVLKDFXSBWZOIETOYK&amp;fileType=view" imageId="85725737"/>
+    </Metadata>
+    <Page imageFilename="WSTLA-OKA-B1-1-196-1_00306.tif" imageWidth="4851" imageHeight="4027">
+        <ReadingOrder>
+            <OrderedGroup id="ro_48514027" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="region_148514027"/>
+                <RegionRefIndexed index="1" regionRef="region_248514027"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="region_148514027" custom="readingOrder {index:0;}">
+            <Coords points="0,0 2425,0 2425,4027 0,4027"/>
+        </TextRegion>
+        <TextRegion id="region_248514027" custom="readingOrder {index:1;}">
+            <Coords points="2426,0 4851,0 4851,4027 2426,4027"/>
+            <TextLine id="tl_1756723104">
+                <Coords points="2810,434 2809,496 2814,527 2842,549 2857,581 2878,590 2895,606 2907,610 3625,611 3840,602 3885,592 3896,580 3903,513 3919,449 3920,420 3897,362 3887,349 3839,314 3795,301 3748,304 3679,300 3549,272 3326,254 3276,245 3106,243 3028,250 2977,271 2958,289 2933,299 2918,313 2895,325 2885,345 2853,368 2846,395 2815,419"/>
+                <Baseline points="2809,519 3920,519"/>
+            </TextLine>
+            <TextLine id="tl_1756723105">
+                <Coords points="2917,660 2917,696 2921,709 2929,714 2957,718 3819,718 3917,712 3931,705 3933,695 3932,654 3925,642 3880,623 3789,617 3465,616 3327,621 3184,607 2998,604 2960,607 2934,616 2922,636"/>
+                <Baseline points="2917,688 3933,688"/>
+            </TextLine>
+        </TextRegion>
+    </Page>
+</PcGts>

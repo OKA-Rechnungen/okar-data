@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=2.27.0:model_id=353485:lm=provided:date=11_06_2025_12:10</Creator>
+        <Created>2025-06-02T09:25:39.789+02:00</Created>
+        <LastChange>2025-06-12T10:43:24.230+02:00</LastChange>
+        <TranskribusMetadata docId="8812018" pageId="98074626" pageNr="246" tsid="247540976" status="IN_PROGRESS" userId="261754" imgUrl="https://files.transkribus.eu/Get?id=KMTLIFFBWRCEJSOKFCFCOCQC&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=LSPTYLZPXOBCTPOAGUSDBMRT" imageId="82237030"/>
+    </Metadata>
+    <Page imageFilename="98074626.tif" imageWidth="4815" imageHeight="4059">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1749717804230" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="region_148154059"/>
+                <RegionRefIndexed index="1" regionRef="region_248154059"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="region_148154059" custom="readingOrder {index:0;}">
+            <Coords points="0,0 2407,0 2407,4059 0,4059"/>
+            <TextLine id="tl_1749635625" custom="readingOrder {index:0;}">
+                <Coords points="770,1617 771,1700 786,1712 814,1716 931,1709 1164,1705 1834,1717 1921,1711 1967,1701 1976,1689 1971,1621 1961,1610 1925,1587 1823,1565 1738,1557 1647,1572 1571,1570 1519,1561 1447,1540 1396,1532 1340,1534 1296,1547 1274,1562 1227,1580 1177,1588 1134,1584 1042,1560 933,1517 882,1510 833,1514 817,1519 802,1559 777,1583"/>
+                <Baseline points="770,1663 1976,1663"/>
+                <TextEquiv>
+                    <Unicode>Summa Außgab auf Gem.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tl_1749635626" custom="readingOrder {index:1;}">
+                <Coords points="832,1697 1637,1697 1637,1820 832,1820"/>
+                <Baseline points="832,1787 1637,1787"/>
+                <TextEquiv>
+                    <Unicode>Statt Wienn Zeughauß</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tl_1749635627" custom="readingOrder {index:2;}">
+                <Coords points="810,2275 863,2280 912,2275 1038,2210 1046,2196 1091,2188 1160,2196 1299,2239 1476,2255 1601,2253 1654,2244 1727,2239 1799,2225 1833,2208 1897,2194 1956,2192 2021,2198 2068,2195 2092,2182 2093,2027 2087,2013 2071,2008 1926,2008 1889,2002 1829,1979 1806,1961 1783,1956 1701,1957 1621,1978 1566,1985 1512,1983 1451,1963 1408,1940 1388,1920 1279,1918 1226,1936 1201,1953 1175,1961 1154,1988 1125,1999 1109,2023 1080,2038 1062,2064 1034,2079 1010,2107 991,2118 981,2134 946,2153 925,2183 892,2209 881,2224 851,2236 838,2250 812,2262"/>
+                <Baseline points="810,2188 2093,2188"/>
+                <TextEquiv>
+                    <Unicode>1152. f 1 s 22 d.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="region_248154059" custom="readingOrder {index:1;}">
+            <Coords points="2408,0 4815,0 4815,4059 2408,4059"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

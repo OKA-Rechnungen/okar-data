@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=2.27.0:model_id=344665:lm=provided:date=02_06_2025_11:26</Creator>
+        <Created>2025-05-27T14:20:23.144+02:00</Created>
+        <LastChange>2025-06-04T11:02:43.985+02:00</LastChange>
+        <TranskribusMetadata docId="8715125" pageId="97831084" pageNr="93" tsid="245557784" status="IN_PROGRESS" userId="261754" imgUrl="https://files.transkribus.eu/Get?id=WOCCTBIAQIINBHFUFJIUCEVR&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=CDOHSKZAXMKCOVMAJFCQNGAP" imageId="82030287"/>
+    </Metadata>
+    <Page imageFilename="97831084.tif" imageWidth="4628" imageHeight="3754">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1749027763986" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="region_146283754"/>
+                <RegionRefIndexed index="1" regionRef="region_246283754"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="region_146283754" custom="readingOrder {index:0;}">
+            <Coords points="0,0 2314,0 2314,3754 0,3754"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="region_246283754" custom="readingOrder {index:1;}">
+            <Coords points="2314,0 4628,0 4628,3754 2314,3754"/>
+            <TextLine id="tl_1748352010" custom="readingOrder {index:0;}">
+                <Coords points="2346,542 2347,692 2354,738 2371,763 2399,776 2428,780 3079,785 3921,774 3985,757 4003,738 4007,719 4003,621 3991,600 3955,575 3930,505 3915,484 3915,464 3893,403 3873,367 3813,333 3701,300 3564,278 3329,265 3011,264 2819,254 2613,263 2530,280 2460,303 2413,335 2403,363 2396,465 2351,519"/>
+                <Baseline points="2346,650 4007,650"/>
+                <TextEquiv>
+                    <Unicode>Empfang Wax</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tl_1748352011" custom="readingOrder {index:1;}">
+                <Coords points="3133,742 3928,742 3928,842 3133,842"/>
+                <Baseline points="3133,817 3928,817"/>
+                <TextEquiv>
+                    <Unicode>khertzler Recht ./.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

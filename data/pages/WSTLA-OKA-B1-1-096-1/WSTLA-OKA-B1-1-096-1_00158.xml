@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=2.23.0:model_id=291473:lm=provided:date=16_02_2025_21:35</Creator>
+        <Created>2025-02-14T11:38:07.794+01:00</Created>
+        <LastChange>2025-02-16T21:37:23.540+01:00</LastChange>
+        <TranskribusMetadata docId="6914252" pageId="91551085" pageNr="158" status="GT" userId="234" imgUrl="https://files.transkribus.eu/Get?id=UIOEKFXPNVPIFSRWUEIKRMHD&amp;fileType=view" imageId="76384811"/>
+    </Metadata>
+    <Page imageFilename="91551085.jpg" imageWidth="5509" imageHeight="3904">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1739738243541" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="region_155093904"/>
+                <RegionRefIndexed index="1" regionRef="region_255093904"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="region_155093904" custom="readingOrder {index:0;} structure {type:page_1;}">
+            <Coords points="0,0 2754,0 2754,3904 0,3904"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="region_255093904" custom="readingOrder {index:1;} structure {type:page_2;}">
+            <Coords points="2755,0 5509,0 5509,3904 2755,3904"/>
+            <TextLine id="tl_1739533795" custom="readingOrder {index:0;} headline {offset:0; length:12; continued:true;}">
+                <Coords points="4675,483 4386,351 4241,206 3995,270 3390,208 3294,305 3239,797 3733,808 4127,720 4675,731"/>
+                <Baseline points="3239,656 4675,656"/>
+                <TextEquiv>
+                    <Unicode>Auf Teyhunng</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tl_1739533794" custom="readingOrder {index:1;} headline {offset:0; length:17; continued:true;}">
+                <Coords points="4212,706 3983,705 3815,723 3797,734 3797,821 3937,828 4091,807 4144,828 4199,827 4213,799"/>
+                <Baseline points="3797,796 4213,796"/>
+                <TextEquiv>
+                    <Unicode>des Vleischs etc.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

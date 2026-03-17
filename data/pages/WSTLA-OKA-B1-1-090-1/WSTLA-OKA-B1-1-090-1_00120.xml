@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2025-08-19T09:47:05.809+02:00</Created>
+        <LastChange>2026-01-16T14:53:37.038+01:00</LastChange>
+        <TranskribusMetadata docId="10165740" pageId="101868730" pageNr="120" status="IN_PROGRESS" userId="234" imgUrl="https://files.transkribus.eu/Get?fileType=view&amp;id=BJPWCDNHECVCYJCEAOFNZWMM" imageId="85448732"/>
+    </Metadata>
+    <Page imageFilename="WSTLA-OKA-B1-1-090-1_00120.tif" imageWidth="5377" imageHeight="3886">
+        <ReadingOrder>
+            <OrderedGroup id="ro_53773886" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="region_153773886"/>
+                <RegionRefIndexed index="1" regionRef="region_253773886"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="region_153773886" custom="readingOrder {index:0;}">
+            <Coords points="0,0 2688,0 2688,3886 0,3886"/>
+        </TextRegion>
+        <TextRegion id="region_253773886" custom="readingOrder {index:1;}">
+            <Coords points="2689,0 5377,0 5377,3886 2689,3886"/>
+            <TextLine id="tl_1768571399">
+                <Coords points="3069,314 3060,375 3061,469 3081,541 3108,562 3115,661 3125,715 3137,733 3133,753 3189,811 3250,818 3369,817 3587,802 4341,793 4562,785 4619,772 4640,741 4645,699 4643,599 4625,562 4560,529 4494,524 4397,536 4320,536 4118,516 3930,517 3878,512 3819,518 3768,511 3708,515 3595,489 3556,467 3538,447 3507,428 3437,332 3369,296 3281,287 3137,287 3079,294"/>
+                <Baseline points="3060,683 4645,683"/>
+            </TextLine>
+            <TextLine id="tl_1768571400">
+                <Coords points="3550,814 3549,864 3552,874 3554,875 3758,876 3829,874 3934,874 3945,869 3958,867 3962,862 3969,860 3972,854 3973,800 3971,791 3959,780 3936,775 3906,771 3839,772 3829,774 3817,771 3741,770 3703,772 3664,779 3615,777 3606,779 3585,780 3567,787 3567,792 3562,797 3559,804 3552,808"/>
+                <Baseline points="3549,848 3973,848"/>
+            </TextLine>
+        </TextRegion>
+    </Page>
+</PcGts>

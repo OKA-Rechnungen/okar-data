@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=2.23.0:model_id=292753:lm=provided:date=18_02_2025_21:57</Creator>
+        <Created>2025-02-18T15:31:08.267+01:00</Created>
+        <LastChange>2025-02-27T13:28:24.420+01:00</LastChange>
+        <TranskribusMetadata docId="6981834" pageId="91762669" pageNr="120" tsid="230937029" status="GT" userId="234" imgUrl="https://files.transkribus.eu/Get?id=TTLNOZMJIDWQNHMOKSWSSBJO&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=BAOTVYCNISCCOZZHZOJKQWLY" imageId="76570455"/>
+    </Metadata>
+    <Page imageFilename="0120_WSTLA-OKA-B1-1-095-1_00121.jpg" imageWidth="2280" imageHeight="1663">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1740659304420" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="region_122801663"/>
+                <RegionRefIndexed index="1" regionRef="region_222801663"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="region_122801663" custom="readingOrder {index:0;} structure {type:page_1;}">
+            <Coords points="0,0 1140,0 1140,1663 0,1663"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="region_222801663" custom="readingOrder {index:1;} structure {type:page_2;}">
+            <Coords points="1140,0 2280,0 2280,1663 1140,1663"/>
+            <TextLine id="tl_1739897127" custom="readingOrder {index:0;} headline {offset:0; length:14; continued:true;}">
+                <Coords points="1257,111 1288,259 1370,323 1436,319 1498,261 1885,261 1940,224 1935,136 1727,65 1651,125 1551,65 1406,45 1262,60"/>
+                <Baseline points="1257,254 1941,254"/>
+                <TextEquiv>
+                    <Unicode>Vmb verkhaufft</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tl_1739897128" custom="readingOrder {index:1;} headline {offset:0; length:5; continued:true;}">
+                <Coords points="1717,238 1591,244 1584,249 1585,308 1589,320 1600,328 1642,329 1656,339 1705,336 1717,310"/>
+                <Baseline points="1584,312 1717,312"/>
+                <TextEquiv>
+                    <Unicode>Visch</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

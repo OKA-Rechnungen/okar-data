@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=READ-COOP:name=PyLaia@TranskribusPlatform:version=2.23.0:model_id=292753:lm=provided:date=18_02_2025_21:57</Creator>
+        <Created>2025-02-18T15:31:08.234+01:00</Created>
+        <LastChange>2025-02-27T13:28:23.995+01:00</LastChange>
+        <TranskribusMetadata docId="6981834" pageId="91762624" pageNr="117" tsid="230104683" status="GT" userId="234" imgUrl="https://files.transkribus.eu/Get?id=YIWYGHRGXIBSLLMIEIKXDPKS&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=ZZRQLPRSNZRYMMFBMZWXKZCE" imageId="76570390"/>
+    </Metadata>
+    <Page imageFilename="0117_WSTLA-OKA-B1-1-095-1_00118.jpg" imageWidth="2300" imageHeight="1684">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1740659304026" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="region_123001684"/>
+                <RegionRefIndexed index="1" regionRef="region_223001684"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="region_123001684" custom="readingOrder {index:0;} structure {type:page_1;}">
+            <Coords points="0,0 1150,0 1150,1684 0,1684"/>
+            <TextLine id="tl_1739897204" custom="readingOrder {index:0;}">
+                <Coords points="363,477 384,580 421,605 580,582 994,595 1049,578 1038,531 716,542 566,517 552,446 520,434 372,456"/>
+                <Baseline points="362,563 1049,563"/>
+                <TextEquiv>
+                    <Unicode>Summa Emphanng Entlechnennden gelts</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tl_1739897205" custom="readingOrder {index:1;}">
+                <Coords points="959,616 955,585 921,580 504,594 552,629 590,637 957,625"/>
+                <Baseline points="504,622 959,622"/>
+                <TextEquiv>
+                    <Unicode>Ø 32500 γ s. d.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Summa Emphanng Entlechnennden gelts&#13;
+Ø 32500 γ s. d.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="region_223001684" custom="readingOrder {index:1;} structure {type:page_2;}">
+            <Coords points="1150,0 2300,0 2300,1684 1150,1684"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>
