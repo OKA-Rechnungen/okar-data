@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # Executable file that calls library maketei
 import glob
 import os
@@ -47,17 +47,23 @@ def get_info(doc):
             ".//tei:fileDesc/tei:titleStmt/tei:title[@type='desc' and @level='a']",
             namespaces=nsmap,
         )
-        ttltitle = ((desc_titles[0].text or "").strip() if desc_titles else "")
+        ttltitle = (desc_titles[0].text or "").strip() if desc_titles else ""
 
-        bibl_date = doc.xpath(".//tei:fileDesc/tei:sourceDesc/tei:bibl/tei:date", namespaces=nsmap)
-        bibl_date_text = ((bibl_date[0].text or "").strip() if bibl_date else "")
+        bibl_date = doc.xpath(
+            ".//tei:fileDesc/tei:sourceDesc/tei:bibl/tei:date", namespaces=nsmap
+        )
+        bibl_date_text = (bibl_date[0].text or "").strip() if bibl_date else ""
         date = extract_year(first_title_text, bibl_date_text) or ""
 
-    srctitle_elem = doc.xpath(".//tei:fileDesc/tei:sourceDesc/tei:bibl/tei:title", namespaces=nsmap)
-    srctitle = ((srctitle_elem[0].text or "").strip() if srctitle_elem else "")
+    srctitle_elem = doc.xpath(
+        ".//tei:fileDesc/tei:sourceDesc/tei:bibl/tei:title", namespaces=nsmap
+    )
+    srctitle = (srctitle_elem[0].text or "").strip() if srctitle_elem else ""
 
-    srcidno_elem = doc.xpath(".//tei:fileDesc/tei:sourceDesc/tei:bibl/tei:idno", namespaces=nsmap)
-    srcidno = ((srcidno_elem[0].text or "").strip() if srcidno_elem else "")
+    srcidno_elem = doc.xpath(
+        ".//tei:fileDesc/tei:sourceDesc/tei:bibl/tei:idno", namespaces=nsmap
+    )
+    srcidno = (srcidno_elem[0].text or "").strip() if srcidno_elem else ""
     return (ttltitle, date, srctitle, srcidno)
 
 
@@ -86,7 +92,9 @@ for input_file in glob.glob(os.path.join(source_directory, "*.xml")):
 
     # Insert the new header from template at the beginning
     root.insert(0, new_header)
-    titleStmt = root.xpath(".//tei:teiHeader/tei:fileDesc/tei:titleStmt", namespaces=nsmap)[0]
+    titleStmt = root.xpath(
+        ".//tei:teiHeader/tei:fileDesc/tei:titleStmt", namespaces=nsmap
+    )[0]
     bibl = root.xpath(".//tei:sourceDesc/tei:bibl", namespaces=nsmap)[0]
     print(existing_info[0])
 
@@ -96,7 +104,9 @@ for input_file in glob.glob(os.path.join(source_directory, "*.xml")):
         namespaces=nsmap,
     )
     if main_title_de:
-        main_title_de[0].text = f"Oberkammeramtstrechnung | {year}" if year else "Oberkammeramtstrechnung"
+        main_title_de[0].text = (
+            f"Oberkammeramtstrechnung | {year}" if year else "Oberkammeramtstrechnung"
+        )
 
     # Create the desc title element and insert it at the top of titleStmt, after existing titles
     titleStmttitle = ET.Element("title", attrib={"level": "a", "type": "desc"})
@@ -123,8 +133,12 @@ for input_file in glob.glob(os.path.join(source_directory, "*.xml")):
         print(f"\t\tAdded standOff section to {input_file}")
 
     # Save the modified file
-    teifile.tree.write(input_file, encoding="utf-8", xml_declaration=True, pretty_print=True)
+    teifile.tree.write(
+        input_file, encoding="utf-8", xml_declaration=True, pretty_print=True
+    )
     print(f"\t\tUpdated teiHeader in {input_file}")
     i += 1
 
-print(f"Completed processing {i - 1} files. All teiHeaders have been replaced with the template.")
+print(
+    f"Completed processing {i - 1} files. All teiHeaders have been replaced with the template."
+)

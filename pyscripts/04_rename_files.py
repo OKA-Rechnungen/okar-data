@@ -22,11 +22,13 @@ def checkfile(filename):
 
 def getname(root):
     name = False
-    regex = re.compile(r'\d{4}_(WSTLA-OKA.*)')
-    docid = root.xpath('//tei:teiHeader//tei:title[@type="main"]',
-                       namespaces={"tei": "http://www.tei-c.org/ns/1.0"})[0].text
+    regex = re.compile(r"\d{4}_(WSTLA-OKA.*)")
+    docid = root.xpath(
+        '//tei:teiHeader//tei:title[@type="main"]',
+        namespaces={"tei": "http://www.tei-c.org/ns/1.0"},
+    )[0].text
     name = re.sub(regex, r"\g<1>", docid).replace(" ", "")
-    print(docid, '==>', name)
+    print(docid, "==>", name)
     return name
 
 
@@ -35,7 +37,7 @@ for current_filepath in glob.glob(os.path.join(directory, "*.xml")):
     try:
         xmltei = checkfile(current_filepath)
         current_file = f"{getname(xmltei)}.xml"
-        if not filename.startswith('WSTLA'):
+        if not filename.startswith("WSTLA"):
             new_filepath = os.path.join(directory, current_file)
             os.rename(current_filepath, new_filepath)
             print(f"{current_filepath}\t->\t{new_filepath}")

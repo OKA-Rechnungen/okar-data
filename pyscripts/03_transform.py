@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # 06
 import argparse
 import glob
@@ -55,7 +55,9 @@ def _prepare_xslt_files() -> str:
         "https://csae8092.github.io/page2tei/combine-continued.xsl",
         "combine-continued.xsl",
     )
-    download_xslt("https://csae8092.github.io/page2tei/string-pack.xsl", "string-pack.xsl")
+    download_xslt(
+        "https://csae8092.github.io/page2tei/string-pack.xsl", "string-pack.xsl"
+    )
     return LOCAL_XSLT
 
 
@@ -126,7 +128,9 @@ def _transform_with_java(
     java_opts: list[str],
 ) -> None:
     if not classpath:
-        raise SystemExit("Missing classpath. Set SAXON_CP/SAXON_JAR or pass --classpath.")
+        raise SystemExit(
+            "Missing classpath. Set SAXON_CP/SAXON_JAR or pass --classpath."
+        )
 
     missing: list[str] = []
     for entry in classpath.split(os.pathsep):
@@ -167,7 +171,9 @@ def _transform_with_java(
             subprocess.run(cmd, check=True, text=True)
             _postprocess_tei_file(tei_path)
         except subprocess.CalledProcessError as e:
-            print(f"Error processing {file}: Java Saxon failed with exit code {e.returncode}")
+            print(
+                f"Error processing {file}: Java Saxon failed with exit code {e.returncode}"
+            )
 
 
 def main() -> int:

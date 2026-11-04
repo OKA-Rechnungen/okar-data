@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 """Download PAGE XML files from METS files to data/pages."""
 import re
 from pathlib import Path
@@ -27,6 +27,7 @@ def _get_session() -> requests.Session:
         _session.mount("https://", HTTPAdapter(max_retries=retries))
         _session.mount("http://", HTTPAdapter(max_retries=retries))
     return _session
+
 
 NAMESPACES = {
     "mets": "http://www.loc.gov/METS/",

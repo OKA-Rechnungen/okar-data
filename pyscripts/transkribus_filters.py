@@ -48,7 +48,9 @@ def filter_doc_ids_with_transcriptions(client, col_id: str | int) -> List[str]:
     try:
         documents = client.list_docs(col_id)
     except Exception as exc:  # pragma: no cover - network errors
-        raise RuntimeError(f"Failed to list documents for collection {col_id}: {exc}") from exc
+        raise RuntimeError(
+            f"Failed to list documents for collection {col_id}: {exc}"
+        ) from exc
 
     selected: List[str] = []
     skipped_no_transcription: list[str] = []

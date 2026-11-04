@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 import glob
 import os
 from pathlib import Path
@@ -6,6 +6,7 @@ from saxonche import PySaxonProcessor
 from transkribus_utils.transkribus_utils import ACDHTranskribusUtils
 from add_missing_initial_page import ensure_placeholder
 from transkribus_filters import filter_doc_ids_with_transcriptions
+
 user = os.environ.get("TR_USER")
 pw = os.environ.get("TR_PW")
 XSLT = "https://csae8092.github.io/page2tei/page2tei-0.xsl"

@@ -73,7 +73,11 @@ def first_local_graphic(surface) -> Optional[ET._Element]:  # type: ignore[name-
 def collect_existing_graphic_urls(root) -> set[str]:  # type: ignore[name-defined]
     """Collect all graphic @url values to avoid duplicates."""
 
-    return {node.get("url") for node in root.xpath(".//tei:graphic", namespaces=NSMAP) if node.get("url")}
+    return {
+        node.get("url")
+        for node in root.xpath(".//tei:graphic", namespaces=NSMAP)
+        if node.get("url")
+    }
 
 
 def resolve_image_name_file(doc_id: str) -> Optional[Path]:
@@ -128,6 +132,7 @@ def apply_image_name_mapping(path: str, root, facsimile) -> bool:  # type: ignor
         index += 1
 
     return changed
+
 
 def extract_surface_id(value: Optional[str]) -> Optional[str]:
     """Return the base surface xml:id (e.g. ``facs_123``) from a facs attribute."""
@@ -305,7 +310,9 @@ def update_id_references(root, id_map: Dict[str, str]) -> bool:  # type: ignore[
             for old, new in replacements:
                 if old not in new_value:
                     continue
-                new_value, token_replaced = replace_standalone_token(new_value, old, new)
+                new_value, token_replaced = replace_standalone_token(
+                    new_value, old, new
+                )
                 if token_replaced:
                     changed = True
             if new_value != value:
@@ -331,7 +338,11 @@ def normalise_surface_ids(root, facsimile) -> bool:  # type: ignore[name-defined
             placeholder = surface
             continue
         graphic = first_local_graphic(surface)
-        parsed = parse_numeric_suffix(graphic.get("url", "")) if graphic is not None else None
+        parsed = (
+            parse_numeric_suffix(graphic.get("url", ""))
+            if graphic is not None
+            else None
+        )
         if parsed:
             numeric_bucket.append((parsed[1], index, surface))
         else:
@@ -382,7 +393,11 @@ def synchronise_page_breaks(root, facsimile) -> bool:  # type: ignore[name-defin
     if not pb_nodes:
         return False
 
-    surfaces = [surface for surface in facsimile.findall(f"{TEI}surface") if surface.get(f"{XML}id") != "facs_0"]
+    surfaces = [
+        surface
+        for surface in facsimile.findall(f"{TEI}surface")
+        if surface.get(f"{XML}id") != "facs_0"
+    ]
     if not surfaces:
         return False
 
@@ -509,7 +524,9 @@ def ensure_placeholder(path: str) -> bool:
     if not surfaces:
         if updated:
             ET.indent(root, space="  ")
-            tei.tree.write(path, encoding="utf-8", xml_declaration=True, pretty_print=True)
+            tei.tree.write(
+                path, encoding="utf-8", xml_declaration=True, pretty_print=True
+            )
         return False
 
     numeric_surfaces = surface_numeric_details(facsimile, skip_placeholder=True)
@@ -529,34 +546,44 @@ def ensure_placeholder(path: str) -> bool:
     if first_real_surface is None:
         if updated:
             ET.indent(root, space="  ")
-            tei.tree.write(path, encoding="utf-8", xml_declaration=True, pretty_print=True)
+            tei.tree.write(
+                path, encoding="utf-8", xml_declaration=True, pretty_print=True
+            )
         return False
 
     if min_page_value is not None and min_page_value <= 1:
         if updated:
             ET.indent(root, space="  ")
-            tei.tree.write(path, encoding="utf-8", xml_declaration=True, pretty_print=True)
+            tei.tree.write(
+                path, encoding="utf-8", xml_declaration=True, pretty_print=True
+            )
         return updated
 
     local_graphic = first_local_graphic(first_real_surface)
     if local_graphic is None:
         if updated:
             ET.indent(root, space="  ")
-            tei.tree.write(path, encoding="utf-8", xml_declaration=True, pretty_print=True)
+            tei.tree.write(
+                path, encoding="utf-8", xml_declaration=True, pretty_print=True
+            )
         return updated
 
     parsed = parse_numeric_suffix(local_graphic.get("url", ""))
     if not parsed:
         if updated:
             ET.indent(root, space="  ")
-            tei.tree.write(path, encoding="utf-8", xml_declaration=True, pretty_print=True)
+            tei.tree.write(
+                path, encoding="utf-8", xml_declaration=True, pretty_print=True
+            )
         return updated
     prefix, value, width, extension = parsed
 
     if value <= 1:
         if updated:
             ET.indent(root, space="  ")
-            tei.tree.write(path, encoding="utf-8", xml_declaration=True, pretty_print=True)
+            tei.tree.write(
+                path, encoding="utf-8", xml_declaration=True, pretty_print=True
+            )
         return updated
 
     placeholder_url = f"{prefix}{value - 1:0{width}d}{extension}"
@@ -566,27 +593,37 @@ def ensure_placeholder(path: str) -> bool:
     if not pb_nodes:
         if updated:
             ET.indent(root, space="  ")
-            tei.tree.write(path, encoding="utf-8", xml_declaration=True, pretty_print=True)
+            tei.tree.write(
+                path, encoding="utf-8", xml_declaration=True, pretty_print=True
+            )
         return updated
 
     first_surface_id = first_real_surface.get(f"{XML}id")
-    first_pb_candidates = root.xpath(f".//tei:body//tei:pb[@facs='#{first_surface_id}']", namespaces=NSMAP)
+    first_pb_candidates = root.xpath(
+        f".//tei:body//tei:pb[@facs='#{first_surface_id}']", namespaces=NSMAP
+    )
     first_pb = first_pb_candidates[0] if first_pb_candidates else pb_nodes[0]
     if first_pb.get("n") == "0":
         if updated:
             ET.indent(root, space="  ")
-            tei.tree.write(path, encoding="utf-8", xml_declaration=True, pretty_print=True)
+            tei.tree.write(
+                path, encoding="utf-8", xml_declaration=True, pretty_print=True
+            )
         return updated
 
     placeholder_surface = facsimile.find(f"{TEI}surface[@{XML}id='facs_0']")
     if placeholder_surface is None and placeholder_url in existing_urls:
         if updated:
             ET.indent(root, space="  ")
-            tei.tree.write(path, encoding="utf-8", xml_declaration=True, pretty_print=True)
+            tei.tree.write(
+                path, encoding="utf-8", xml_declaration=True, pretty_print=True
+            )
         return updated
     surface_changed = False
     if placeholder_surface is None:
-        surface_attrs = {k: v for k, v in first_real_surface.attrib.items() if k != f"{XML}id"}
+        surface_attrs = {
+            k: v for k, v in first_real_surface.attrib.items() if k != f"{XML}id"
+        }
         placeholder_surface = ET.Element(f"{TEI}surface", attrib=surface_attrs)
         placeholder_surface.set(f"{XML}id", "facs_0")
         facsimile.insert(0, placeholder_surface)
@@ -609,14 +646,20 @@ def ensure_placeholder(path: str) -> bool:
 
     updated = updated or surface_changed
 
-    placeholder_pb_exists = bool(root.xpath('.//tei:pb[@facs="#facs_0"]', namespaces=NSMAP))
+    placeholder_pb_exists = bool(
+        root.xpath('.//tei:pb[@facs="#facs_0"]', namespaces=NSMAP)
+    )
     if not placeholder_pb_exists:
-        existing_pb_ids = {node.get(f"{XML}id") for node in pb_nodes if node.get(f"{XML}id")}
+        existing_pb_ids = {
+            node.get(f"{XML}id") for node in pb_nodes if node.get(f"{XML}id")
+        }
 
         new_pb = ET.Element(f"{TEI}pb")
         new_pb.set("facs", "#facs_0")
         new_pb.set("n", compute_leading_n(first_pb.get("n")))
-        new_pb.set(f"{XML}id", compute_leading_id(first_pb.get(f"{XML}id"), existing_pb_ids))
+        new_pb.set(
+            f"{XML}id", compute_leading_id(first_pb.get(f"{XML}id"), existing_pb_ids)
+        )
 
         first_pb.addprevious(new_pb)
         updated = True

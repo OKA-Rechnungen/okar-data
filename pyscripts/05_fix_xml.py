@@ -9,8 +9,8 @@ from pathlib import Path
 
 import lxml.etree as ET
 
-LOCAL_TIF_RE = re.compile(r'^\d+\.tif$', re.IGNORECASE)
-COUNTER_RE = re.compile(r'(\d+)(\.[^.]+)$')
+LOCAL_TIF_RE = re.compile(r"^\d+\.tif$", re.IGNORECASE)
+COUNTER_RE = re.compile(r"(\d+)(\.[^.]+)$")
 
 BASENAME = "/"
 XML_NS = "http://www.w3.org/XML/1998/namespace"
@@ -39,20 +39,20 @@ def _write_tree(tree: ET._ElementTree, path: Path) -> None:
 
 
 def _fix_graphic_urls(root: ET._Element, volume_name: str) -> None:
-    for graphic in root.xpath('.//tei:graphic', namespaces=TEI_NS):
-        url = graphic.get('url')
-        if not url or url.lower().startswith('http'):
+    for graphic in root.xpath(".//tei:graphic", namespaces=TEI_NS):
+        url = graphic.get("url")
+        if not url or url.lower().startswith("http"):
             continue
 
         # Derive the sequential page number from the parent <surface xml:id="facs_N">.
         surface = graphic.getparent()
-        xml_id = surface.get(f'{{{XML_NS}}}id') if surface is not None else None
-        if xml_id and '_' in xml_id:
-            page_num = xml_id.split('_')[1]
+        xml_id = surface.get(f"{{{XML_NS}}}id") if surface is not None else None
+        if xml_id and "_" in xml_id:
+            page_num = xml_id.split("_")[1]
             try:
                 target = f"{volume_name}_{int(page_num):05d}.tif"
                 if target != url:
-                    graphic.set('url', target)
+                    graphic.set("url", target)
                 continue
             except ValueError:
                 pass
@@ -60,8 +60,8 @@ def _fix_graphic_urls(root: ET._Element, volume_name: str) -> None:
         # Fallback: try to normalise the numeric suffix already in the URL.
         if LOCAL_TIF_RE.match(url):
             if xml_id:
-                id_suffix = xml_id.split('_')[1] if '_' in xml_id else xml_id
-                graphic.set('url', f"{volume_name}_{id_suffix}.tif")
+                id_suffix = xml_id.split("_")[1] if "_" in xml_id else xml_id
+                graphic.set("url", f"{volume_name}_{id_suffix}.tif")
             continue
 
         match = COUNTER_RE.search(url)
@@ -72,7 +72,7 @@ def _fix_graphic_urls(root: ET._Element, volume_name: str) -> None:
         padded = f"{int(counter):05d}.tif"
         target = f"{volume_name}_{padded}"
         if target != url:
-            graphic.set('url', target)
+            graphic.set("url", target)
 
 
 def _volume_name(filename: str) -> str:
@@ -82,7 +82,9 @@ def _volume_name(filename: str) -> str:
 
 def main() -> int:
     xml_files = sorted(
-        path for path in XML_DIR.iterdir() if path.name.startswith('WSTLA-OKA') and path.suffix == '.xml'
+        path
+        for path in XML_DIR.iterdir()
+        if path.name.startswith("WSTLA-OKA") and path.suffix == ".xml"
     )
 
     prev_entry: tuple[str, Path, ET._ElementTree] | None = None
@@ -94,14 +96,14 @@ def main() -> int:
         root = tree.getroot()
 
         volume_name = _volume_name(current_name)
-        root.set(f'{{{XML_NS}}}id', "".join(os.path.splitext(current_name)))
-        root.set(f'{{{XML_NS}}}base', BASENAME)
+        root.set(f"{{{XML_NS}}}id", "".join(os.path.splitext(current_name)))
+        root.set(f"{{{XML_NS}}}base", BASENAME)
 
         if prev_entry:
             prev_name, prev_path, prev_tree = prev_entry
-            prev_tree.getroot().set('next', current_name)
+            prev_tree.getroot().set("next", current_name)
             _write_tree(prev_tree, prev_path)
-            root.set('prev', prev_name)
+            root.set("prev", prev_name)
 
         _fix_graphic_urls(root, volume_name)
 

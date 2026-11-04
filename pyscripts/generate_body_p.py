@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # Executable file that calls library maketei
 import maketei
 import glob
@@ -30,9 +30,15 @@ def process_file(tkb_file):
     return tkb_file, filename, xml_current_root
 
 
-def update_links_and_write(prev_filepath, prev_filename, prev_xml_root, curr_filename, curr_xml_root):
-    curr_xml_root.attrib['prev'] = f"https://id.acdh.oeaw.ac.at/ofmgraz/teidocs/{prev_filename}"
-    prev_xml_root.attrib['next'] = f"https://id.acdh.oeaw.ac.at/ofmgraz/teidocs/{curr_filename}"
+def update_links_and_write(
+    prev_filepath, prev_filename, prev_xml_root, curr_filename, curr_xml_root
+):
+    curr_xml_root.attrib["prev"] = (
+        f"https://id.acdh.oeaw.ac.at/ofmgraz/teidocs/{prev_filename}"
+    )
+    prev_xml_root.attrib["next"] = (
+        f"https://id.acdh.oeaw.ac.at/ofmgraz/teidocs/{curr_filename}"
+    )
     print(f"update_links_and_write filepath {prev_filepath}")
     print(f"update_links_and_write filename {curr_filename}")
 
@@ -46,7 +52,9 @@ def update_links_and_write(prev_filepath, prev_filename, prev_xml_root, curr_fil
 tkb_files = glob.glob(path.join(tkb_directory, "*.xml"))
 
 with ThreadPoolExecutor() as executor:
-    future_to_file = {executor.submit(process_file, tkb_file): tkb_file for tkb_file in tkb_files}
+    future_to_file = {
+        executor.submit(process_file, tkb_file): tkb_file for tkb_file in tkb_files
+    }
 
     prev_filepath = None
     prev_filename = None
@@ -58,7 +66,9 @@ with ThreadPoolExecutor() as executor:
             continue
 
         if prev_filepath:
-            update_links_and_write(prev_filepath, prev_filename, prev_xml_root, filename, xml_current_root)
+            update_links_and_write(
+                prev_filepath, prev_filename, prev_xml_root, filename, xml_current_root
+            )
 
         prev_filepath = tkb_file
         prev_filename = filename

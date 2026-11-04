@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 import argparse
 import os
 import sys
@@ -70,7 +70,9 @@ def main(argv: list[str]) -> int:
     os.makedirs(mets_dir, exist_ok=True)
 
     transkribus_client = ACDHTranskribusUtils(
-        user=user, password=pw, transkribus_base_url="https://transkribus.eu/TrpServer/rest"
+        user=user,
+        password=pw,
+        transkribus_base_url="https://transkribus.eu/TrpServer/rest",
     )
 
     doc_id_subset = os.environ.get("TRANSKRIBUS_DOC_IDS", "")
@@ -78,7 +80,9 @@ def main(argv: list[str]) -> int:
         # --all means truly "all" regardless of other constraints.
         target_doc_ids: list[str] = []
     elif doc_id_subset:
-        target_doc_ids = [item.strip() for item in doc_id_subset.split(",") if item.strip()]
+        target_doc_ids = [
+            item.strip() for item in doc_id_subset.split(",") if item.strip()
+        ]
     else:
         target_doc_ids = []
 
@@ -96,19 +100,27 @@ def main(argv: list[str]) -> int:
             docs = transkribus_client.list_docs(col_id)
             eligible_doc_ids = [str(doc["docId"]) for doc in docs]
         else:
-            eligible_doc_ids = filter_doc_ids_with_transcriptions(transkribus_client, col_id)
+            eligible_doc_ids = filter_doc_ids_with_transcriptions(
+                transkribus_client, col_id
+            )
 
         if (not args.all) and target_doc_ids:
             print(f"Requested doc IDs: {', '.join(target_doc_ids)}")
-            eligible_doc_ids = [doc_id for doc_id in eligible_doc_ids if doc_id in target_doc_ids]
+            eligible_doc_ids = [
+                doc_id for doc_id in eligible_doc_ids if doc_id in target_doc_ids
+            ]
 
         if (not args.all) and args.gt:
             gt_doc_ids = set(get_gt_doc_ids(transkribus_client, col_id))
             print("Subset: ", len(gt_doc_ids))
-            eligible_doc_ids = [doc_id for doc_id in eligible_doc_ids if doc_id in gt_doc_ids]
+            eligible_doc_ids = [
+                doc_id for doc_id in eligible_doc_ids if doc_id in gt_doc_ids
+            ]
 
         if not eligible_doc_ids:
-            print(f"No eligible documents found for collection {col_id}, skipping download")
+            print(
+                f"No eligible documents found for collection {col_id}, skipping download"
+            )
             continue
 
         transkribus_client.collection_to_mets(
