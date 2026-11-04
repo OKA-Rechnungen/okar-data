@@ -1,0 +1,13 @@
+[project]
+name = "okar-data"
+version = "0.1.0"
+description = "OKA Rechnungen: okar-data"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [ 
+    "acdh-transkribus-utils",
+    "acdh_baserow_pyutils",
+    "acdh_tei_pyutils>=0.35",
+    "saxonche>=12.1.0",
+    "pandas>=2.1"
+]
