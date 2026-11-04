@@ -18,16 +18,12 @@ jobs:
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
     - name: Perform Checkout
-      uses: actions/checkout@v4
-    - name: Setup Java
-      uses: actions/setup-java@v4
-      with:
-        distribution: temurin
-        java-version: '21'
-    - name: Install Python Packages
-      run: pip install -U -r pyscripts/requirements.txt
+      uses: actions/checkout@v5
+    - name: Install the latest version of uv
+        uses: astral-sh/setup-uv@v8.2.0
     - name: Generate XML-PAGE
-      run: ./pyscripts/download_page.py
-    - uses: stefanzweifel/git-auto-commit-action@v5
+      run: |
+        uv run ./pyscripts/download_page.py
+    - uses: stefanzweifel/git-auto-commit-action@v7
       with:
         commit_message: Export and Transformation done
