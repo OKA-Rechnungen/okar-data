@@ -7892,7 +7892,7 @@
     </surface>
     <surface ulx="0" uly="0" lrx="4945" lry="4072" xml:id="facs_216">
       <graphic url="WSTLA-OKA-B1-1-168-1_00216.tif" width="4945px" height="4072px" />
-      <graphic url="https://files.transkribus.eu/Get?id=DIOCJSJINTRSCDBUVWOETPOQ&amp;fileType=view" width="4945px" height="4072px" />
+      <graphic url="https://files.transkribus.eu/Get?fileType=view&amp;id=DIOCJSJINTRSCDBUVWOETPOQ" width="4945px" height="4072px" />
       <zone points="0,0 2472,0 2472,4072 0,4072" rendition="TextRegion" xml:id="facs_216_region_149454072" />
       <zone points="2473,0 4945,0 4945,4072 2473,4072" rendition="TextRegion" xml:id="facs_216_region_249454072">
         <zone points="2523,183 4482,183 4482,706 2523,706" rendition="Line" xml:id="facs_216_tl_1748952902" />
@@ -8114,7 +8114,7 @@
     </surface>
     <surface ulx="0" uly="0" lrx="4940" lry="4039" xml:id="facs_221">
       <graphic url="WSTLA-OKA-B1-1-168-1_00221.tif" width="4940px" height="4039px" />
-      <graphic url="https://files.transkribus.eu/Get?id=VJMRCKFLRNYOPCSWAONNHBSI&amp;fileType=view" width="4940px" height="4039px" />
+      <graphic url="https://files.transkribus.eu/Get?fileType=view&amp;id=VJMRCKFLRNYOPCSWAONNHBSI" width="4940px" height="4039px" />
       <zone points="0,0 2470,0 2470,4039 0,4039" rendition="TextRegion" xml:id="facs_221_region_149404039">
         <zone points="718,680 717,751 721,769 786,780 925,784 1305,780 1619,785 1693,790 2086,788 2087,706 2048,694 2019,682 2001,663 1899,649 1732,641 1448,636 1062,652 923,632 822,629 786,632 739,652 723,664" rendition="Line" xml:id="facs_221_tl_1748952903" />
         <zone points="748,821 750,867 758,872 817,880 960,886 1038,895 1237,894 1391,885 1557,896 1672,893 1978,901 2004,899 2008,894 2008,844 1998,837 1947,829 1714,812 1583,797 1304,789 1138,800 806,801 758,809" rendition="Line" xml:id="facs_221_tl_1748952900" />
@@ -8266,7 +8266,7 @@
     </surface>
     <surface ulx="0" uly="0" lrx="4940" lry="4061" xml:id="facs_224">
       <graphic url="WSTLA-OKA-B1-1-168-1_00224.tif" width="4940px" height="4061px" />
-      <graphic url="https://files.transkribus.eu/Get?id=IVXTIWNEQAZIIAQNFMCEMOSO&amp;fileType=view" width="4940px" height="4061px" />
+      <graphic url="https://files.transkribus.eu/Get?fileType=view&amp;id=IVXTIWNEQAZIIAQNFMCEMOSO" width="4940px" height="4061px" />
       <zone points="0,0 2470,0 2470,4061 0,4061" rendition="TextRegion" xml:id="facs_224_region_149404061">
         <zone points="1975,720 1972,714 1942,708 1542,685 1493,686 1351,707 1152,700 1020,690 818,689 787,698 756,732 746,774 746,801 757,813 802,821 993,826 1126,838 1914,837 1962,830 1974,824" rendition="Line" xml:id="facs_224_tl_1748952941" />
         <zone points="725,843 726,920 783,934 828,939 933,944 1075,942 1217,947 1838,948 1941,940 1957,932 1957,894 1952,883 1923,876 1905,866 1849,857 1536,847 1360,859 1215,859 1138,855 981,834 818,829 739,831 728,835" rendition="Line" xml:id="facs_224_tl_1748952945" />
@@ -8315,7 +8315,7 @@
     </surface>
     <surface ulx="0" uly="0" lrx="4933" lry="4084" xml:id="facs_225">
       <graphic url="WSTLA-OKA-B1-1-168-1_00225.tif" width="4933px" height="4084px" />
-      <graphic url="https://files.transkribus.eu/Get?id=HKWQAOLINYCOVFHONDKOCLBB&amp;fileType=view" width="4933px" height="4084px" />
+      <graphic url="https://files.transkribus.eu/Get?fileType=view&amp;id=HKWQAOLINYCOVFHONDKOCLBB" width="4933px" height="4084px" />
       <zone points="0,0 2466,0 2466,4084 0,4084" rendition="TextRegion" xml:id="facs_225_region_149334084">
         <zone points="1956,750 1939,742 1808,737 1730,718 1681,714 1538,717 1451,712 1338,713 1099,736 956,731 837,716 787,714 744,726 735,737 726,831 736,844 789,859 883,860 1010,869 1177,869 1230,865 1423,869 1559,861 1914,857 1943,854 1957,848" rendition="Line" xml:id="facs_225_tl_1748952915" />
         <zone points="731,890 733,966 749,974 1245,975 1347,965 1788,965 1923,949 1928,940 1927,899 1920,892 1879,881 1783,868 1691,868 1619,873 1464,872 1397,882 1354,884 1260,878 1144,891 1092,891 885,868 793,864 743,873 735,878" rendition="Line" xml:id="facs_225_tl_1748952918" />
@@ -17306,16 +17306,18 @@
         </ab>
         <pb facs="#facs_216" n="216" xml:id="img_0216" />
         <milestone xml:id="ms0071" unit="section" n="118r" type="section" subtype="Ausgaben auf die Kantorei bei St. Stephan" ana="#span0071" /><ab facs="#facs_216_region_249454072" n="118r" ana="#span0071">
-          <lb facs="#facs_216_tl_1748952902" n="N001" />Ausgab auf die Can
-               <lb facs="#facs_216_tl_1748952908" n="N002" />thorey bey St. Stephann
-               <lb facs="#facs_216_tl_1748952911" n="N003" />Den 20. Ianuarii Anno etc Sechtzehen
+          <lb facs="#facs_216_tl_1748952902" n="N001" />
+          <headline>Ausgab auf die Can</headline>
+          <lb facs="#facs_216_tl_1748952908" n="N002" />
+          <headline>thorey bey St. Stephann</headline>
+          <lb facs="#facs_216_tl_1748952911" n="N003" />Den 20. Ianuarii Anno etc Sechtzehen
                <lb facs="#facs_216_tl_1748952919" n="N004" />hundert Sechs vnnd Viertzig Zalte
                <lb facs="#facs_216_tl_1748952915" n="N005" />Ich Iohann Puechner Discant Geigern
                <lb facs="#facs_216_tl_1748952913" n="N006" />Zu St. Stephann sein mit Enndt 645.
                <lb facs="#facs_216_tl_1748952907" n="N007" />Verfallenes halb Iahriges deputat
                <lb facs="#facs_216_tl_1748952904" n="N008" />Benentlichen Fünff vnnd Zwaintzig
                <lb facs="#facs_216_tl_1748952903" n="N009" />gulden rh. Vermüg Quittung so hie
-               <lb facs="#facs_216_tl_1748952922" n="N010" />bey Idest 25 f - s - d.
+               <lb facs="#facs_216_tl_1748952922" n="N010" />bey Idest 25 f. - s. - d.
                <lb facs="#facs_216_tl_1748952909" n="N011" />Den 27. dito Zalte Ich Adamen Stöckhl
                <lb facs="#facs_216_tl_1748952916" n="N012" />Burger. Schneidern weegen für die
                <lb facs="#facs_216_tl_1748952906" n="N013" />Canthorey Khnaben Anno etc. 645. gemachten
@@ -17323,10 +17325,10 @@
                <lb facs="#facs_216_tl_1748952918" n="N015" />lohn vnnd andern darzue erkhaufften
                <lb facs="#facs_216_tl_1748952921" n="N016" />notturfften Benentlichen Siben
                <lb facs="#facs_216_tl_1748952912" n="N017" />tzehen gulden rh. Vermüg Quittung
-               <lb facs="#facs_216_tl_1748952917" n="N018" />so hiebey Idest 17 f - s - d.
+               <lb facs="#facs_216_tl_1748952917" n="N018" />so hiebey Idest 17 f. - s. - d.
                <lb facs="#facs_216_tl_1748952905" n="N019" />Ich Zalte auch frauen Maria Anna
                <lb facs="#facs_216_tl_1748952910" n="N020" />Winsauerin weegen der für die
-               <lb facs="#facs_216_tl_1748952920" n="N021" />Lattus 42 f - s - d.
+               <lb facs="#facs_216_tl_1748952920" n="N021" />Lattus 42 f. - s. - d.
             </ab>
         <pb facs="#facs_217" n="217" xml:id="img_0217" />
         <ab facs="#facs_217_region_149764089">
@@ -17334,21 +17336,21 @@
                <lb facs="#facs_217_tl_1748952893" n="N002" />Klaidern hergegebenen Hemetern
                <lb facs="#facs_217_tl_1748952901" n="N003" />Vberschlägl vnnd Strimpfen Nemb
                <lb facs="#facs_217_tl_1748952914" n="N004" />lichen Drey Zehen gulden 6 rh. Ver
-               <lb facs="#facs_217_tl_1748952906" n="N005" />müg Auß Zügl so hiebey Idest 13. f - s 24. d
+               <lb facs="#facs_217_tl_1748952906" n="N005" />müg Auß Zügl so hiebey Idest 13. f. - s. 24. d.
                <lb facs="#facs_217_tl_1748952902" n="N006" />Mehr Zalte Ich Herrn Iohann Wiersauer
                <lb facs="#facs_217_tl_1748952919" n="N007" />Canthorn Zu St. Stephann das auf
                <lb facs="#facs_217_tl_1748952907" n="N008" />Verwichenes 645.iste Iahr gebiehr
                <lb facs="#facs_217_tl_1748952909" n="N009" />unde Rorate geldt Benentlichen
                <lb facs="#facs_217_tl_1748952915" n="N010" />Sechs gulden rh. Vermüg Quittung
-               <lb facs="#facs_217_tl_1748952922" n="N011" />so hiebey Idest 6 f - s - d
+               <lb facs="#facs_217_tl_1748952922" n="N011" />so hiebey Idest 6 f. - s. - d.
                <lb facs="#facs_217_tl_1748952917" n="N012" />Den 23. Februarii Zalte Ich Herrn
                <lb facs="#facs_217_tl_1748952918" n="N013" />Iohann Winsauer Canthorn bey St.
                <lb facs="#facs_217_tl_1748952903" n="N014" />Stephann sein mit Quatember Remi
                <lb facs="#facs_217_tl_1748952920" n="N015" />nihscere verfallene Diensts Bsoldung
                <lb facs="#facs_217_tl_1748952910" n="N016" />Benentlichen Fünff vnnd Sibentzig
                <lb facs="#facs_217_tl_1748952904" n="N017" />gulden rh. Vermüg Quittung so hie
-               <lb facs="#facs_217_tl_1748952894" n="N018" />bey Idest 75 f - s - d
-               <lb facs="#facs_217_tl_1748952897" n="N019" />Lattus 94. f - s - d.
+               <lb facs="#facs_217_tl_1748952894" n="N018" />bey Idest 75 f. - s. - d.
+               <lb facs="#facs_217_tl_1748952897" n="N019" />Lattus 94. f. - s. - d.
             </ab>
         <ab facs="#facs_217_region_249764089">
           <lb facs="#facs_217_tl_1748952889" n="N001" />Eodem die Zalte Ich Ihme Herrn Win
@@ -17356,8 +17358,8 @@
                <lb facs="#facs_217_tl_1748952885" n="N003" />mit Quatember Reminihscere diß
                <lb facs="#facs_217_tl_1748952908" n="N004" />Iahr verfallene Quartal Diensts Bsol
                <lb facs="#facs_217_tl_1748952916" n="N005" />dung Benentlichen Siben vnnd Dreis
-               <lb facs="#facs_217_tl_1748952896" n="N006" />sig gulden rh. 4. s Vermüg Quittung
-               <lb facs="#facs_217_tl_1748952882" n="N007" />so hiebey Idest 37 f 4. s - d.
+               <lb facs="#facs_217_tl_1748952896" n="N006" />sig gulden rh. 4. s. Vermüg Quittung
+               <lb facs="#facs_217_tl_1748952882" n="N007" />so hiebey Idest 37 f. 4. s. - d.
                <lb facs="#facs_217_tl_1748952892" n="N008" />Ingleichen Zalte Ich auch Ihme Herrn
                <lb facs="#facs_217_tl_1748952911" n="N009" />Weinsauer weegen des absonder
                <lb facs="#facs_217_tl_1748952912" n="N010" />lichen durch Drey Canntores in der
@@ -17365,13 +17367,13 @@
                <lb facs="#facs_217_tl_1748952888" n="N012" />Gottes Diennst die mit endt diß
                <lb facs="#facs_217_tl_1748952900" n="N013" />Monnaths Verfallene Bsoldung Be
                <lb facs="#facs_217_tl_1748952891" n="N014" />nentlichen Siben vnnd Dreissig
-               <lb facs="#facs_217_tl_1748952887" n="N015" />gulden rh. 4. s Vermüg Quittung
-               <lb facs="#facs_217_tl_1748952899" n="N016" />so hiebey Idest 37 f 4 s - d.
+               <lb facs="#facs_217_tl_1748952887" n="N015" />gulden rh. 4. s. Vermüg Quittung
+               <lb facs="#facs_217_tl_1748952899" n="N016" />so hiebey Idest 37 f. 4 s. - d.
                <lb facs="#facs_217_tl_1748952884" n="N017" />Den 23. Martii Zalte Ich dem Iohann
                <lb facs="#facs_217_tl_1748952895" n="N018" />Conradten Saltzer Organisten
                <lb facs="#facs_217_tl_1748952905" n="N019" />weegen der bey St. Saluator Ver
                <lb facs="#facs_217_tl_1748952883" n="N020" />richten Son. vnnd Feyrtäglichen
-               <lb facs="#facs_217_tl_1748952898" n="N021" />Lattus 75. f - s - d.
+               <lb facs="#facs_217_tl_1748952898" n="N021" />Lattus 75. f. - s. - d.
             </ab>
         <pb facs="#facs_218" n="218" xml:id="img_0218" />
         <ab facs="#facs_218_region_149354081">
@@ -17379,12 +17381,12 @@
                <lb facs="#facs_218_tl_1748952891" n="N002" />fallene halb Iahrige Bsoldung alß
                <lb facs="#facs_218_tl_1748952894" n="N003" />von 20. Septemb. 645. bis 21. Febr.
                <lb facs="#facs_218_tl_1748952905" n="N004" />diß Iahr Nemblichen Funff Zehen gulden
-               <lb facs="#facs_218_tl_1748952884" n="N005" />Vermüg Quittung so hiebey Idest 15. f - s - d
+               <lb facs="#facs_218_tl_1748952884" n="N005" />Vermüg Quittung so hiebey Idest 15. f. - s. - d.
                <lb facs="#facs_218_tl_1748952915" n="N006" />Ingleichem Zalte Ich Ihme Organisten
                <lb facs="#facs_218_tl_1748952913" n="N007" />sein mit Quatember Reminihscere
                <lb facs="#facs_218_tl_1748952887" n="N008" />gebiehrundte Bsoldung Benentlichen
                <lb facs="#facs_218_tl_1748952909" n="N009" />Siben vnnd Dreissig gulden rh. 4 s.
-               <lb facs="#facs_218_tl_1748952898" n="N010" />Vermüg Quittung so hiebey Idest 37 f 4 s - d
+               <lb facs="#facs_218_tl_1748952898" n="N010" />Vermüg Quittung so hiebey Idest 37 f. 4 s. - d.
                <lb facs="#facs_218_tl_1748952896" n="N011" />Ich Zalte auch Herrn Vallentin Lehener
                <lb facs="#facs_218_tl_1748952885" n="N012" />des Aussern Raths vnnd handlßman
                <lb facs="#facs_218_tl_1748952899" n="N013" />weegen der für die Canthorey
@@ -17392,8 +17394,8 @@
                <lb facs="#facs_218_tl_1748952903" n="N015" />gebenen Tuechs Zu Ihren Windter
                <lb facs="#facs_218_tl_1748952904" n="N016" />Klaidern vber Sechs gulden abbruch
                <lb facs="#facs_218_tl_1748952906" n="N017" />noch die Verblibene Zwayhundert
-               <lb facs="#facs_218_line_1749541677324_105" n="N018" />Siben vnnd Sibentzig gulden 1. s 10 d.
-               <lb facs="#facs_218_tl_1748952879" n="N020" />Lattus 329 f 5 s 10 d.
+               <lb facs="#facs_218_line_1749541677324_105" n="N018" />Siben vnnd Sibentzig gulden 1. s. 10 d.
+               <lb facs="#facs_218_tl_1748952879" n="N020" />Lattus 329 f. 5 s. 10 d.
             </ab>
         <ab facs="#facs_218_region_249354081">
           <lb facs="#facs_218_tl_1748952888" n="N001" />Ebenermassen Zalte Ich weegen für
@@ -17402,21 +17404,21 @@
                <lb facs="#facs_218_tl_1748952893" n="N004" />hergegebenen vnnd gesprangten
                <lb facs="#facs_218_tl_1748952900" n="N005" />Spannischen Tuechs Sibentzehen gulden
                <lb facs="#facs_218_tl_1748952902" n="N006" />7. s. vermüg von Herrn Burgermaister
-               <lb facs="#facs_218_tl_1748952882" n="N007" />Vnnderschribenen AußZugs Idest 17 f 7. s - d.
+               <lb facs="#facs_218_tl_1748952882" n="N007" />Vnnderschribenen AußZugs Idest 17 f. 7. s. - d.
                <lb facs="#facs_218_tl_1748952883" n="N008" />Den 17. Maii Zalte Ich Hannßen Hainrichen
                <lb facs="#facs_218_tl_1748952910" n="N009" />Drischeuger Violisten Zu St. Stephann sein
                <lb facs="#facs_218_tl_1748952907" n="N010" />mit Georgi diß Iahr verfallene halb
                <lb facs="#facs_218_tl_1748952914" n="N011" />Iahrige Diennsts Bsoldung Benent
                <lb facs="#facs_218_line_1749541726243_129" n="N012" />lichen Zwaintzig gulden rh. Vermüg
-               <lb facs="#facs_218_tl_1748952881" n="N013" />Quittung so hiebey Idest 20 f - s - d.
+               <lb facs="#facs_218_tl_1748952881" n="N013" />Quittung so hiebey Idest 20 f. - s. - d.
                <lb facs="#facs_218_tl_1748952876" n="N014" />Den 19. dito Zalte Ich Herrn Iohann Win
                <lb facs="#facs_218_tl_1748952895" n="N015" />sauer Capellmaistern Zu St. Stephann
                <lb facs="#facs_218_tl_1748952911" n="N016" />das Ienige für die Neun Cantores auf
                <lb facs="#facs_218_tl_1748952889" n="N017" />diß Iahr Innen Zuestehennde Klaider
                <lb facs="#facs_218_tl_1748952892" n="N018" />geldt Benentlichen Ainhundert
                <lb facs="#facs_218_tl_1748952897" n="N019" />Acht gulden rh. Vermüg Quittung so
-               <lb facs="#facs_218_tl_1748952878" n="N020" />hiebey Idest 108 f - s - d.
-               <lb facs="#facs_218_tl_1748952880" n="N021" />Lattus 145 f 7 s - d.
+               <lb facs="#facs_218_tl_1748952878" n="N020" />hiebey Idest 108 f. - s. - d.
+               <lb facs="#facs_218_tl_1748952880" n="N021" />Lattus 145 f. 7 s. - d.
             </ab>
         <pb facs="#facs_219" n="219" xml:id="img_0219" />
         <ab facs="#facs_219_region_149704081">
@@ -17424,42 +17426,42 @@
                <lb facs="#facs_219_tl_1748952911" n="N002" />Winsauer sein auf diß Iahr Ihme Zue
                <lb facs="#facs_219_tl_1748952928" n="N003" />steheundes Klaider geldt Benent
                <lb facs="#facs_219_tl_1748952932" n="N004" />lichen Vier vnnd Zwaintzig gulden rh.
-               <lb facs="#facs_219_tl_1748952922" n="N005" />Vermüg Quittung so hiebey Idest 24 f - s - d
+               <lb facs="#facs_219_tl_1748952922" n="N005" />Vermüg Quittung so hiebey Idest 24 f. - s. - d.
                <lb facs="#facs_219_tl_1748952913" n="N006" />Nicht weniger Zalte Ich Ihme Herrn
                <lb facs="#facs_219_tl_1748952942" n="N007" />Winsauer sein mit H. Phüngsten
                <lb facs="#facs_219_tl_1748952934" n="N008" />diß Iahr verfallene Diennsts Bsoldung
                <lb facs="#facs_219_tl_1748952939" n="N009" />Benentlichen Fünff vnnd Sibentzig gul
-               <lb facs="#facs_219_tl_1748952917" n="N010" />den rh. Vermüg Quittung so hiebey Idest 75. f - s - d
+               <lb facs="#facs_219_tl_1748952917" n="N010" />den rh. Vermüg Quittung so hiebey Idest 75. f. - s. - d.
                <lb facs="#facs_219_tl_1748952925" n="N011" />Den 26. dito Zalte Ich dem Iohann Con
                <lb facs="#facs_219_tl_1748952943" n="N012" />raden Saltzer organisten Zu St.
                <lb facs="#facs_219_tl_1748952930" n="N013" />Stephann sein mit 23. Maii diß Iahr
                <lb facs="#facs_219_tl_1748952944" n="N014" />verfallene Quartal Diennsts Bsol
                <lb facs="#facs_219_tl_1748952946" n="N015" />dung Benentlichen Siben vnnd
-               <lb facs="#facs_219_tl_1748952945" n="N017" />tung so hiebey Idest 37 f 4 s - d
+               <lb facs="#facs_219_tl_1748952945" n="N017" />tung so hiebey Idest 37 f. 4 s. - d.
                <lb facs="#facs_219_tl_1748952941" n="N018" />Ebenmessig Zalte Ich Ihme organisten
-               <lb facs="#facs_219_tl_1748952931" n="N019" />Lattus 136 f 4 s - d.
+               <lb facs="#facs_219_tl_1748952931" n="N019" />Lattus 136 f. 4 s. - d.
             </ab>
         <ab facs="#facs_219_region_249704081">
           <lb facs="#facs_219_tl_1748952919" n="N001" />das auf diß Iahr Ihme Zuestendige Holtz
                <lb facs="#facs_219_tl_1748952920" n="N002" />Mehl Klaider vnnd Rorate geldt
                <lb facs="#facs_219_tl_1748952937" n="N003" />Benentlichen Dreissig gulden rh. Ver
-               <lb facs="#facs_219_tl_1748952909" n="N004" />müg Quittung so hiebey Idest 30 f - s - d.
+               <lb facs="#facs_219_tl_1748952909" n="N004" />müg Quittung so hiebey Idest 30 f. - s. - d.
                <lb facs="#facs_219_tl_1748952910" n="N005" />Den lesten dito Zalte Ich auch Hannßen
                <lb facs="#facs_219_tl_1748952915" n="N006" />Rauscher Burger. Schuestern weegen
                <lb facs="#facs_219_tl_1748952935" n="N007" />der für die Canthorey Khnaben Zu St.
                <lb facs="#facs_219_tl_1748952923" n="N008" />Stephann von 21. Ianuarii bis 9. Febr.
                <lb facs="#facs_219_tl_1748952927" n="N009" />diß Iahr gemachten Schuechen die dest
-               <lb facs="#facs_219_tl_1748952936" n="N010" />weegen eingesetzte Neün gulden 6. s 12 d.
-               <lb facs="#facs_219_tl_1748952933" n="N011" />Laut AußZügl so hiebey Idest 9 f 6 s 12 d.
+               <lb facs="#facs_219_tl_1748952936" n="N010" />weegen eingesetzte Neün gulden 6. s. 12 d.
+               <lb facs="#facs_219_tl_1748952933" n="N011" />Laut AußZügl so hiebey Idest 9 f. 6 s. 12 d.
                <lb facs="#facs_219_tl_1748952921" n="N012" />Auch Zalte Ich Weillendt Herrn Magin
                <lb facs="#facs_219_tl_1748952938" n="N013" />Clementen Appodeckhern hinderlassenen
                <lb facs="#facs_219_tl_1748952929" n="N014" />Wittib weegen der für die Canthorey
                <lb facs="#facs_219_tl_1748952924" n="N015" />Khnaben hergegebenen Medicin die dar
-               <lb facs="#facs_219_tl_1748952940" n="N016" />für eingestelten Vier gulden 6. s 12. d.
-               <lb facs="#facs_219_tl_1748952926" n="N017" />ut AußZügl so hiebey Idest 4 f 6 s 14 d.
+               <lb facs="#facs_219_tl_1748952940" n="N016" />für eingestelten Vier gulden 6. s. 12. d.
+               <lb facs="#facs_219_tl_1748952926" n="N017" />ut AußZügl so hiebey Idest 4 f. 6 s. 14 d.
                <lb facs="#facs_219_tl_1748952912" n="N018" />Den 11. Augustii Zalte Ich Herrn Iohann
                <lb facs="#facs_219_tl_1748952914" n="N019" />Puechner Discant Geigern Zu St. Stephann
-               <lb facs="#facs_219_tl_1748952918" n="N020" />Lattus 44 f 4. s 24. d.
+               <lb facs="#facs_219_tl_1748952918" n="N020" />Lattus 44 f. 4. s. 24. d.
             </ab>
         <pb facs="#facs_220" n="220" xml:id="img_0220" />
         <ab facs="#facs_220_region_149624076">
@@ -17468,21 +17470,21 @@
                <lb facs="#facs_220_tl_1748952928" n="N003" />diß Iahr verfallene halb Iahrige Bsol
                <lb facs="#facs_220_tl_1748952938" n="N004" />dungs deputat Benentlichen Fünff
                <lb facs="#facs_220_tl_1748952959" n="N005" />vnnd Zwaintzig gulden rh. Vermüg
-               <lb facs="#facs_220_tl_1748952936" n="N006" />Quittung so hiebey Idest 25 f - s - d.
+               <lb facs="#facs_220_tl_1748952936" n="N006" />Quittung so hiebey Idest 25 f. - s. - d.
                <lb facs="#facs_220_tl_1748952941" n="N007" />Ich Zalte auch dem Adamen Stöckhs Burger.
                <lb facs="#facs_220_tl_1748952939" n="N008" />Schneidern weegen der für die
                <lb facs="#facs_220_tl_1748952962" n="N009" />Canthorey Khnaben auf diß Iahr ge
                <lb facs="#facs_220_tl_1748952947" n="N010" />machten Somer Klaidern die vber
                <lb facs="#facs_220_tl_1748952960" n="N011" />abbruch Ain gulden 24. kr. noch schul
                <lb facs="#facs_220_tl_1748952942" n="N012" />dig Verblibene VierZehen gulden rh.
-               <lb facs="#facs_220_tl_1748952963" n="N013" />Vermüg Quittung so hiebey Idest 14 f - s -
+               <lb facs="#facs_220_tl_1748952963" n="N013" />Vermüg Quittung so hiebey Idest 14 f. - s. -
                <lb facs="#facs_220_tl_1748952934" n="N014" />Mehr Zalte Ich Herrn Iohann Winsauer
                <lb facs="#facs_220_tl_1748952958" n="N015" />Canthorn Zu St. Stephann für der
                <lb facs="#facs_220_tl_1748952961" n="N017" />Quatember Phüngsten diß Iahr verfallene Diensts
                <lb facs="#facs_220_tl_1748952955" n="N018" />Bsoldung Benentlichen Siben vnnd
-               <lb facs="#facs_220_tl_1748952957" n="N019" />Dreissig gulden 4. s vermüg Quit
-               <lb facs="#facs_220_tl_1748952954" n="N020" />tung so hiebey Idest 37 f 4 s -
-               <lb facs="#facs_220_tl_1748952925" n="N021" />Lattus 76 f 4 s - d.
+               <lb facs="#facs_220_tl_1748952957" n="N019" />Dreissig gulden 4. s. vermüg Quit
+               <lb facs="#facs_220_tl_1748952954" n="N020" />tung so hiebey Idest 37 f. 4 s. -
+               <lb facs="#facs_220_tl_1748952925" n="N021" />Lattus 76 f. 4 s. - d.
             </ab>
         <ab facs="#facs_220_region_249624076">
           <lb facs="#facs_220_tl_1748952948" n="N001" />Ich Zalte auch dem Maister Oßwaldten
@@ -17491,21 +17493,21 @@
                <lb facs="#facs_220_tl_1748952956" n="N004" />Klaidern hergegebenen Hietten sambt
                <lb facs="#facs_220_tl_1748952944" n="N005" />Schniern alß für Ieden Ain gulden 6. s.
                <lb facs="#facs_220_tl_1748952953" n="N006" />Zusamben Benentlichen Zehen gulden
-               <lb facs="#facs_220_tl_1748952923" n="N007" />4. s vermüg Quittung so hiebey Idest 10 f 4. s - d.
+               <lb facs="#facs_220_tl_1748952923" n="N007" />4. s. vermüg Quittung so hiebey Idest 10 f. 4. s. - d.
                <lb facs="#facs_220_tl_1748952935" n="N008" />Den 7. September Zalte Ich Hannsen
                <lb facs="#facs_220_tl_1748952945" n="N009" />Mackhe Burger. Schuestern für die
                <lb facs="#facs_220_tl_1748952943" n="N010" />von 29. April bis 27. Augustii
                <lb facs="#facs_220_tl_1748952929" n="N011" />diß Iahr denen Canthorey Khnaben
                <lb facs="#facs_220_tl_1748952933" n="N012" />gemachten Schuechen Benentlichen
                <lb facs="#facs_220_tl_1748952952" n="N013" />Sechs vnnd Dreissig gulden rh. Vermüg
-               <lb facs="#facs_220_tl_1748952926" n="N014" />Quittung so hiebey Idest 36 f - s - d.
+               <lb facs="#facs_220_tl_1748952926" n="N014" />Quittung so hiebey Idest 36 f. - s. - d.
                <lb facs="#facs_220_tl_1748952940" n="N015" />Den 16. dito Zalte Ich Herrn Conradten
                <lb facs="#facs_220_tl_1748952937" n="N016" />Khollman Media Dorn weegen Cur
                <lb facs="#facs_220_tl_1748952930" n="N017" />rierung obbemelter Khnaben die Ihme
                <lb facs="#facs_220_tl_1748952932" n="N018" />auf diß Iahr gebiehrundte Viertzehen
                <lb facs="#facs_220_tl_1748952931" n="N019" />gulden rh. Vermüg Quittung so hie
-               <lb facs="#facs_220_tl_1748952924" n="N020" />bey Idest 14 f - s - d.
-               <lb facs="#facs_220_tl_1748952951" n="N021" />Lattus 60. f 4. s - d.
+               <lb facs="#facs_220_tl_1748952924" n="N020" />bey Idest 14 f. - s. - d.
+               <lb facs="#facs_220_tl_1748952951" n="N021" />Lattus 60. f. 4. s. - d.
             </ab>
         <pb facs="#facs_221" n="221" xml:id="img_0221" />
         <ab facs="#facs_221_region_149404039">
@@ -17516,19 +17518,19 @@
                <lb facs="#facs_221_tl_1748952904" n="N005" />sambt des Callcanten auf diß Iahr
                <lb facs="#facs_221_tl_1748952896" n="N006" />verfallene halb Iahrige gebiehrnus
                <lb facs="#facs_221_tl_1748952891" n="N007" />Benentlichen Funfftzehen gulden rh.
-               <lb facs="#facs_221_tl_1748952873" n="N008" />Vermüg Quittung so hiebey Idest 15 f - s - d
+               <lb facs="#facs_221_tl_1748952873" n="N008" />Vermüg Quittung so hiebey Idest 15 f. - s. - d.
                <lb facs="#facs_221_tl_1748952886" n="N009" />Ebenmessig Zalte Ich gemeltem Or
                <lb facs="#facs_221_tl_1748952893" n="N010" />ganisten sein mit Michaeli diß
                <lb facs="#facs_221_tl_1748952888" n="N011" />Iahr verfallene Diennsts Bsoldung
                <lb facs="#facs_221_tl_1748952875" n="N012" />Benentlichen Siben vnnd Dreissig
-               <lb facs="#facs_221_tl_1748952910" n="N013" />gulden 4. s vermüg Quittung so
-               <lb facs="#facs_221_tl_1748952872" n="N014" />hiebey Idest 37 f 4. s -
+               <lb facs="#facs_221_tl_1748952910" n="N013" />gulden 4. s. vermüg Quittung so
+               <lb facs="#facs_221_tl_1748952872" n="N014" />hiebey Idest 37 f. 4. s. -
                <lb facs="#facs_221_tl_1748952882" n="N015" />Den 6. October Zalte Ich Herrn Iohann
                <lb facs="#facs_221_tl_1748952905" n="N016" />Winsauer Canthorn seine mit Michaeli
                <lb facs="#facs_221_tl_1748952887" n="N017" />diß Iahr verfallene Quartal Diensts
                <lb facs="#facs_221_tl_1748952894" n="N018" />Bsoldung Benentlichen Fünff vnnd
-               <lb facs="#facs_221_tl_1748952889" n="N019" />Sibentzig gulden ut Quittung Idest 75 f - s -
-               <lb facs="#facs_221_tl_1748952898" n="N020" />Lattus 127 f 4 s - d.
+               <lb facs="#facs_221_tl_1748952889" n="N019" />Sibentzig gulden ut Quittung Idest 75 f. - s. -
+               <lb facs="#facs_221_tl_1748952898" n="N020" />Lattus 127 f. 4 s. - d.
             </ab>
         <ab facs="#facs_221_region_249404039">
           <lb facs="#facs_221_tl_1748952897" n="N001" />Deßgleichen Zalte Ich Ihme Herrn Win
@@ -17537,7 +17539,7 @@
                <lb facs="#facs_221_tl_1748952879" n="N004" />angefangen hat Zu Phüngsten vnnd
                <lb facs="#facs_221_tl_1748952883" n="N005" />sich geendet Zu Michaeli Benent
                <lb facs="#facs_221_tl_1748952890" n="N006" />lichen Siben vnnd Dreissig gulden
-               <lb facs="#facs_221_tl_1748952877" n="N007" />4. s vermüg Quittung so hiebey Idest 37 f 4 s - d.
+               <lb facs="#facs_221_tl_1748952877" n="N007" />4. s. vermüg Quittung so hiebey Idest 37 f. 4 s. - d.
                <lb facs="#facs_221_tl_1748952871" n="N008" />Den 15. dito Zalte Ich Hannßen Hein
                <lb facs="#facs_221_tl_1748952874" n="N009" />richen Dischinger Violisten Zu St. Stephann
                <lb facs="#facs_221_tl_1748952907" n="N010" />weegen vnderschidlich bedienter
@@ -17545,23 +17547,23 @@
                <lb facs="#facs_221_tl_1748952909" n="N012" />diß Iahr verfallene halb Iahrige Diensts
                <lb facs="#facs_221_tl_1748952892" n="N013" />Bsoldung Benentlichen Zwaintzig
                <lb facs="#facs_221_tl_1748952906" n="N014" />gulden rh. Vermüg Quittung so hie
-               <lb facs="#facs_221_tl_1748952885" n="N015" />bey Idest 20 f - s - d.
+               <lb facs="#facs_221_tl_1748952885" n="N015" />bey Idest 20 f. - s. - d.
                <lb facs="#facs_221_tl_1748952870" n="N016" />Den 21. dito Zalte Ich Herrn Mathiaßen
                <lb facs="#facs_221_tl_1748952908" n="N017" />Voldtsperger des Aussern Raths
                <lb facs="#facs_221_tl_1748952902" n="N018" />vnnd Handlßman weegen der
                <lb facs="#facs_221_tl_1748952880" n="N019" />für die Canthorey Khnaben Zu St.
                <lb facs="#facs_221_tl_1748952881" n="N020" />Stephann Zu Ihren Wündter vnnd
-               <lb facs="#facs_221_tl_1748952895" n="N021" />Lattus 57 f 4 s - d.
+               <lb facs="#facs_221_tl_1748952895" n="N021" />Lattus 57 f. 4 s. - d.
             </ab>
         <pb facs="#facs_222" n="222" xml:id="img_0222" />
         <ab facs="#facs_222_region_149764037">
           <lb facs="#facs_222_tl_1748952920" n="N001" />Sommer Klaidern auf das 645.
                <lb facs="#facs_222_tl_1748952897" n="N002" />vnnd 646.iste Iahr auß dessen hand
                <lb facs="#facs_222_tl_1748952928" n="N003" />lung hergegebenen Wahren vnnd
-               <lb facs="#facs_222_tl_1748952930" n="N004" />Zeugen vber Zehen gulden 5. s abbruch
+               <lb facs="#facs_222_tl_1748952930" n="N004" />Zeugen vber Zehen gulden 5. s. abbruch
                <lb facs="#facs_222_tl_1748952939" n="N005" />Nemblichen den Rest mit Ainhundert
                <lb facs="#facs_222_tl_1748952932" n="N006" />Funfftzehen gulden rh. vermüg Quit
-               <lb facs="#facs_222_tl_1748952916" n="N007" />tierten AußZug so hiebey Idest 115 f - s - d.
+               <lb facs="#facs_222_tl_1748952916" n="N007" />tierten AußZug so hiebey Idest 115 f. - s. - d.
                <lb facs="#facs_222_tl_1748952911" n="N008" />Eß wierdt auch hiemit vnnd Zwar
                <lb facs="#facs_222_tl_1748952902" n="N009" />
           <unclear>nur</unclear> Gerichts weiß bey gebracht
@@ -17615,7 +17617,7 @@
                <lb facs="#facs_223_tl_1748952903" n="N007" />dem Ersten fest aller glaubigen Seellen
                <lb facs="#facs_223_tl_1748952904" n="N008" />gehaltenen Requiem vnnd Lob Ambts
                <lb facs="#facs_223_tl_1748952927" n="N009" />die darumben angeschaffte Zehen gulden
-               <lb facs="#facs_223_tl_1748952925" n="N010" />vermüg Quittung so hiebey Idest 10 f - s -
+               <lb facs="#facs_223_tl_1748952925" n="N010" />vermüg Quittung so hiebey Idest 10 f. - s. -
                <lb facs="#facs_223_tl_1748952923" n="N011" />Den lesten dito Zalte Ich gemeltem herrn
                <lb facs="#facs_223_tl_1748952922" n="N012" />Winsauer weegen Verrichter
                <lb facs="#facs_223_tl_1748952928" n="N013" />Gottes dienst in obbesagter Capellen
@@ -17623,18 +17625,18 @@
                <lb facs="#facs_223_tl_1748952921" n="N015" />diß Iahr verfallene halb Iährig vnnd 
                <lb facs="#facs_223_tl_1748952914" n="N016" />lesten Augustii diß Iahr gebiehrundte
                <lb facs="#facs_223_tl_1748952906" n="N017" />Diensts Bsoldung Benentlichen Siben
-               <lb facs="#facs_223_tl_1748952929" n="N018" />vnnd Dreissig gulden rh. 4. s vermüg
-               <lb facs="#facs_223_tl_1748952930" n="N019" />Quittung so hiebey Idest 37 f 4 s -
+               <lb facs="#facs_223_tl_1748952929" n="N018" />vnnd Dreissig gulden rh. 4. s. vermüg
+               <lb facs="#facs_223_tl_1748952930" n="N019" />Quittung so hiebey Idest 37 f. 4 s. -
                <lb facs="#facs_223_tl_1748952908" n="N020" />Den 22. Decemb. Zalte Ich dem Iohann
-               <lb facs="#facs_223_tl_1748952912" n="N021" />Lattus 47. f 4. s - d.
+               <lb facs="#facs_223_tl_1748952912" n="N021" />Lattus 47. f. 4. s. - d.
             </ab>
         <ab facs="#facs_223_region_249404062">
           <lb facs="#facs_223_tl_1748952913" n="N001" />Conradten Saltzer Organisten Zu
                <lb facs="#facs_223_tl_1748952893" n="N002" />St. Stephann sein Ihme mit Quatember
                <lb facs="#facs_223_tl_1748952916" n="N003" />Weinnachten verfallene Diennsts
                <lb facs="#facs_223_tl_1748952911" n="N004" />Bsoldung Benentlichen Siben
-               <lb facs="#facs_223_tl_1748952901" n="N005" />vnnd Dreyssig gulden 4. s Vermüg
-               <lb facs="#facs_223_tl_1748952907" n="N006" />Quittung so hiebey Idest 37 f 4 s - d.
+               <lb facs="#facs_223_tl_1748952901" n="N005" />vnnd Dreyssig gulden 4. s. Vermüg
+               <lb facs="#facs_223_tl_1748952907" n="N006" />Quittung so hiebey Idest 37 f. 4 s. - d.
                <lb facs="#facs_223_tl_1748952896" n="N007" />Den 24. dito Zalte Ich frauen Maria
                <lb facs="#facs_223_tl_1748952926" n="N008" />Anna Winsauerin weegen des Zu
                <lb facs="#facs_223_tl_1748952897" n="N009" />den H. Phüngst Feyrtagen diß Iahr
@@ -17642,14 +17644,14 @@
                <lb facs="#facs_223_tl_1748952915" n="N011" />enen Leingewandts vnnd Vberschlögen
                <lb facs="#facs_223_tl_1748952918" n="N012" />die destweegen eingesetzte Vier Zehen
                <lb facs="#facs_223_tl_1748952891" n="N013" />gulden 4. s. 24. d. Vermüg Auß Zigl
-               <lb facs="#facs_223_tl_1748952898" n="N014" />so hiebey Idest 14 f 4 s 24 d.
+               <lb facs="#facs_223_tl_1748952898" n="N014" />so hiebey Idest 14 f. 4 s. 24 d.
                <lb facs="#facs_223_tl_1748952892" n="N015" />Den 29. dito Zalte Ich auch Herrn Iohann
                <lb facs="#facs_223_tl_1748952917" n="N016" />Winsauer sein mit Quatember Wein
                <lb facs="#facs_223_tl_1748952894" n="N017" />nachten verfallene Diensts Bsol
                <lb facs="#facs_223_tl_1748952899" n="N018" />dung Benentlichen Fünff vnnd Siben
                <lb facs="#facs_223_tl_1748952910" n="N019" />Zig gulden rh. Vermüg Quittung so
-               <lb facs="#facs_223_tl_1748952890" n="N020" />hiebey Idest 75 f - s - d.
-               <lb facs="#facs_223_tl_1748952889" n="N021" />Lattus 127. f - s 24 d.
+               <lb facs="#facs_223_tl_1748952890" n="N020" />hiebey Idest 75 f. - s. - d.
+               <lb facs="#facs_223_tl_1748952889" n="N021" />Lattus 127. f. - s. 24 d.
             </ab>
         <pb facs="#facs_224" n="224" xml:id="img_0224" />
         <ab facs="#facs_224_region_149404061">
@@ -17657,45 +17659,45 @@
                <lb facs="#facs_224_tl_1748952945" n="N002" />Stephann weegen des Verrichten
                <lb facs="#facs_224_tl_1748952950" n="N003" />Rorate das auf diß Iahr gebierundte
                <lb facs="#facs_224_tl_1748952954" n="N004" />deputat Benentlichen Sechs gulden
-               <lb facs="#facs_224_tl_1748952949" n="N005" />vermüg Quittung so hiebey Idest 6 f - s - d.
+               <lb facs="#facs_224_tl_1748952949" n="N005" />vermüg Quittung so hiebey Idest 6 f. - s. - d.
                <lb facs="#facs_224_tl_1748952919" n="N006" />Den lesten dato Zalte Ich denen gesamb
                <lb facs="#facs_224_tl_1748952944" n="N007" />ten Cantoresen Zu St. Stephann die Innen
                <lb facs="#facs_224_tl_1748952923" n="N008" />auf diß Iahr durch gewöhntliche Zal
                <lb facs="#facs_224_tl_1748952948" n="N009" />lungs Täg Ihre Zuestendige Ainhun
                <lb facs="#facs_224_tl_1748952957" n="N010" />dert Drey vnnd Achtzig gulden rh.
-               <lb facs="#facs_224_tl_1748952947" n="N011" />vermüg Quittung so hiebey Idest 1183 f - s- d.
+               <lb facs="#facs_224_tl_1748952947" n="N011" />vermüg Quittung so hiebey Idest 1183 f. - s. - d.
                <lb facs="#facs_224_tl_1748952924" n="N012" />Auch Zalte Ich gemeltem Herrn Win
                <lb facs="#facs_224_tl_1748952932" n="N013" />sauer ebenmessig das Ienige für
                <lb facs="#facs_224_tl_1748952955" n="N014" />die Canthorey Khnaben auf diß Iahr
                <lb facs="#facs_224_tl_1748952936" n="N015" />raichendte Cast geldt Benentlichen
                <lb facs="#facs_224_tl_1748952942" n="N016" />Sechshundert Funfftzig gulden rh.
-               <lb facs="#facs_224_tl_1748952951" n="N017" />vermüg Quittung so hiebey Idest 650 f - s - d.
+               <lb facs="#facs_224_tl_1748952951" n="N017" />vermüg Quittung so hiebey Idest 650 f. - s. - d.
                <lb facs="#facs_224_tl_1748952926" n="N018" />So Zalte Ich auch dem Hannßen
                <lb facs="#facs_224_tl_1748952946" n="N019" />Haißwasser Burger. Leinwathandler
-               <lb facs="#facs_224_tl_1748952918" n="N020" />Lattus 1839 f - s - d.
+               <lb facs="#facs_224_tl_1748952918" n="N020" />Lattus 1839 f. - s. - d.
             </ab>
         <ab facs="#facs_224_region_249404061">
           <lb facs="#facs_224_tl_1748952925" n="N001" />weegen der für die Canthorey
                <lb facs="#facs_224_tl_1748952952" n="N002" />Khnaben so wohl Zu den Wündter
                <lb facs="#facs_224_tl_1748952956" n="N003" />alß Somer Claidung hergegebenen
                <lb facs="#facs_224_tl_1748952953" n="N004" />Leinwath Zusamben Benentlichen
-               <lb facs="#facs_224_tl_1748952943" n="N005" />Sechs vnnd Dreissig gulden 2. s 12. d.
-               <lb facs="#facs_224_tl_1748952928" n="N006" />vermüg AußZigl so hiebey Idest 36 f 2 s 12 d.
+               <lb facs="#facs_224_tl_1748952943" n="N005" />Sechs vnnd Dreissig gulden 2. s. 12. d.
+               <lb facs="#facs_224_tl_1748952928" n="N006" />vermüg AußZigl so hiebey Idest 36 f. 2 s. 12 d.
                <lb facs="#facs_224_tl_1748952922" n="N007" />Ich Zalte auch frauen Maria Anna
                <lb facs="#facs_224_tl_1748952920" n="N008" />Winsauerin weegen denen Cantho
                <lb facs="#facs_224_tl_1748952937" n="N009" />rey Khnaben Zu St. Stephann auf
                <lb facs="#facs_224_tl_1748952933" n="N010" />Vergangene Phüngsten diß Iahrs
                <lb facs="#facs_224_tl_1748952935" n="N011" />hergegebene Hemeter Vberschlög vnnd
-               <lb facs="#facs_224_tl_1748952934" n="N012" />Strimpf VierZehen gulden rh. 4. s 24 d.
-               <lb facs="#facs_224_tl_1748952927" n="N013" />Vermüg Quittung so hiebey Idest 14 f 4 s 24 d.
+               <lb facs="#facs_224_tl_1748952934" n="N012" />Strimpf VierZehen gulden rh. 4. s. 24 d.
+               <lb facs="#facs_224_tl_1748952927" n="N013" />Vermüg Quittung so hiebey Idest 14 f. 4 s. 24 d.
                <lb facs="#facs_224_tl_1748952921" n="N014" />Den lesten dito bringe Ich hiemit in
                <lb facs="#facs_224_tl_1748952931" n="N015" />Außgab die Ienige Herrn Iohann Win
                <lb facs="#facs_224_tl_1748952940" n="N016" />sauer an stat des Praeceptoris mit
                <lb facs="#facs_224_tl_1748952929" n="N017" />H. Weinachten Quatember diß Iahrs
                <lb facs="#facs_224_tl_1748952930" n="N018" />verfallene Quartals Diennst Bsol
                <lb facs="#facs_224_tl_1748952939" n="N019" />dung Benentlichen Siben vnnd
-               <lb facs="#facs_224_tl_1748952917" n="N020" />Dreissig gulden rh. ut Quittung Idest 37 f 4 s - d.
-               <lb facs="#facs_224_tl_1748952938" n="N021" />Lattus 73 f 6 s 12 d.
+               <lb facs="#facs_224_tl_1748952917" n="N020" />Dreissig gulden rh. ut Quittung Idest 37 f. 4 s. - d.
+               <lb facs="#facs_224_tl_1748952938" n="N021" />Lattus 73 f. 6 s. 12 d.
             </ab>
         <pb facs="#facs_225" n="225" xml:id="img_0225" />
         <ab facs="#facs_225_region_149334084">
@@ -17704,7 +17706,7 @@
                <lb facs="#facs_225_tl_1748952917" n="N003" />nachten diß Iahrs verfallene Trunckh
                <lb facs="#facs_225_tl_1748952920" n="N004" />oder Wein deputat Benentlichen
                <lb facs="#facs_225_tl_1748952919" n="N005" />Fünff vnnd Zwaintzig gulden rh.
-               <lb facs="#facs_225_tl_1748952916" n="N006" />Vermüg Quittung so hiebey Idest 25 f - s - d.
+               <lb facs="#facs_225_tl_1748952916" n="N006" />Vermüg Quittung so hiebey Idest 25 f. - s. - d.
             </ab>
         <pb facs="#facs_226" n="226" xml:id="img_0226" />
         <milestone xml:id="ms0072" unit="summary" n="128r" type="summary" ana="#span0072" /><ab facs="#facs_226_region_249404053" n="128r" ana="#span0072">

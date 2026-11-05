@@ -854,7 +854,7 @@
     </surface>
     <surface ulx="0" uly="0" lrx="5358" lry="3702" xml:id="facs_8">
       <graphic url="WSTLA-OKA-B1-1-015-1_00008.tif" width="5358px" height="3702px" />
-      <graphic url="https://files.transkribus.eu/Get?id=FAATJGNESOQGJJNYDUHHJPYA&amp;fileType=view" width="5358px" height="3702px" />
+      <graphic url="https://files.transkribus.eu/Get?fileType=view&amp;id=FAATJGNESOQGJJNYDUHHJPYA" width="5358px" height="3702px" />
       <zone points="0,0 2679,0 2679,3702 0,3702" rendition="TextRegion" xml:id="facs_8_region_153583702" />
       <zone points="2679,0 5358,0 5358,3702 2679,3702" rendition="TextRegion" xml:id="facs_8_region_253583702">
         <zone points="3246,330 3365,337 3506,356 3526,368 3542,424 3584,488 3615,583 3636,601 3699,621 3860,618 3937,624 4050,651 4152,685 4341,715 4524,714 4659,693 4732,691 4758,704 4764,726 4763,871 4739,901 4663,936 4582,918 4365,916 3977,933 3768,890 3595,891 3538,886 3318,911 3263,911" rendition="Line" xml:id="facs_8_line_1760544081803_12771" />
@@ -6855,278 +6855,308 @@
         </ab>
         <pb facs="#facs_7" n="7" xml:id="img_0007" />
         <ab facs="#facs_7_region_153783694">
-          <lb facs="#facs_7_tl_1760427939" n="N002" />vnser Innemen
-               <lb facs="#facs_7_tl_1760427936" n="N003" />Remanentz auf gelten
-               <lb facs="#facs_7_tl_1760427918" n="N004" />vnd Phanten So die Stewrherren aus der
+          <lb facs="#facs_7_tl_1760427939" n="N002" />
+          <headline>vnser Innemen</headline>
+          <lb facs="#facs_7_tl_1760427936" n="N003" />
+          <headline>Remanentz auf gelten</headline>
+          <lb facs="#facs_7_tl_1760427918" n="N004" />vnd Phanten So die Stewrherren aus der
                <lb facs="#facs_7_tl_1760427913" n="N005" />Stewr vert des lvi ten Iars den vordern kamrern
                <lb facs="#facs_7_tl_1760427922" n="N006" />an beraits geltz stat vnd Sy vns darnach ha
                <lb facs="#facs_7_tl_1760427941" n="N007" />bent vbergegeben
-               <lb facs="#facs_7_tl_1760427899" n="N008" />Vonersten auf kuntzen Rauschenperger silberpecher iii γ d
-               <lb facs="#facs_7_tl_1760427902" n="N009" />Item auf Conraten Piligreim silbrein schal vii γ d
-               <lb facs="#facs_7_tl_1760427896" n="N010" />Item auf Larentzen Swab zwain pechern iii γ d
-               <lb facs="#facs_7_tl_1760427900" n="N011" />Item auf Niclasen Kratzer hueter pecher v γ d
-               <lb facs="#facs_7_tl_1760427908" n="N012" />Item auf Iorgen Prew Sneider silberpecher iii γ d
-               <lb facs="#facs_7_tl_1760427935" n="N013" />Item auf Micheln kramer Obsser pecher ii γ iiii s d
-               <lb facs="#facs_7_tl_1760427931" n="N014" />Item auf des Fuchsperger goltsmid gulden ringl iiii s d
-               <lb facs="#facs_7_tl_1760427912" n="N015" />Item auf Andren Gundorffer zwain pechern xi γ d
-               <lb facs="#facs_7_tl_1760427921" n="N016" />Item auf Leoppolt weissin Zwain pechern xi γ d
-               <lb facs="#facs_7_tl_1760427933" n="N017" />Item auf Hannsen von Gefell silberpecher iii γ iiii s d
-               <lb facs="#facs_7_tl_1760427929" n="N018" />Item auf Thoman Klenperger silbergürtl vi γ iiii s d
-               <lb facs="#facs_7_tl_1760427927" n="N019" />Item auf linharten dawher mundlaten pecher ii γ d
-               <lb facs="#facs_7_tl_1760427924" n="N020" />Item auf der perleinfrewtterin vergulten kophl xiiii γ d
-               <lb facs="#facs_7_tl_1760427928" n="N021" />Item auf Hannsen Schühl goltsmid Ring ii γ iiii s d
-               <lb facs="#facs_7_tl_1760427926" n="N022" />Item auf Pauln püchler Koch sranngurtl v γ d
-               <lb facs="#facs_7_tl_1760427916" n="N023" />Item auf Herman wisner kursner pecher iii γ iiii s d
-               <lb facs="#facs_7_tl_1760427910" n="N024" />Item auf Erharten von Kindberg pecher ii γ d
+               <lb facs="#facs_7_tl_1760427899" n="N008" />Vonersten auf kuntzen Rauschenperger silberpecher iii lb. d.
+               <lb facs="#facs_7_tl_1760427902" n="N009" />Item auf Conraten Piligreim silbrein schal vii lb. d.
+               <lb facs="#facs_7_tl_1760427896" n="N010" />Item auf Larentzen Swab zwain pechern iii lb. d.
+               <lb facs="#facs_7_tl_1760427900" n="N011" />Item auf Niclasen Kratzer hueter pecher v lb. d.
+               <lb facs="#facs_7_tl_1760427908" n="N012" />Item auf Iorgen Prew Sneider silberpecher iii lb. d.
+               <lb facs="#facs_7_tl_1760427935" n="N013" />Item auf Micheln kramer Obsser pecher ii lb. iiii s. d.
+               <lb facs="#facs_7_tl_1760427931" n="N014" />Item auf des Fuchsperger goltsmid gulden ringl iiii s. d.
+               <lb facs="#facs_7_tl_1760427912" n="N015" />Item auf Andren Gundorffer zwain pechern xi lb. d.
+               <lb facs="#facs_7_tl_1760427921" n="N016" />Item auf Leoppolt weissin Zwain pechern xi lb. d.
+               <lb facs="#facs_7_tl_1760427933" n="N017" />Item auf Hannsen von Gefell silberpecher iii lb. iiii s. d.
+               <lb facs="#facs_7_tl_1760427929" n="N018" />Item auf Thoman Klenperger silbergürtl vi lb. iiii s. d.
+               <lb facs="#facs_7_tl_1760427927" n="N019" />Item auf linharten dawher mundlaten pecher ii lb. d.
+               <lb facs="#facs_7_tl_1760427924" n="N020" />Item auf der perleinfrewtterin vergulten kophl xiiii lb. d.
+               <lb facs="#facs_7_tl_1760427928" n="N021" />Item auf Hannsen Schühl goltsmid Ring ii lb. iiii s. d.
+               <lb facs="#facs_7_tl_1760427926" n="N022" />Item auf Pauln püchler Koch sranngurtl v lb. d.
+               <lb facs="#facs_7_tl_1760427916" n="N023" />Item auf Herman wisner kursner pecher iii lb. iiii s. d.
+               <lb facs="#facs_7_tl_1760427910" n="N024" />Item auf Erharten von Kindberg pecher ii lb. d.
             </ab>
         <ab facs="#facs_7_region_253783694">
-          <lb facs="#facs_7_tl_1760427897" n="N001" />Item auf Hannsen Aschpekchen Schal v γ xxx d
-               <lb facs="#facs_7_tl_1760427938" n="N002" />Item auf Hannsen veller pecher i γ iiii s d
-               <lb facs="#facs_7_tl_1760427917" n="N003" />Item auf Iorgen Hulger sneider silbergurtl x γ d
+          <lb facs="#facs_7_tl_1760427897" n="N001" />Item auf Hannsen Aschpekchen Schal v lb. xxx d.
+               <lb facs="#facs_7_tl_1760427938" n="N002" />Item auf Hannsen veller pecher i lb. iiii s. d.
+               <lb facs="#facs_7_tl_1760427917" n="N003" />Item auf Iorgen Hulger sneider silbergurtl x lb. d.
                <lb facs="#facs_7_tl_1760427934" n="N004" />Item auf Hannsen Hemerl Zwain Tamasch
-               <lb facs="#facs_7_line_1760543975841_12711" n="N005" />lein Ermln iiii γ iiii s d
-               <lb facs="#facs_7_tl_1760427905" n="N006" />Item auf Mertten Hertzogenperger sranngurtl vi γ d
-               <lb facs="#facs_7_tl_1760427898" n="N007" />Item auf Götfriden öler silbres paternoster iii γ lx d
-               <lb facs="#facs_7_tl_1760427920" n="N008" />Item auf Niclasen Gewsmid drin pechern xi γ lx d
+               <lb facs="#facs_7_line_1760543975841_12711" n="N005" />lein Ermln iiii lb. iiii s. d.
+               <lb facs="#facs_7_tl_1760427905" n="N006" />Item auf Mertten Hertzogenperger sranngurtl vi lb. d.
+               <lb facs="#facs_7_tl_1760427898" n="N007" />Item auf Götfriden öler silbres paternoster iii lb. lx d.
+               <lb facs="#facs_7_tl_1760427920" n="N008" />Item auf Niclasen Gewsmid drin pechern xi lb. lx d.
                <lb facs="#facs_7_line_1760544001672_12723" n="N009" />Item auf kunraten Otzestorffer Kursner frawn
-               <lb facs="#facs_7_tl_1760427930" n="N010" />gürtt vnd ainer grallein paternoster v γ d
-               <lb facs="#facs_7_tl_1760427914" n="N011" />Item auf vlreichen landes Zingiesser pecher iii γ iiii s d
-               <lb facs="#facs_7_tl_1760427909" n="N012" />Item auf Hannsen Nunnenmair franngürtl x γ d
-               <lb facs="#facs_7_line_1760544026218_12734" n="N013" />Item auf Erharten Riener slosser mansgürtl ii γ iiii s d
-               <lb facs="#facs_7_line_1760544050890_12752" n="N014" />Item auf vlreichen Kotter pecher v γ d
-               <lb facs="#facs_7_tl_1760427915" n="N015" />Item auf vlreichs völkl fedrein Kophl iii γ d
-               <lb facs="#facs_7_tl_1760427907" n="N016" />Item auf Hannsen Herolts messrer pecher iii γ iiii s d
-               <lb facs="#facs_7_tl_1760427901" n="N017" />Item auf Klian echter silbergurtl ii γ iiii s d
-               <lb facs="#facs_7_tl_1760427919" n="N018" />Item auf Herman edlerawer guldein ring iii γ d
-               <lb facs="#facs_7_tl_1760427923" n="N019" />Item auf vlreichen Eystl guldein ring i γ d
-               <lb facs="#facs_7_tl_1760427906" n="N020" />Item auf ain Kelich von sant Yeronimus x γ d
+               <lb facs="#facs_7_tl_1760427930" n="N010" />gürtt vnd ainer grallein paternoster v lb. d.
+               <lb facs="#facs_7_tl_1760427914" n="N011" />Item auf vlreichen landes Zingiesser pecher iii lb. iiii s. d.
+               <lb facs="#facs_7_tl_1760427909" n="N012" />Item auf Hannsen Nunnenmair franngürtl x lb. d.
+               <lb facs="#facs_7_line_1760544026218_12734" n="N013" />Item auf Erharten Riener slosser mansgürtl ii lb. iiii s. d.
+               <lb facs="#facs_7_line_1760544050890_12752" n="N014" />Item auf vlreichen Kotter pecher v lb. d.
+               <lb facs="#facs_7_tl_1760427915" n="N015" />Item auf vlreichs völkl fedrein Kophl iii lb. d.
+               <lb facs="#facs_7_tl_1760427907" n="N016" />Item auf Hannsen Herolts messrer pecher iii lb. iiii s. d.
+               <lb facs="#facs_7_tl_1760427901" n="N017" />Item auf Klian echter silbergurtl ii lb. iiii s. d.
+               <lb facs="#facs_7_tl_1760427919" n="N018" />Item auf Herman edlerawer guldein ring iii lb. d.
+               <lb facs="#facs_7_tl_1760427923" n="N019" />Item auf vlreichen Eystl guldein ring i lb. d.
+               <lb facs="#facs_7_tl_1760427906" n="N020" />Item auf ain Kelich von sant Yeronimus x lb. d.
                <lb facs="#facs_7_tl_1760427904" n="N021" />Sum der phant aus der Stewr de
-               <lb facs="#facs_7_tl_1760427903" n="N022" />Anno Lvi<hi style="vertical-align: superscript;">to</hi>  ꞩ C lxxv γ v s d
+               <lb facs="#facs_7_tl_1760427903" n="N022" />Anno Lvi<hi style="vertical-align: superscript;">to</hi>  ꞩ C lxxv lb. v s. d.
             </ab>
         <pb facs="#facs_8" n="8" xml:id="img_0008" />
         <ab facs="#facs_8_region_253583702">
-          <lb facs="#facs_8_line_1760544081803_12771" n="N001" />Auch legen wir auf
-               <lb facs="#facs_8_tl_1760427928" n="N002" />vnser Innemen ainen
-               <lb facs="#facs_8_tl_1760427915" n="N003" />allten ausstannd auf den hernach geschriben personen
-               <lb facs="#facs_8_tl_1760427922" n="N004" />So Sy fur Ir Soldner Zerossen vnd Zufussen die man
+          <lb facs="#facs_8_line_1760544081803_12771" n="N001" />
+          <headline>Auch legen wir auf</headline>
+          <lb facs="#facs_8_tl_1760427928" n="N002" />
+          <headline>vnser Innemen ainen</headline>
+          <lb facs="#facs_8_tl_1760427915" n="N003" />
+          <headline>allten ausstannd auf den hernach geschriben personen</headline>
+          <lb facs="#facs_8_tl_1760427922" n="N004" />So Sy fur Ir Soldner Zerossen vnd Zufussen die man
                <lb facs="#facs_8_tl_1760427917" n="N005" />In von der Stat für Galitz aufgenomen hat noch
                <lb facs="#facs_8_tl_1760427918" n="N006" />schuldig sind vnd die vns die vordern kamrer habent
                <lb facs="#facs_8_tl_1760427934" n="N007" />vbergegeben
-               <lb facs="#facs_8_tl_1760427925" n="N008" />Vonersten auf petern Rauch Zingiesser ii γ iiii s d
+               <lb facs="#facs_8_tl_1760427925" n="N008" />Vonersten auf petern Rauch Zingiesser ii lb. iiii s. d.
                <lb facs="#facs_8_tl_1760427924" n="N009" />Item auf Mathias wisler auf ain zerossen
-               <lb facs="#facs_8_tl_1760427913" n="N010" />zway Moneid vnd ain wochen ꞩ xiii γ iiii s d
+               <lb facs="#facs_8_tl_1760427913" n="N010" />zway Moneid vnd ain wochen ꞩ xiii lb. iiii s. d.
                <lb facs="#facs_8_tl_1760427932" n="N011" />Item auf demselben wisler die letzten drey
-               <lb facs="#facs_8_tl_1760427930" n="N012" />wochen für ain Zerossen ꞩ iiii γ iiii s d
-               <lb facs="#facs_8_tl_1760427921" n="N013" />vnd auf ain Zefussen xiii wochen ꞩ viii γ xxx d
+               <lb facs="#facs_8_tl_1760427930" n="N012" />wochen für ain Zerossen ꞩ iiii lb. iiii s. d.
+               <lb facs="#facs_8_tl_1760427921" n="N013" />vnd auf ain Zefussen xiii wochen ꞩ viii lb. xxx d.
                <lb facs="#facs_8_tl_1760427926" n="N014" />Item auf linharten Grünpacher auf ain
-               <lb facs="#facs_8_tl_1760427919" n="N015" />Zerossen viiii wochen ꞩ xiii γ iiii s d
-               <lb facs="#facs_8_tl_1760427927" n="N016" />Item Hanns Sorger auf die lesten v wochen vii γ iiii s d
+               <lb facs="#facs_8_tl_1760427919" n="N015" />Zerossen viiii wochen ꞩ xiii lb. iiii s. d.
+               <lb facs="#facs_8_tl_1760427927" n="N016" />Item Hanns Sorger auf die lesten v wochen vii lb. iiii s. d.
                <lb facs="#facs_8_tl_1760427923" n="N017" />Item Vlreich Metzleinstorffer auf ain Zerossen
-               <lb facs="#facs_8_tl_1760427920" n="N018" />vnd ain Zufussen die lesten v wochen ꞩ x γ v s d
+               <lb facs="#facs_8_tl_1760427920" n="N018" />vnd ain Zufussen die lesten v wochen ꞩ x lb. v s. d.
                <lb facs="#facs_8_line_1760544132689_12800" n="N019" />Item Iorg von Nicolspurg auf ain Zerossen
-               <lb facs="#facs_8_line_1760544154844_12812" n="N020" />viiii wochen ꞩ xiii γ iiii s d
-               <lb facs="#facs_8_tl_1760427914" n="N021" />Item Niclas purger auf die lesten v wochen vii γ iiii s d
-               <lb facs="#facs_8_tl_1760427916" n="N022" />Item Michel Rutl auf ain Zufuss v wochen iii γ xxx d
+               <lb facs="#facs_8_line_1760544154844_12812" n="N020" />viiii wochen ꞩ xiii lb. iiii s. d.
+               <lb facs="#facs_8_tl_1760427914" n="N021" />Item Niclas purger auf die lesten v wochen vii lb. iiii s. d.
+               <lb facs="#facs_8_tl_1760427916" n="N022" />Item Michel Rutl auf ain Zufuss v wochen iii lb. xxx d.
             </ab>
         <pb facs="#facs_9" n="9" xml:id="img_0009" />
         <ab facs="#facs_9_region_153543713">
-          <lb facs="#facs_9_tl_1760427922" n="N001" />Item Thoman wild auf Zwen Zufussen vi γ Lx d
+          <lb facs="#facs_9_tl_1760427922" n="N001" />Item Thoman wild auf Zwen Zufussen vi lb. Lx d.
                <lb facs="#facs_9_tl_1760427933" n="N002" />vnd auf den lesten soldner den man
-               <lb facs="#facs_9_tl_1760427930" n="N003" />fur In Hinaus geschikt hat i γ iiii s d
+               <lb facs="#facs_9_tl_1760427930" n="N003" />fur In Hinaus geschikt hat i lb. iiii s. d.
                <lb facs="#facs_9_tl_1760427941" n="N004" />Item Maister Hanns Zeller die lesten funf
-               <lb facs="#facs_9_tl_1760427932" n="N005" />wochen auf ain Zefussen iii γ xxx d
-               <lb facs="#facs_9_tl_1760427923" n="N006" />Item Caspar Fleischakcher fünf wochen iii γ xxx d
+               <lb facs="#facs_9_tl_1760427932" n="N005" />wochen auf ain Zefussen iii lb. xxx d.
+               <lb facs="#facs_9_tl_1760427923" n="N006" />Item Caspar Fleischakcher fünf wochen iii lb. xxx d.
                <lb facs="#facs_9_tl_1760427943" n="N007" />Item Hanns Puchspawm von des ersten
-               <lb facs="#facs_9_tl_1760427936" n="N008" />Soldner wegen i γ iiii s d
-               <lb facs="#facs_9_tl_1760427934" n="N009" />vnd auf den lesten soldner Zerossen i γ iiii s d
-               <lb facs="#facs_9_tl_1760427937" n="N010" />Item pracher hueter die lesten drey wochen i γ vii s d
+               <lb facs="#facs_9_tl_1760427936" n="N008" />Soldner wegen i lb. iiii s. d.
+               <lb facs="#facs_9_tl_1760427934" n="N009" />vnd auf den lesten soldner Zerossen i lb. iiii s. d.
+               <lb facs="#facs_9_tl_1760427937" n="N010" />Item pracher hueter die lesten drey wochen i lb. vii s. d.
                <lb facs="#facs_9_tl_1760427942" n="N011" />Item Iorg Zehentner auf ain Zefuss
-               <lb facs="#facs_9_tl_1760427929" n="N012" />dreitzehen wochen v γ xxx d
+               <lb facs="#facs_9_tl_1760427929" n="N012" />dreitzehen wochen v lb. xxx d.
                <lb facs="#facs_9_line_1760544230648_12834" n="N013" />Item vlreich Gundloch auf ain Zufuss
-               <lb facs="#facs_9_line_1760544248999_12849" n="N014" />funf wochen iii γ xxx d
-               <lb facs="#facs_9_tl_1760427927" n="N015" />Item Niclas Teschler auf ain Zufuss viii γ xxx d
+               <lb facs="#facs_9_line_1760544248999_12849" n="N014" />funf wochen iii lb. xxx d.
+               <lb facs="#facs_9_tl_1760427927" n="N015" />Item Niclas Teschler auf ain Zufuss viii lb. xxx d.
                <lb facs="#facs_9_tl_1760427940" n="N016" />xiii wochen
-               <lb facs="#facs_9_line_1760544265816_12855" n="N017" />Item Hanns Gerß iiii s xv d
+               <lb facs="#facs_9_line_1760544265816_12855" n="N017" />Item Hanns Gerß iiii s. xv d.
                <lb facs="#facs_9_tl_1760427928" n="N018" />Item Knödel Fürman auf die lesten funf
-               <lb facs="#facs_9_line_1760544275405_12864" n="N019" />wochen per Restat viiii s d
-               <lb facs="#facs_9_tl_1760427925" n="N020" />Item Peter Alhartinger xiii s d
-               <lb facs="#facs_9_tl_1760427926" n="N021" />Item Michel Merestorffer ii γ iiii s d
-               <lb facs="#facs_9_tl_1760427938" n="N022" />Item Michel Scher Fleischakher ii γ iiii s d
+               <lb facs="#facs_9_line_1760544275405_12864" n="N019" />wochen per Restat viiii s. d.
+               <lb facs="#facs_9_tl_1760427925" n="N020" />Item Peter Alhartinger xiii s. d.
+               <lb facs="#facs_9_tl_1760427926" n="N021" />Item Michel Merestorffer ii lb. iiii s. d.
+               <lb facs="#facs_9_tl_1760427938" n="N022" />Item Michel Scher Fleischakher ii lb. iiii s. d.
                <lb facs="#facs_9_tl_1760427931" n="N023" />Item lucas hulber auf ain Zefussen
-               <lb facs="#facs_9_tl_1760427919" n="N024" />viiii wochen v γ v s d
+               <lb facs="#facs_9_tl_1760427919" n="N024" />viiii wochen v lb. v s. d.
             </ab>
         <ab facs="#facs_9_region_253543713">
-          <lb facs="#facs_9_tl_1760427924" n="N001" />Item auf vlreichen vochter viiii s d
-               <lb facs="#facs_9_tl_1760427920" n="N002" />Item auf Cristan wissinger viiii γ iii s d
+          <lb facs="#facs_9_tl_1760427924" n="N001" />Item auf vlreichen vochter viiii s. d.
+               <lb facs="#facs_9_tl_1760427920" n="N002" />Item auf Cristan wissinger viiii lb. iii s. d.
                <lb facs="#facs_9_tl_1760427917" n="N003" />Sum des ausstands ettlicher person
-               <lb facs="#facs_9_tl_1760427918" n="N004" />fur Ir söldner fur Galitz ꞩ C xliiii γ xv d
+               <lb facs="#facs_9_tl_1760427918" n="N004" />fur Ir söldner fur Galitz ꞩ C xliiii lb. xv d.
             </ab>
         <pb facs="#facs_10" n="10" xml:id="img_0010" />
         <ab facs="#facs_10_region_153493689">
-          <lb facs="#facs_10_tl_1760427927" n="N002" />Innemen die hernach
-               <lb facs="#facs_10_tl_1760427922" n="N003" />benantenn Remanentzen So ettlichen der Burger
+          <lb facs="#facs_10_tl_1760427927" n="N002" />
+          <headline>Innemen die hernach</headline>
+          <lb facs="#facs_10_tl_1760427922" n="N003" />
+          <headline>benantenn Remanentzen</headline> So ettlichen der Burger
                <lb facs="#facs_10_tl_1760427915" n="N004" />von Wienn Schützen vnd dienern im veld
                <lb facs="#facs_10_tl_1760427921" n="N005" />Galitz Zu Zerung gelihen sind worden
                <lb facs="#facs_10_tl_1760427916" n="N006" />die vns auch die vordern kamrer habent vbergeben
                <lb facs="#facs_10_tl_1760427911" n="N007" />vonersten auf die Zerossen
                <lb facs="#facs_10_tl_1760427902" n="N008" />Item Hanns Pair Spitalmaisters vnd
-               <lb facs="#facs_10_tl_1760427924" n="N009" />Töldleins Knecht i γ iiii s d
-               <lb facs="#facs_10_line_1760544350441_12904" n="N010" />Item Leoppoltz weissen Knecht Hans Meichsner iiii γ d
-               <lb facs="#facs_10_tl_1760427901" n="N011" />Item Gewsmids knecht Iacob lehner iiii s d
-               <lb facs="#facs_10_tl_1760427923" n="N012" />Item Mathes Saltzer knecht Radendorffer v s d
-               <lb facs="#facs_10_tl_1760427896" n="N013" />Item wolfgangs Holtzer Zug Iorg lanngruber vii s d
+               <lb facs="#facs_10_tl_1760427924" n="N009" />Töldleins Knecht i lb. iiii s. d.
+               <lb facs="#facs_10_line_1760544350441_12904" n="N010" />Item Leoppoltz weissen Knecht Hans Meichsner iiii lb. d.
+               <lb facs="#facs_10_tl_1760427901" n="N011" />Item Gewsmids knecht Iacob lehner iiii s. d.
+               <lb facs="#facs_10_tl_1760427923" n="N012" />Item Mathes Saltzer knecht Radendorffer v s. d.
+               <lb facs="#facs_10_tl_1760427896" n="N013" />Item wolfgangs Holtzer Zug Iorg lanngruber vii s. d.
                <lb facs="#facs_10_tl_1760427909" n="N014" />Item dem Sambssen auf die soldner Zu
-               <lb facs="#facs_10_tl_1760427899" n="N015" />Newn am hinab Ziehen iiii γ d
+               <lb facs="#facs_10_tl_1760427899" n="N015" />Newn am hinab Ziehen iiii lb. d.
                <lb facs="#facs_10_tl_1760427895" n="N016" />Item Niclasen Hannsen Starkchen soldner
-               <lb facs="#facs_10_tl_1760427890" n="N017" />vnd Clawsen Rottmaister ii γ d
-               <lb facs="#facs_10_tl_1760427928" n="N018" />Sum auf die Zerossen ꞩ xiii γ iiii s d
+               <lb facs="#facs_10_tl_1760427890" n="N017" />vnd Clawsen Rottmaister ii lb. d.
+               <lb facs="#facs_10_tl_1760427928" n="N018" />Sum auf die Zerossen ꞩ xiii lb. iiii s. d.
             </ab>
         <ab facs="#facs_10_region_253493689">
           <lb facs="#facs_10_tl_1760427908" n="N001" />Auf die Zefuessen
-               <lb facs="#facs_10_tl_1760427926" n="N002" />Item auf Hannsen puschniger Rottmaister ii γ vi s xxii d
+               <lb facs="#facs_10_tl_1760427926" n="N002" />Item auf Hannsen puschniger Rottmaister ii lb. vi s. xxii d.
                <lb facs="#facs_10_tl_1760427906" n="N003" />Item pleintlinger pekch huius Mathes
-               <lb facs="#facs_10_tl_1760427919" n="N004" />valkchenhaym v s d
-               <lb facs="#facs_10_tl_1760427903" n="N005" />Item kuntz Reiff huius wolfgang Orter vii s d
-               <lb facs="#facs_10_tl_1760427907" n="N006" />Item Pracher Huter Zins haus hüfnagl i γ iii s d
-               <lb facs="#facs_10_tl_1760427925" n="N007" />Item Geügkerlin Zins Zellinger Lx d
-               <lb facs="#facs_10_tl_1760427913" n="N009" />Item Hanns Grunang kamer Zins Zukcher i γ vii s d
-               <lb facs="#facs_10_line_1760544408324_12942" n="N010" />Item wolfgang Ruland Zins schönperger ii γ d
-               <lb facs="#facs_10_tl_1760427897" n="N011" />Item Teschler Zins Iörg Eisenfus x s d
-               <lb facs="#facs_10_tl_1760427900" n="N012" />Item Mathes Wisler Zins kung lanbinger ii γ xxx d
-               <lb facs="#facs_10_tl_1760427912" n="N013" />Item Hanns Fleischakcher Peter v s d
-               <lb facs="#facs_10_tl_1760427898" n="N014" />Item Iacob fus Zins poistorffer i γ vi s d
-               <lb facs="#facs_10_tl_1760427905" n="N015" />Item Steffan Holfus vii s xvii d
-               <lb facs="#facs_10_tl_1760427918" n="N016" />Item Thomans Sibenburger Zins i γ d
-               <lb facs="#facs_10_tl_1760427910" n="N017" />Item Andre Ketner zins Kirchsteter vii s d
-               <lb facs="#facs_10_tl_1760427904" n="N018" />Item Strobel Zins Enerdinger iii s xii d
-               <lb facs="#facs_10_tl_1760427894" n="N019" />Item Iacob Otzestorffer Zins fritz kramer v s d
-               <lb facs="#facs_10_tl_1760427893" n="N020" />Item Andre Kelhaimer Zins Sigl Awer viiii s d
-               <lb facs="#facs_10_tl_1760427914" n="N021" />Item Hanns Praitter Zins kuntz nennburger vii s d
-               <lb facs="#facs_10_tl_1760427891" n="N022" />Item Yeinbutzer Zins hainrich Ygl viiii s x d
-               <lb facs="#facs_10_tl_1760427892" n="N023" />Item veyal tarl Zins gen Newn i γ vii s d
+               <lb facs="#facs_10_tl_1760427919" n="N004" />valkchenhaym v s. d.
+               <lb facs="#facs_10_tl_1760427903" n="N005" />Item kuntz Reiff huius wolfgang Orter vii s. d.
+               <lb facs="#facs_10_tl_1760427907" n="N006" />Item Pracher Huter Zins haus hüfnagl i lb. iii s. d.
+               <lb facs="#facs_10_tl_1760427925" n="N007" />Item Geügkerlin Zins Zellinger Lx d.
+               <lb facs="#facs_10_tl_1760427913" n="N009" />Item Hanns Grunang kamer Zins Zukcher i lb. vii s. d.
+               <lb facs="#facs_10_line_1760544408324_12942" n="N010" />Item wolfgang Ruland Zins schönperger ii lb. d.
+               <lb facs="#facs_10_tl_1760427897" n="N011" />Item Teschler Zins Iörg Eisenfus x s. d.
+               <lb facs="#facs_10_tl_1760427900" n="N012" />Item Mathes Wisler Zins kung lanbinger ii lb. xxx d.
+               <lb facs="#facs_10_tl_1760427912" n="N013" />Item Hanns Fleischakcher Peter v s. d.
+               <lb facs="#facs_10_tl_1760427898" n="N014" />Item Iacob fus Zins poistorffer i lb. vi s. d.
+               <lb facs="#facs_10_tl_1760427905" n="N015" />Item Steffan Holfus vii s. xvii d.
+               <lb facs="#facs_10_tl_1760427918" n="N016" />Item Thomans Sibenburger Zins i lb. d.
+               <lb facs="#facs_10_tl_1760427910" n="N017" />Item Andre Ketner zins Kirchsteter vii s. d.
+               <lb facs="#facs_10_tl_1760427904" n="N018" />Item Strobel Zins Enerdinger iii s. xii d.
+               <lb facs="#facs_10_tl_1760427894" n="N019" />Item Iacob Otzestorffer Zins fritz kramer v s. d.
+               <lb facs="#facs_10_tl_1760427893" n="N020" />Item Andre Kelhaimer Zins Sigl Awer viiii s. d.
+               <lb facs="#facs_10_tl_1760427914" n="N021" />Item Hanns Praitter Zins kuntz nennburger vii s. d.
+               <lb facs="#facs_10_tl_1760427891" n="N022" />Item Yeinbutzer Zins hainrich Ygl viiii s. x d.
+               <lb facs="#facs_10_tl_1760427892" n="N023" />Item veyal tarl Zins gen Newn i lb. vii s. d.
             </ab>
         <pb facs="#facs_11" n="11" xml:id="img_0011" />
         <ab facs="#facs_11_region_153683707">
-          <lb facs="#facs_11_tl_1760427905" n="N001" />Item Iudenmair Zins Moltwurm iii s d
-               <lb facs="#facs_11_tl_1760427914" n="N002" />Item Erhart von Kindberg Zins Mulleitter vii s d
-               <lb facs="#facs_11_tl_1760427907" n="N003" />Item Petern Schühler Zins Hanns Part iii s d
-               <lb facs="#facs_11_tl_1760427911" n="N004" />Item Hanns Hashart Zins paul widmer x s d
-               <lb facs="#facs_11_tl_1760427926" n="N005" />Item Gundloch Zins Wentzl prewer iiii s d
-               <lb facs="#facs_11_tl_1760427913" n="N006" />Item Hanns Schuhl goltsmid Zins prugl v s d
-               <lb facs="#facs_11_tl_1760427920" n="N007" />Item Steffan leisser pogner Zins Iäri Lx d
-               <lb facs="#facs_11_tl_1760427915" n="N008" />Item Tannawer Zins Iorg Hofer xxii d
-               <lb facs="#facs_11_tl_1760427906" n="N009" />Item Hainrich Sinauß Zins Sigl v s xii d
-               <lb facs="#facs_11_tl_1760427904" n="N010" />Item Hanns wienner Zins fritz mairhofer vi s x d
-               <lb facs="#facs_11_tl_1760427910" n="N011" />Suma auf die Zufussen xxx γ iii s xv d
+          <lb facs="#facs_11_tl_1760427905" n="N001" />Item Iudenmair Zins Moltwurm iii s. d.
+               <lb facs="#facs_11_tl_1760427914" n="N002" />Item Erhart von Kindberg Zins Mulleitter vii s. d.
+               <lb facs="#facs_11_tl_1760427907" n="N003" />Item Petern Schühler Zins Hanns Part iii s. d.
+               <lb facs="#facs_11_tl_1760427911" n="N004" />Item Hanns Hashart Zins paul widmer x s. d.
+               <lb facs="#facs_11_tl_1760427926" n="N005" />Item Gundloch Zins Wentzl prewer iiii s. d.
+               <lb facs="#facs_11_tl_1760427913" n="N006" />Item Hanns Schuhl goltsmid Zins prugl v s. d.
+               <lb facs="#facs_11_tl_1760427920" n="N007" />Item Steffan leisser pogner Zins Iäri Lx d.
+               <lb facs="#facs_11_tl_1760427915" n="N008" />Item Tannawer Zins Iorg Hofer xxii d.
+               <lb facs="#facs_11_tl_1760427906" n="N009" />Item Hainrich Sinauß Zins Sigl v s. xii d.
+               <lb facs="#facs_11_tl_1760427904" n="N010" />Item Hanns wienner Zins fritz mairhofer vi s. x d.
+               <lb facs="#facs_11_tl_1760427910" n="N011" />Suma auf die Zufussen xxx lb. iii s. xv d.
             </ab>
         <ab facs="#facs_11_region_253683707">
-          <lb facs="#facs_11_tl_1760427927" n="N001" />Ausgelichen gelt nach
-               <lb facs="#facs_11_tl_1760427918" n="N002" />Geschefft des Rats So
-               <lb facs="#facs_11_tl_1760427916" n="N003" />wir auf vnser Innemen legen als hernach
-               <lb facs="#facs_11_tl_1760427919" n="N004" />geschriben stet
-               <lb facs="#facs_11_tl_1760427908" n="N005" />Vonersten auf Maister Hannsen vberleger
-               <lb facs="#facs_11_tl_1760427928" n="N006" />So er der Stat schuldig ist ut litera xl γ d
+          <lb facs="#facs_11_tl_1760427927" n="N001" />
+          <headline>Ausgelichen gelt nach</headline>
+          <lb facs="#facs_11_tl_1760427918" n="N002" />
+          <headline>Geschefft des Rats So</headline>
+          <lb facs="#facs_11_tl_1760427916" n="N003" />
+          <headline>wir auf vnser Innemen legen als hernach</headline>
+          <lb facs="#facs_11_tl_1760427919" n="N004" />
+          <headline>geschriben stet</headline>
+          <lb facs="#facs_11_tl_1760427908" n="N005" />Vonersten auf Maister Hannsen vberleger
+               <lb facs="#facs_11_tl_1760427928" n="N006" />So er der Stat schuldig ist ut litera xl lb. d.
                <lb facs="#facs_11_tl_1760427922" n="N007" />Item auf hern Sigmunden von Eberstorf
                <lb facs="#facs_11_tl_1760427923" n="N008" />So er an den cc guld per restat der Stat
                <lb facs="#facs_11_tl_1760427909" n="N010" />Item auf Iörgen Epishauser fur den lehen
-               <lb facs="#facs_11_tl_1760427929" n="N011" />Holtzer so er auf sich genom hat xx γ d
+               <lb facs="#facs_11_tl_1760427929" n="N011" />Holtzer so er auf sich genom hat xx lb. d.
                <lb facs="#facs_11_tl_1760427925" n="N012" />Item auf Thoman Trager vnd seiner
                <lb facs="#facs_11_tl_1760427917" n="N013" />Hausfraun die Im des Lv ten Iars
                <lb facs="#facs_11_tl_1760427912" n="N014" />gelihen sind worden auf Ir Haws
                <lb facs="#facs_11_tl_1760427924" n="N015" />im Teuffengraben nach lautt der
-               <lb facs="#facs_11_line_1760544524714_13017" n="N016" />Schotten Gruntpuch x γ d
-               <lb facs="#facs_11_tl_1760427903" n="N017" />Suma des ausgelihen gelts C lxiii γ vi s d
+               <lb facs="#facs_11_line_1760544524714_13017" n="N016" />Schotten Gruntpuch x lb. d.
+               <lb facs="#facs_11_tl_1760427903" n="N017" />Suma des ausgelihen gelts C lxiii lb. vi s. d.
             </ab>
         <pb facs="#facs_12" n="12" xml:id="img_0012" />
         <ab facs="#facs_12_region_153813693">
-          <lb facs="#facs_12_tl_1760427906" n="N001" />Fürleihen den werchleuten
-               <lb facs="#facs_12_tl_1760427893" n="N002" />So wir auf vnser Innem
-               <lb facs="#facs_12_tl_1760427897" n="N003" />gelegt haben
-               <lb facs="#facs_12_tl_1760427899" n="N004" />Von ersten auf Gregorii vnslidprenner
+          <lb facs="#facs_12_tl_1760427906" n="N001" />
+          <headline>Fürleihen den werchleuten</headline>
+          <lb facs="#facs_12_tl_1760427893" n="N002" />
+          <headline>So wir auf vnser Innem</headline>
+          <lb facs="#facs_12_tl_1760427897" n="N003" />
+          <headline>gelegt haben</headline>
+          <lb facs="#facs_12_tl_1760427899" n="N004" />Von ersten auf Gregorii vnslidprenner
                <lb facs="#facs_12_tl_1760427903" n="N005" />So Im des liii ten Iars sind gelihen
-               <lb facs="#facs_12_line_1760544564514_13035" n="N006" />worden xi γ vi s d
+               <lb facs="#facs_12_line_1760544564514_13035" n="N006" />worden xi lb. vi s. d.
                <lb facs="#facs_12_tl_1760427896" n="N007" />vnd die er von des vnslidhaus wegen
                <lb facs="#facs_12_tl_1760427891" n="N008" />desselben Iars ain quatemer schuldig
-               <lb facs="#facs_12_tl_1760427888" n="N009" />ist Zu hoftzins iii γ d
+               <lb facs="#facs_12_tl_1760427888" n="N009" />ist Zu hoftzins iii lb. d.
                <lb facs="#facs_12_tl_1760427895" n="N010" />Item auf Pauln vberleger der anno liiii<hi style="vertical-align: superscript;">to</hi>
-          <lb facs="#facs_12_tl_1760427889" n="N011" />ut litera v γ d
-               <lb facs="#facs_12_tl_1760427887" n="N012" />Item auf demselben Pauln Lv<hi style="vertical-align: superscript;">to</hi> ut Litera iii γ d
-               <lb facs="#facs_12_tl_1760427901" n="N013" />Sum des furleihens xxii γ vi s d
+          <lb facs="#facs_12_tl_1760427889" n="N011" />ut litera v lb. d.
+               <lb facs="#facs_12_tl_1760427887" n="N012" />Item auf demselben Pauln Lv<hi style="vertical-align: superscript;">to</hi> ut Litera iii lb. d.
+               <lb facs="#facs_12_tl_1760427901" n="N013" />Sum des furleihens xxii lb. vi s. d.
             </ab>
         <ab facs="#facs_12_region_253813693">
           <lb facs="#facs_12_tl_1760427902" n="N001" />So legen wir auf vns auf Iorgen
                <lb facs="#facs_12_tl_1760427900" n="N002" />Epishauser vnd hern Fridreichen Ebmer
                <lb facs="#facs_12_tl_1760427898" n="N003" />ainen ausstand der Remanentz So Sy an
                <lb facs="#facs_12_tl_1760427892" n="N004" />Irr Raittung des L ten Iars sind schuldig
-               <lb facs="#facs_12_tl_1760427894" n="N005" />worden mit sambt den xii γ d abge
+               <lb facs="#facs_12_tl_1760427894" n="N005" />worden mit sambt den xii lb. d. abge
                <lb facs="#facs_12_tl_1760427890" n="N006" />losts purkrechts so der Epishauser
-               <lb facs="#facs_12_tl_1760427886" n="N007" />hat Ingenomen ꞩ xxviii γ ii d
+               <lb facs="#facs_12_tl_1760427886" n="N007" />hat Ingenomen ꞩ xxviii lb. ii d.
             </ab>
         <pb facs="#facs_13" n="13" xml:id="img_0013" />
         <milestone xml:id="ms0002" unit="summary" n="12r" type="summary" ana="#span0002" /><ab facs="#facs_13_region_253543684" n="12r" ana="#span0002">
           <lb facs="#facs_13_tl_1760427908" n="N001" />Sum aller vorgeschriben Remanentzen
                <lb facs="#facs_13_tl_1760427907" n="N002" />ausstend ausgelihens gelts
-               <lb facs="#facs_13_tl_1760427909" n="N003" />vnd Furleihens ꞩ dccc Lxxii γ v s xvi d
+               <lb facs="#facs_13_tl_1760427909" n="N003" />vnd Furleihens ꞩ dccc Lxxii lb. v s. xvi d.
             </ab>
         <pb facs="#facs_14" n="14" xml:id="img_0014" />
         <milestone xml:id="ms0003" unit="section" n="13r" type="section" subtype="Einnahmen aus Matthias Bon Geschäft" ana="#span0003" /><ab facs="#facs_14_region_253933658" n="13r" ana="#span0003">
-          <lb facs="#facs_14_tl_1760427923" n="N001" />Ein ander Innemen
-               <lb facs="#facs_14_tl_1760427919" n="N002" />des beraiten gelts
-               <lb facs="#facs_14_line_1760544621784_13069" n="N003" />Item So haben wir auf vnser
-               <lb facs="#facs_14_tl_1760427918" n="N004" />Innemen gelegt daz berait
-               <lb facs="#facs_14_tl_1760427916" n="N005" />Gelt So Niclas Ernst vnnd Ich Bilig knab als
+          <lb facs="#facs_14_tl_1760427923" n="N001" />
+          <headline>Ein ander Innemen</headline>
+          <lb facs="#facs_14_tl_1760427919" n="N002" />
+          <headline>des beraiten gelts</headline>
+          <lb facs="#facs_14_line_1760544621784_13069" n="N003" />
+          <headline>Item So haben wir auf vnser</headline>
+          <lb facs="#facs_14_tl_1760427918" n="N004" />
+          <headline>Innemen gelegt daz berait</headline>
+          <lb facs="#facs_14_tl_1760427916" n="N005" />
+          <headline>Gelt</headline> So Niclas Ernst vnnd Ich Bilig knab als
                <lb facs="#facs_14_tl_1760427912" n="N006" />kamrer des Lvi ten Iars der Stat sein schuldig
                <lb facs="#facs_14_tl_1760427914" n="N007" />worden an vnserer Raittung nach lautt des Ambt
-               <lb facs="#facs_14_tl_1760427920" n="N008" />puchs ꞩ Mccc iiii γ vii s vii d i ob
-               <lb facs="#facs_14_tl_1760427922" n="N009" />Innemen der Gult So Iorg
-               <lb facs="#facs_14_tl_1760427913" n="N010" />Stayner von Totzenpach auf vir Behaustenn
-               <lb facs="#facs_14_tl_1760427911" n="N011" />holden zu Schrikch der Stat Hintz sand Tibolt
-               <lb facs="#facs_14_tl_1760427909" n="N012" />Ierlich zuraichen hat vbergeben ut litera xi s d geltz
-               <lb facs="#facs_14_tl_1760427915" n="N013" />Innemen aus Mathias Bon
-               <lb facs="#facs_14_tl_1760427910" n="N014" />des Appotegker Geschefft So er armen Iunkfraun in presidn
+               <lb facs="#facs_14_tl_1760427920" n="N008" />puchs ꞩ Mccc iiii lb. vii s. vii d. i ob
+               <lb facs="#facs_14_tl_1760427922" n="N009" />
+          <headline>Innemen der Gult So Iorg
+               <lb break="no" facs="#facs_14_tl_1760427913" n="N010" />Stayner von Totzenpach auf vir Behaustenn
+               <lb break="no" facs="#facs_14_tl_1760427911" n="N011" />holden zu Schrikch der Stat Hintz sand Tibolt</headline>
+          <lb facs="#facs_14_tl_1760427909" n="N012" />Ierlich zuraichen hat vbergeben ut litera xi s. d. geltz
+               <lb facs="#facs_14_tl_1760427915" n="N013" />
+          <headline>Innemen aus Mathias Bon
+               <lb break="no" facs="#facs_14_tl_1760427910" n="N014" />des Appotegker Geschefft</headline> So er armen Iunkfraun in presidn
                <lb facs="#facs_14_tl_1760427917" n="N015" />zu venedii geschafft hat
             </ab>
         <pb facs="#facs_15" n="15" xml:id="img_0015" />
         <milestone xml:id="ms0004" unit="summary" n="13v" type="summary" subtype="Einnahmen von den Weingärten zu Grinzing von Stefan Langs seeligen Gut" ana="#span0004" /><milestone xml:id="ms0005" unit="section" n="14r" type="section" subtype="Einnahmen des entlehnten Guts" ana="#span0005" /><ab facs="#facs_15_region_153553655" n="13v" ana="#span0004">
-          <lb facs="#facs_15_line_1760544670585_13094" n="N001" />Innemen aus hern Fridr  
-               <lb facs="#facs_15_tl_1760427893" n="N002" />von Gors Geschefft armen Iunkfraun
-               <lb facs="#facs_15_tl_1760427885" n="N003" />Irem von Vlreichen Hirssawer Statschreiber
+          <lb facs="#facs_15_line_1760544670585_13094" n="N001" />
+          <headline>Innemen aus hern Fridr  </headline>
+          <lb facs="#facs_15_tl_1760427893" n="N002" />
+          <headline>von Gors Geschefft armen Iunkfraun</headline>
+          <lb facs="#facs_15_tl_1760427885" n="N003" />Irem von Vlreichen Hirssawer Statschreiber
                <lb facs="#facs_15_tl_1760427888" n="N004" />zu Wienn von der bestantgueter wegen So
-               <lb facs="#facs_15_tl_1760427882" n="N005" />er Innhat ainen Iardinst xxii γ d
-               <lb facs="#facs_15_tl_1760427904" n="N006" />Item von den weingerten
-               <lb facs="#facs_15_tl_1760427892" n="N007" />Zu Grintzing die von
-               <lb facs="#facs_15_tl_1760427887" n="N008" />Steffans langen seligen gut gekaufft
+               <lb facs="#facs_15_tl_1760427882" n="N005" />er Innhat ainen Iardinst xxii lb. d.
+               <lb facs="#facs_15_tl_1760427904" n="N006" />
+          <headline>Item von den weingerten
+               <lb break="no" facs="#facs_15_tl_1760427892" n="N007" />Zu Grintzing die von
+               <lb break="no" facs="#facs_15_tl_1760427887" n="N008" />Steffans langen</headline> seligen gut gekaufft
                <lb facs="#facs_15_tl_1760427896" n="N009" />vnd hern Oswalten Reicholf verlassen sind
-               <lb facs="#facs_15_tl_1760427883" n="N010" />ainen Iardinst ut litera vi γ iiii s d
+               <lb facs="#facs_15_tl_1760427883" n="N010" />ainen Iardinst ut litera vi lb. iiii s. d.
             </ab>
         <ab facs="#facs_15_region_253553655" n="14r" ana="#span0005">
-          <lb facs="#facs_15_line_1760544689994_13111" n="N001" />Vermerkt was wir
-               <lb facs="#facs_15_tl_1760427903" n="N002" />daz Iar entlehents guts
-               <lb facs="#facs_15_tl_1760427901" n="N003" />haben Ingenomen
-               <lb facs="#facs_15_tl_1760427897" n="N004" />Item von hern Micheln Harrasser darumb er
+          <lb facs="#facs_15_line_1760544689994_13111" n="N001" />
+          <headline>Vermerkt was wir</headline>
+          <lb facs="#facs_15_tl_1760427903" n="N002" />
+          <headline>daz Iar entlehents guts</headline>
+          <lb facs="#facs_15_tl_1760427901" n="N003" />
+          <headline>haben Ingenomen</headline>
+          <lb facs="#facs_15_tl_1760427897" n="N004" />Item von hern Micheln Harrasser darumb er
                <lb facs="#facs_15_tl_1760427891" n="N005" />xxviii vngrischer guldein Ierlicher gult
                <lb facs="#facs_15_tl_1760427895" n="N006" />auf der Stat kaufft hat dcc guldein
-               <lb facs="#facs_15_tl_1760427889" n="N007" />ut litera yeden guldein per i γ d ꞩ vii γ d
+               <lb facs="#facs_15_tl_1760427889" n="N007" />ut litera yeden guldein per i lb. d. ꞩ vii lb. d.
                <lb facs="#facs_15_tl_1760427900" n="N008" />Item von Giligen waldner vnd Steffan
                <lb facs="#facs_15_tl_1760427902" n="N009" />Püsenperger Zingiesser die herkomen
                <lb facs="#facs_15_tl_1760427898" n="N010" />sind von Iacobs Straiffings Haws am
                <lb facs="#facs_15_tl_1760427884" n="N011" />alten Rossmarkt gelegen darumb die pruder
                <lb facs="#facs_15_tl_1760427886" n="N012" />schafft vnser frann Zech xlii vngrischer
                <lb facs="#facs_15_tl_1760427894" n="N013" />guldein Ierlicher gult auf der Stat ge
-               <lb facs="#facs_15_tl_1760427899" n="N014" />kaufft hat ut litera xiii c γ d
+               <lb facs="#facs_15_tl_1760427899" n="N014" />kaufft hat ut litera xiii c lb. d.
             </ab>
         <pb facs="#facs_16" n="16" xml:id="img_0016" />
         <milestone xml:id="ms0006" unit="summary" n="14v" type="summary" ana="#span0006" /><milestone xml:id="ms0007" unit="summary" n="15t" type="summary" subtype="Einnahmen des Guts bei der Stadt Grundbuch" ana="#span0007" /><ab facs="#facs_16_region_153573679" n="14v" ana="#span0006">
-          <lb facs="#facs_16_tl_1760427917" n="N001" />Sum des entlehenten guts ꞩ ii M γ d
+          <lb facs="#facs_16_tl_1760427917" n="N001" />Sum des entlehenten guts ꞩ ii M lb. d.
             </ab>
         <ab facs="#facs_16_region_253573679" n="15t" ana="#span0007">
-          <lb facs="#facs_16_tl_1760427918" n="N001" />Innemen des entlechenten guts
-               <lb facs="#facs_16_tl_1760427913" n="N002" />daz pey der Stat gruntpuch
-               <lb facs="#facs_16_tl_1760427915" n="N003" />gelegen ist
-               <lb facs="#facs_16_tl_1760427916" n="N004" />Item die kristoff Ötzestorffer zu dem grunt
+          <lb facs="#facs_16_tl_1760427918" n="N001" />
+          <headline>Innemen des entlechenten guts</headline>
+          <lb facs="#facs_16_tl_1760427913" n="N002" />
+          <headline>daz pey der Stat gruntpuch</headline>
+          <lb facs="#facs_16_tl_1760427915" n="N003" />
+          <headline>gelegen ist</headline>
+          <lb facs="#facs_16_tl_1760427916" n="N004" />Item die kristoff Ötzestorffer zu dem grunt
                <lb facs="#facs_16_tl_1760427912" n="N005" />puch hat nidergelegt vnd wolfgangen
                <lb facs="#facs_16_tl_1760427914" n="N006" />des Holtzer Hausfraun Haimsteur vnd
-               <lb facs="#facs_16_tl_1760427911" n="N007" />Morgengab gewesen sind v c γ d
+               <lb facs="#facs_16_tl_1760427911" n="N007" />Morgengab gewesen sind v c lb. d.
             </ab>
         <pb facs="#facs_17" n="17" xml:id="img_0017" />
         <milestone xml:id="ms0008" unit="summary" n="16r" type="summary" subtype="Einnahmen von dem Getreidegeld des Kastens" ana="#span0008" /><ab facs="#facs_17_region_153243680">

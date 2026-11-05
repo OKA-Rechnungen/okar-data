@@ -2471,7 +2471,7 @@
     </surface>
     <surface ulx="0" uly="0" lrx="5060" lry="4111" xml:id="facs_94">
       <graphic url="WSTLA-OKA-B1-1-156-1_00094.tif" width="5060px" height="4111px" />
-      <graphic url="https://files.transkribus.eu/Get?id=JYINMPLFFHYSWBAMASAAMGUX&amp;fileType=view" width="5060px" height="4111px" />
+      <graphic url="https://files.transkribus.eu/Get?fileType=view&amp;id=JYINMPLFFHYSWBAMASAAMGUX" width="5060px" height="4111px" />
       <zone points="0,0 2530,0 2530,4111 0,4111" rendition="TextRegion" xml:id="facs_94_region_150604111" />
       <zone points="2530,0 5060,0 5060,4111 2530,4111" rendition="TextRegion" xml:id="facs_94_region_250604111">
         <zone points="2983,236 2980,520 2985,563 3002,609 3020,638 3034,696 3048,710 3096,728 3154,734 3383,735 3654,721 4362,716 4409,709 4431,692 4431,595 4426,577 4414,566 4260,501 4193,490 4033,511 3928,513 3785,495 3739,474 3717,455 3704,437 3665,346 3672,327 3627,303 3520,280 3368,233 3011,228" rendition="Line" xml:id="facs_94_tl_1748854698" />
@@ -2610,7 +2610,7 @@
     </surface>
     <surface ulx="0" uly="0" lrx="5028" lry="4106" xml:id="facs_98">
       <graphic url="WSTLA-OKA-B1-1-156-1_00098.tif" width="5028px" height="4106px" />
-      <graphic url="https://files.transkribus.eu/Get?id=TAALHMHRZCNWKGOTWIIIFATO&amp;fileType=view" width="5028px" height="4106px" />
+      <graphic url="https://files.transkribus.eu/Get?fileType=view&amp;id=TAALHMHRZCNWKGOTWIIIFATO" width="5028px" height="4106px" />
       <zone points="0,0 2514,0 2514,4106 0,4106" rendition="TextRegion" xml:id="facs_98_region_150284106" />
       <zone points="2514,0 5028,0 5028,4106 2514,4106" rendition="TextRegion" xml:id="facs_98_region_250284106">
         <zone points="3340,1762 3339,1829 3341,1870 3345,1879 3371,1899 3420,1898 3505,1889 3583,1888 3607,1893 3629,1901 3644,1910 3653,1920 3669,1926 3709,1920 3748,1909 3776,1906 3815,1907 3862,1919 3933,1925 3976,1934 3983,1933 3989,1926 3990,1868 3987,1851 3979,1836 3973,1830 3965,1802 3952,1782 3947,1768 3940,1760 3932,1756 3888,1752 3720,1749 3368,1747 3346,1754" rendition="Line" xml:id="facs_98_tl_1748854705" />
@@ -2624,7 +2624,7 @@
     </surface>
     <surface ulx="0" uly="0" lrx="5028" lry="4101" xml:id="facs_100">
       <graphic url="WSTLA-OKA-B1-1-156-1_00100.tif" width="5028px" height="4101px" />
-      <graphic url="https://files.transkribus.eu/Get?id=QXCTQAJWQFKKXUDSLHOIRZOJ&amp;fileType=view" width="5028px" height="4101px" />
+      <graphic url="https://files.transkribus.eu/Get?fileType=view&amp;id=QXCTQAJWQFKKXUDSLHOIRZOJ" width="5028px" height="4101px" />
       <zone points="0,0 2514,0 2514,4101 0,4101" rendition="TextRegion" xml:id="facs_100_region_150284101" />
       <zone points="2514,0 5028,0 5028,4101 2514,4101" rendition="TextRegion" xml:id="facs_100_region_250284101">
         <zone points="2583,528 2556,406 2612,276 3052,271 3402,212 3751,278 4003,223 4614,313 4721,421 4727,607 4675,715 4309,696 4041,687 3894,672 3608,668 3417,710 3085,727 2936,738 2779,754" rendition="Line" xml:id="facs_100_tl_1748854705" />
@@ -10726,9 +10726,11 @@
         <pb facs="#facs_93" n="93" xml:id="img_0093" />
         <pb facs="#facs_94" n="94" xml:id="img_0094" />
         <milestone xml:id="ms0037" unit="section-end" n="89r" type="section-end" subtype="Ende Ausgaben-Rubriken" ana="#span0037" /><ab facs="#facs_94_region_250604111" n="89r" ana="#span0037">
-          <lb facs="#facs_94_tl_1748854698" n="N001" />Ruberiggen der
-               <lb facs="#facs_94_tl_1748854701" n="N002" />Außgaben
-               <lb facs="#facs_94_tl_1748854697" n="N003" />Außgab auf das Vndter Statt
+          <lb facs="#facs_94_tl_1748854698" n="N001" />
+          <headline>Ruberiggen der</headline>
+          <lb facs="#facs_94_tl_1748854701" n="N002" />
+          <headline>Außgaben</headline>
+          <lb facs="#facs_94_tl_1748854697" n="N003" />Außgab auf das Vndter Statt
                <lb facs="#facs_94_tl_1748854707" n="N004" />Camer Ambt 90
                <lb facs="#facs_94_tl_1748854699" n="N005" />Außgab auf die Schatz Steüer 94
                <lb facs="#facs_94_tl_1748854705" n="N006" />Außgab auf die Landtsteüer 96
@@ -10750,7 +10752,7 @@
         <milestone xml:id="ms0038" unit="section" n="90r" type="section" subtype="Ausgaben" ana="#span0038" /><ab facs="#facs_95_region_150674108">
           <lb facs="#facs_95_tl_1748854718" n="N001" />Außgab auf die Contorey bey
                <lb facs="#facs_95_tl_1748854747" n="N002" />St. Stephan 169
-               <lb facs="#facs_95_tl_1748854740" n="N003" />Außgab auf St. Sephan
+               <lb facs="#facs_95_tl_1748854740" n="N003" />Außgab auf St. Stephan
                <lb facs="#facs_95_tl_1748854744" n="N004" />Thurn vnd Vhr 176
                <lb facs="#facs_95_tl_1748854742" n="N005" />Außgab auf Gem. Statt Zeüg
                <lb facs="#facs_95_tl_1748854736" n="N006" />Hauß 179
@@ -10785,10 +10787,13 @@
             </ab>
         <pb facs="#facs_96" n="96" xml:id="img_0096" />
         <ab facs="#facs_96_region_250664094">
-          <lb facs="#facs_96_tl_1748854693" n="N001" />Außgaben auf das
-               <lb facs="#facs_96_tl_1748854705" n="N002" />Vnder Statt Camerer
-               <lb facs="#facs_96_tl_1748854694" n="N003" />Ambt
-               <lb facs="#facs_96_tl_1748854699" n="N004" />Den AchZehendten Februarii des
+          <lb facs="#facs_96_tl_1748854693" n="N001" />
+          <headline>Außgaben auf das</headline>
+          <lb facs="#facs_96_tl_1748854705" n="N002" />
+          <headline>Vnder Statt Camerer</headline>
+          <lb facs="#facs_96_tl_1748854694" n="N003" />
+          <headline>Ambt</headline>
+          <lb facs="#facs_96_tl_1748854699" n="N004" />Den AchZehendten Februarii des
                <lb facs="#facs_96_tl_1748854713" n="N005" />Nunmehr eingetrettenen Sechtzehen
                <lb facs="#facs_96_tl_1748854718" n="N006" />hundert Vierundreyßigisten Iahrs
                <lb facs="#facs_96_tl_1748854695" n="N007" />Gab Ich dem Edl vnd vessten herrn
@@ -10799,7 +10804,7 @@
                <lb facs="#facs_96_tl_1748854701" n="N012" />Benentlichen Aintausendt Vier
                <lb facs="#facs_96_tl_1748854714" n="N013" />hundert Zwayundfunfftzig gul
                <lb facs="#facs_96_tl_1748854706" n="N014" />den Reinisch Lauth Quittung so
-               <lb facs="#facs_96_tl_1748854715" n="N016" />Idest 1452 f - " -
+               <lb facs="#facs_96_tl_1748854715" n="N016" />Idest 1452 f. - " -
                <lb facs="#facs_96_tl_1748854696" n="N017" />Den Achten Appril Gab Ich dem
                <lb facs="#facs_96_tl_1748854707" n="N018" />Edl vnd vessten herrn Geörgen
                <lb facs="#facs_96_tl_1748854703" n="N019" />Watzelt des Khay. Stattghaits
@@ -10809,8 +10814,8 @@
                <lb facs="#facs_96_tl_1748854709" n="N023" />lichen Zway Tausendt Zway
                <lb facs="#facs_96_tl_1748854708" n="N024" />hundert Zway vnd Achtzig gul
                <lb facs="#facs_96_tl_1748854710" n="N025" />den rh. vermüg Quitung so hiebey
-               <lb facs="#facs_96_tl_1748854717" n="N026" />Idest 2282 f - " -
-               <lb facs="#facs_96_line_1748855907603_1056" n="N027" />Latus 3734 f - " - "
+               <lb facs="#facs_96_tl_1748854717" n="N026" />Idest 2282 f. - " -
+               <lb facs="#facs_96_line_1748855907603_1056" n="N027" />Latus 3734 f. - " - "
             </ab>
         <pb facs="#facs_97" n="97" xml:id="img_0097" />
         <milestone xml:id="ms0039" unit="summary" n="92r" type="summary" ana="#span0039" /><ab facs="#facs_97_region_150734094">
@@ -10822,7 +10827,7 @@
                <lb facs="#facs_97_tl_1748854723" n="N006" />Benentlichen Aintausendt Neün
                <lb facs="#facs_97_tl_1748854732" n="N007" />hundert Sechs vnd funfftzig gulden
                <lb facs="#facs_97_tl_1748854728" n="N008" />Reinisch vermüg Quittung so hiebei
-               <lb facs="#facs_97_tl_1748854713" n="N009" />Idest 1956 f - " -
+               <lb facs="#facs_97_tl_1748854713" n="N009" />Idest 1956 f. - " -
                <lb facs="#facs_97_tl_1748854717" n="N010" />Den NeünvndZwaintzigisten Iulii
                <lb facs="#facs_97_tl_1748854720" n="N011" />Gab Ich dem Edl vnd vessten herrn
                <lb facs="#facs_97_tl_1748854726" n="N012" />Geörgen Watzelt des Khay.
@@ -10832,37 +10837,41 @@
                <lb facs="#facs_97_tl_1748854715" n="N016" />Ambts Benentlichen Zway Tau
                <lb facs="#facs_97_tl_1748854731" n="N017" />sendt dreyhundert vnd Sibentzehen
                <lb facs="#facs_97_tl_1748854733" n="N018" />gulden reinisch Inhalt Quittung
-               <lb facs="#facs_97_tl_1748854734" n="N019" />so hiebey Idest 2317 f - " -
+               <lb facs="#facs_97_tl_1748854734" n="N019" />so hiebey Idest 2317 f. - " -
                <lb facs="#facs_97_tl_1748854707" n="N020" />Nichtweniger disen Bemelten tag
                <lb facs="#facs_97_tl_1748854711" n="N021" />Gab Ich gedachten herrn Watzelt
                <lb facs="#facs_97_tl_1748854708" n="N022" />Zue Betzahlung des Eißler Wag
                <lb facs="#facs_97_tl_1748854722" n="N023" />ner huefschmidts Schloser Tischler
                <lb facs="#facs_97_tl_1748854719" n="N024" />vnd Glaßers AußZug Benent
-               <lb facs="#facs_97_tl_1748854729" n="N025" />Latus 4273 f - "
+               <lb facs="#facs_97_tl_1748854729" n="N025" />Latus 4273 f. - "
             </ab>
         <ab facs="#facs_97_region_250734094" n="92r" ana="#span0039">
           <lb facs="#facs_97_tl_1748854714" n="N001" />lichen Aintausendt Neün hundert
                <lb facs="#facs_97_tl_1748854712" n="N002" />Siben vnd Neüntzig gulden rh.
                <lb facs="#facs_97_tl_1748854727" n="N003" />Lauth Quittung so hiebey
-               <lb facs="#facs_97_tl_1748854736" n="N004" />Idest 1997 f - " - "
+               <lb facs="#facs_97_tl_1748854736" n="N004" />Idest 1997 f. - " - "
                <lb facs="#facs_97_tl_1748854718" n="N005" />Lattus per see.
             </ab>
         <pb facs="#facs_98" n="98" xml:id="img_0098" />
         <ab facs="#facs_98_region_250284106">
-          <lb facs="#facs_98_tl_1748854705" n="N001" />10004. f
+          <lb facs="#facs_98_tl_1748854705" n="N001" />10004. f.
             </ab>
         <pb facs="#facs_99" n="99" xml:id="img_0099" />
         <pb facs="#facs_100" n="100" xml:id="img_0100" />
         <ab facs="#facs_100_region_250284101">
-          <lb facs="#facs_100_tl_1748854705" n="N001" />Außgab auf die Schatz
-               <lb facs="#facs_100_tl_1748854706" n="N002" />Steur
-            </ab>
+          <lb facs="#facs_100_tl_1748854705" n="N001" />
+          <headline>Außgab auf die Schatz</headline>
+          <lb facs="#facs_100_tl_1748854706" n="N002" />
+          <headline>Steur</headline>
+        </ab>
         <pb facs="#facs_101" n="101" xml:id="img_0101" />
         <pb facs="#facs_102" n="102" xml:id="img_0102" />
         <ab facs="#facs_102_region_250564119">
-          <lb facs="#facs_102_tl_1748854731" n="N001" />Außgab auf die
-               <lb facs="#facs_102_tl_1748854732" n="N002" />Landtsteur
-               <lb facs="#facs_102_tl_1748854730" n="N003" />Den SibenZehendten Iulii Anno etc 1634
+          <lb facs="#facs_102_tl_1748854731" n="N001" />
+          <headline>Außgab auf die</headline>
+          <lb facs="#facs_102_tl_1748854732" n="N002" />
+          <headline>Landtsteur</headline>
+          <lb facs="#facs_102_tl_1748854730" n="N003" />Den SibenZehendten Iulii Anno etc 1634
                <lb facs="#facs_102_tl_1748854748" n="N004" />Wierdt hiemit Zu nachrichtung
                <lb facs="#facs_102_tl_1748854759" n="N005" />alda eingestelt demnach Ihrer
                <lb facs="#facs_102_tl_1748854739" n="N006" />Röm. Khay. Mt. vnsern aller
@@ -10917,7 +10926,7 @@
                <lb facs="#facs_103_tl_1748854743" n="N021" />der Werbung vnd des geraichten
                <lb facs="#facs_103_tl_1748854754" n="N022" />Liffer gelts Zuesamben Benent
                <lb facs="#facs_103_tl_1748854773" n="N023" />lichen Vier tausendt Ainhundert vnd
-               <lb facs="#facs_103_tl_1748854726" n="N024" />Sibentzehen gulden rh. 6 s 24 d.
+               <lb facs="#facs_103_tl_1748854726" n="N024" />Sibentzehen gulden rh. 6 s. 24 d.
                <lb facs="#facs_103_tl_1748854758" n="N025" />gestandten vermüg meines
                <lb facs="#facs_103_tl_1748854753" n="N026" />derowegen überraichten Bericht
                <lb facs="#facs_103_tl_1748854736" n="N027" />vnd darauf eruolgten Raths
@@ -10925,7 +10934,7 @@
                <lb facs="#facs_103_tl_1748854765" n="N029" />
           <unclear>Vieoll</unclear> haubtleüthen Werbungs
                <lb facs="#facs_103_tl_1748854738" n="N030" />Specification sambt auch notturfften
-               <lb facs="#facs_103_line_1748856019595_1181" n="N032" />Idest  4117 f. 6 s
+               <lb facs="#facs_103_line_1748856019595_1181" n="N032" />Idest  4117 f. 6 s.
                <lb facs="#facs_103_tl_1748854779" n="N033" />Latus per See " - " - "
             </ab>
         <ab facs="#facs_103_region_250724109" n="98r" ana="#span0040">
@@ -10941,10 +10950,10 @@
                <lb facs="#facs_103_tl_1748854744" n="N010" />halben Fünfften Thail 11812 f.
                <lb facs="#facs_103_tl_1748854761" n="N011" />4 s. d. Item anstatt 153 Muth
                <lb facs="#facs_103_tl_1748854775" n="N012" />3¾ Metzen Khorn Landtmaß
-               <lb facs="#facs_103_tl_1748854748" n="N013" />Ieden Metzen per 6 s d. 3445 f.
-               <lb facs="#facs_103_tl_1748854737" n="N014" />2 s 15 d. Mehr für 43 Muth
+               <lb facs="#facs_103_tl_1748854748" n="N013" />Ieden Metzen per 6 s. d. 3445 f.
+               <lb facs="#facs_103_tl_1748854737" n="N014" />2 s. 15 d. Mehr für 43 Muth
                <lb facs="#facs_103_tl_1748854781" n="N015" />15 Metzen haben auf Ieden
-               <lb facs="#facs_103_tl_1748854740" n="N016" />Metzen f. 6 s d 9843 f. 6 s d.
+               <lb facs="#facs_103_tl_1748854740" n="N016" />Metzen f. 6 s. d. 9843 f. 6 s. d.
                <lb facs="#facs_103_tl_1748854751" n="N017" />vnd dan an statt 3453
                <lb facs="#facs_103_tl_1748854770" n="N018" />Emer 36. Achtring Wein Ieden
                <lb facs="#facs_103_tl_1748854739" n="N019" />Achtring per 16 d. gerechnet
@@ -10974,13 +10983,13 @@
                <lb facs="#facs_104_tl_1748854720" n="N010" />Völlig 6904 f. 4 s. 18 d.
                <lb facs="#facs_104_tl_1748854728" n="N011" />Mehr in Abschlag des Rüst oder
                <lb facs="#facs_104_tl_1748854726" n="N012" />aufpoth gelts der 9187 f.
-               <lb facs="#facs_104_tl_1748854716" n="N013" />4 s d 4974 f. 2 s. 15 d.
+               <lb facs="#facs_104_tl_1748854716" n="N013" />4 s. d. 4974 f. 2 s. 15 d.
                <lb facs="#facs_104_tl_1748854725" n="N014" />Zuesamben in Summa Fünff
                <lb facs="#facs_104_tl_1748854732" n="N015" />vndZwaintzig Taußent Sechs
                <lb facs="#facs_104_tl_1748854717" n="N016" />hundert Acht vnd Achtzig
-               <lb facs="#facs_104_tl_1748854721" n="N017" />gulden rh. - s 9 d. vermüg
+               <lb facs="#facs_104_tl_1748854721" n="N017" />gulden rh. - s. 9 d. vermüg
                <lb facs="#facs_104_tl_1748854734" n="N018" />Extract vnd Quittung so
-               <lb facs="#facs_104_tl_1748854731" n="N020" />Idest 25688 f - s 9 d.
+               <lb facs="#facs_104_tl_1748854731" n="N020" />Idest 25688 f. - s. 9 d.
                <lb facs="#facs_104_tl_1748854719" n="N021" />NB. dise Prouiants probationen
                <lb facs="#facs_104_tl_1748854712" n="N022" />mit No. 23. 24. 25. Item die
                <lb facs="#facs_104_tl_1748854713" n="N023" />von No. 39 biß 44. ligen bei
@@ -10990,28 +10999,31 @@
             </ab>
         <ab facs="#facs_104_region_250664103">
           <lb facs="#facs_104_tl_1748854711" n="N001" />
-          <unclear>Idest 9 f. 4117 d</unclear>
-        </ab>
+          <unclear>Idest 9 f. 4117 d</unclear>.
+            </ab>
         <pb facs="#facs_105" n="105" xml:id="img_0105" />
         <pb facs="#facs_106" n="106" xml:id="img_0106" />
         <pb facs="#facs_107" n="107" xml:id="img_0107" />
         <milestone xml:id="ms0041" unit="section" n="101r" type="section" subtype="Ausgaben auf königl. und landesfürstl. Einbegleitung" ana="#span0041" /><ab facs="#facs_107_region_249944126" n="101r" ana="#span0041">
-          <lb facs="#facs_107_tl_1748854702" n="N001" />Außgab auf Khönig
-               <lb facs="#facs_107_tl_1748854706" n="N002" />vnd Landtsfürstliche Ein
-               <lb facs="#facs_107_tl_1748854704" n="N003" />beclaittung
-               <lb facs="#facs_107_tl_1748854703" n="N004" />Den Zwölfften Ianuarii des Nun
+          <lb facs="#facs_107_tl_1748854702" n="N001" />
+          <headline>Außgab auf Khönig</headline>
+          <lb facs="#facs_107_tl_1748854706" n="N002" />
+          <headline>vnd Landtsfürstliche Ein</headline>
+          <lb facs="#facs_107_tl_1748854704" n="N003" />
+          <headline>beclaittung</headline>
+          <lb facs="#facs_107_tl_1748854703" n="N004" />Den Zwölfften Ianuarii des Nun
                <lb facs="#facs_107_tl_1748854727" n="N005" />mehr eingetrettenen Sechshundert
                <lb facs="#facs_107_tl_1748854707" n="N006" />viervndreyßigisten Iahrs Betzalt
                <lb facs="#facs_107_tl_1748854725" n="N007" />Ich herrn Geörgen Mörwalthen
                <lb facs="#facs_107_tl_1748854713" n="N008" />deß Aussern Raths vnd Tuech handlß
                <lb facs="#facs_107_tl_1748854709" n="N009" />man alhie über Ihr <unclear>G etc</unclear> herrn
                <lb facs="#facs_107_tl_1748854705" n="N010" />Burgermaisters geschäfftl wegen
-               <lb facs="#facs_107_tl_1748854711" n="N011" />Idest 9 f. 4117 d
+               <lb facs="#facs_107_tl_1748854711" n="N011" />Idest 9 f. 4117 d.
                <lb facs="#facs_107_tl_1748854720" n="N012" />tung hergebnen stuckh grienen
                <lb facs="#facs_107_tl_1748854710" n="N013" />Iglauer Tuech Benentlichen Zwain
                <lb facs="#facs_107_tl_1748854718" n="N014" />Zig gulden Reinisch vermüg vnder
                <lb facs="#facs_107_tl_1748854712" n="N015" />schribnen AußZügl hiebey
-               <lb facs="#facs_107_tl_1748854726" n="N016" />Idest 20 f - " - "
+               <lb facs="#facs_107_tl_1748854726" n="N016" />Idest 20 f. - " - "
                <lb facs="#facs_107_tl_1748854701" n="N017" />Den AchtvndZwaintzigisten dito
                <lb facs="#facs_107_tl_1748854716" n="N018" />Betzalt Ich Hansen Fuhrlohn felt
                <lb facs="#facs_107_tl_1748854722" n="N019" />Trometern für sich vnd an stat
@@ -11021,8 +11033,8 @@
                <lb facs="#facs_107_tl_1748854717" n="N023" />brauchen lassene Benentlichen
                <lb facs="#facs_107_tl_1748854719" n="N024" />FünffvndZwaintzig gulden rh.
                <lb facs="#facs_107_tl_1748854714" n="N025" />Vt Quittung
-               <lb facs="#facs_107_tl_1748854724" n="N026" />Idest 25 f - " -
-               <lb facs="#facs_107_tl_1748854723" n="N027" />Latus 45. f - " - "
+               <lb facs="#facs_107_tl_1748854724" n="N026" />Idest 25 f. - " -
+               <lb facs="#facs_107_tl_1748854723" n="N027" />Latus 45. f. - " - "
             </ab>
         <pb facs="#facs_108" n="108" xml:id="img_0108" />
         <ab facs="#facs_108_region_150084124">

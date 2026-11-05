@@ -7146,7 +7146,7 @@
     </surface>
     <surface ulx="0" uly="0" lrx="4929" lry="3839" xml:id="facs_167">
       <graphic url="WSTLA-OKA-B1-1-136-1_00167.tif" width="4929px" height="3839px" />
-      <graphic url="https://files.transkribus.eu/Get?id=KKTSPYAPBYCFIHYQKYVRSLXJ&amp;fileType=view" width="4929px" height="3839px" />
+      <graphic url="https://files.transkribus.eu/Get?fileType=view&amp;id=KKTSPYAPBYCFIHYQKYVRSLXJ" width="4929px" height="3839px" />
       <zone points="0,0 2464,0 2464,3839 0,3839" rendition="TextRegion" xml:id="facs_167_region_149293839" />
       <zone points="2465,0 4929,0 4929,3839 2465,3839" rendition="TextRegion" xml:id="facs_167_region_249293839">
         <zone points="2492,407 2498,498 2528,549 2539,588 2555,836 2565,861 2630,873 2998,873 3394,852 4116,855 4178,847 4191,838 4202,816 4199,544 4181,524 4111,483 3806,445 3737,446 3560,473 3492,467 3427,446 3361,409 3332,365 3265,308 3201,285 3069,260 2810,264 2626,287 2552,315 2532,351 2500,384" rendition="Line" xml:id="facs_167_tl_1748952760" />
@@ -7263,7 +7263,7 @@
     </surface>
     <surface ulx="0" uly="0" lrx="4913" lry="3842" xml:id="facs_170">
       <graphic url="WSTLA-OKA-B1-1-136-1_00170.tif" width="4913px" height="3842px" />
-      <graphic url="https://files.transkribus.eu/Get?id=GKWIOIHEAWOYITLOKXIFKPMT&amp;fileType=view" width="4913px" height="3842px" />
+      <graphic url="https://files.transkribus.eu/Get?fileType=view&amp;id=GKWIOIHEAWOYITLOKXIFKPMT" width="4913px" height="3842px" />
       <zone points="0,0 2456,0 2456,3842 0,3842" rendition="TextRegion" xml:id="facs_170_region_149133842">
         <zone points="1935,459 1928,450 1819,417 1805,406 1781,400 1765,389 1734,386 1490,390 1348,405 1236,400 1159,404 1016,402 833,407 787,421 778,428 775,439 775,513 786,522 811,524 1101,523 1243,514 1353,523 1427,523 1600,515 1874,513 1932,504 1935,501" rendition="Line" xml:id="facs_170_tl_1748952779" />
         <zone points="774,548 775,617 790,624 836,629 1069,623 1109,625 1173,636 1279,636 1337,625 1384,622 1497,626 1597,618 1873,619 1960,610 1965,607 1967,599 1966,540 1950,533 1800,535 1650,526 1381,531 1227,523 837,527 780,537" rendition="Line" xml:id="facs_170_tl_1748952785" />
@@ -7313,7 +7313,7 @@
     </surface>
     <surface ulx="0" uly="0" lrx="4921" lry="3832" xml:id="facs_171">
       <graphic url="WSTLA-OKA-B1-1-136-1_00171.tif" width="4921px" height="3832px" />
-      <graphic url="https://files.transkribus.eu/Get?id=QRRHOFHJGIFNVSJHVNAYLMFR&amp;fileType=view" width="4921px" height="3832px" />
+      <graphic url="https://files.transkribus.eu/Get?fileType=view&amp;id=QRRHOFHJGIFNVSJHVNAYLMFR" width="4921px" height="3832px" />
       <zone points="0,0 2460,0 2460,3832 0,3832" rendition="TextRegion" xml:id="facs_171_region_149213832">
         <zone points="1918,333 1914,321 1900,316 1727,314 1669,317 1577,333 1427,351 1384,351 1309,341 1200,359 1111,355 1000,361 820,360 778,370 763,378 762,440 771,466 783,471 817,474 1079,474 1154,468 1301,467 1520,459 1719,468 1863,468 1906,462 1917,455" rendition="Line" xml:id="facs_171_tl_1748952792" />
         <zone points="1905,511 1896,504 1847,494 1645,486 1546,473 1134,474 982,497 856,501 805,510 798,516 798,571 808,579 853,585 1215,585 1301,577 1403,574 1536,578 1596,569 1644,567 1762,572 1873,571 1904,567" rendition="Line" xml:id="facs_171_tl_1748952799" />
@@ -17490,10 +17490,13 @@
         <pb facs="#facs_166" n="166" xml:id="img_0166" />
         <pb facs="#facs_167" n="167" xml:id="img_0167" />
         <milestone xml:id="ms0059" unit="section" n="88r" type="section" subtype="Ausgaben der Amtleut- und Dienerbesoldung" ana="#span0059" /><ab facs="#facs_167_region_249293839" n="88r" ana="#span0059">
-          <lb facs="#facs_167_tl_1748952760" n="N001" />Außgaab der
-               <lb facs="#facs_167_tl_1748952761" n="N002" />Ambtleuth vnd Dien
-               <lb facs="#facs_167_tl_1748952768" n="N003" />er Besoldung
-               <lb facs="#facs_167_tl_1748952764" n="N004" />Erstlichen den Sechtzehendten
+          <lb facs="#facs_167_tl_1748952760" n="N001" />
+          <headline>Außgaab der</headline>
+          <lb facs="#facs_167_tl_1748952761" n="N002" />
+          <headline>Ambtleuth vnd Dien</headline>
+          <lb facs="#facs_167_tl_1748952768" n="N003" />
+          <headline>er Besoldung</headline>
+          <lb facs="#facs_167_tl_1748952764" n="N004" />Erstlichen den Sechtzehendten
                <lb facs="#facs_167_tl_1748952774" n="N005" />Ianuarii diß eingehendten
                <lb facs="#facs_167_tl_1748952763" n="N006" />Aintausent Sechs hundert Zehendten
                <lb facs="#facs_167_tl_1748952769" n="N007" />Iars gab ich dem Peter Müllner
@@ -17513,7 +17516,7 @@
                <lb facs="#facs_168_tl_1748952767" n="N002" />müg seiner quittung vnd von
                <lb facs="#facs_168_tl_1748952788" n="N003" />Ainem Edlen hochweisen Statt
                <lb facs="#facs_168_tl_1748952789" n="N004" />Rath etc berathschlagten Supliciern
-               <lb facs="#facs_168_tl_1748952797" n="N005" />hiebey Idest f. 23. s - d -
+               <lb facs="#facs_168_tl_1748952797" n="N005" />hiebey Idest f. 23. s. - d. -
                <lb facs="#facs_168_tl_1748952784" n="N006" />Den dritten Martii gab ich dem
                <lb facs="#facs_168_tl_1748952792" n="N007" />Hannsen Gürßner Organisten
                <lb facs="#facs_168_tl_1748952778" n="N008" />bei St. Steffans Thumbkhirchen
@@ -17521,13 +17524,13 @@
                <lb facs="#facs_168_tl_1748952786" n="N010" />Yetzt Reminiscere verfallen
                <lb facs="#facs_168_tl_1748952772" n="N011" />Benenntlichen drey Zehen gulden
                <lb facs="#facs_168_tl_1748952781" n="N012" />Reinisch vermüg seiner quitt
-               <lb facs="#facs_168_tl_1748952798" n="N013" />ung hiebey Idest f 13. s - d -
+               <lb facs="#facs_168_tl_1748952798" n="N013" />ung hiebey Idest f. 13. s. - d. -
                <lb facs="#facs_168_tl_1748952766" n="N014" />Den Zehendten April Zalt
                <lb facs="#facs_168_tl_1748952796" n="N015" />Ich dem Niclasen Wibmer
                <lb facs="#facs_168_tl_1748952785" n="N016" />vnd Anndreen Riedl bede Inn
                <lb facs="#facs_168_tl_1748952787" n="N017" />wohner Alhie wegen das
                <lb facs="#facs_168_tl_1748952800" n="N018" />sie Yetzt verwichene hl. fasten
-               <lb facs="#facs_168_tl_1748952780" n="N019" />Latus 36 f - s - d.
+               <lb facs="#facs_168_tl_1748952780" n="N019" />Latus 36 f. - s. - d.
             </ab>
         <ab facs="#facs_168_region_249153834">
           <lb facs="#facs_168_tl_1748952776" n="N001" />vom viervndZwaintzigisten Febru
@@ -17538,7 +17541,7 @@
                <lb facs="#facs_168_tl_1748952791" n="N006" />wochentlich Funff schilling d.
                <lb facs="#facs_168_tl_1748952765" n="N007" />Inn gelt Acht gulden Sechs schil
                <lb facs="#facs_168_tl_1748952777" n="N008" />ling Phening vtt quittung
-               <lb facs="#facs_168_tl_1748952799" n="N009" />Idest f. 8. s 6 d -
+               <lb facs="#facs_168_tl_1748952799" n="N009" />Idest f. 8. s. 6 d. -
                <lb facs="#facs_168_tl_1748952763" n="N010" />Den Anndern Monnats Tag
                <lb facs="#facs_168_tl_1748952773" n="N011" />Iunii gab ich dem Hannsen Güers
                <lb facs="#facs_168_tl_1748952775" n="N012" />ner Organisten bey St. Steffans
@@ -17547,8 +17550,8 @@
                <lb facs="#facs_168_tl_1748952764" n="N015" />penthecostes verfallen Nemb
                <lb facs="#facs_168_tl_1748952774" n="N016" />lichen drey Zehen gulden Rein
                <lb facs="#facs_168_tl_1748952771" n="N017" />isch vermüg seiner quittung
-               <lb facs="#facs_168_tl_1748952770" n="N018" />hiebey Idest f. 13. s - d
-               <lb facs="#facs_168_tl_1748952790" n="N019" />Latus 21. f 6. s - d
+               <lb facs="#facs_168_tl_1748952770" n="N018" />hiebey Idest f. 13. s. - d.
+               <lb facs="#facs_168_tl_1748952790" n="N019" />Latus 21. f. 6. s. - d.
             </ab>
         <pb facs="#facs_169" n="169" xml:id="img_0169" />
         <ab facs="#facs_169_region_149353840">
@@ -17557,7 +17560,7 @@
                <lb facs="#facs_169_tl_1748952741" n="N003" />sein Iarliches Mehlgelt benent
                <lb facs="#facs_169_tl_1748952737" n="N004" />lichen Zwelff gulden Reinisch
                <lb facs="#facs_169_tl_1748952752" n="N005" />vermüg seiner quittung
-               <lb facs="#facs_169_tl_1748952773" n="N006" />Idest f. 12. s - d -
+               <lb facs="#facs_169_tl_1748952773" n="N006" />Idest f. 12. s. - d. -
                <lb facs="#facs_169_tl_1748952762" n="N007" />Den Sechs vnd Zwaintzigisten
                <lb facs="#facs_169_tl_1748952759" n="N008" />Iullii gab Ich dem herrn Isar
                <lb facs="#facs_169_tl_1748952746" n="N009" />Scheüchen dem Iüngern hoff
@@ -17568,8 +17571,8 @@
                <lb facs="#facs_169_tl_1748952745" n="N014" />Funff vnd Zwaintzig gulden
                <lb facs="#facs_169_tl_1748952766" n="N015" />vier schilling Pfening ver
                <lb facs="#facs_169_tl_1748952756" n="N016" />müg seiner quittung
-               <lb facs="#facs_169_tl_1748952768" n="N017" />Idest f. 25. s 4 d -
-               <lb facs="#facs_169_tl_1748952771" n="N018" />Latus 37. f. 4 s - d
+               <lb facs="#facs_169_tl_1748952768" n="N017" />Idest f. 25. s. 4 d. -
+               <lb facs="#facs_169_tl_1748952771" n="N018" />Latus 37. f. 4 s. - d.
             </ab>
         <ab facs="#facs_169_region_249353840">
           <lb facs="#facs_169_tl_1748952743" n="N001" />Den Zehendten September Zaldt ich
@@ -17583,7 +17586,7 @@
                <lb facs="#facs_169_tl_1748952765" n="N009" />Ainem gulden seinen Schreibern
                <lb facs="#facs_169_tl_1748952755" n="N010" />Biballi vermüg seiner gefertt
                <lb facs="#facs_169_tl_1748952744" n="N011" />igten quittung hiebeiligent
-               <lb facs="#facs_169_tl_1748952772" n="N012" />Idest f. 51. s - d -
+               <lb facs="#facs_169_tl_1748952772" n="N012" />Idest f. 51. s. - d. -
                <lb facs="#facs_169_tl_1748952751" n="N013" />Den Aindlifften September gab ich
                <lb facs="#facs_169_tl_1748952749" n="N014" />der Tugentsamben Frawen Anna Prager
                <lb facs="#facs_169_tl_1748952760" n="N015" />in weilendt deß Ehrnuesten vnd
@@ -17604,7 +17607,7 @@
                <lb facs="#facs_170_tl_1748952772" n="N005" />raichen verwilliget benenntt
                <lb facs="#facs_170_tl_1748952774" n="N006" />lichen Ainhundert gulden rh.
                <lb facs="#facs_170_tl_1748952778" n="N007" />Vermüg Ires Suppliciern vnd
-               <lb facs="#facs_170_tl_1748952761" n="N008" />Quittung hiebeiligent Idest f. 100. s - d -
+               <lb facs="#facs_170_tl_1748952761" n="N008" />Quittung hiebeiligent Idest f. 100. s. - d. -
                <lb facs="#facs_170_tl_1748952771" n="N009" />Den Funfftzehendten September
                <lb facs="#facs_170_tl_1748952783" n="N010" />gab ich dem Hannsen Güerßner
                <lb facs="#facs_170_tl_1748952775" n="N011" />organisten bei St. Steffan Alhie
@@ -17612,11 +17615,11 @@
                <lb facs="#facs_170_tl_1748952757" n="N013" />sich Yetzt Michaelis verfallen
                <lb facs="#facs_170_tl_1748952781" n="N014" />Benenntlichen drei Zehen
                <lb facs="#facs_170_tl_1748952751" n="N015" />Phundt Phening vtt quittung
-               <lb facs="#facs_170_tl_1748952788" n="N016" />f. 13. s - d -
+               <lb facs="#facs_170_tl_1748952788" n="N016" />f. 13. s. - d. -
                <lb facs="#facs_170_tl_1748952762" n="N017" />Den Sechsten Nouember Zalt ich
                <lb facs="#facs_170_tl_1748952764" n="N018" />der Edl vnd Tugentsamben Frauen
                <lb facs="#facs_170_tl_1748952758" n="N019" />Appolonia weilendt herrn
-               <lb facs="#facs_170_tl_1748952790" n="N020" />Latus 113 f - s - d
+               <lb facs="#facs_170_tl_1748952790" n="N020" />Latus 113 f. - s. - d.
             </ab>
         <ab facs="#facs_170_region_249133842">
           <lb facs="#facs_170_tl_1748952760" n="N001" />Lucasen Lausser gewesten Burger
@@ -17630,7 +17633,7 @@
                <lb facs="#facs_170_tl_1748952787" n="N009" />lichen Ainhundert Funfftzig
                <lb facs="#facs_170_tl_1748952780" n="N010" />gulden Reinisch vermug
                <lb facs="#facs_170_tl_1748952776" n="N011" />quittung vnd Decret
-               <lb facs="#facs_170_tl_1748952754" n="N012" />Idest f 150. s - d -
+               <lb facs="#facs_170_tl_1748952754" n="N012" />Idest f. 150. s. - d. -
                <lb facs="#facs_170_tl_1748952750" n="N013" />Den Lesten Nouember gab ich
                <lb facs="#facs_170_tl_1748952766" n="N014" />dem Edlen vnd vesten herrn
                <lb facs="#facs_170_tl_1748952749" n="N015" />Hannsen Paurn der Zeit Khünigl
@@ -17660,7 +17663,7 @@
                <lb facs="#facs_171_tl_1748952794" n="N013" />übergeben hat Vermüg
                <lb facs="#facs_171_tl_1748952801" n="N014" />quittung Cession vnd herrn
                <lb facs="#facs_171_tl_1748952777" n="N015" />Raitthandler berichts Vidimus
-               <lb facs="#facs_171_tl_1748952803" n="N016" />Idest f. 73. s - d -
+               <lb facs="#facs_171_tl_1748952803" n="N016" />Idest f. 73. s. - d. -
                <lb facs="#facs_171_tl_1748952774" n="N017" />Den Funfftzehendten december
                <lb facs="#facs_171_tl_1748952809" n="N018" />gab ich dem Hannsen Gürßner
                <lb facs="#facs_171_tl_1748952797" n="N019" />der Zeit Organisten bey St. Steffan
@@ -17673,7 +17676,7 @@
                <lb facs="#facs_171_tl_1748952802" n="N002" />canten Sechs gulden Bringt
                <lb facs="#facs_171_tl_1748952795" n="N003" />beedes viertzehen gulden Reinisch
                <lb facs="#facs_171_tl_1748952778" n="N004" />vermüg seiner Zwo Quittung
-               <lb facs="#facs_171_tl_1748952779" n="N005" />Idest f. 14. s - d -
+               <lb facs="#facs_171_tl_1748952779" n="N005" />Idest f. 14. s. - d. -
                <lb facs="#facs_171_tl_1748952769" n="N006" />Den Achtzehendten december gab
                <lb facs="#facs_171_tl_1748952786" n="N007" />Ich dem Hannsen Gürßner der
                <lb facs="#facs_171_tl_1748952793" n="N008" />Zeit Organisten bey St. Steffan
@@ -17681,7 +17684,7 @@
                <lb facs="#facs_171_tl_1748952788" n="N010" />ung so sich Yetzt Natiuitatis ver
                <lb facs="#facs_171_tl_1748952796" n="N011" />fallen Benenntlichen drey
                <lb facs="#facs_171_tl_1748952771" n="N012" />Zehen gulden Reinisch vtt Quitt
-               <lb facs="#facs_171_tl_1748952784" n="N013" />ung Idest f. 13. s - d -
+               <lb facs="#facs_171_tl_1748952784" n="N013" />ung Idest f. 13. s. - d. -
                <lb facs="#facs_171_tl_1748952770" n="N014" />Den Zwaintzigisten december
                <lb facs="#facs_171_tl_1748952789" n="N015" />gab ich dem Edlen vnnd hochge
                <lb facs="#facs_171_tl_1748952775" n="N016" />lehrten herrn Mathiasen Ca
@@ -17689,7 +17692,7 @@
                <lb facs="#facs_171_tl_1748952773" n="N018" />Gemainer Statt Sindico vnd
                <lb facs="#facs_171_tl_1748952787" n="N019" />Stattschreiber Alhie sein gewöhn
                <lb facs="#facs_171_tl_1748952785" n="N020" />liches Deputat so Ime Iärlichen
-               <lb facs="#facs_171_tl_1748952776" n="N021" />Latus 27 f - s - d
+               <lb facs="#facs_171_tl_1748952776" n="N021" />Latus 27 f. - s. - d.
             </ab>
         <pb facs="#facs_172" n="172" xml:id="img_0172" />
         <ab facs="#facs_172_region_149423838">
@@ -17697,7 +17700,7 @@
                <lb facs="#facs_172_tl_1748952806" n="N002" />buech geraicht würdet Benenntt
                <lb facs="#facs_172_tl_1748952794" n="N003" />lichen Sybenvndsechtzig gulden
                <lb facs="#facs_172_tl_1748952795" n="N004" />Reinisch vermüg seiner quitt
-               <lb facs="#facs_172_tl_1748952785" n="N005" />ung Idest f. 67. s - d -
+               <lb facs="#facs_172_tl_1748952785" n="N005" />ung Idest f. 67. s. - d. -
                <lb facs="#facs_172_tl_1748952781" n="N006" />Eodem die gab ich dem Edlen vnd
                <lb facs="#facs_172_tl_1748952792" n="N007" />Ehrnuesten herrn Hannsen Leüt
                <lb facs="#facs_172_tl_1748952793" n="N008" />ner deß Aussern Raths vnd
@@ -17706,14 +17709,14 @@
                <lb facs="#facs_172_tl_1748952798" n="N011" />Grundtbuech Nemblichen
                <lb facs="#facs_172_tl_1748952786" n="N012" />dreissig Phundt Phening ver
                <lb facs="#facs_172_tl_1748952814" n="N013" />müg seiner quittung
-               <lb facs="#facs_172_tl_1748952817" n="N014" />Idest f. 30. s - d -
+               <lb facs="#facs_172_tl_1748952817" n="N014" />Idest f. 30. s. - d. -
                <lb facs="#facs_172_tl_1748952797" n="N015" />Bestimbten Zwaintzigisten Tag
                <lb facs="#facs_172_tl_1748952811" n="N016" />december gab ich denen Edlen
                <lb facs="#facs_172_tl_1748952810" n="N017" />vnd Ehrnuesten herrn Sil
                <lb facs="#facs_172_tl_1748952783" n="N018" />vester Pöger vnd herrn Mat
                <lb facs="#facs_172_tl_1748952782" n="N019" />thesen Peckhen beeden des
                <lb facs="#facs_172_tl_1748952807" n="N020" />Aussern Raths vnd Gemainer
-               <lb facs="#facs_172_tl_1748952815" n="N021" />Latus 97. f - s - d
+               <lb facs="#facs_172_tl_1748952815" n="N021" />Latus 97. f. - s. - d.
             </ab>
         <ab facs="#facs_172_region_249423838">
           <lb facs="#facs_172_tl_1748952790" n="N001" />Statt wienn verornndten Grundt
@@ -17721,7 +17724,7 @@
                <lb facs="#facs_172_tl_1748952791" n="N003" />putat So Inen vom Grundtbuech
                <lb facs="#facs_172_tl_1748952816" n="N004" />geraicht würdet Benenntt
                <lb facs="#facs_172_tl_1748952813" n="N005" />lichen Zween vnd Zwaintzig gulden
-               <lb facs="#facs_172_tl_1748952812" n="N006" />Reinisch vtt quittung Idest f. 22. s - d -
+               <lb facs="#facs_172_tl_1748952812" n="N006" />Reinisch vtt quittung Idest f. 22. s. - d. -
                <lb facs="#facs_172_tl_1748952784" n="N007" />Mehrbestimbten Zwaintzigisten Tag
                <lb facs="#facs_172_tl_1748952800" n="N008" />december gab ich Nitweniger
                <lb facs="#facs_172_tl_1748952819" n="N009" />dem herrn Mathesen Maurer
@@ -17732,11 +17735,11 @@
                <lb facs="#facs_172_tl_1748952822" n="N014" />denen andern Cantzley ver
                <lb facs="#facs_172_tl_1748952804" n="N015" />wohndten Iärlichen vom
                <lb facs="#facs_172_tl_1748952809" n="N016" />Grundtbuech geraicht würdet
-               <lb facs="#facs_172_tl_1748952801" n="N017" />vtt quittung Idest f. 28. s - d -
+               <lb facs="#facs_172_tl_1748952801" n="N017" />vtt quittung Idest f. 28. s. - d. -
                <lb facs="#facs_172_tl_1748952787" n="N018" />Offtbemelten Zwaintzigisten
                <lb facs="#facs_172_tl_1748952803" n="N019" />Tag december gab ich dem
                <lb facs="#facs_172_tl_1748952818" n="N020" />Sebastian Riener Burger
-               <lb facs="#facs_172_tl_1748952808" n="N021" />Latus 50. f - s - d
+               <lb facs="#facs_172_tl_1748952808" n="N021" />Latus 50. f. - s. - d.
             </ab>
         <pb facs="#facs_173" n="173" xml:id="img_0173" />
         <ab facs="#facs_173_region_149373839">
@@ -17746,7 +17749,7 @@
                <lb facs="#facs_173_tl_1748952781" n="N004" />vom Grundtbuech geben würdet
                <lb facs="#facs_173_tl_1748952760" n="N005" />Nemblichen Funff gulden
                <lb facs="#facs_173_tl_1748952789" n="N006" />vier schilling Phening vtt
-               <lb facs="#facs_173_tl_1748952756" n="N007" />Quittung Idest f. 5 s 4. d -
+               <lb facs="#facs_173_tl_1748952756" n="N007" />Quittung Idest f. 5 s. 4. d. -
                <lb facs="#facs_173_tl_1748952762" n="N008" />Den Lesten december gab ich
                <lb facs="#facs_173_tl_1748952787" n="N009" />dem Edlen vnnd vesten herrn
                <lb facs="#facs_173_tl_1748952761" n="N010" />Danieln Moser der Zeit Burgermaister
@@ -17767,7 +17770,7 @@
           <lb facs="#facs_173_tl_1748952768" n="N001" />bringt beedes vierhundert gulden
                <lb facs="#facs_173_tl_1748952782" n="N002" />Reinisch vermüg seiner quitt
                <lb facs="#facs_173_tl_1748952779" n="N003" />ung vnnd desolution
-               <lb facs="#facs_173_tl_1748952792" n="N004" />Idest f. 400. s - d -
+               <lb facs="#facs_173_tl_1748952792" n="N004" />Idest f. 400. s. - d. -
                <lb facs="#facs_173_tl_1748952784" n="N005" />Eodem die Stehl Ich Ober Stat Cam
                <lb facs="#facs_173_tl_1748952797" n="N006" />erer hiemit in mein Ausgab
                <lb facs="#facs_173_tl_1748952773" n="N007" />mein Ober Camerer Ambts
@@ -17778,13 +17781,13 @@
                <lb facs="#facs_173_tl_1748952769" n="N012" />Cost vnd vnderhalttung auf
                <lb facs="#facs_173_tl_1748952757" n="N013" />diß Abgeloffene Iar Benent
                <lb facs="#facs_173_tl_1748952759" n="N014" />lichen vierhundert gulden Rein
-               <lb facs="#facs_173_tl_1748952766" n="N015" />isch Idest f. 400 s - d -
+               <lb facs="#facs_173_tl_1748952766" n="N015" />isch Idest f. 400 s. - d. -
                <lb facs="#facs_173_tl_1748952755" n="N016" />Bestimbten Lesten december gab
                <lb facs="#facs_173_tl_1748952774" n="N017" />Ich dem herrn Thobiasen dröxl
                <lb facs="#facs_173_tl_1748952778" n="N018" />Burger des Aussern Raths vnd
                <lb facs="#facs_173_tl_1748952791" n="N019" />Gemainer Statt wienn ver
                <lb facs="#facs_173_tl_1748952795" n="N020" />orndten Ober Camerer Ambts
-               <lb facs="#facs_173_tl_1748952794" n="N021" />Latus 800. f - s - d
+               <lb facs="#facs_173_tl_1748952794" n="N021" />Latus 800. f. - s. - d.
             </ab>
         <pb facs="#facs_174" n="174" xml:id="img_0174" />
         <ab facs="#facs_174_region_149553831">
@@ -17792,26 +17795,26 @@
                <lb facs="#facs_174_tl_1748952753" n="N002" />Iar gebürendte besoldung
                <lb facs="#facs_174_tl_1748952747" n="N003" />Benenntlichen Ainhundert
                <lb facs="#facs_174_tl_1748952755" n="N004" />Phundt Phening vtt quitt
-               <lb facs="#facs_174_tl_1748952733" n="N005" />ung Idest f. 100. s - d -
+               <lb facs="#facs_174_tl_1748952733" n="N005" />ung Idest f. 100. s. - d. -
                <lb facs="#facs_174_tl_1748952737" n="N006" />In similis gab ich yetzt bestimbten
                <lb facs="#facs_174_tl_1748952763" n="N007" />Lesten Monnatstag december
                <lb facs="#facs_174_tl_1748952754" n="N008" />dem Sigmundt Khauffman Ober
                <lb facs="#facs_174_tl_1748952748" n="N009" />Camerer Ambts schreiber sein
                <lb facs="#facs_174_tl_1748952749" n="N010" />gebürendte Iars besoldung be
                <lb facs="#facs_174_tl_1748952762" n="N011" />nennttlichen Zwaintzig gulden
-               <lb facs="#facs_174_tl_1748952758" n="N012" />vtt quittung Idest f. 20. s - d -
+               <lb facs="#facs_174_tl_1748952758" n="N012" />vtt quittung Idest f. 20. s. - d. -
                <lb facs="#facs_174_tl_1748952732" n="N013" />Mehrbestimbten Lesten december
                <lb facs="#facs_174_tl_1748952764" n="N014" />Stehl Ich hiemit in mein Auß
                <lb facs="#facs_174_tl_1748952741" n="N015" />gab von diser Sechtzehenhundert
                <lb facs="#facs_174_tl_1748952742" n="N016" />Zehent Iärigen Ober Camer
                <lb facs="#facs_174_tl_1748952752" n="N017" />er Ambts Raittung Zustellen
                <lb facs="#facs_174_tl_1748952738" n="N018" />vnd Zusstendten Zuschreiben
-               <lb facs="#facs_174_tl_1748952759" n="N019" />Latus 120 f - s - d
+               <lb facs="#facs_174_tl_1748952759" n="N019" />Latus 120 f. - s. - d.
             </ab>
         <ab facs="#facs_174_region_249553831">
           <lb facs="#facs_174_tl_1748952745" n="N001" />die gebüer Benennttlichen
                <lb facs="#facs_174_tl_1748952731" n="N002" />Zwaintzig gulden Reinisch
-               <lb facs="#facs_174_tl_1748952739" n="N003" />Idest f. 20. s - d -
+               <lb facs="#facs_174_tl_1748952739" n="N003" />Idest f. 20. s. - d. -
                <lb facs="#facs_174_tl_1748952756" n="N004" />Den Lesten Tag december gab ich
                <lb facs="#facs_174_tl_1748952761" n="N005" />dem Edlen vnd Ehrnuesten herrn
                <lb facs="#facs_174_tl_1748952767" n="N006" />Hannß vlrichen Pendter der
@@ -17825,10 +17828,10 @@
                <lb facs="#facs_174_tl_1748952766" n="N014" />Benenntlichen Ainhundert
                <lb facs="#facs_174_tl_1748952736" n="N015" />gulden Reinisch vermüg sein
                <lb facs="#facs_174_tl_1748952734" n="N016" />er quittung hiebeiligent
-               <lb facs="#facs_174_tl_1748952760" n="N017" />Idest f. 100. s - d -
+               <lb facs="#facs_174_tl_1748952760" n="N017" />Idest f. 100. s. - d. -
                <lb facs="#facs_174_tl_1748952743" n="N018" />Den bestimbten Lesten december
                <lb facs="#facs_174_tl_1748952765" n="N019" />gab ich dem herrn Eliasen Purckh
-               <lb facs="#facs_174_tl_1748952735" n="N020" />Latus 120 f - s - d
+               <lb facs="#facs_174_tl_1748952735" n="N020" />Latus 120 f. - s. - d.
             </ab>
         <pb facs="#facs_175" n="175" xml:id="img_0175" />
         <ab facs="#facs_175_region_149353830">
@@ -17841,7 +17844,7 @@
                <lb facs="#facs_175_tl_1748952786" n="N007" />Ainhundert Zwaintzig gulden
                <lb facs="#facs_175_tl_1748952815" n="N008" />Reinisch vermüg seiner
                <lb facs="#facs_175_tl_1748952816" n="N009" />quittung vnd Rathschlags
-               <lb facs="#facs_175_tl_1748952792" n="N010" />Abschrifft hiebei Idest f. 120. s - d -
+               <lb facs="#facs_175_tl_1748952792" n="N010" />Abschrifft hiebei Idest f. 120. s. - d. -
                <lb facs="#facs_175_tl_1748952818" n="N011" />Mehrbestimbten Lesten december
                <lb facs="#facs_175_tl_1748952804" n="N012" />gab ich nachvolgendten dreyen
                <lb facs="#facs_175_tl_1748952802" n="N013" />Gemainer Statt wienn Buech
@@ -17863,7 +17866,7 @@
                <lb facs="#facs_175_tl_1748952820" n="N004" />Zig gulden Reinisch vermüg
                <lb facs="#facs_175_tl_1748952817" n="N005" />meines berichts vnd dreyer
                <lb facs="#facs_175_tl_1748952781" n="N006" />vnderschiedtlichen quittungen
-               <lb facs="#facs_175_tl_1748952809" n="N007" />Idest f 255 s - d -
+               <lb facs="#facs_175_tl_1748952809" n="N007" />Idest f. 255 s. - d. -
                <lb facs="#facs_175_tl_1748952777" n="N008" />Den FunfundZwaintzigisten Monnats
                <lb facs="#facs_175_tl_1748952794" n="N009" />Tag december Stehl ich hiemit in Auß
                <lb facs="#facs_175_tl_1748952814" n="N010" />gab Ambrosii Riß vnd Paulln
@@ -17888,7 +17891,7 @@
                <lb facs="#facs_176_tl_1748952768" n="N002" />die Ich Inen Zu den gewohnlichen Zall
                <lb facs="#facs_176_tl_1748952779" n="N003" />ungs Zeiten nach vnnd nach Ange
                <lb facs="#facs_176_tl_1748952764" n="N004" />hendiget vnd betzalt vermüg
-               <lb facs="#facs_176_tl_1748952759" n="N005" />Irer quittung hiebey Idest f. 132. s - d -
+               <lb facs="#facs_176_tl_1748952759" n="N005" />Irer quittung hiebey Idest f. 132. s. - d. -
                <lb facs="#facs_176_tl_1748952750" n="N006" />Eodem die Adamen Schönkhnecht
                <lb facs="#facs_176_tl_1748952756" n="N007" />Gemainer Statt wienn Visch
                <lb facs="#facs_176_tl_1748952785" n="N008" />Tröglers Alhie Ordinarii wochen
@@ -17901,10 +17904,10 @@
                <lb facs="#facs_176_tl_1748952770" n="N015" />Bringt benennttlichen Ain
                <lb facs="#facs_176_tl_1748952754" n="N016" />hundert vier gulden Reinisch
                <lb facs="#facs_176_tl_1748952758" n="N017" />Vermüg seiner quittung
-               <lb facs="#facs_176_tl_1748952767" n="N018" />hiebey Idest f. 104. s - d -
+               <lb facs="#facs_176_tl_1748952767" n="N018" />hiebey Idest f. 104. s. - d. -
                <lb facs="#facs_176_tl_1748952777" n="N019" />Hieuorbestimbten Funffund
                <lb facs="#facs_176_tl_1748952761" n="N020" />Zwaintzigisten Monnatstag
-               <lb facs="#facs_176_tl_1748952765" n="N021" />Latus 236 f - s - d.
+               <lb facs="#facs_176_tl_1748952765" n="N021" />Latus 236 f. - s. - d.
             </ab>
         <ab facs="#facs_176_region_249423830">
           <lb facs="#facs_176_tl_1748952781" n="N001" />december Stehl ich gleichsfals alda
@@ -17928,7 +17931,7 @@
                <lb facs="#facs_176_tl_1748952755" n="N019" />Zeiten Innhalt Ihrer gefert
                <lb facs="#facs_176_tl_1748952763" n="N020" />tigten quittungen Ange
                <lb facs="#facs_176_tl_1748952766" n="N021" />hendiget vnd Zuegestelt
-               <lb facs="#facs_176_tl_1748952751" n="N022" />habe Idest 208. s - d
+               <lb facs="#facs_176_tl_1748952751" n="N022" />habe Idest 208. s. - d.
                <lb facs="#facs_176_tl_1748952743" n="N023" />Latus per See.
             </ab>
         <pb facs="#facs_177" n="177" xml:id="img_0177" />

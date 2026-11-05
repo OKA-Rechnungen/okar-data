@@ -2495,7 +2495,7 @@
     </surface>
     <surface ulx="0" uly="0" lrx="4634" lry="3746" xml:id="facs_91">
       <graphic url="WSTLA-OKA-B1-1-155-1_00091.tif" width="4634px" height="3746px" />
-      <graphic url="https://files.transkribus.eu/Get?id=JHXSXVFUWPNKIPZYRILPSDER&amp;fileType=view" width="4634px" height="3746px" />
+      <graphic url="https://files.transkribus.eu/Get?fileType=view&amp;id=JHXSXVFUWPNKIPZYRILPSDER" width="4634px" height="3746px" />
       <zone points="0,0 2317,0 2317,3746 0,3746" rendition="TextRegion" xml:id="facs_91_region_146343746">
         <zone points="553,502 556,590 564,596 592,600 993,601 1131,597 1494,601 1754,586 1775,582 1779,576 1777,508 1766,503 1720,497 1405,513 1312,504 1235,490 1046,494 835,477 606,475 562,482 555,489" rendition="Line" xml:id="facs_91_tl_1748352019" />
         <zone points="608,602 1791,602 1791,674 608,674" rendition="Line" xml:id="facs_91_tl_1748352023" />
@@ -2519,7 +2519,7 @@
     </surface>
     <surface ulx="0" uly="0" lrx="4628" lry="3754" xml:id="facs_93">
       <graphic url="WSTLA-OKA-B1-1-155-1_00093.tif" width="4628px" height="3754px" />
-      <graphic url="https://files.transkribus.eu/Get?id=WOCCTBIAQIINBHFUFJIUCEVR&amp;fileType=view" width="4628px" height="3754px" />
+      <graphic url="https://files.transkribus.eu/Get?fileType=view&amp;id=WOCCTBIAQIINBHFUFJIUCEVR" width="4628px" height="3754px" />
       <zone points="0,0 2314,0 2314,3754 0,3754" rendition="TextRegion" xml:id="facs_93_region_146283754" />
       <zone points="2314,0 4628,0 4628,3754 2314,3754" rendition="TextRegion" xml:id="facs_93_region_246283754">
         <zone points="2346,542 2347,692 2354,738 2371,763 2399,776 2428,780 3079,785 3921,774 3985,757 4003,738 4007,719 4003,621 3991,600 3955,575 3930,505 3915,484 3915,464 3893,403 3873,367 3813,333 3701,300 3564,278 3329,265 3011,264 2819,254 2613,263 2530,280 2460,303 2413,335 2403,363 2396,465 2351,519" rendition="Line" xml:id="facs_93_tl_1748352010" />
@@ -2534,7 +2534,7 @@
     </surface>
     <surface ulx="0" uly="0" lrx="4618" lry="3760" xml:id="facs_95">
       <graphic url="WSTLA-OKA-B1-1-155-1_00095.tif" width="4618px" height="3760px" />
-      <graphic url="https://files.transkribus.eu/Get?id=GVNADSLFCABZYMWAFTIJUKYO&amp;fileType=view" width="4618px" height="3760px" />
+      <graphic url="https://files.transkribus.eu/Get?fileType=view&amp;id=GVNADSLFCABZYMWAFTIJUKYO" width="4618px" height="3760px" />
       <zone points="0,0 2309,0 2309,3760 0,3760" rendition="TextRegion" xml:id="facs_95_region_146183760" />
       <zone points="2309,0 4618,0 4618,3760 2309,3760" rendition="TextRegion" xml:id="facs_95_region_246183760">
         <zone points="2376,479 2378,611 2427,720 2452,742 2482,756 2567,777 2700,783 3159,782 3575,768 3933,767 3996,760 4028,750 4048,736 4048,458 4037,424 3980,401 3906,390 3721,393 3641,359 3541,337 3490,316 3450,308 3116,289 2942,272 2775,273 2707,284 2523,291 2440,318 2401,389" rendition="Line" xml:id="facs_95_tl_1748351996" />
@@ -13166,9 +13166,11 @@
         <pb facs="#facs_83" n="83" xml:id="img_0083" />
         <pb facs="#facs_84" n="84" xml:id="img_0084" />
         <milestone xml:id="ms0025" unit="summary" n="76r" type="summary" subtype="Empfang Weinfechsung" ana="#span0025" /><ab facs="#facs_84_region_246203780" n="76r" ana="#span0025">
-          <lb facs="#facs_84_tl_1748352019" n="N001" />Empfang Wein
-               <lb facs="#facs_84_tl_1748352039" n="N002" />fechsung ./.
-               <lb facs="#facs_84_tl_1748352021" n="N003" />Den Ersten december Nimbe
+          <lb facs="#facs_84_tl_1748352019" n="N001" />
+          <headline>Empfang Wein</headline>
+          <lb facs="#facs_84_tl_1748352039" n="N002" />
+          <headline>fechsung ./.</headline>
+          <lb facs="#facs_84_tl_1748352021" n="N003" />Den Ersten december Nimbe
                <lb facs="#facs_84_tl_1748352034" n="N004" />Ich hiemit in Empfang die Zue
                <lb facs="#facs_84_tl_1748352023" n="N005" />Entzerstorff am Pisenberg ge
                <lb facs="#facs_84_tl_1748352022" n="N006" />legene vnd vmb den vier Emer
@@ -13185,7 +13187,7 @@
                <lb facs="#facs_84_tl_1748352036" n="N017" />Fünffvndfünfftzig gulden
                <lb facs="#facs_84_tl_1748352038" n="N018" />reinisch Inhalt der geschwornen
                <lb facs="#facs_84_tl_1748352037" n="N019" />Vifierer Shatz Zetl hiebey
-               <lb facs="#facs_84_tl_1748352035" n="N020" />Idest 55 f - " - "
+               <lb facs="#facs_84_tl_1748352035" n="N020" />Idest 55 f. - " - "
                <lb facs="#facs_84_tl_1748352020" n="N021" />S. per see.
             </ab>
         <pb facs="#facs_85" n="85" xml:id="img_0085" />
@@ -13215,10 +13217,13 @@
         <pb facs="#facs_86" n="86" xml:id="img_0086" />
         <pb facs="#facs_87" n="87" xml:id="img_0087" />
         <milestone xml:id="ms0028" unit="section" n="78r" type="section" subtype="Empfang um verkaufte Häuser und öde Gründe" ana="#span0028" /><ab facs="#facs_87_region_246423748" n="78r" ana="#span0028">
-          <lb facs="#facs_87_tl_1748352030" n="N001" />Empfan vmb
-               <lb facs="#facs_87_tl_1748352033" n="N002" />Verkhauffte Heüßer vnnd
-               <lb facs="#facs_87_tl_1748352032" n="N003" />ödte Gründt ./.
-               <lb facs="#facs_87_tl_1748352039" n="N004" />Den Sibendten Februarii dißes
+          <lb facs="#facs_87_tl_1748352030" n="N001" />
+          <headline>Empfan vmb</headline>
+          <lb facs="#facs_87_tl_1748352033" n="N002" />
+          <headline>Verkhauffte Heüßer vnnd</headline>
+          <lb facs="#facs_87_tl_1748352032" n="N003" />
+          <headline>ödte Gründt ./.</headline>
+          <lb facs="#facs_87_tl_1748352039" n="N004" />Den Sibendten Februarii dißes
                <lb facs="#facs_87_tl_1748352050" n="N005" />eingangenen Sechtzehenhundert
                <lb facs="#facs_87_tl_1748352051" n="N006" />dreyvnddreyssigisten Iahrs
                <lb facs="#facs_87_tl_1748352035" n="N007" />Nimb Ich hiemit in Empfanng
@@ -13290,7 +13295,7 @@
                <lb facs="#facs_88_tl_1748352017" n="N019" />iern Alß ist hierüber die
                <lb facs="#facs_88_tl_1748352038" n="N020" />Ratification vermüg Re
                <lb facs="#facs_88_tl_1748352034" n="N021" />lation hiebei geuolgt
-               <lb facs="#facs_88_tl_1748352045" n="N022" />Idest 2000 f - " - "
+               <lb facs="#facs_88_tl_1748352045" n="N022" />Idest 2000 f. - " - "
                <lb facs="#facs_88_tl_1748352027" n="N023" />Dann dreyvndZwaintzigisten
                <lb facs="#facs_88_tl_1748352041" n="N024" />Apprillis Nimbe Ich hie
                <lb facs="#facs_88_tl_1748352043" n="N025" />mit in Empfang Nach
@@ -13337,7 +13342,7 @@
                <lb facs="#facs_89_tl_1748352040" n="N008" />also beschehen vnd Ich Empfangen
                <lb facs="#facs_89_tl_1748352053" n="N009" />vermüg übergebnen Ratifi
                <lb facs="#facs_89_tl_1748352013" n="N010" />cierten Relation hiebey
-               <lb facs="#facs_89_tl_1748352049" n="N011" />Idest 100 f -
+               <lb facs="#facs_89_tl_1748352049" n="N011" />Idest 100 f. -
                <lb facs="#facs_89_tl_1748352016" n="N012" />Denn AchtvndZwaintzigisten
                <lb facs="#facs_89_tl_1748352052" n="N013" />Iunii Nimbe Ich hiemit in
                <lb facs="#facs_89_tl_1748352058" n="N014" />Empfang Demnach bey
@@ -13418,36 +13423,45 @@
                <lb facs="#facs_91_tl_1748352023" n="N002" />sie es allerdings <unclear>dorbeyter</unclear>
           <lb facs="#facs_91_tl_1748352024" n="N003" />bleiben lassen vermüg
                <lb facs="#facs_91_tl_1748352022" n="N004" />Relation vnd Reuers Abschrifft
-               <lb facs="#facs_91_tl_1748352027" n="N005" />hiebey Idest 1200 f - " -
+               <lb facs="#facs_91_tl_1748352027" n="N005" />hiebey Idest 1200 f. - " -
                <lb facs="#facs_91_tl_1748352020" n="N006" />Summa Empfang vmb
                <lb facs="#facs_91_tl_1748352018" n="N007" />Verkhauffte Heuser
-               <lb facs="#facs_91_tl_1748352025" n="N008" />3311. f
+               <lb facs="#facs_91_tl_1748352025" n="N008" />3311. f.
             </ab>
         <ab facs="#facs_91_region_246343746" n="80r (!)" ana="#span0032">
-          <lb facs="#facs_91_tl_1748352017" n="N001" />Empfang auß
-               <lb facs="#facs_91_tl_1748352021" n="N002" />gelichen Geldt
-            </ab>
+          <lb facs="#facs_91_tl_1748352017" n="N001" />
+          <headline>Empfang auß</headline>
+          <lb facs="#facs_91_tl_1748352021" n="N002" />
+          <headline>gelichen Geldt</headline>
+        </ab>
         <pb facs="#facs_92" n="92" xml:id="img_0092" />
         <pb facs="#facs_93" n="93" xml:id="img_0093" />
         <milestone xml:id="ms0033" unit="section" n="82r" type="section" subtype="Empfang Wachskerzler-Recht" ana="#span0033" /><ab facs="#facs_93_region_246283754" n="82r" ana="#span0033">
-          <lb facs="#facs_93_tl_1748352010" n="N001" />Empfang Wax
-               <lb facs="#facs_93_tl_1748352011" n="N002" />khertzler Recht ./.
-            </ab>
+          <lb facs="#facs_93_tl_1748352010" n="N001" />
+          <headline>Empfang Wax</headline>
+          <lb facs="#facs_93_tl_1748352011" n="N002" />
+          <headline>khertzler Recht ./.</headline>
+        </ab>
         <pb facs="#facs_94" n="94" xml:id="img_0094" />
         <pb facs="#facs_95" n="95" xml:id="img_0095" />
         <milestone xml:id="ms0034" unit="section" n="84r" type="section" subtype="Empfang Zwespenhandel-Recht" ana="#span0034" /><ab facs="#facs_95_region_246183760" n="84r" ana="#span0034">
-          <lb facs="#facs_95_tl_1748351996" n="N001" />Empfang Zwösp
-               <lb facs="#facs_95_tl_1748351997" n="N002" />en Hanndl Recht
-            </ab>
+          <lb facs="#facs_95_tl_1748351996" n="N001" />
+          <headline>Empfang Zwösp</headline>
+          <lb facs="#facs_95_tl_1748351997" n="N002" />
+          <headline>en Hanndl Recht</headline>
+        </ab>
         <pb facs="#facs_96" n="96" xml:id="img_0096" />
         <pb facs="#facs_97" n="97" xml:id="img_0097" />
         <pb facs="#facs_98" n="98" xml:id="img_0098" />
         <pb facs="#facs_99" n="99" xml:id="img_0099" />
         <milestone xml:id="ms0035" unit="section" n="88r" type="section" subtype="Empfang Kässstecher-, Fütterer-, Kräutler-, Häringer- und Öhler-Recht" ana="#span0035" /><ab facs="#facs_99_region_245773780" n="88r" ana="#span0035">
-          <lb facs="#facs_99_tl_1748351997" n="N001" />Empfang Khäß
-               <lb facs="#facs_99_tl_1748352013" n="N002" />stecher Fuetterer Khreüt
-               <lb facs="#facs_99_tl_1748351999" n="N003" />ler Haringer vnd Öhler Recht
-               <lb facs="#facs_99_tl_1748351998" n="N004" />Den dritten Martii dißes
+          <lb facs="#facs_99_tl_1748351997" n="N001" />
+          <headline>Empfang Khäß</headline>
+          <lb facs="#facs_99_tl_1748352013" n="N002" />
+          <headline>stecher Fuetterer Khreüt</headline>
+          <lb facs="#facs_99_tl_1748351999" n="N003" />
+          <headline>ler Haringer vnd Öhler Recht</headline>
+          <lb facs="#facs_99_tl_1748351998" n="N004" />Den dritten Martii dißes
                <lb facs="#facs_99_tl_1748352000" n="N005" />Sechtzehenhundert drey vnnd
                <lb facs="#facs_99_tl_1748352012" n="N006" />dreyssigisten Iahrs Erlegt
                <lb facs="#facs_99_tl_1748352006" n="N007" />herr Mathias Lehendorffer
@@ -13460,7 +13474,7 @@
                <lb facs="#facs_99_tl_1748352004" n="N013" />Öhler handls die halbe ge
                <lb facs="#facs_99_tl_1748352003" n="N014" />büer vnd gerechtigkhait
                <lb facs="#facs_99_tl_1748352005" n="N015" />Benentlichen Zehen gulden
-               <lb facs="#facs_99_tl_1748352018" n="N016" />Reinisch Idest 10 f - " - "
+               <lb facs="#facs_99_tl_1748352018" n="N016" />Reinisch Idest 10 f. - " - "
                <lb facs="#facs_99_tl_1748352001" n="N017" />Denn Zwaintzigisten Maii Er
                <lb facs="#facs_99_tl_1748352017" n="N018" />legt Hannß Schuettermayr
                <lb facs="#facs_99_tl_1748352015" n="N019" />Burger vnd Greißler alhie
@@ -13473,7 +13487,7 @@
           <lb facs="#facs_100_tl_1749028209" n="N001" />ler handlß die halbe gebüer
                <lb facs="#facs_100_tl_1749028230" n="N002" />vnd gerechtigkhait Benent
                <lb facs="#facs_100_tl_1749028224" n="N003" />lichen Funfftzechen gulden
-               <lb facs="#facs_100_tl_1749028222" n="N004" />Reinisch Idest 15 f - " -
+               <lb facs="#facs_100_tl_1749028222" n="N004" />Reinisch Idest 15 f. - " -
                <lb facs="#facs_100_tl_1749028228" n="N005" />Denn Neündten Iunii Erlegt An
                <lb facs="#facs_100_tl_1749028233" n="N006" />dreas Lenibhel Burger vnd
                <lb facs="#facs_100_tl_1749028223" n="N007" />Öhler alhie wegen des von
@@ -13481,7 +13495,7 @@
                <lb facs="#facs_100_tl_1749028226" n="N009" />Öhler handlß die gebüer vnd
                <lb facs="#facs_100_tl_1749028231" n="N010" />gerechtigkhait Benentlichen
                <lb facs="#facs_100_tl_1749028242" n="N011" />Zwaintzig gulden Reinisch
-               <lb facs="#facs_100_tl_1749028245" n="N012" />Idest 20 f - " -
+               <lb facs="#facs_100_tl_1749028245" n="N012" />Idest 20 f. - " -
                <lb facs="#facs_100_tl_1749028210" n="N013" />Denn Achtzehendten Nouembris
                <lb facs="#facs_100_tl_1749028227" n="N014" />Entricht Geörg Wagner Burger
                <lb facs="#facs_100_tl_1749028219" n="N015" />vnd häringer alhie wegen des
@@ -13491,12 +13505,12 @@
                <lb facs="#facs_100_tl_1749028237" n="N019" />schafften erheürathen Hör
                <lb facs="#facs_100_tl_1749028243" n="N020" />inger handlß die halbe
                <lb facs="#facs_100_tl_1749028235" n="N021" />gebüer vnd gerechtigkhait
-               <lb facs="#facs_100_tl_1749028211" n="N022" />Latus 35 f - "
+               <lb facs="#facs_100_tl_1749028211" n="N022" />Latus 35 f. - "
             </ab>
         <ab facs="#facs_100_region_246273747">
           <lb facs="#facs_100_tl_1749028212" n="N001" />Benentlichen Zechen gulden
                <lb facs="#facs_100_line_1749028282042_33" n="N002" />Reinisch
-               <lb facs="#facs_100_tl_1749028246" n="N003" />Idest 90 f - "
+               <lb facs="#facs_100_tl_1749028246" n="N003" />Idest 90 f. - "
                <lb facs="#facs_100_tl_1749028208" n="N004" />Denn Funffzehendten Decembris
                <lb facs="#facs_100_tl_1749028240" n="N005" />Entricht Mathias Weckherl Burger
                <lb facs="#facs_100_tl_1749028214" n="N006" />vnd Öhler alhie wegen des mit
@@ -13510,8 +13524,8 @@
                <lb facs="#facs_100_tl_1749028218" n="N014" />Genedigen Verordtnung die
                <lb facs="#facs_100_tl_1749028213" n="N015" />halbe gebüer vnd gerechtigkhait
                <lb facs="#facs_100_tl_1749028238" n="N016" />Benentlichen Zechen gulden
-               <lb facs="#facs_100_tl_1749028244" n="N018" />Idest 10 f - " - "
-               <lb facs="#facs_100_tl_1749028236" n="N019" />Latus 20. f - "
+               <lb facs="#facs_100_tl_1749028244" n="N018" />Idest 10 f. - " - "
+               <lb facs="#facs_100_tl_1749028236" n="N019" />Latus 20. f. - "
             </ab>
         <pb facs="#facs_101" n="101" xml:id="img_0101" />
         <milestone xml:id="ms0036" unit="summary" n="90r" type="summary" ana="#span0036" /><ab facs="#facs_101_region_246343762" n="90r" ana="#span0036">

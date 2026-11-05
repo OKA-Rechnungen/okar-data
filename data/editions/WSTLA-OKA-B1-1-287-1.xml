@@ -2999,7 +2999,7 @@
     </surface>
     <surface ulx="0" uly="0" lrx="6292" lry="4714" xml:id="facs_334">
       <graphic url="WSTLA-OKA-B1-1-287-1_00334.tif" width="6292px" height="4714px" />
-      <graphic url="https://files.transkribus.eu/Get?id=MYKMUAIZIHUZBTHHEICBNIFN&amp;fileType=view" width="6292px" height="4714px" />
+      <graphic url="https://files.transkribus.eu/Get?fileType=view&amp;id=MYKMUAIZIHUZBTHHEICBNIFN" width="6292px" height="4714px" />
       <zone points="0,0 3146,0 3146,4714 0,4714" rendition="TextRegion" xml:id="facs_334_region_162924714" />
       <zone points="3146,0 6292,0 6292,4714 3146,4714" rendition="TextRegion" xml:id="facs_334_region_262924714">
         <zone points="3938,650 3939,753 3955,768 3993,775 4202,775 4299,763 4573,762 4677,771 4745,771 5034,747 5074,737 5092,720 5104,578 5096,463 5092,448 5073,435 5026,429 4783,471 4634,473 4559,469 4507,451 4486,430 4456,419 4445,387 4413,372 4404,354 4337,331 4217,332 4158,349 4113,370 4100,391 4075,403 4067,415 4061,449 4028,482 4018,545 3989,563 3981,577 3975,609 3946,625" rendition="Line" xml:id="facs_334_tl_1755595648" />
@@ -3009,7 +3009,7 @@
     </surface>
     <surface ulx="0" uly="0" lrx="6428" lry="4725" xml:id="facs_335">
       <graphic url="WSTLA-OKA-B1-1-287-1_00335.tif" width="6428px" height="4725px" />
-      <graphic url="https://files.transkribus.eu/Get?id=AILRKPUIECVNAVSWCDYLTPMH&amp;fileType=view" width="6428px" height="4725px" />
+      <graphic url="https://files.transkribus.eu/Get?fileType=view&amp;id=AILRKPUIECVNAVSWCDYLTPMH" width="6428px" height="4725px" />
       <zone points="0,0 3214,0 3214,4725 0,4725" rendition="TextRegion" xml:id="facs_335_region_164284725" />
       <zone points="3214,0 6428,0 6428,4725 3214,4725" rendition="TextRegion" xml:id="facs_335_region_264284725">
         <zone points="4012,648 4018,676 4041,691 4071,698 4906,698 5080,689 5121,683 5139,674 5156,628 5178,598 5184,553 5183,385 5176,368 5164,359 5120,354 5073,363 4959,404 4910,410 4873,420 4728,422 4660,418 4612,407 4564,386 4547,360 4515,338 4507,307 4457,283 4411,270 4282,270 4257,274 4186,299 4164,324 4138,338 4131,370 4098,401 4093,442 4086,461 4055,492 4046,547 4017,584" rendition="Line" xml:id="facs_335_tl_1755595690" />
@@ -3022,7 +3022,7 @@
     </surface>
     <surface ulx="0" uly="0" lrx="6277" lry="4731" xml:id="facs_336">
       <graphic url="WSTLA-OKA-B1-1-287-1_00336.tif" width="6277px" height="4731px" />
-      <graphic url="https://files.transkribus.eu/Get?id=AOTLXJAIDFFSRVBNUQTZPNFV&amp;fileType=view" width="6277px" height="4731px" />
+      <graphic url="https://files.transkribus.eu/Get?fileType=view&amp;id=AOTLXJAIDFFSRVBNUQTZPNFV" width="6277px" height="4731px" />
       <zone points="0,0 3138,0 3138,4731 0,4731" rendition="TextRegion" xml:id="facs_336_region_162774731" />
       <zone points="3139,0 6277,0 6277,4731 3139,4731" rendition="TextRegion" xml:id="facs_336_region_262774731">
         <zone points="3872,777 3889,787 3917,788 4334,787 4461,782 4677,787 4751,773 4971,756 5012,735 5019,718 5020,526 5014,466 4983,444 4957,434 4908,443 4758,489 4633,503 4502,503 4414,483 4400,466 4368,450 4357,421 4330,406 4321,386 4274,366 4193,356 4086,366 4041,384 4023,403 4003,412 3996,419 3988,444 3960,466 3955,481 3953,549 3948,575 3917,603 3908,654 3880,670 3873,686" rendition="Line" xml:id="facs_336_tl_1755595647" />
@@ -4746,29 +4746,42 @@
         <pb facs="#facs_333" n="333" xml:id="img_0333" />
         <pb facs="#facs_334" n="334" xml:id="img_0334" />
         <milestone xml:id="ms0024" unit="section" n="326r" type="section" subtype="Ausgaben auf das Graf-Herzanische Uhrwerk" ana="#span0024" /><ab facs="#facs_334_region_262924714" n="326r" ana="#span0024">
-          <lb facs="#facs_334_tl_1755595648" n="N001" />Ausgab
-               <lb facs="#facs_334_tl_1755595646" n="N002" />Auf das Graf Hazanische
-               <lb facs="#facs_334_tl_1755595647" n="N003" />Uhrwerk
-            </ab>
+          <lb facs="#facs_334_tl_1755595648" n="N001" />
+          <headline>Ausgab</headline>
+          <lb facs="#facs_334_tl_1755595646" n="N002" />
+          <headline>Auf das Graf Hazanische</headline>
+          <lb facs="#facs_334_tl_1755595647" n="N003" />
+          <headline>Uhrwerk</headline>
+        </ab>
         <pb facs="#facs_335" n="335" xml:id="img_0335" />
         <milestone xml:id="ms0025" unit="section" n="327r" type="section" subtype="Ausgaben auf die bis anno 1755 zu Ratshanden depositiert, so dann dem Oberkammeramt übergebene und wieder zurückbezahlte Gelder" ana="#span0025" /><ab facs="#facs_335_region_264284725" n="327r" ana="#span0025">
-          <lb facs="#facs_335_tl_1755595690" n="N001" />Ausgab
-               <lb facs="#facs_335_tl_1755595691" n="N002" />Auf die bis Anno 755 zu Raths
-               <lb facs="#facs_335_tl_1755595689" n="N003" />Handen depositirt so dan dem
-               <lb facs="#facs_335_tl_1755595692" n="N004" />Ober Cammer Amt übergeben
-               <lb facs="#facs_335_tl_1755595688" n="N005" />und wider zuruck bezahlte
-               <lb facs="#facs_335_tl_1755595687" n="N006" />Gelder
-            </ab>
+          <lb facs="#facs_335_tl_1755595690" n="N001" />
+          <headline>Ausgab</headline>
+          <lb facs="#facs_335_tl_1755595691" n="N002" />
+          <headline>Auf die bis Anno 755 zu Raths</headline>
+          <lb facs="#facs_335_tl_1755595689" n="N003" />
+          <headline>Handen depositirt so dan dem</headline>
+          <lb facs="#facs_335_tl_1755595692" n="N004" />
+          <headline>Ober Cammer Amt übergeben</headline>
+          <lb facs="#facs_335_tl_1755595688" n="N005" />
+          <headline>und wider zuruck bezahlte</headline>
+          <lb facs="#facs_335_tl_1755595687" n="N006" />
+          <headline>Gelder</headline>
+        </ab>
         <pb facs="#facs_336" n="336" xml:id="img_0336" />
         <milestone xml:id="ms0026" unit="section" n="328r" type="section" subtype="Ausgaben auf Zählgeld" ana="#span0026" /><ab facs="#facs_336_region_262774731" n="328r" ana="#span0026">
-          <lb facs="#facs_336_tl_1755595647" n="N001" />Ausgab
-               <lb facs="#facs_336_tl_1755595648" n="N002" />Auf Zehl Geld
-            </ab>
+          <lb facs="#facs_336_tl_1755595647" n="N001" />
+          <headline>Ausgab</headline>
+          <lb facs="#facs_336_tl_1755595648" n="N002" />
+          <headline>Auf Zehl Geld</headline>
+        </ab>
         <pb facs="#facs_337" n="337" xml:id="img_0337" />
         <milestone xml:id="ms0027" unit="section" n="329r" type="section" subtype="Ausgaben insgemein" ana="#span0027" /><ab facs="#facs_337_region_262764717" n="329r" ana="#span0027">
-          <lb facs="#facs_337_tl_1755595693" n="N001" />Ausgab
-               <lb facs="#facs_337_tl_1755595694" n="N002" />Ins Gemein
-               <lb facs="#facs_337_tl_1755595697" n="N004" />Den 8.ten dmb. 766. habe in ausgab
+          <lb facs="#facs_337_tl_1755595693" n="N001" />
+          <headline>Ausgab</headline>
+          <lb facs="#facs_337_tl_1755595694" n="N002" />
+          <headline>Ins Gemein</headline>
+          <lb facs="#facs_337_tl_1755595697" n="N004" />Den 8.ten dmb. 766. habe in ausgab
                <lb facs="#facs_337_tl_1755595702" n="N005" />zu bringen die ohne abforderung
                <lb facs="#facs_337_tl_1755595705" n="N006" />einer Quittung Laut pro Memoria
                <lb facs="#facs_337_tl_1755595696" n="N007" />und darauf befindlichen Passierung
@@ -4789,7 +4802,7 @@
             </ab>
         <pb facs="#facs_338" n="338" xml:id="img_0338" />
         <ab facs="#facs_338_region_164164702">
-          <lb facs="#facs_338_line_1755600528161_2318" n="N001" />f. kr d.
+          <lb facs="#facs_338_line_1755600528161_2318" n="N001" />f. kr. d.
                <lb facs="#facs_338_tl_1755595706" n="N002" />angewiesene 12 " - " -
                <lb facs="#facs_338_tl_1755595688" n="N003" />Den letzten dmb. 766. bezahlte ich dem
                <lb facs="#facs_338_tl_1755595701" n="N004" />Urban Preßl Haus meistern in
@@ -4833,7 +4846,7 @@
             </ab>
         <pb facs="#facs_339" n="339" xml:id="img_0339" />
         <ab facs="#facs_339_region_162754725">
-          <lb facs="#facs_339_tl_1755595673" n="N001" />f. kr d.
+          <lb facs="#facs_339_tl_1755595673" n="N001" />f. kr. d.
                <lb facs="#facs_339_tl_1755595650" n="N002" />Meistern von 1.ten Febr. 766. bis lezten
                <lb facs="#facs_339_tl_1755595647" n="N003" />Ian. 767. aus gelegte Fuhrlohn und
                <lb facs="#facs_339_tl_1755595640" n="N004" />zöhrung besag passiert und gefer
@@ -4897,7 +4910,7 @@
                <lb facs="#facs_340_tl_1755595702" n="N021" />120 -
             </ab>
         <ab facs="#facs_340_region_262624711">
-          <lb facs="#facs_340_tl_1755595701" n="N001" />f. kr d.
+          <lb facs="#facs_340_tl_1755595701" n="N001" />f. kr. d.
                <lb facs="#facs_340_tl_1755595669" n="N002" />nachbarten Districten durch eine
                <lb facs="#facs_340_tl_1755595687" n="N003" />sichere Persohn in augenschein ge
                <lb facs="#facs_340_tl_1755595683" n="N004" />nohmenen Winter feld Früchten
@@ -4936,7 +4949,7 @@
                <lb facs="#facs_341_tl_1755595700" n="N013" />anbefohlen worden ) Vermög Von
                <lb facs="#facs_341_tl_1755595690" n="N014" />Einen Löbl. Würtschafft Raths intimirten
                <lb facs="#facs_341_tl_1755595695" n="N015" />Decret Anno 19.ten und Pro. 20.ten
-               <lb facs="#facs_341_tl_1755595712" n="N016" />Iunii 767. in betrag per 7964 " 55 " kr
+               <lb facs="#facs_341_tl_1755595712" n="N016" />Iunii 767. in betrag per 7964 " 55 " kr.
                <lb facs="#facs_341_tl_1755595697" n="N017" />Den lezten decembris 766. und lezten Iunii
                <lb facs="#facs_341_tl_1755595718" n="N018" />767. bezahle ich Beeden Weingarts
                <lb facs="#facs_341_tl_1755595704" n="N019" />Übergehern Mathias Felber und
@@ -4970,7 +4983,7 @@
             </ab>
         <pb facs="#facs_342" n="342" xml:id="img_0342" />
         <ab facs="#facs_342_region_163934699">
-          <lb facs="#facs_342_tl_1755595728" n="N001" />f. kr d.
+          <lb facs="#facs_342_tl_1755595728" n="N001" />f. kr. d.
                <lb facs="#facs_342_tl_1755595705" n="N002" />der Grossen Kinderlehr Procession
                <lb facs="#facs_342_tl_1755595716" n="N003" />inhalt berathschlagten anbringen und
                <lb facs="#facs_342_tl_1755595719" n="N004" />darauf gestellter Quittung 100 -
