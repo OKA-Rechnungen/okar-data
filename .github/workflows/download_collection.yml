@@ -27,7 +27,7 @@ jobs:
     - name: Perform Checkout
       uses: actions/checkout@v5
     - name: Install the latest version of uv
-        uses: astral-sh/setup-uv@v8.2.0
+      uses: astral-sh/setup-uv@v8.2.0
     - name: Download Saxon-HE (Java)
       run: |
         mkdir -p .tools
@@ -62,8 +62,8 @@ jobs:
     - name: Fix XML
       run: |
         uv run ./pyscripts/05_fix_xml.py
-#    - name: Ensure initial facsimile page
-#      run: ./pyscripts/06_add_missing_initial_page.py
+    #    - name: Ensure initial facsimile page
+    #      run: ./pyscripts/06_add_missing_initial_page.py
     - name: Generate headers
       run: |
         uv run ./pyscripts/07_generate_headers.py

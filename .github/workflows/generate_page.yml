@@ -20,7 +20,7 @@ jobs:
     - name: Perform Checkout
       uses: actions/checkout@v5
     - name: Install the latest version of uv
-        uses: astral-sh/setup-uv@v8.2.0
+      uses: astral-sh/setup-uv@v8.2.0
     - name: Generate XML-PAGE
       run: |
         uv run ./pyscripts/download_page.py
