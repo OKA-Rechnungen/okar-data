@@ -37,6 +37,9 @@ for current_filepath in glob.glob(os.path.join(directory, "*.xml")):
     try:
         xmltei = checkfile(current_filepath)
         current_file = f"{getname(xmltei)}.xml"
+        if not current_file.startswith("WSTLA"):
+            os.remove(current_filepath)
+            print(f"Deleted: {current_filepath}")
         if not filename.startswith("WSTLA"):
             new_filepath = os.path.join(directory, current_file)
             os.rename(current_filepath, new_filepath)
